@@ -31,7 +31,8 @@
         </para>
       </authorblurb>
     </author>
-<firstname>Felipe Antonio</firstname>
+    <author>
+      <firstname>Felipe Antonio</firstname>
       <surname>Garcia Moreno</surname>
       <affiliation>
         <jobtitle>Professor</jobtitle>
@@ -39,9 +40,10 @@
       </affiliation>
       <authorblurb>
         <para>
-		Contribuidor do livro.
+      		Contribuidor do livro.
         </para>
       </authorblurb>
+    </author>
     <editor>
       <firstname>Eduardo</firstname>
       <surname>Medeiros</surname>
