@@ -31,22 +31,6 @@
         </para>
       </authorblurb>
     </author>
-<<<<<<< HEAD
-    <author>
-      <firstname>Felipe Antonio</firstname>
-      <surname>Garcia Moreno</surname>
-      <affiliation>
-        <jobtitle>Professor</jobtitle>
-        <orgname>Universidade Federal da Paraíba</orgname>
-      </affiliation>
-      <authorblurb>
-        <para>
-      		Contribuidor do livro.
-        </para>
-      </authorblurb>
-    </author>
-=======
->>>>>>> d862a00e0e10ce16d050de725aa430a04bd42f04
     <editor>
       <firstname>Eduardo</firstname>
       <surname>Medeiros</surname>
@@ -88,3 +72,4 @@
   </legalnotice>
 
   
+
