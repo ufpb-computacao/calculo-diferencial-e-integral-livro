@@ -31,6 +31,7 @@
         </para>
       </authorblurb>
     </author>
+<<<<<<< HEAD
     <author>
       <firstname>Felipe Antonio</firstname>
       <surname>Garcia Moreno</surname>
@@ -44,6 +45,8 @@
         </para>
       </authorblurb>
     </author>
+=======
+>>>>>>> d862a00e0e10ce16d050de725aa430a04bd42f04
     <editor>
       <firstname>Eduardo</firstname>
       <surname>Medeiros</surname>
