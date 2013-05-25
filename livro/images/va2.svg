@@ -14,7 +14,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="va1.eps"
+   sodipodi:docname="va2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1">
   <defs
@@ -267,7 +267,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.4520153"
+     inkscape:zoom="2.9882387"
      inkscape:cx="363.57281"
      inkscape:cy="610.02635"
      inkscape:document-units="px"
@@ -341,7 +341,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -389,21 +389,6 @@
        style="fill:#045bfb;fill-opacity:1;stroke:#045bfb;stroke-width:0.60000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc" />
     <text
-       id="text4120-1"
-       y="487.92462"
-       x="181.94817"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
-       xml:space="preserve"><tspan
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-         y="487.92462"
-         x="181.94817"
-         id="tspan4122-7"
-         sodipodi:role="line">sinal de <tspan
-   style="font-style:italic;-inkscape-font-specification:Georgia Italic"
-   id="tspan3092">x</tspan>(<tspan
-   style="font-style:italic;-inkscape-font-specification:Georgia Italic"
-   id="tspan3094">x</tspan>-4)</tspan></text>
-    <text
        xml:space="preserve"
        style="font-size:12px;font-style:italic;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia Italic"
        x="227.94817"
@@ -414,32 +399,6 @@
          x="227.94817"
          y="487.92462"
          style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia Italic" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
-       x="181.94817"
-       y="461.92462"
-       id="text3096"><tspan
-         sodipodi:role="line"
-         id="tspan3098"
-         x="181.94817"
-         y="461.92462"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia">sinal de <tspan
-   id="tspan3100"
-   style="font-style:italic;-inkscape-font-specification:Georgia Italic">x-</tspan>4</tspan></text>
-    <text
-       id="text3118"
-       y="435.92462"
-       x="181.94817"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
-       xml:space="preserve"><tspan
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-         y="435.92462"
-         x="181.94817"
-         id="tspan3120"
-         sodipodi:role="line">sinal de <tspan
-   style="font-style:italic;-inkscape-font-specification:Georgia Italic"
-   id="tspan3124">x</tspan></tspan></text>
     <path
        style="fill:none;stroke:#045bfb;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 319.69882,437.56218 85.2864,0"
