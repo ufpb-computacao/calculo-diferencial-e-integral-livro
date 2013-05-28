@@ -8,8 +8,9 @@
   <revhistory>
     <revision>
       <revnumber>v1.0</revnumber>
-      <date>Março 2013</date>
-      <authorinitials>Kely D. V. V., Felipe A. G. Moreno</authorinitials>
+      <date>Maio 2013</date>
+      <authorinitials>Kely D. V. V., Felipe G. M.
+      </authorinitials>
       <revremark>
         Primeira versão do livro
       </revremark>
@@ -20,7 +21,7 @@
   <authorgroup>
     <author>
       <firstname>Kely Diana</firstname>
-      <surname>Villacorta Villacorta</surname>
+      <surname>Villacorta</surname>
       <affiliation>
         <jobtitle>Professora</jobtitle>
         <orgname>Universidade Federal da Paraíba</orgname>
@@ -31,11 +32,14 @@
         </para>
       </authorblurb>
     </author>
-    <editor>
-      <firstname>Eduardo</firstname>
-      <surname>Medeiros</surname>
-      <othername>Santana</othername>
-    </editor>
+    <author>
+      <firstname>Felipe</firstname>
+      <surname>Garcia</surname>
+      <affiliation>
+        <jobtitle>Professor</jobtitle>
+        <orgname>Universidade Federal da Paraíba</orgname>
+      </affiliation>
+    </author>
 
   </authorgroup>
   
@@ -72,3 +76,4 @@
   </legalnotice>
 
   
+
