@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="relacao6.svg">
+   sodipodi:docname="relacao6.eps">
   <defs
      id="defs4">
     <marker
@@ -522,11 +522,6 @@
        id="path7664"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 655.6079,825.17195 0.11531,10.7184"
-       id="path7670"
-       inkscape:connector-curvature="0" />
     <path
        transform="matrix(1.5513797,0,0,1.3134837,383.61997,-158.09715)"
        d="m 108.16611,757.81293 a 1.3168476,2.8613744 0 1 1 -2.6337,0 1.3168476,2.8613744 0 1 1 2.6337,0 z"
