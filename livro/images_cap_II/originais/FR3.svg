@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="fun_cons.svg">
+   sodipodi:docname="FR3.svg">
   <defs
      id="defs4">
     <marker
@@ -308,13 +308,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.83147436"
-     inkscape:cx="350.33307"
-     inkscape:cy="403.36857"
+     inkscape:zoom="8.0812204"
+     inkscape:cx="719.61373"
+     inkscape:cy="299.96795"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g6199"
      showgrid="false"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1600"
      inkscape:window-height="833"
@@ -421,6 +421,18 @@
        orientation="1,0"
        position="35.092844,173.05287"
        id="guide4033" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="706.36328,282.97656"
+       id="guide3139" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="709.09375,282.83203"
+       id="guide3141" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="717.56644,275.33744"
+       id="guide3143" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -430,7 +442,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -731,80 +743,47 @@
            x="578.35181"
            id="tspan4547"
            sodipodi:role="line">Dom(  ) = </tspan></text>
-      <text
-         transform="scale(1.1334763,0.88224166)"
-         sodipodi:linespacing="125%"
-         id="text4551"
-         y="853.83295"
-         x="618.96545"
-         style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
-         xml:space="preserve"><tspan
-           y="853.83295"
-           x="618.96545"
-           id="tspan4553"
-           sodipodi:role="line">R</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
-         x="622.94165"
-         y="853.83295"
-         id="text4555"
-         sodipodi:linespacing="125%"
-         transform="scale(1.1334763,0.88224166)"><tspan
-           sodipodi:role="line"
-           id="tspan4557"
-           x="622.94165"
-           y="853.83295">R</tspan></text>
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         id="rect4559"
-         width="2.717334"
-         height="8.62749"
-         x="706.36877"
-         y="740.99896" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.58919048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 715.48882,752.77166 5.98599,-0.005"
-         id="path4561"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
-         x="618.96545"
-         y="881.03638"
-         id="text4565"
-         sodipodi:linespacing="125%"
-         transform="scale(1.1334763,0.88224166)"><tspan
-           sodipodi:role="line"
-           id="tspan4567"
-           x="618.96545"
-           y="881.03638">R</tspan></text>
-      <text
-         transform="scale(1.1334763,0.88224166)"
-         sodipodi:linespacing="125%"
-         id="text4569"
-         y="881.03638"
-         x="622.94165"
-         style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
-         xml:space="preserve"><tspan
+      <g
+         id="g3145">
+        <text
+           transform="scale(1.1334763,0.88224166)"
+           sodipodi:linespacing="125%"
+           id="text4565"
            y="881.03638"
+           x="618.96545"
+           style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
+           xml:space="preserve"><tspan
+             y="881.03638"
+             x="618.96545"
+             id="tspan4567"
+             sodipodi:role="line">R</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
            x="622.94165"
-           id="tspan4571"
-           sodipodi:role="line">R</tspan></text>
-      <rect
-         y="764.99902"
-         x="706.36877"
-         height="8.62749"
-         width="2.717334"
-         id="rect4573"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path4575"
-         d="m 715.48882,776.77168 5.98599,-0.005"
-         style="fill:none;stroke:#000000;stroke-width:0.58919048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+           y="881.03638"
+           id="text4569"
+           sodipodi:linespacing="125%"
+           transform="scale(1.1334763,0.88224166)"><tspan
+             sodipodi:role="line"
+             id="tspan4571"
+             x="622.94165"
+             y="881.03638">R</tspan></text>
+        <rect
+           ry="0"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="rect4573"
+           width="2.7304723"
+           height="0.94742727"
+           x="706.36328"
+           y="768.98297" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.58079171;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 715.48109,776.73346 5.81655,-0.005"
+           id="path4575"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -920,6 +899,48 @@
            x="683.55524"
            id="tspan5370"
            sodipodi:role="line">3</tspan></text>
+      <g
+         id="g3153"
+         transform="translate(0,-24.099909)">
+        <text
+           xml:space="preserve"
+           style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
+           x="618.96545"
+           y="881.03638"
+           id="text3155"
+           sodipodi:linespacing="125%"
+           transform="scale(1.1334763,0.88224166)"><tspan
+             sodipodi:role="line"
+             id="tspan3157"
+             x="618.96545"
+             y="881.03638">R</tspan></text>
+        <text
+           transform="scale(1.1334763,0.88224166)"
+           sodipodi:linespacing="125%"
+           id="text3159"
+           y="881.03638"
+           x="622.94165"
+           style="font-size:25.13879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:HGPMinchoL;-inkscape-font-specification:HGPMinchoL"
+           xml:space="preserve"><tspan
+             y="881.03638"
+             x="622.94165"
+             id="tspan3161"
+             sodipodi:role="line">R</tspan></text>
+        <rect
+           y="768.98297"
+           x="706.36328"
+           height="0.94742727"
+           width="2.7304723"
+           id="rect3163"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           ry="0" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path3165"
+           d="m 715.48109,776.73346 5.81655,-0.005"
+           style="fill:none;stroke:#000000;stroke-width:0.58079171;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
     </g>
   </g>
 </svg>
