@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="relacao17.svg">
+   sodipodi:docname="relacao16.svg">
   <defs
      id="defs4">
     <marker
@@ -140,11 +140,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.15716245"
-     inkscape:cx="136.39118"
-     inkscape:cy="12.929921"
+     inkscape:zoom="1.44149"
+     inkscape:cx="73.172695"
+     inkscape:cy="-369.0449"
      inkscape:document-units="px"
-     inkscape:current-layer="g4330"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -331,7 +331,7 @@
          y="1483.8611"
          x="106.85724"
          id="tspan4308"
-         sodipodi:role="line">(b)</tspan></text>
+         sodipodi:role="line">(d)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.69382977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        d="m -30.52827,1405.4824 296.61586,0.8522"
@@ -404,7 +404,7 @@
            y="1125.8611"
            x="106.85724"
            id="tspan4334"
-           sodipodi:role="line">(a)</tspan></text>
+           sodipodi:role="line">(c)</tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:1.69382977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
          d="m -30.52827,1047.4824 296.61586,0.8522"

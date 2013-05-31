@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="relacao16.svg">
+   sodipodi:docname="relacao17.svg">
   <defs
      id="defs4">
     <marker
@@ -140,11 +140,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.22226127"
-     inkscape:cx="136.39118"
-     inkscape:cy="863.5385"
+     inkscape:zoom="1.0128362"
+     inkscape:cx="611.89248"
+     inkscape:cy="240.20779"
      inkscape:document-units="px"
-     inkscape:current-layer="g4330"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -319,7 +319,7 @@
          sodipodi:role="line"
          id="tspan6274"
          x="502.75726"
-         y="907.86108">(b)</tspan></text>
+         y="907.86108">(f)</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -407,7 +407,7 @@
          y="907.86108"
          x="66.757263"
          id="tspan4027"
-         sodipodi:role="line">(a)</tspan></text>
+         sodipodi:role="line">(e)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.69382977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        d="m -70.62826,771.48243 296.61586,0.85215"
