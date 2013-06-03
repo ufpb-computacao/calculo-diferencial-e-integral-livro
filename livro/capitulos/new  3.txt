@@ -1,3 +1,5 @@
+[NOTE]
+====
 Teorema (Testes de simetria)::
 .. Uma curva plana é simétrica em relação ao eixo latexmath:[$y$] se, e somente se, subtituindo-se latexmath:[$x$] por latexmath:[$-x$]
 em sua equação, obtém-se uma equação equivalente. 
