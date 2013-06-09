@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="polinomios.svg">
+   sodipodi:docname="polinomios.eps">
   <defs
      id="defs4">
     <marker
@@ -392,7 +392,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9096859"
+     inkscape:zoom="0.95484293"
      inkscape:cx="232.25319"
      inkscape:cy="387.06688"
      inkscape:document-units="px"
@@ -542,7 +542,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
