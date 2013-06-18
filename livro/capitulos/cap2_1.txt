@@ -1,0 +1,916 @@
+
+.Objetivos do capítulo
+____________________
+Ao final deste capítulo você deverá ser capaz de:
+
+* Determinar com precisão o domínio e a imagem de funções reais;
+* Dado o gráfico de uma relação, estabelecer se esta relação é funcional;
+* Dada uma função, saber estabelecer se ela é injetora, sobrejetora ou bijetora;
+* Realizar operações com funções, isto é, soma, substração, produto, divisão e composição de funções;
+* Relacionar-se cada vez mais com a linguagem e simbolismo matemático relativo às funções definidas no conjunto dos números reais;
+* Encontrar a inversa de uma função, se ela existe.
+____________________
+
+No nosso dia a dia, ao lermos um jornal, ao assistir televisão, nos deparamos com gráficos, tabelas 
+e ilustrações. Pois estes, são instrumentos muito utilizados nos meios de comunicação. Um texto 
+com ilustrações, é muito mais interessante, chamativo, agradável e de fácil compreensão. 
+Não é só nos jornais ou revistas que encontramos gráficos. Os gráficos estão presentes nos exames laboratoriais, 
+nos rótulos de produtos alimentícios, nas informações de composição química de cosméticos, nas bulas de remédios,
+ enfim em todos os lugares. Ao interpretarmos estes gráficos, verificamos a necessidade dos conceitos necessários 
+ para o bom entendimento destes.
+
+Ao relacionarmos espaço em função do tempo, intensidade da fotossíntese realizada por uma planta em função da 
+intensidade de luz a que ela é exposta ou pessoa em função da impressão digital, percebemos quão importantes 
+são os conceitos de funções para compreendermos as relações entre os fenômenos físicos, biológicos, sociais.
+
+Observamos então que as aplicações das relações e funções estão presentes no nosso cotidiano. Portanto, neste capítulo revisaremos 
+um dos conceitos mais importante na Matemática: a *função*. Iniciaremos este capítulo dando las definições gerais de 
+*relação*. Na continuação definiremos as funções reais de variável real, pois são estas funções 
+o objetivo de estudo deste capítulo e todos os outros.
+
+
+=== Relações
+
+Na matemática, com em outras ciências, muitas vezes se deseja estabelecer uma relação ou correspondência 
+entre dois conjuntos. Suponhamos que temos os conjuntos latexmath:[$ A=\{18, 20, 21, 33\} $] e +
+latexmath:[$ B=\{\mbox{Joao},\mbox{ Maria}, \mbox{ Pedro}, \mbox{ Brenda} \}$] 
+e queremos estabelecer uma relação entre estes conjuntos, de modo que, a cada número do conjunto latexmath:[$A$] associamos-lhe o nome 
+de uma pessoa do conjunto latexmath:[$B$]. Assim podemos estabelecer o seguinte esquema, veja a figura abaixo.
+
+image::images_cap_II/relacao1.eps[scaledwidth="30%"]
+
+No entanto, este esquema pode ser representado mediante pares ordenados, isto é:
+[latexmath]
+++++
+\[
+(18,\mbox{João}),\qquad (20, \mbox{Maria}),\qquad (21,\mbox{Pedro}),\qquad (33, \mbox{Brenda}).
+\]
+++++
+
+Esta correspondência determina um subconjunto do conjunto latexmath:[$A\times B$], e denotaremos este conjunto por: 
+[latexmath]
+++++
+\[
+R=\left\{(18,\mbox{João}), \,\,\,(20, \mbox{Maria}),\,\,\, (21,\mbox{Pedro}),\,\,\, (33, \mbox{Brenda})\right\}
+\]
+++++
+
+É claro que a relação estabelecida não é única, pois é possível estabelecer outras relações entre este dois conjuntos. 
+A seguir apresentamos a definição formal de uma relação.
+
+Definição::  Sejam latexmath:[$A$] e latexmath:[$B$] dois conjuntos. Uma *relação de latexmath:[$A$] em latexmath:[$B$]* é um subconjunto de 
+latexmath:[$A\times B$], isto é, latexmath:[$R \subset A\times B$], e é denotada por latexmath:[$R: A\rightarrow B$].
+
+Definição:: Seja a relação latexmath:[$R: A\rightarrow B$]. Então:
+
+.. Diz-se que o conjunto latexmath:[$A$] é o *conjunto de partida* e o conjunto latexmath:[$B$] é o *conjunto de chegada*.
+.. Se latexmath:[$(x,y)\in R$], diz-se que  latexmath:[$x$] esta em relação com  latexmath:[$y$] mediante latexmath:[$R$], e é denotado por latexmath:[$x R y$].
+.. Desde que latexmath:[$\emptyset \subset A\times B$], latexmath:[$\emptyset$] é uma relação de latexmath:[$A$] em latexmath:[$B$], e é chamada de *relação nula*.
+.. Se latexmath:[$R\subset A\times A$], diz-se que latexmath:[$R$] é uma *relação em latexmath:[$A$]*.
+
+
+
+[[Ex1]]
+.{zwsp}
+====
+Sejam latexmath:[$A=\left\{1,2,3,4,5 \right\} $] e latexmath:[$B=\left\{2,4,6,8,10 \right\} $], determinemos por extenso 
+as relações latexmath:[$R$] e latexmath:[$S$] definidas por:
+[latexmath]
+++++
+\[
+R=\left\{(x,y)\in A\times B: y=2x \right\},\quad S=\left\{(x,y)\in A\times B: y\geq 3x+1 \right\}
+\]
+++++
+
+Solução::  
+Das definições  das relações  latexmath:[$R$] e latexmath:[$S$], temos que:
++
+[latexmath]
+++++
+\[
+R=\left\{(1,2), (2,4), (3,6 ), (4,8), (5,10) \right\},\quad S=\left\{(1,4), (1,6), (1,8),(1,10), (2,8), (2,10), (3,10) \right\}.
+\]
+++++
++
+Na seguinte figura são ilustradas estas relações.
++
+image::images_cap_II/relacao2.eps[scaledwidth="60%"]
+
+==== 
+
+
+==== Domínio, imagem e gráfico de uma relação
+
+Definição::
+Seja a relação  latexmath:[$R:A\rightarrow B$],  com latexmath:[$R \neq \emptyset$]. Então 
+
+.. o *domínio* da relação latexmath:[$R$] é o conjunto latexmath:[$\left\{x\in A : (x,y)\in A\times B \right\}$], e é denotado por 
+latexmath:[${\rm Dom} (R)$]; isto é, o domínio de latexmath:[$R$] é o subconjunto de latexmath:[$A$] cujos elementos são as primeiras
+ componentes de todos os pares ordenados que pertencem à relação latexmath:[$R$].
+
+.. a *imagem* da relação latexmath:[$R$] é o conjunto latexmath:[$ \left\{y\in B : (x,y)\in A\times B \right\}$], e é denotado por 
+latexmath:[${\rm Im} (R)$]; isto é, a imagem  de latexmath:[$R$] é o subconjunto de latexmath:[$B$] cujos elementos são as segundas 
+componentes de todos os pares ordenados que pertencem à relação latexmath:[$R$].
+
+.. se  latexmath:[$A$] e latexmath:[$B$] são subconjuntos de latexmath:[$\mathbb{R}$], o *gráfico* da relação latexmath:[$R$] é o 
+conjunto latexmath:[$\left\{(x,y)\in \mathbb{R}\times \mathbb{R} : (x,y)\in R \right\}$], e é denotado por latexmath:[${\rm Graf}(R)$].
+
+
+[NOTE]
+No momento de esboçar um gráfico de uma relação latexmath:[$R$], é usual posicionar o domínio de  no eixo latexmath:[$x$] (horizontal) e a imagem no eixo latexmath:[$y$] 
+(vertical).
+
+[[Ex2]]
+.{zwsp}
+====
+Das relações latexmath:[$R$] e latexmath:[$S$], definidas no <<Ex1>>, temos que:
+
+* latexmath:[${\rm Dom} (R)= \left\{1,2,3,4,5\right\}, \,\,\, {\rm Im} (R)= \left\{2,4,6,8,10\right\}$];
+
+* latexmath:[${\rm Dom} (S)= \left\{1,2,3\right\}, \,\,\, {\rm Im} (S)= \left\{4,6,8,10\right\}$];
+
+* Os gráficos de latexmath:[$R$] e latexmath:[$S$] são apresentados nas figuras a seguir:
+
+image::images_cap_II/relacao3.eps[scaledwidth="60%"]
+
+====
+[[Ex3]]
+.{zwsp} 
+====
+Sejam as relações: 
+[latexmath]
+++++
+\[R= \left\{(x,y)\in \mathbb{N} \times \mathbb{N} : x^2+y^2 \leq 16\right\}, \quad S= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : x^2+y^2 \leq 16\right\}.\]
+++++
+Encontremos os domínios e as imagens delas e esboçemos seus gráficos.
+
+Solução::
+
+* Da definição de _R_ temos que:
++
+[latexmath]
+++++
+\[R=\left\{(1,1),(1,2)(1,3),(2,1),(2,2), (2,3),(3,1),(3,2)\right\},\quad {\rm Dom} (R)=\{1,2,3,4\}={\rm Im} (R).\]
+++++
+
+* Da definição de _S_ temos que  latexmath:[$ x^2+y^2 = 16 $] representa uma circunferência com centro no origem e raio 4, 
+concluímos que o gráfico de latexmath:[$S$] esta formado por todos os pontos da circunferência e também por todos os pontos interiores a esta. Além disso, 
+latexmath:[${\rm Dom} (S)=[-4,4\] ={\rm Im} (S)$].
+
+* Os gráficos de latexmath:[$R$] e latexmath:[$S$] são apresentados nas figuras a seguir:
+
+image::images_cap_II/relacao4.eps[scaledwidth="80%"]
+====
+
+
+
+
+=== Relação inversa
+
+Definição::  Seja uma relação latexmath:[$R: A\rightarrow B$],  latexmath:[$R\neq \emptyset$]. A *relação inversa de latexmath:[$R$]*, 
+denotada por  latexmath:[$R^{-1}$], é o conjunto
+[latexmath]
+++++
+\[
+R^{-1}=\left\{(y,x)\in B \times A : (x,y)\in R \right\}.
+\]
+++++
+
+[NOTE]
+Da definição, se deduz que latexmath:[$R^{-1}$] é uma relação de latexmath:[$B$] em latexmath:[$A$], isto é,  latexmath:[$R^{-1}: B\rightarrow A$], e ela é obtida
+a partir da relação latexmath:[$R$], intercambiando as componentes dos pares ordenados que pertencem a latexmath:[$R$].
+
+[[Ex4]]
+.{zwsp} 
+====
+Sejam as relações latexmath:[$R$] e latexmath:[$S$] estabelecidas no <<Ex1>>. Então 
+[latexmath]
+++++
+\[R^{-1}=\left\{(2,1), (4,2),(6,3),(8,4) \right\};\]
+\[S^{-1}=\left\{(4,1), (6,1), (8,1),(10,1), (8,2),(10,2),(10,3) \right\}.\]
+++++
+
+====
+
+Propriedade:: Da definição de latexmath:[$R^{-1}$], temos que:
+
+.. latexmath:[$(y,x)\in R^{-1} \Leftrightarrow (x,y)\in R$];
+.. latexmath:[${\rm Dom} (R^{-1})={\rm Im} (R)$] e  latexmath:[${\rm Im} (R^{-1})={\rm Dom} (R)$];
+.. latexmath:[$(R^{-1})^{-1}=R$]; isto é, a relação inversa de latexmath:[$R^{-1}$] é a própria latexmath:[$R$].
+
+
+
+==== Relações entre o gráfico de uma relação e gráfico de sua inversa 
+
+
+Se latexmath:[$R:\mathbb{R}\to \mathbb{R}$], então, da  propriedade acima, temos que:
+[latexmath]
+++++
+\[
+(a,b)\in R \Leftrightarrow (b,a)\in R^{-1}.
+\]
+++++
+
+Os pontos latexmath:[$(a,b)$] e latexmath:[$(b,a)$] são simétricos com respeito à reta latexmath:[$L:\,\,\,y=x$];  veja o item (a) da figura a seguir. Isto implica que, 
+os gráficos de latexmath:[$R$] e latexmath:[$R^{-1}$] são simétricos respeito à reta latexmath:[$L:\,\,\,y=x$]; veja o item (b) da figura a seguir.
+
+[[Fig5]]
+.{zwsp}
+image::images_cap_II/relacao5.eps[scaledwidth="60%"]
+
+[[Ex5]]
+.{zwsp} 
+====
+Sejam as relações
+[latexmath]
+++++
+\[R= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : x^2+y^2=2x \right\} , \quad S= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : 2x\leq y \right\}.\]
+++++ 
+Determinemos as relações inversas e esbocemos seus respectivos gráficos.
+
+Solução:: 
+.. Da definição de relação inversa temos que:
++ 
+[latexmath]
+++++
+\[R^{-1}= \left\{(y,x)\in \mathbb{R} \times \mathbb{R} : x^2+y^2=2x \right\} \]
+++++
++
+Porém, é convenção escrever latexmath:[$x$] como primeira componente de um par ordenado, e latexmath:[$y$] como a segunda componente, 
+fazendo esta troca obtemos
++
+[latexmath]
+++++
+\[R^{-1}= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : x^2+y^2=2y \right\}= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : x^2+(y-1)^2=1 \right\}\]
+++++
++
+Os gráficos de latexmath:[$R$] e latexmath:[$R^{-1}$] são apresentados no item (a) da figura a seguir.
+
+.. De forma análoga, para a relação _S_,  obtemos que: 
++
+[latexmath]
+++++
+\[S^{-1}= \left\{(x,y)\in \mathbb{R} \times \mathbb{R} : 2y\leq x \right\} \]
+++++
++
+Os gráficos de latexmath:[$S$] e latexmath:[$S^{-1}$] são apresentados no item (b) da figura a seguir. 
+
+image::images_cap_II/relacao6.eps[scaledwidth="60%"]
+====
+
+
+
+=== Funções
+
+Definição::  
+Sejam latexmath:[$A$] e latexmath:[$B$] dois conjuntos não vazios e latexmath:[$f$] uma relação de latexmath:[$A$] em latexmath:[$B$], 
+com domínio latexmath:[${\rm Dom} (f)$]. Diz-se que latexmath:[$f$] é uma *função de latexmath:[$A$] em latexmath:[$B$]*, se para cada elemento 
+latexmath:[$x\in {\rm Dom} (f)$] existe um único elemento latexmath:[$y\in B$] tal que latexmath:[$(x,y)\in f$]. Ou equivalentemente,  
++
+[latexmath]
+++++
+\[f:A\rightarrow B \mbox{ é função, se } (x,y)\in f \mbox{ e } (x,z)\in f \mbox{ implica que } y=z.\]
+++++
+
+[NOTE]
+Desta definição temos que, em uma função não existem dois pares ordenados com primeiras componentes iguais e segundas componentes diferentes.
+
+[[Ex6]]
+.{zwsp}
+====
+Sejam os conjuntos latexmath:[$A=\{1,2,3,4\}$] e  latexmath:[$B=\{a,b,c,d,e\}$]. Então 
+
+.. a relação   latexmath:[$f_1:A\to B$], definida por latexmath:[$f_1=\{(1,a),(2,b),(3,c),(4,d)\}$], é uma função de latexmath:[$A$] em latexmath:[$B$],  veja  o item (a) da figura abaixo.
+.. a relação   latexmath:[$f_2:A\to B$], definida por latexmath:[$f_2=\{(1,a),(2,b),(3,c),(4,d),(1,e)\}$], não é uma função de latexmath:[$A$] em latexmath:[$B$], pois ao elemento 
+latexmath:[$1$] lhe corresponde a dois elementos do conjunto latexmath:[$B$] (isto é, latexmath:[$(1,a)$] e latexmath:[$(1,e)$]),  veja  o item (b) da figura abaixo.
+.. a relação   latexmath:[$f_3:A\to B$], definida por latexmath:[$f_3=\{(1,a),(2,a)\}$], é uma função de latexmath:[$A$] em latexmath:[$B$],  veja  o item (c) da figura abaixo.
+.. a relação   latexmath:[$f_4:A\to B$], definida por latexmath:[$f_4=\{(1,a),(2,a),(3,a),(4,e)\}$], é uma função de latexmath:[$A$] em latexmath:[$B$],  veja  o item (d) da figura abaixo.
+
+image::images_cap_II/relacao7.eps[scaledwidth="100%"]
+====
+
+[NOTE]
+====
+Seja uma função latexmath:[$f:A\rightarrow B$] 
+
+.. Se latexmath:[$(x,y)\in f$], se escreve latexmath:[$y=f(x)$] (leia-se *``latexmath:[$y$] é igual a latexmath:[$f$] de latexmath:[$x$]''*) e 
+diz-se que *latexmath:[$y$] é o valor de latexmath:[$f$] em latexmath:[$x$]*. Em este caso, latexmath:[$x$] é denominada *variável independente* e 
+latexmath:[$y$] *variável dependente*.
+.. Desde que latexmath:[$f$] é também uma relação, as definições de domínio, imagem e gráfico de latexmath:[$f$] são os mesmos estabelecidos 
+na seção anterior.
+.. Se latexmath:[${\rm Dom}(f)=A$], diz-se que latexmath:[$f$] é uma *aplicação* de latexmath:[$A$] em latexmath:[$B$]. 
+Além disso, se latexmath:[${\rm Im}(f)=B$], diz-se que latexmath:[$f$] é uma *aplicação* de latexmath:[$A$] *sobre* latexmath:[$B$].
+.. Se latexmath:[$A$] e latexmath:[$B$] são subconjuntos de latexmath:[$\mathbb{R}$], então latexmath:[$f$] é 
+chamada de *função real de variável real*.
+.. Seja latexmath:[$f$]  uma função real de variável real, definida pela regra de correspondência 
+latexmath:[$y=f(x)$].
+... Se latexmath:[${\rm Dom}(f)$] não é especificado, então considera-se que este é o maior subconjunto 
+de latexmath:[$\mathbb{R}$] para os quais a regra de correspondência tenha sentido e resulte em valores reais. Isso é denominado *domínio natural* da função.
+... Os gráficos podem fornecer uma informação visual importante sobre uma função. Por exemplo, como o gráfico de uma função latexmath:[$f$] no plano latexmath:[$xy$] é 
+o grafico da equação latexmath:[$y=f(x)$], os pontos do gráfico são da forma latexmath:[$(x,f(x))$], ou seja, a coordenada latexmath:[$y$] de um ponto do gráfico de latexmath:[$f$] é 
+o valor de latexmath:[$f$] na coordenada latexmath:[$x$] correspondente.
+... Os valores de latexmath:[$x$] para os quais latexmath:[$f(x)=0$] são as coordenadas latexmath:[$x$] para os quais o gráfico de latexmath:[$f$] intersecta  
+o eixo latexmath:[$x$]. Estes valores são 
+denominados *zeros* de latexmath:[$f$], *raízes* de latexmath:[$f(x)=0$] ou *pontos de corte* de latexmath:[$y=f(x)$] *com o eixo* latexmath:[$x$].
+====
+
+[[Ex7]]
+.{zwsp}
+====
+Determinemos o domínio, a imagem e o gráfico de latexmath:[$f$], das funções a seguir:
+
+.. Sejam latexmath:[$A=\{1,2,3,4\}$], latexmath:[$B=\{5,6,7,8,9\}$] e latexmath:[$f:A\rightarrow B$] definida por latexmath:[$f(x)=x+2$].
+Solução::  
+Desde que latexmath:[$f({\bf 1})={\bf 1}+2=3$], latexmath:[$f({\bf 2})={\bf 2}+2=4$], latexmath:[$f({\bf 3})={\bf 3}+2=5$], 
+latexmath:[$f({\bf 4})={\bf 4}+2=6$], verificamos que os únicos valores de latexmath:[$A$] que tem um 
+correspondente no conjunto latexmath:[$B$] são  latexmath:[$3,\,\,\,4$]. Portanto,  latexmath:[${\rm Dom}(f)=\{3,4\}$] e latexmath:[${\rm Im}(f)=\{5,6\}$] 
+e o gráfico de latexmath:[$f$] é apresentado no item (a) da figura abaixo
+
+.. Seja latexmath:[$f:\mathbb{R}\rightarrow \mathbb{R}$] definida por latexmath:[$f(x)=\dfrac{1}{x}$]. 
+Solução::  
+A função latexmath:[$f$] dada esta definida para todo latexmath:[$x\in \mathbb{R}$], exceto latexmath:[$x=0$]; 
+assim latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{0\}$]. +
+Para determinar latexmath:[${\rm Im}(f)$] é conveniente introduzir  uma variável dependente latexmath:[$y$]:
++
+[latexmath]
+++++
+\[y=\dfrac{1}{x}.\]
+++++
++
+Embora, para muitos,  o conjunto dos possíveis valores de latexmath:[$y$] não seja evidente desta equação, o gráfico de latexmath:[$f$], 
+veja o item (b) da figura abaixo, sugere que latexmath:[${\rm Im}(f)=\mathbb{R}\setminus\{0\}$]. Para provar isto resolvamos a equação acima para 
+latexmath:[$x$] em termos de latexmath:[$y$]:
++
+[latexmath]
+++++
+\[x\neq 0\quad\Rightarrow\quad xy=1\quad\Leftrightarrow\quad x=\dfrac{1}{y}.\]
+++++
++
+Agora ficou evidente que esta expressão esta definida para todo latexmath:[$y\in \mathbb{R}$], exceto latexmath:[$y=0$]. 
+Portanto, latexmath:[${\rm Im}(f)=\mathbb{R}\setminus\{0\}$].
++
+image::images_cap_II/relacao8.eps[scaledwidth="90%"]
+
+.. Seja latexmath:[$f:(0,5\]\to [1,10)$] definida por latexmath:[$f(x)=(x-3)^2 +1$].
+Solução::
+Da definição de latexmath:[$f$] temos que latexmath:[${\rm Dom}=(0,5\]$]. Por outro lado à medida que latexmath:[$x$] varia sobre o intervalo latexmath:[$(0,5\]$], 
+o valor de latexmath:[$(x-3)^2$] varia sobre o intervalo latexmath:[$[0,9)$]; assim o valor de latexmath:[$f(x)$] varia sobre o intervalo latexmath:[$[1,10)$]. Portanto, 
+latexmath:[${\rm Im}=[1,10)$]. 
++
+Neste caso, latexmath:[$f$] é uma aplicação de latexmath:[$(0,5\]$] sobre latexmath:[$[1,10)$] e latexmath:[${\rm Im}(f)$] pode ser escrita como 
+latexmath:[$f((0,5\])=[1,10)$], veja o item (c) da figura acima.
+====
+
+
+.Teste da Reta Vertical
+[NOTE]
+====
+Uma relação latexmath:[$f:\mathbb{R}\rightarrow \mathbb{R}$] com domínio localizado no eixo horizontal e a imagem 
+localizada no eixo vertical, é uma função se, e somente se, toda reta vertical intersecta o seu gráfico no máximo uma vez. 
+O item (a) da figura a seguir corresponde a uma função, enquanto que o item (b) não corresponde a uma função.
+
+image::images_cap_II/relacao10.eps[scaledwidth="60%"]
+====
+
+==== Translações e reflexões de uma função 
+
+
+Teorema (Testes de simetria)::
+.. Uma curva plana é simétrica em relação ao eixo latexmath:[$y$] se, e somente se, subtituindo-se latexmath:[$x$] por latexmath:[$-x$]
+em sua equação, obtém-se uma equação equivalente. 
+
+.. Uma curva plana é simétrica em relação ao eixo latexmath:[$x$] se, e somente se, subtituindo-se latexmath:[$y$] por latexmath:[$-y$]
+em sua equação, obtém-se uma equação equivalente.
+
+.. Uma curva plana é simétrica em relação à origem se, e somente se, subtituindo-se latexmath:[$x$] por latexmath:[$-x$] e 
+latexmath:[$y$] por latexmath:[$-y$] em sua equação, obtém-se uma equação equivalente.
+
+
+Para esboçar o gráfico de uma função é importante ter em consideração as 
+relações entre ela e uma outra já conhecida, latexmath:[$y=f(x)$].
+
+Suponhamos que o gráfico de latexmath:[$y=f(x)$] é apresentado no item (a) da figura abaixo. Então o gráfico de:
+
+* latexmath:[$y=-f(x)$] é a função simétrica ao gráfico original com respeito ao eixo latexmath:[$x$], veja item (b) da figura abaixo.
+
+* latexmath:[$y=f(-x)$] é a curva simétrica ao gráfico original com respeito ao eixo  latexmath:[$y$], veja item (c) da figura abaixo.
+
+* latexmath:[$y=|f(x)|$] se obtém transladando a parte do gráfico original que se encontra abaixo do eixo latexmath:[$x$] 
+( latexmath:[$f(x)<0$]) de forma simétrica a este último e mantendo a parte do gráfico que esta por cima do eixo latexmath:[$x$] ( latexmath:[$f(x)\geq 0$]), 
+veja item (d) da figura abaixo.
+
+image::images_cap_II/relacao11.eps[scaledwidth="100%"]
+
+Sejam latexmath:[$k>0$] e latexmath:[$h>0$]. Então o gráfico de:
+
+* latexmath:[$y=f(x)+k$] se obtém transladando verticalmente o gráfico original latexmath:[$k$] unidades para cima, veja item (a) da figura abaixo.
+
+* latexmath:[$y=f(x)-k$] se obtém transladando verticalmente o gráfico original latexmath:[$k$] unidades para baixo, veja item (a) da figura abaixo.
+
+* latexmath:[$y=f(x+h)$] se obtém transladando horizontalmente o gráfico original latexmath:[$h$] unidades para a esquerda, veja item (b) da figura abaixo. 
+
+* latexmath:[$y=f(x-h)$] se obtém transladando horizontalmente o gráfico original latexmath:[$h$] unidades para a direita, veja item (b) da figura abaixo.
+
+* latexmath:[$y=f(x-h)+k$] se obtém efetuando uma doble translação, latexmath:[$h$] unidades para a direita horizontalmente e latexmath:[$k$] 
+unidades para cima verticalmente, veja item (c) da figura abaixo.
+
+image::images_cap_II/relacao13.eps[scaledwidth="80%"]
+
+ 
+.{zwsp}
+====
+Dadas as seguintes funções: 
+
+.. latexmath:[$f(x)=x^2$];
+.. latexmath:[$g(x)=-x^2$];
+.. latexmath:[$h(x)=x^2+1$];
+.. latexmath:[$i(x)=(x+1)^2$];
+.. latexmath:[$j(x)=(x-1)^2-2$];
+.. latexmath:[$k(x)=|x^2-2|$].
+
+Nas figuras abaixo encontramos, na sua respeitiva letra, o esboço do gráfico de cada uma delas. 
+
+image::images_cap_II/relacao15.eps[scaledwidth="90%"]
+====
+
+=== Funções comuns
+
+A continuação apresentamos algumas funções reais de variável real de uso frequente:
+
+Função linear::
+ É a função definida por latexmath:[$f(x)=mx+b$], onde latexmath:[$m$] e latexmath:[$b$] são constantes. O domínio da função linear é 
+latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im}(f)=\mathbb{R}$]. Seu gráfico é a reta de 
+pendente latexmath:[$m$] que intersecta o eixo latexmath:[$x$] em latexmath:[$(0,b)$]; veja o item (a) da figura abaixo. 
+
+Casos particulares:::
+.. Quando latexmath:[$b=0$], a função latexmath:[$f(x)=mx$] passa pela origem; veja o item (b) da figura abaixo.
+.. Quando latexmath:[$m=1$] e  latexmath:[$b=0$], função latexmath:[$f(x)=x$] é chamada de *função identidade*, 
+seu gráfico é a reta diagonal do primeiro e terceiro quadrante; veja o item (c) da figura abaixo.
+.. Quando latexmath:[$m=0$], a função latexmath:[$f(x)=b$] é chamada de *função constante*; veja o item (c) da figura abaixo.
+
+image::images_cap_II/FLinear.eps[scaledwidth="100%"]
+
+
+Função valor absoluto:: É a função definida por latexmath:[$f(x)=|x|$], latexmath:[$x\in \mathbb{R}$]. 
+Da definição de valor absoluto temos:
++
+[latexmath]
+++++
+\[
+|x|=\sqrt{x^2}= \left\{\begin{array}{ccl}
+x,& & \mbox{se } x\geq 0\\
+-x,& & \mbox{se } x< 0.
+\end{array}\right.
+\]
+++++
++
+O domínio da função valor absoluto é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im}(f)=[0, +\infty)$]; veja o item (a) da figura abaixo. 
+
+Função raiz quadrada::  É a função definida por latexmath:[$f(x)=\sqrt{x}$], latexmath:[$x\geq 0$]. 
+O domínio da função raiz quadrada é latexmath:[${\rm Dom}(f)=[0,+\infty)$] e sua imagem é latexmath:[${\rm Im}(f)=[0, +\infty)$]; veja o item (b) da figura abaixo. 
+
+Função raiz cúbica:: É a função definida por latexmath:[$f(x)=\sqrt[3\]{x}$], latexmath:[$x\in \mathbb{R}$]. 
+O domínio da função raiz cúbica é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}$]; veja o item (c) da figura abaixo. 
+
+image::images_cap_II/FVA.eps[scaledwidth="80%"]
+
+Função polinomial de grau latexmath:[$n$]:: É a função definida por latexmath:[$f(x)=a_0 x^n+a_1x^{n-1}+\cdots +a_n$], onde
+latexmath:[$x\in \mathbb{R}$], latexmath:[$a_0,a_1,\ldots,a_n$] são constantes reais, latexmath:[$a_0 \neq 0$] e 
+latexmath:[$n\in \mathbb{N}\cup\{0\}$]. O domínio da função polinomial é latexmath:[${\rm Dom}(f)=\mathbb{R}$], 
+porém sua imagem depende de latexmath:[$n$].
+
+
+Casos particulares:::
+.. latexmath:[$f(x)=x^n$], latexmath:[$n\in \mathbb{N}$]:
+  ... Se latexmath:[$n$] é par, sua imagem é latexmath:[${\rm Im}(f)=[0, +\infty)$],  seu gráfico é simétrico  em relação ao eixo  latexmath:[$y$] com formato geral 
+ de uma parábola, latexmath:[$y=x^2$], embora não sejam realmente consideradas assim quando   latexmath:[$n>2$], e cada gráfico passa pelos pontos latexmath:[$(-1,1)$] e latexmath:[$(1,1)$];
+ veja o item (a) da figura abaixo. 
+  ... Se latexmath:[$n$] é impar, sua imagem é latexmath:[${\rm Im}(f)=\mathbb{R}$], seu gráfico é simétrico à origem com formato geral de uma cúbica 
+  latexmath:[$y=x^3$], e cada gráfico passa pelos pontos latexmath:[$(-1,-1)$] e latexmath:[$(1,1)$], veja o item (b) da figura abaixo. 
+... Quando latexmath:[$n$] cresce, no intervalo latexmath:[$(-1,1)$] os gráficos ficam mais achatados e nos intervalos latexmath:[$(-\infty,-1)$] e 
+latexmath:[$(1,+\infty)$] cada vez mais próximos ao eixo latexmath:[$y$]; 
+.. Função quadrática ou função polinomial de latexmath:[$2^{\circ}$] grau: latexmath:[$f(x)=ax^2+bx+c$], latexmath:[$a\neq0$]. 
+O gráfico desta função é uma parábola de vértice latexmath:[$\left(-\dfrac{b}{2a},c-\dfrac{b^2}{4a} \right)$].
+... Se latexmath:[$a>0$], a parábola se abre para cima e latexmath:[${\rm Im }(f)=\left[c-\dfrac{b^2}{4a},+\infty\right)$]; veja o item (c) da figura abaixo. 
+... se latexmath:[$a<0$], a parábola se abre para abaixo e latexmath:[${\rm Im }(f)=\left(-\infty,c-\dfrac{b^2}{4a}\right\]$]; veja o item (d) da figura abaixo. 
+... O valor máximo ou mínimo da função ocorre no vértice, isto é, latexmath:[$f\left(-\dfrac{b}{2a}\right)= c-\dfrac{b^2}{4a}$] 
+ é o valor máximo ou mínimo da função.
+ 
+image::images_cap_II/polinomios.eps[scaledwidth="100%"]
+
+Função racional:: É a função definida por 
++
+[latexmath]
+++++
+\[
+f(x)=\dfrac{a_0 x^n+a_1x^{n-1}+\cdots +a_n}{b_0 x^m+b_1x^{m-1}+\cdots +b_m}, \quad x\in \mathbb{R}.
+\]
+++++
+Esta função é o quociente dos polinômios latexmath:[$P(x)=a_0 x^n+a_1x^{n-1}+\cdots +a_n$]
+ e latexmath:[$Q(x)=b_0 x^m+b_1x^{m-1}+\cdots +b_m$], onde latexmath:[$a_0,a_1,\ldots,a_n, b_0,b_1,\ldots,b_m$] 
+ são constantes reais, latexmath:[$a_0,b_0 \neq0$] e latexmath:[$n,m\in \mathbb{N}\cup\{0\}$]. O domínio da função racional é 
+ latexmath:[${\rm Dom}(f)=\{x\in \mathbb{R} : Q(x)\neq 0\}\equiv\mathbb{R} \setminus\{x\in \mathbb{R} : Q(x)= 0\} $].
+
+Casos particulares:::
+
+.. latexmath:[$f(x)=\dfrac{1}{x^n}$], latexmath:[$n\in \mathbb{N}$]:
+... Se latexmath:[$n$] é par, o domínio da função é  latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{0\}$], sua imagem é 
+latexmath:[${\rm Im }(f)=[0,+\infty)$] e seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x^2}$] , e cada gráfico passa pelos pontos latexmath:[$(-1,-1)$] e latexmath:[$(1,1)$],; veja o item (b) da figura abaixo. 
+... Se latexmath:[$n$] é impar, o domínio da função é latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{0\}$], sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}\setminus\{0\}$] 
+e seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x}$]; veja o item (a) da figura abaixo. 
+... Quando latexmath:[$n$] cresce, nos intervalos latexmath:[$(-\infty,-1)$] e latexmath:[$(1,+\infty)$] os gráficos ficam mais achatados e nos intervalos 
+latexmath:[$(-1,0)$] latexmath:[$(0,1)$] cada vez mais próximos ao eixo latexmath:[$y$]; 
+... O fato de latexmath:[$x \notin {\rm Dom }(f)$] implica que o gráfico tem uma quebra na origem. Por este motivo, zero é denominado *_ponto de descontinuidade_*,  este conceito 
+será visto no próximo capítulo.
+
+.. latexmath:[$f(x)=\dfrac{1}{1+x^n}$], latexmath:[$n\in \mathbb{N}$]:
+... Se latexmath:[$n$] é par, o domínio da função é 
+latexmath:[${\rm Dom}(f)=\mathbb{R}$], sua imagem é latexmath:[${\rm Im }(f)=(0,1\]$] e seu gráfico tem um comportamento 
+semelhante à curva mostrada no item (d) da figura abaixo. 
+... Se latexmath:[$n$] é impar, o domínio da função é 
+latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{-1\}$], sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}\setminus\{0\}$] e 
+seu gráfico tem um comportamento semelhante à curva mostrada no item (c) da figura abaixo. 
+
+image::images_cap_II/Ffrac1.eps[scaledwidth="100%"]
+
+Função algébraica::
+É qualquer função construída  a partir de polinômios por meio de operações algébricas (adição, substração, multiplicação, divisão ou extração de raízes).
+Todas as funções racionais são ajgébricas, porém existem outras funções mais complexas inclussas neste conjunto. Os gráficos deste tipo de funções variam amplamente;
+assim sendo, é difícil fazer afirmações sobre elas. 
+
+image::images_cap_II/Falgebricas.eps[scaledwidth="100%"]
+
+Função trigonomética::
+Existem latexmath:[$6$] funções básicas trigonométricas, latexmath:[${\rm sen}(x)$], latexmath:[${\rm cos}(x)$], latexmath:[${\rm tg}(x)$], latexmath:[${\rm sec}(x)$],
+latexmath:[${\rm cossec}(x)$] e latexmath:[${\rm cotg}(x)$]. Os gráficos das funções seno e cosseno são mostrados na figura abaixo nos itens (a) e (b), 
+respectivamente.  
+
+image::images_cap_II/Ftrigonometricas.eps[scaledwidth="80%"]
+
+Função exponencial:: É da forma  latexmath:[$f(x)=a^x$], onde  a base latexmath:[$a>0$] é uma constante positiva e latexmath:[$a\neq 1$]. Em todos os casos
+o domínio é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im }(f)=(0,+\infty)$]. 
+Os gráficos para as bases latexmath:[$2,\,\,3,\,\,5,\,\,70$] são apresentados nos itens (a) e (b) da figura abaixo.
+
+image::images_cap_II/Fexponenciais.eps[scaledwidth="100%"]
+
+Função logaritmica:: É da forma  latexmath:[$f(x)={\rm log}_a x$], onde  a base latexmath:[$a>0$] é uma constante positiva e latexmath:[$a\neq 1$]. Esta função é a inversa das
+ das funções exponenciais.  Em todos os casos
+o domínio  é latexmath:[${\rm Dom}(f)=(0,+\infty)$] e sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}$]. O item (c) da figura acima mostra os gráficos  da função 
+logaritmica para  latexmath:[$a=2,\,\,3,\,\,5,\,\,70$].
+
+
+Função sinal:: É denotada por latexmath:[$f(x)={\rm sgn}(x)$], latexmath:[$x\in \mathbb{R}$], se lê *signo de latexmath:[$x$]* e esta definida por 
++
+[latexmath]
+++++
+\[
+{\rm sgn}(x)= \left\{\begin{array}{ccl}
+-1,& & \mbox{se } x< 0\\
+0,& & \mbox{se } x= 0\\
+1,& & \mbox{se } x> 0.
+\end{array}\right.
+\]
+++++
++
+O domínio da função sinal é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im }(f)=\{-1,0,1\}$]. Seu gráfico é apresentado no item (a) da figura abaixo.
+
+image::images_cap_II/Fsinal.eps[scaledwidth="80%"]
+
+Função maior inteiro:: É denotada por latexmath:[$\left\lfloor x \right\rfloor$], latexmath:[$x\in \mathbb{R}$], se lê *o maior inteiro de latexmath:[$x$]* 
+e esta definida por 
++
+[latexmath]
+++++
+\[
+\left\lfloor x \right\rfloor=n \mbox{ se, e somente se, } n\leq x<n+1,\,\, n\in \mathbb{Z}
+\]
+++++
++
+Isto é, latexmath:[$\left\lfloor x \right\rfloor$] representa o maior número inteiro que 
+não supera a latexmath:[$x$]. O domínio da função maior inteiro é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imagem é latexmath:[${\rm Im }(f)=\mathbb{Z}$]. 
+Seu gráfico é apresentado no item (b) da figura acima.
++
+Propriedades da função maior inteiro:::
+.. latexmath:[$x-1< \left\lfloor x\right\rfloor\leq x\,\, \forall x\in \mathbb{R}$]
+.. Se latexmath:[$n\in \mathbb{Z}\,\,\Rightarrow\,\,\left\lfloor x+n\right\rfloor= \left\lfloor x\right\rfloor +n\,\,\forall x\in \mathbb{R}$]
+.. Se latexmath:[$f(x)=\left\lfloor ax\right\rfloor$], com latexmath:[$a\not=0$], a longitude do intervalo onde a função permanece constante é latexmath:[$\ell=\dfrac{1}{|a|}$], desde que 
+
+[latexmath]
+++++
+\[
+\begin{array}{ccl}
+\left\lfloor ax\right\rfloor=n &\Leftrightarrow& n\leq ax<n+1\\
+\mbox{ se } a>0 : & & \dfrac{n}{a}\leq n <\dfrac{n}{a}+\dfrac{1}{a}\\
+\mbox{ se } a<0 : & & \dfrac{n}{a}\geq n >\dfrac{n}{a}+\dfrac{1}{a}
+\end{array}
+\]
+++++
+
+Em ambos casos, latexmath:[$\ell=\left| \dfrac{n}{a}+\dfrac{1}{a}-\dfrac{n}{a}\right|=\dfrac{1}{|a|}$].
+
+
+.{zwsp}
+====
+Assim: 
+
+.. Se latexmath:[$x=3,1415 \Rightarrow \left\lfloor x\right\rfloor=3$];
+.. Se latexmath:[$x=3\Rightarrow \left\lfloor x\right\rfloor=3$];
+.. Se latexmath:[$x=-1,25\Rightarrow \left\lfloor x\right\rfloor=-2$]; 
+.. Se latexmath:[$x\in[-2,-1)  \left\lfloor x\right\rfloor=-2$];
+.. Se latexmath:[$x\in[-1,0) \Rightarrow \left\lfloor x\right\rfloor=-1$];
+.. Se latexmath:[$x\in[0,1) \Rightarrow \left\lfloor x\right\rfloor=0$];
+.. Se latexmath:[$x\in[1,2) \Rightarrow \left\lfloor x\right\rfloor=1$].
+====
+
+.{zwsp}
+====
+Encontremos os gráficos das seguintes funções:
+ 
+.. latexmath:[$f(x)=\left\lfloor 3x\right\rfloor$]
+
+Solução:: 
+
+Da definição, latexmath:[$\left\lfloor 3x\right\rfloor = n \Leftrightarrow n\leq 3x < n+1 \Leftrightarrow \dfrac{n}{3} \leq x< \dfrac{n}{3} +\dfrac{1}{3}$]. 
+O gráfico da função latexmath:[$f$] é apresentado na figura 2.43. A amplitude do intervalo onde a função permanece constante é latexmath:[$\ell=\dfrac{1}{3}$]
+*figuras 2.43 e 2.44*
+
+.. latexmath:[$f(x)=\left\lfloor -\dfrac{x}{3} \right\rfloor$]
+
+Solução:: 
+Pela definição,
+.. latexmath:[$\left\lfloor -\dfrac{x}{3}\right\rfloor  = n \Leftrightarrow n \leq -\dfrac{x}{3}  < n+1 \Leftrightarrow -3n-3 < x \leq -3n$].
+ A amplitude do intervalo onde a função é constante é latexmath:[$\ell=\dfrac{1}{\left|-\dfrac{1}{3}\right|}=3$].
+ 
+
+image::images_cap_II/FMIex1.eps[scaledwidth="80%"] 
+====
+
+
+
+
+=== Função par e função impar
+
+.. Uma função latexmath:[$f:\mathbb{R}\rightarrow\mathbb{R}$] é chamada *par* se para todo latexmath:[$x\in {\rm Dom}(f)$] se verifica 
+latexmath:[$-x\in {\rm Dom}(f)$] e latexmath:[$f(-x)=f(x)$]. 
++
+.Gráficos de funções par, em todos eles _n_ é par. 
+image::images_cap_II/FparEx.eps[scaledwidth="100%"]
+
+.. Uma função latexmath:[$f:\mathbb{R}\rightarrow\mathbb{R}$] é chamada *impar* se para todo latexmath:[$x\in {\rm Dom}(f)$] se verifica 
+latexmath:[$-x\in {\rm Dom}(f)$] e latexmath:[$f(-x)=-f(x)$].
++
+.Gráficos de funções impar, em todos eles _n_ é impaar. 
+image::images_cap_II/FimparEx.eps[scaledwidth="100%"]
+
+[NOTE]
+====
+.. O gráfico de toda função par é simétrico em relação ao eixo latexmath:[$y$], uma vez que latexmath:[$f(-x)=f(x)$], um ponto latexmath:[$(x,y)$] 
+estará no gráfico se, e somente se, o ponto latexmath:[$(-x,y)$] estiver no gráfico. Uma reflexão através do eixo latexmath:[$y$] não altera o gráfico.
+.. O gráfico de toda função impar é simétrico em relação à origem, uma vez que latexmath:[$f(-x)=-f(x)$], um ponto latexmath:[$(x,y)$] estará 
+no gráfico se, e somente se, o ponto latexmath:[$(-x,-y)$] estiver no gráfico. 
+.. Um gráfico é simétrico em relação à origem se uma rotação de latexmath:[$180^{\circ}$] em relação à origem não altera o gráfico.
+====
+
+
+=== Função períodica
+
+
+Uma função latexmath:[$f:\mathbb{R}\rightarrow\mathbb{R}$] é dita *períodica* se existe um número real latexmath:[$t\not=0$]
+tal que para todo latexmath:[$x\in {\rm Dom}(f)$] se verifica:
+
+.. latexmath:[$x+t\in {\rm Dom}(f)$]
+.. latexmath:[$f(x+t)=f(x)$]. 
+.. O menor valor de latexmath:[$t$] é o *período* de latexmath:[$f$].
+
+.{zwsp} 
+==== 
+As seguintes funções são periódicas:
+
+.. latexmath:[$f(x)=x-\left\lfloor x\right\rfloor,\,\, x\in \mathbb{R}$] 
+Notamos que latexmath:[$f(x+1)=(x+1)-\left\lfloor x+1\right\rfloor = x+1-(\left\lfloor x\right\rfloor +1)=x-\left\lfloor x\right\rfloor=f(x)$]
+ e desde que não existe outro número real latexmath:[$t$] tal que latexmath:[$0<t<1$] e que seja período de latexmath:[$f$], assim  latexmath:[$f$] 
+ é de período latexmath:[$1$]; veja o item (a) da figura abaixo.
+ 
+image::images_cap_II/FPeriodica2.eps[scaledwidth="100%"]
+
+.. latexmath:[$f(x)=|{\rm sen}(x)|,\,\, x\in \mathbb{R}$]
+O período de latexmath:[$f$] é latexmath:[$t=\pi$]. De fato, latexmath:[$f(x+\pi)=|{\rm sen}(x+\pi)|= |-{\rm sen}(x)|=|{\rm sen}(x)|=f(x)$]; veja o item (b)
+ da figura acima.
+====
+
+=== Função crescente e função decrescente
+
+Seja latexmath:[$f$] uma função definida em um intervalo latexmath:[$I$] e latexmath:[$x_1$] e latexmath:[$x_2$] dois pontos em latexmath:[$I$].
+* Se latexmath:[$f(x_2)>f(x_1)$] sempre que latexmath:[$x_1<x_2$], então dizemos que latexmath:[$f$] é *crescente* em latexmath:[$I$]; veja o item (a) da figura abaixo.
++
+image::images_cap_II/FCeD.eps[scaledwidth="50%"]
+
+* Se latexmath:[$f(x_2)<f(x_1)$] sempre que latexmath:[$x_1<x_2$], então dizemos que latexmath:[$f$] é *decrescente* em latexmath:[$I$]; veja o item (b)
+ da figura acima.
+
+
+[NOTE]
+Uma função é crescente se seu gráfico é ascendente (de esquerda a direita), e;
+ é decrescente se seu gráfico é descendente.
+
+.{zwsp} 
+==== 
+A função latexmath:[$f(x)=|x^2-4|$], cujo gráfico é apresentado na figura 2.53, é crecente nos intervalos latexmath:[$[-2,0\]$] 
+e latexmath:[$[2,+\infty)$], e decrescente nos intervalos latexmath:[$(-\infty,-2\]$] e latexmath:[$[0,2\]$]. 
+
+image::images_cap_II/Fcrescente.eps[scaledwidth="30%"]
+====
+
+=== Função definida por partes
+
+Uma função latexmath:[$f:\mathbb{R}\rightarrow\mathbb{R}$] é *definida por partes* se ela é descrita por funções diferentes em partes diferentes de seu domínio.
+
+[latexmath]
+++++
+\[
+f(x)=\left\{
+\begin{array}{ll}
+f_1(x),&\quad x\in I_1\\
+f_2(x),&\quad x\in I_2\\
+\dots\\
+f_n(x),&\quad x\in I_n\\	
+\end{array}\right.
+\]
+++++
+onde latexmath:[$I_i\subseteq {\rm Dom}(f_i),\,\,\,\forall\,i$], latexmath:[${\rm Dom}(f)=\cup_{i=1}^nI_i$] 
+e latexmath:[$I_i\cap I_j=\emptyset$], latexmath:[$\forall\,i,\,\,j\in \{1,2,\dots, n\},\,\, i\neq j$].
+
+.{zwsp}
+====
+A função
+[latexmath]
+++++
+\[
+f(x)=\left\{
+\begin{array}{ll}
+(x+1)^2+1,&\quad x\in(-\infty,-1)\\
+|x|,&\quad x\in[-1,1)\\
+1,& x \in [1,\pi)\\
+-{\rm cos}(x),& \quad x \in [\pi,+\infty)
+	
+\end{array}\right.
+\]
+++++
+é definida por partes, e na figura abaixo podemos ver seu gráfico.
+
+image::images_cap_II/FPorpartes.eps[scaledwidth="30%"]
+====
+
+
+=== Função injetiva, sobrejetiva e bijetiva
+
+Definição:: Seja latexmath:[$f:A\rightarrow B$] uma função. Dizemos que:
+
+.. latexmath:[$f$] é *injetiva* se latexmath:[$f(x_1)=f(x_2)$] implica que latexmath:[$x_1=x_2$] para todo latexmath:[$x_1,x_2\in {\rm Dom}(f)$]. Ou equivalentemente, 
+ latexmath:[$\forall\,x_1,x_2\in {\rm Dom}(f)$], com latexmath:[$x_1\not=x_2$], temos que latexmath:[$f(x_1)\neq f(x_2)$]. 
+
+.. latexmath:[$f$] é *sobrejetiva* ou *sobre* se para todo latexmath:[$y\in B$] existe latexmath:[$x\in A$] tal que latexmath:[$f(x)=y$]. Em outras palavras, latexmath:[$f:A\rightarrow B$] é sobrejetiva se latexmath:[${\rm Im }(f)=B$].
+.. latexmath:[$f$] é *bijetiva* se, e somente se, latexmath:[$f$] é injetiva e sobrejetiva.
+
+[NOTE] 
+====
+À função injetiva se lhe conhece também como função *univalente* ou *um a um*, devido a que existe uma correspondência 
+um a um entre os elementos do domínio e a imagem.
+
+Geometricamente, uma função real de variável real definida por latexmath:[$y=f(x)$] é 
+injetiva se ao traçar retas paralelas ao eixo latexmath:[$x$], estas intersectam o seu gráfico em não 
+mais um ponto. 
+
+image::images_cap_II/Finjetiva.eps[scaledwidth="50%"]
+
+====
+
+.{zwsp}
+====
+
+.. A função latexmath:[$f:\mathbb{R}\rightarrow \mathbb{R}$] definida por latexmath:[$f(x)=3x+2$], 
+é injetiva. De fato, se latexmath:[$ f(x_1)=f(x_2)$] latexmath:[$\,\,\,\Rightarrow\,\,\,$] latexmath:[$3x_1+2=3x_2+2$] latexmath:[$\,\,\,\Rightarrow\,\,\,$]
+latexmath:[$3x_1=3x_2$] latexmath:[$\,\,\,\Rightarrow\,\,\,$] latexmath:[$x_1=x_2$]. Além disso, latexmath:[$f$] é sobrejetiva desde que se 
+latexmath:[$y\in \mathbb{R}$], existe latexmath:[$x=\dfrac{y-2}{3}$] tal que latexmath:[$f(x)=f\left( \dfrac{y-2}{3}\right)= 3\left( \dfrac{y-2}{3}\right)+2=y$],
+ assim latexmath:[$f$] é sobrejetiva e concluimos que latexmath:[$f$] é bijetiva. 
+.. A função latexmath:[$f:\mathbb{R}\rightarrow [0,+\infty)$] definida por latexmath:[$f(x)=x^2$], é sobrejetiva pois latexmath:[${\rm Im }(f)=[0,+\infty)$]. 
+Porém não é injetiva desde que tanto latexmath:[$x_1=-2$] como latexmath:[$x_2=2$] tem a mesma imagem latexmath:[$f(-2)=4=f(2)$]. Portanto latexmath:[$f$] não é bijetiva.
+
+====
+
+
+
+=== Operações com funções
+
+Definição:: Sejam latexmath:[$f$] e latexmath:[$g$] duas funções reais de variáveis reais com domínios 
+latexmath:[${\rm Dom}(f)$] e latexmath:[${\rm Dom}(g)$], respectivamente. Então 
+
+Função soma::
++
+[latexmath]
+++++
+\[
+(f+g)(x):=f(x)+g(x),\,\,\,\, x\in {\rm Dom}(f+g)={\rm Dom}(f)\cap {\rm Dom}(g).
+\]
+++++
+
+Função diferença::
++
+[latexmath]
+++++
+\[
+(f-g)(x):=f(x)-g(x),\,\,\,\, x\in {\rm Dom}(f-g)={\rm Dom}(f)\cap {\rm Dom}(g).
+\]
+++++
++
+
+Função produto::
++
+[latexmath]
+++++
+\[
+(f\cdot g)(x):=f(x)\cdot g(x),\,\,\,\, x\in {\rm Dom}\left(f\cdot g\right)={\rm Dom}(f)\cap {\rm Dom}(g).
+\]
+++++
+
+Função quociente::
++
+[latexmath]
+++++
+\[
+\left(\frac{f}{g}\right)(x):=\frac{f(x)}{g(x)},\,\,\,\, x\in {\rm Dom}(\frac{f}{g})={\rm Dom}(f)\cap \left({\rm Dom}(g)\setminus \left\{x\,:\,g(x)=0 \right\} \right).
+\]
+++++
+
+Função valor absoluto::
++
+[latexmath]
+++++
+\[
+|f|(x):=|f(x)|,\,\,\,\, x\in {\rm Dom}(|f|)={\rm Dom}(f)
+\]
+++++
+
+Função produto de uma constante por uma função::
++
+[latexmath]
+++++
+\[
+(cf)(x):=cf(x),\,\,\,\, x\in {\rm Dom}(cf)={\rm Dom}(f),
+\]
+++++
++
+onde latexmath:[$c\in \mathbb{R}$] é uma constante real .
+
+
+
+.{zwsp} 
+====
+As funções 
+
+.. latexmath:[$f(x)=4x^3-6$] e  latexmath:[$g(x)=-(6-4x^3)$] são iguais desde que 
+latexmath:[${\rm Dom}(f)={\rm Dom}(g)=\mathbb{R}$] e latexmath:[$f(x)=g(x)$].
+
+.. latexmath:[$f(x)=\sqrt{(x-2)(x-5)}$] e  latexmath:[$g(x)=\sqrt{x-2}\sqrt{x-5}$] não são iguais devido a que 
+latexmath:[${\rm Dom}(f)=(-\infty,2\]\cup[5,+\infty)$] e latexmath:[${\rm Dom}(g)=[5,+\infty)$] ou seja latexmath:[${\rm Dom}(f)\not={\rm Dom}(g)$].
+====
+
+.{zwsp} 
+==== 
+Sejam latexmath:[$f(x)=\sqrt{9-x^2}$] e latexmath:[$g(x)=\sqrt{x^2-\frac{1}{4}}$]. Encontre as regras de correspondência das funções:
+[latexmath]
+++++
+\[
+f+g,\quad f-g,\quad f\cdot g,\quad -8g,\quad \left(\frac{f}{g} \right),\quad |g|.
+\]
+++++
+Solução::
+
+Caculemos os domínios:
+
+[latexmath]
+++++
+\[\begin{array}{rcl}
+{\rm Dom}(f)&=& \left\{x\in \mathbb{R}\,:\,9-x^2\geq 0 \right\}=[-3,3]\\
+{\rm Dom}(g)&=& \left\{x\in \mathbb{R}\,:\,x^2-\frac{1}{4}\geq 0 \right\}=(-\infty,-\frac{1}{2}]\cup [\frac{1}{2},+\infty)\\
+{\rm Dom}(f) \cap {\rm Dom}(g)&=&[-3,-\frac{1}{2}]\cup [\frac{1}{2},3]
+\end{array}
+\]
+++++
+
+.. latexmath:[$(f+g)(x)=f(x)+g(x)= \sqrt{9-x^2}+\sqrt{x^2-\frac{1}{4}}$] latexmath:[$ x\in [-3,-\frac{1}{2}\]\cup [\frac{1}{2},3\]$].
+
+.. latexmath:[$(f-g)(x)=f(x)-g(x)= \sqrt{9-x^2}-\sqrt{x^2-\frac{1}{4}}$] latexmath:[$ x\in [-3,-\frac{1}{2}\]\cup [\frac{1}{2},3\]$].
+
+.. latexmath:[$(f\cdot g)(x)=f(x)\cdot g(x)= \sqrt{9-x^2}\cdot\sqrt{x^2-\frac{1}{4}}$] latexmath:[$x\in [-3,-\frac{1}{2}\]\cup [\frac{1}{2},3\]$].
+
+.. latexmath:[$(-8g)(x)=-8g(x)= -8\sqrt{x^2-\frac{1}{4}}$] latexmath:[$ x\in [-3,3\]$].
+
+.. latexmath:[$\left(\frac{f}{g}\right)(x)=\frac{f(x)}{g(x)}=\frac{\sqrt{9-x^2}}{\sqrt{x^2-\frac{1}{4}}}$] latexmath:[$x\in [-3,-\frac{1}{2})\cup (\frac{1}{2},3\]$].
+
+.. latexmath:[$|g|(x)=|g(x)|=\left|\sqrt{x^2-\frac{1}{4}}\right|=\sqrt{x^2-\frac{1}{4}}$] latexmath:[$x\in [-\frac{1}{2},\frac{1}{2}\]$]
+====
+
+
+
+

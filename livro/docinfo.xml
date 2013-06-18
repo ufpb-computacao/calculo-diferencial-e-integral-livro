@@ -9,7 +9,12 @@
     <revision>
       <revnumber>v1.0</revnumber>
       <date>Maio 2013</date>
+<<<<<<< HEAD
       <authorinitials>Kely D. V. V., Felipe A. G. Moreno</authorinitials>
+=======
+      <authorinitials>Kely D. V. V., Felipe G. M.
+      </authorinitials>
+>>>>>>> 0dfaa0004408e9acbec8e093a526bca4378251f3
       <revremark>
         Primeira versão do livro
       </revremark>
@@ -33,7 +38,11 @@
     </author>
     <author>
       <firstname>Felipe</firstname>
+<<<<<<< HEAD
       <surname>Moreno</surname>
+=======
+      <surname>Garcia</surname>
+>>>>>>> 0dfaa0004408e9acbec8e093a526bca4378251f3
       <affiliation>
         <jobtitle>Professor</jobtitle>
         <orgname>Universidade Federal da Paraíba</orgname>
