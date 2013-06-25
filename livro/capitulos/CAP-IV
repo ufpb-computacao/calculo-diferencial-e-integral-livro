@@ -1,0 +1,232 @@
+== Continuidade
+
+.Objetivos do capítulo
+____________________
+Ao final deste capítulo você deverá ser capaz de:
+
+* Interpretar geometricamente a definição de limite de uma função;
+* Interpretar adequadamente a propriedade de unicidade do limite;
+* Avaliar limites de funções elementares;
+* Conhecer as indeterminações da forma latexmath:[$\dfrac{0}{0}$], latexmath:[$\dfrac{\infty}{\infty}$], entre outras;
+* Aplicar os teoremas sobre limites de funções na resolução dos exercícios;
+* Compreender o conceito de continuidade de uma função em um ponto;
+* Determinar a partir do gráfico de uma função se esta é continua ou não.
+____________________
+
+
+
+=== Continuidade de funções
+
+Consideremos uma função latexmath:[$f$]. Intuitivamente, o gráfico da função latexmath:[$f$] pode ser descrito como una curva contínua se não apresentar quebras ou buracos. Para tornar esta ideia mais precisa, necessitamos compreender em que casos acontecem estas tais quebras ou buracos, estos casos são apresentados na figura (a), de onde observamos que isto acontece quando:
+
+* A função latexmath:[$f$] não esta definida em latexmath:[$c$], veja o item (a) da figura abaixo;
+* O limite de latexmath:[$f(x)$] não existe quando latexmath:[$x$] tende a  latexmath:[$c$], veja os itens (b) e (c) da figura abaixo;
+* O valor da função e o valor do limite em latexmath:[$c$] são diferentes, veja o item (d) da figura abaixo.
+
+image::images_cap_IV/fun_continuas.eps[scaledwidth="100%"] 
+
+[NOTE]
+====
+Geometricamente, uma função latexmath:[$f$] é *continua* no seu domínio quando seu gráfico não tem quebras ou buracos, em nenhum ponto que pertença ao domínio. Isto é, seu gráfico se traça sem levantar o lápis do papel.
+====
+
+
+Agora, apresentamos a definição formal deste conceito.
+
+Definição:: Seja latexmath:[$f$] uma função definida no conjunto latexmath:[$A\subset \mathbb{R}$] e latexmath:[$a\in A$]. Diz-se que latexmath:[$f$] é *continua* em latexmath:[$x=a$] se as seguintes condições são verificas:
++
+--
+.. latexmath:[$f(a)$] existe, ou seja, latexmath:[$a\in {\rm Dom}(f)$].
+.. latexmath:[$\lim\limits_{x\rightarrow a}f(x)$] existe.
+.. latexmath:[$\lim\limits_{x\rightarrow a}f(x)=f(a)$]. 
+--
++
+Se alguma destas condições não é verificada em latexmath:[$x=a$], diz-se que latexmath:[$f$] é *discontinua* em latexmath:[$a$].
+
+.{zwsp}
+====
+.. Seja a função 
++
+[latexmath]
+++++
+\[
+f(x)=\left\{ 
+\begin{array}{ccl}
+3x-4, & &\mbox{ se }\, x\neq 3;\\
+5, & &\mbox{ se }\, x=3.
+\end{array}
+\right.
+\] 
+++++
++
+Determinemos se latexmath:[$f$] é continua em latexmath:[$x=3$].
+
+Solução:: 
++
+--
+... Da definição de   latexmath:[$f$] temos que latexmath:[$f(3)=5$]. Logo, latexmath:[$f(3)$] existe;
+... Lembremos que  latexmath:[$\lim\limits_{x\rightarrow 3}f(x)$] existe, se, e somente se,   latexmath:[$\lim\limits_{x\rightarrow 3^-} f(x) =\lim\limits_{x\rightarrow 3^+} f(x)$]. Então analisemos estes limites laterais:
++
+[latexmath]
+++++
+\[
+\lim\limits_{x\rightarrow 3^-} f(x)= \lim\limits_{x\rightarrow 3^-} 3x-4=5\quad \mbox{e}\quad \lim\limits_{x\rightarrow 2^+} f(x)= \lim\limits_{x\rightarrow 3^+} 3x-4=5.
+\]
+++++
++
+Assim, latexmath:[$\lim\limits_{x\rightarrow 3}f(x)$] existe e é igual a latexmath:[$5$].
+
+... Logo, latexmath:[$\lim\limits_{x\rightarrow 3}f(x)=5=f(3)$].
+--
++
+Portanto, latexmath:[$f$] é continua em latexmath:[$x=3$]; veja item (a) da seguinte figura.
++
+image::images_cap_IV/fun_continuas1.eps[scaledwidth="100%"] 
+
+.. Seja a função 
++
+[latexmath]
+++++
+\[
+f(x)=\left\{ 
+\begin{array}{ccl}
+\dfrac{2x^2-32}{x^2-2x-8}, & &\mbox{ se }\, -1<x<10\,\,\mbox{e}\,\,x\neq 4;\\
+\dfrac{8}{3}, & &\mbox{ se }\, x=4.
+\end{array}
+\right.
+\]
+++++
++ 
+Determinemos se latexmath:[$f$] é continua em latexmath:[$x=4$].
+
+Solução:: 
++
+--
+... Da definição de  latexmath:[$f$]  temos que latexmath:[$f(4)=\dfrac{8}{3}$]. Então,  latexmath:[$f(4)$] existe;
+... latexmath:[$\lim\limits_{x\rightarrow 4}f(x)= \lim\limits_{x\rightarrow 4} \dfrac{2x^2-32}{x^2-2x-8}= \lim\limits_{x\rightarrow 4} 2\dfrac{x+4}{x+2}=\dfrac{8}{3}$]
+... Assim,  latexmath:[$\lim\limits_{x\rightarrow 4}f(x)=\dfrac{8}{3}=f(4)$].
+--
++
+Portanto, latexmath:[$f$] é continua em latexmath:[$x=4$]; veja item (b) da figura acima.
+
+
+.. Dada a função 
++
+[latexmath]
+++++
+\[
+f(x)=\left\{ 
+\begin{array}{ccl}
+x^2-2, & &\mbox{ se }\, -2<x\leq 1;\\
+x+1, & &\mbox{ se }\, 1<x\leq 3;\\
+2\sqrt{x-3}+4, & &\mbox{ se }\, 3<x.
+\end{array}
+\right.
+\]
+++++
++
+Determinemos se latexmath:[$f$] é continua em latexmath:[$x=1$] e latexmath:[$x=3$].
+
+Solução:: 
+* Analisemos para latexmath:[$x=1$]:
++
+--
+... Da definição de latexmath:[$f$] vemos que latexmath:[$f(1)=-1$]. Assim, latexmath:[$f(1)$] existe;
+
+... Para afirmar que latexmath:[$\lim\limits_{x\rightarrow 1}f(x)$] existe,  analisemos os limites laterais neste ponto:
++
+[latexmath]
+++++
+\[
+\lim\limits_{x\rightarrow 1^-}f(x)= \lim\limits_{x\rightarrow 1^-} (x^2-2)=-1\quad \mbox{e}\quad \lim\limits_{x\rightarrow 1^+}f(x)= \lim\limits_{x\rightarrow 1^+}(x+1)=2.
+\]
+++++
++
+Embora estes limites laterais existam, eles não são iguais, logo, concluimos que  latexmath:[$\lim\limits_{x\rightarrow 1}f(x)$] não existe.
+--
++
+Portanto,  latexmath:[$f$] não é continua em  latexmath:[$x=1$], ou em outras palavras, latexmath:[$f$]  é discontinua em  latexmath:[$x=1$].
+
+* Analisemos para latexmath:[$x=3$]:
++
+--
+... Da definição de latexmath:[$f$] vemos que latexmath:[$f(3)=4$]. Assim, latexmath:[$f(3)$] existe;
+
+... Para afirmar que latexmath:[$\lim\limits_{x\rightarrow 3}f(x)$] existe, analisemos os limites laterais:
++
+[latexmath]
+++++
+\[
+\lim\limits_{x\rightarrow 3^-}f(x)= \lim\limits_{x\rightarrow 3^-} (x+1)=4\quad \mbox{e}\quad \lim\limits_{x\rightarrow 3^+}f(x)= \lim\limits_{x\rightarrow 3^+} (2\sqrt{x-3}+4)=4.
+\]
+++++
++
+Desde que ambos limites laterais existem e são iguais, concluimos que  latexmath:[$\lim\limits_{x\rightarrow 3}f(x)$] e é igual a  latexmath:[$4$].
+
+... Dos resultados previos, concluímos que latexmath:[$\lim\limits_{x\rightarrow 3}f(x)=4=f(3)$]
+--
++
+Portanto, a função latexmath:[$f$] é continua em  latexmath:[$x=3$]; veja o item (c) da figura acima.
+
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Recapitulando
+
+Revisão do que foi aprendido.
+
+Reserve o último parágrafo para realizar uma *ponte* para o próximo capítulo.
+
+=== Atividades
+
+
+. Texto da atividade.
+
+. Texto da atividade.
+
+. Texto da atividade.
+
+
