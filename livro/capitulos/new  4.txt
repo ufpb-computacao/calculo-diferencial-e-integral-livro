@@ -1,6 +1,0 @@
-[NOTE]
-====
-* No momento de esboçar um gráfico, é usual posicionar o domínio de latexmath:[$R$] no eixo horizontal e a imagem no eixo vertical;
-* Os gráficos podem fornecer informaçãao visual importante sobre uma função;
-* O gráfico de uma função
-====
