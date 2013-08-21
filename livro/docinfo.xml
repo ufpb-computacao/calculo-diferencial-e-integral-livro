@@ -3,7 +3,7 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v0.8.0</edition>
+  <edition>v0.8.1</edition>
 
   <revhistory>
 <!--
@@ -16,6 +16,17 @@
       </revremark>
     </revision>
 -->
+
+    <revision>
+      <revnumber>v0.8.1</revnumber>
+      <date>20/Agosto/2013</date>
+      <authorinitials>Camyle</authorinitials>
+      <revremark>
+        Revisão ortográfica do prefácio.
+      </revremark>
+    </revision>
+
+
     <revision>
       <revnumber>v0.8.0</revnumber>
       <date>20/Agosto/2013</date>
@@ -47,7 +58,7 @@
       </affiliation>
       <authorblurb>
         <para>
-          Principal contribuidor do livro.
+          Principal contribuidora do livro.
         </para>
       </authorblurb>
     </author>
@@ -62,8 +73,5 @@
 
   </authorgroup>
   
-  <copyright>
-    <year>2013</year>
-    <holder>UAB</holder>
-  </copyright>
+
   
