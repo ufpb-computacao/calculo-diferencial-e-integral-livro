@@ -3,7 +3,7 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v0.8.2</edition>
+  <edition>v0.8.3</edition>
 
   <revhistory>
 <!--
@@ -16,6 +16,16 @@
       </revremark>
     </revision>
 -->
+
+    <revision>
+      <revnumber>v0.8.3</revnumber>
+      <date>21/Agosto/2013</date>
+      <authorinitials>Kely, Eduardo</authorinitials>
+      <revremark>
+        Reincorporando o capítulo 6.
+      </revremark>
+    </revision>
+
 
     <revision>
       <revnumber>v0.8.2</revnumber>
