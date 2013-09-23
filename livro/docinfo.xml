@@ -3,7 +3,7 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v0.8.9</edition>
+  <edition>v0.8.10</edition>
 
   <revhistory>
 <!--
@@ -16,6 +16,15 @@
       </revremark>
     </revision>
 -->
+
+    <revision>
+      <revnumber>v0.8.10</revnumber>
+      <date>23/Setembro/2013</date>
+      <authorinitials>Kely</authorinitials>
+      <revremark>
+        Correções pontuais no capítulo 3.
+      </revremark>
+    </revision>
 
     <revision>
       <revnumber>v0.8.9</revnumber>
@@ -150,6 +159,4 @@
     </author>
 
   </authorgroup>
-  
 
-  
