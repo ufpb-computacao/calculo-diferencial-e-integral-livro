@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg4701"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="Ftrigonometricas.svg">
   <defs
      id="defs4703">
@@ -222,15 +222,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.1339024"
-     inkscape:cx="426.82088"
-     inkscape:cy="484.91484"
+     inkscape:cx="563.64967"
+     inkscape:cy="597.38484"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="833"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -284,7 +284,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:1.00462484px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#333333;stroke-width:1.00462484000000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 28.18544,515.98682 c 34.99998,0.003 33.99998,-80.31946 69.99998,-80.80493 36,-0.48547 37.06356,80.84784 70,80.78751 32.93644,-0.0603 35,-80.15455 70,-80.78254 35.00001,-0.62799 35.00001,80.25687 70.39495,80.32944 35.39494,0.0726 34.60505,-79.98708 69.20716,-80.25168"
        id="path5101"
        inkscape:connector-curvature="0"
@@ -659,7 +659,7 @@
        inkscape:connector-curvature="0"
        id="path5827"
        d="m 487.45918,435.24614 c 35.22593,0.0517 35.22593,80.78737 70.22593,80.72326 35,-0.0641 35,-80.15455 70,-80.78254 35,-0.62799 35,80.25687 70.39495,80.32944 35.39494,0.0726 34.60505,-79.98708 69.20716,-80.25168"
-       style="fill:none;stroke:#0000ff;stroke-width:1.00462484px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#333333;stroke-width:1.00462484000000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"

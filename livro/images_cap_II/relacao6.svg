@@ -114,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1481456"
-     inkscape:cx="426.79825"
-     inkscape:cy="298.71352"
+     inkscape:zoom="3.228463"
+     inkscape:cx="456.76906"
+     inkscape:cy="312.45808"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -404,33 +404,6 @@
        id="path7517"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g3074"
-       transform="translate(-2,2)">
-      <path
-         transform="matrix(1.5513797,0,0,1.3134837,111.61958,-158.09715)"
-         d="m 108.16611,757.81293 c 0,1.58029 -0.58958,2.86137 -1.31685,2.86137 -0.72728,0 -1.31685,-1.28108 -1.31685,-2.86137 0,-1.5803 0.58957,-2.86138 1.31685,-2.86138 0.72727,0 1.31685,1.28108 1.31685,2.86138 z"
-         sodipodi:ry="2.8613744"
-         sodipodi:rx="1.3168476"
-         sodipodi:cy="757.81293"
-         sodipodi:cx="106.84926"
-         id="path7177-3"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         sodipodi:type="arc" />
-      <text
-         transform="scale(1.1686404,0.85569522)"
-         xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         x="233.73643"
-         y="982.74896"
-         id="text3553-8"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3555-7"
-           x="233.73643"
-           y="982.74896"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">0</tspan></text>
-    </g>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -526,33 +499,6 @@
        id="path7664"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g3079"
-       transform="translate(-2,2)">
-      <path
-         sodipodi:type="arc"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         id="path7628"
-         sodipodi:cx="106.84926"
-         sodipodi:cy="757.81293"
-         sodipodi:rx="1.3168476"
-         sodipodi:ry="2.8613744"
-         d="m 108.16611,757.81293 c 0,1.58029 -0.58958,2.86137 -1.31685,2.86137 -0.72728,0 -1.31685,-1.28108 -1.31685,-2.86137 0,-1.5803 0.58957,-2.86138 1.31685,-2.86138 0.72727,0 1.31685,1.28108 1.31685,2.86138 z"
-         transform="matrix(1.7779139,0,0,1.3530285,359.71327,-187.95155)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text7630"
-         y="983.44623"
-         x="466.84308"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         xml:space="preserve"
-         transform="scale(1.1686404,0.85569522)"><tspan
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-           y="983.44623"
-           x="466.84308"
-           id="tspan7632"
-           sodipodi:role="line">0</tspan></text>
-    </g>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
@@ -584,27 +530,27 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-       x="507.01257"
-       y="786.73969"
+       x="486.5694"
+       y="743.99487"
        id="text3084-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3086-4"
-         x="507.01257"
-         y="786.73969">Graf(<tspan
+         x="486.5694"
+         y="743.99487">Graf(<tspan
    style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
    id="tspan3092-8">S</tspan>)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-       x="588.01263"
-       y="857.96387"
+       x="620.22614"
+       y="878.09729"
        id="text3084-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3086-45"
-         x="588.01263"
-         y="857.96387">Graf(<tspan
+         x="620.22614"
+         y="878.09729">Graf(<tspan
    style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
    id="tspan3092-5">S </tspan><tspan
    style="font-size:65.00091553%;baseline-shift:super"
