@@ -88,7 +88,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.5953092"
      inkscape:cx="449.37583"
-     inkscape:cy="414.25965"
+     inkscape:cy="352.60996"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -432,7 +432,7 @@
          y="776.67908">T</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path4379"
        sodipodi:cx="546.69019"
        sodipodi:cy="608.82513"
@@ -442,7 +442,7 @@
        transform="matrix(1.3444869,0,0,1.103166,-220.82257,-62.648223)" />
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path4379-48"
        sodipodi:cx="546.69019"
        sodipodi:cy="608.82513"
@@ -452,7 +452,7 @@
        transform="matrix(1.3444869,0,0,1.103166,-220.55734,-12.038596)" />
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path4379-8"
        sodipodi:cx="546.69019"
        sodipodi:cy="608.82513"
@@ -462,7 +462,7 @@
        transform="matrix(1.3444869,0,0,1.103166,-220.64069,23.951475)" />
     <path
        sodipodi:type="arc"
-       style="fill:#000200;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path4379-2"
        sodipodi:cx="546.69019"
        sodipodi:cy="608.82513"
@@ -472,7 +472,7 @@
        transform="matrix(1.3444869,0,0,1.103166,-220.22402,73.652049)" />
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path4379-4"
        sodipodi:cx="546.69019"
        sodipodi:cy="608.82513"
