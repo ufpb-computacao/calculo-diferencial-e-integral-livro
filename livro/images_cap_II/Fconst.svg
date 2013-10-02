@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg5372"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="Fconst.svg">
   <defs
      id="defs5374">
@@ -110,15 +110,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="375"
-     inkscape:cy="577.14285"
+     inkscape:cx="250.61459"
+     inkscape:cy="719.99999"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="833"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5377">
@@ -203,7 +203,7 @@
    style="font-size:18px;font-style:normal;-inkscape-font-specification:'Times New Roman,'"
    id="tspan3903-8" /></tspan></text>
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#333333;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 128.2772,361.80835 208.10629,0"
        id="path3149-4"
        inkscape:connector-curvature="0" />
