@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg5372"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="FIdent.svg">
   <defs
      id="defs5374">
@@ -143,10 +143,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="833"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5377">
@@ -232,7 +232,7 @@
        inkscape:connector-curvature="0"
        id="path4085-6"
        d="M 229.12341,372.90032 376.29681,225.76699"
-       style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#333333;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-32.926741"
        inkscape:transform-center-y="-32.21077" />
     <text

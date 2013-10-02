@@ -13,8 +13,8 @@
    height="1052.3622047"
    id="svg6268"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 13">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="FDec1.svg">
   <defs
      id="defs6270">
     <marker
@@ -81,17 +81,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="375"
-     inkscape:cy="520"
+     inkscape:zoom="1.8095"
+     inkscape:cx="64.285714"
+     inkscape:cy="560"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="476"
-     inkscape:window-height="463"
-     inkscape:window-x="81"
-     inkscape:window-y="81"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata6273">
     <rdf:RDF>
@@ -100,7 +100,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -171,7 +171,7 @@
          id="tspan5376"
          sodipodi:role="line">b</tspan></text>
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#333333;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -14.427632,449.75804 c 82.333085,8.23043 144.576862,16.61685 179.999992,90"
        id="path5386"
        inkscape:connector-curvature="0"
@@ -271,7 +271,7 @@
        sodipodi:nodetypes="cc" />
     <path
        sodipodi:type="arc"
-       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path5448"
        sodipodi:cx="261.90503"
        sodipodi:cy="472.96643"
@@ -281,7 +281,7 @@
        transform="matrix(1.6381947,0,0,1.6381947,-443.56607,-325.46006)" />
     <path
        sodipodi:type="arc"
-       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       style="fill:#333333;fill-opacity:1;stroke:#333333"
        id="path5448-8"
        sodipodi:cx="261.90503"
        sodipodi:cy="472.96643"
