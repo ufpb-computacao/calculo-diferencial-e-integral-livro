@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="raizes_polinomio2.svg">
+   sodipodi:docname="raizes_polinomio2.eps">
   <defs
      id="defs4">
     <marker
@@ -38,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3746706"
-     inkscape:cx="577.79045"
-     inkscape:cy="799.73916"
+     inkscape:zoom="2.9026501"
+     inkscape:cx="381.20386"
+     inkscape:cy="789.64374"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -80,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -90,7 +90,7 @@
      id="layer1">
     <path
        sodipodi:type="arc"
-       style="opacity:0.98000003999999996;fill:#e0e0e0;fill-opacity:0.98039424;stroke:#808080;stroke-width:0.69999999000000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="opacity:0.98000003999999996;fill:#e0e0e0;fill-opacity:0.98039216;stroke:#808080;stroke-width:0.69999999000000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4338"
        sodipodi:cx="150"
        sodipodi:cy="215.44414"
@@ -240,7 +240,7 @@
          id="tspan4257"
          x="548.13538"
          y="255.57312"
-         style="font-style:normal;font-weight:normal;-inkscape-font-specification:'Times New Roman,'">4</tspan></text>
+         style="font-style:normal;font-weight:normal;-inkscape-font-specification:'Times New Roman,'">1</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4315"
@@ -252,7 +252,7 @@
          y="255.57312"
          x="244.13538"
          id="tspan4317"
-         sodipodi:role="line">-4</tspan></text>
+         sodipodi:role="line">-2</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4340"
@@ -268,21 +268,15 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-       x="338.13538"
+       x="342.13538"
        y="255.57312"
        id="text4344"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4346"
-         x="338.13538"
+         x="342.13538"
          y="255.57312"
-         style="font-style:normal;font-weight:normal;-inkscape-font-specification:'Times New Roman,'">-   3</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 343.90885,252.23986 1.22166,-0.83587 1.47885,4.11506 3.21489,-9.0017 10.22335,-0.0643"
-       id="path4348"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+         style="font-style:normal;font-weight:normal;-inkscape-font-specification:'Times New Roman,'">- 1</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4350"
@@ -294,13 +288,7 @@
          y="255.57312"
          x="440.13538"
          id="tspan4352"
-         sodipodi:role="line">   3</tspan></text>
-    <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path4354"
-       d="m 441.90885,252.23986 1.22166,-0.83587 1.47885,4.11506 3.21489,-9.0017 10.22335,-0.0643"
-       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         sodipodi:role="line">   0</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="m 200,243.05525 402.21348,0"
