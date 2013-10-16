@@ -9,6 +9,8 @@ livro/livro.xml
 livro/slides.html
 livro/livro.tex
 
+releases
+
 # Arquivos gerados pelo latex
 *.pdf
 livro.aux
