@@ -1,5 +1,7 @@
 == Livro de disciplina
 
+A versão do http://producao.virtual.ufpb.br/books/edusantana/calculo-diferencial-e-integral-livro/livro/livro.pdf[livro em produção pode ser acessada aqui].
+
 Este repositório contém um livro de uma disciplina.
 
 Para conhecer o seu processo de produção consulte 
