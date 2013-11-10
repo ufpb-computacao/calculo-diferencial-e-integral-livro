@@ -17,6 +17,12 @@ isto é, continuidade implica em uma ligeira variação da função, sem saltos 
 que desiquilibrem o gráfico. Geometricamente, uma função latexmath:[$f$] é *contínua*
 no seu domínio quando seu gráfico não tem quebras ou espaços, em nenhum ponto que pertença ao domínio. Isto é, seu gráfico pode ser traçado sem tirar o lápis do papel.
 
+Quando o cálculo começou a ser desenvolvido, a maioria das funções eram contínuas (intuitivamente, se 
+o gráfico da função podia ser feito sem levantar o lápis do papel, ela era contínua), e portanto não se sentia a necessidade 
+de se aprofundar quanto ao significado exato de continuidade. Foi a meados do século latexmath:[${\rm XVIII}$] que 
+se apresentaram algumas funções descontínuas em conexão com os problemas da física, fato que obrigou aos matemáticos 
+no início do século latexmath:[${\rm XIX}$] a examinar cuidadosamente o significado dos conceitos de função e continuidade. Embora que o significado de ``contínuidade''  parece claro muitas pessoas, não era fácil imaginar uma boa definição. Somente em 1821, foi apresentada uma definição satisfatória de continuidade  em  usando o conceito de limite.  Esta abordagem será exposta a seguir, mas antes, apresentaremos alguns conceitos básicos necessários para o bom entendimento a definição de limite.
+
 
 
 
