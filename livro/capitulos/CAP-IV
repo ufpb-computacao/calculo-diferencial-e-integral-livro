@@ -36,7 +36,7 @@ Consideremos uma função latexmath:[$f$]. Intuitivamente, quando falamos de fun
 image::images_cap_IV/fun_continuas.eps[scaledwidth="100%"]
 Agora, apresentamos a definição formal desse conceito.
 
-=== Definição precisa
+=== Definição formal
 
 Definição 4.1:: Seja latexmath:[$f$] uma função definida no conjunto latexmath:[$A\subset \mathbb{R}$] e latexmath:[$a\in A$]. Diz-se que latexmath:[$f$] é *_contínua_* em latexmath:[$x=a$] se as seguintes condições são verificas:
 +
