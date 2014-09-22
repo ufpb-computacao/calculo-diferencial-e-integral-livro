@@ -3,11 +3,21 @@
   <revhistory>
 
     <revision>
+      <revnumber>v1.1.2</revnumber>
+      <date>20/Agosto/2014</date>
+      <authorinitials>Kely</authorinitials>
+      <revremark>
+<ulink url="{gitrepo}/issues/43">Atualização do Exemplo 1.15;</ulink>
+      </revremark>
+    </revision>
+
+
+    <revision>
       <revnumber>v1.1.1</revnumber>
       <date>20/Agosto/2014</date>
       <authorinitials>Kely</authorinitials>
       <revremark>
-- Atualização do Exemplo 1.15 (#43);
+<ulink url="{gitrepo}/issues/43">Atualização do Exemplo 1.15;</ulink>
       </revremark>
     </revision>
 
@@ -16,15 +26,15 @@
       <date>12/Agosto/2014</date>
       <authorinitials>Kely</authorinitials>
       <revremark>
-- Atualização de exercícios no capítulo 7 (#30);
-- Atualização de exercícios no capítulo 8 (#31);
-- Atualização da seção 1.1 Sistema dos Números Reais (#36);
-- Inclusão de nota sobre Elementos Neutros da adição e multiplicação (#37);
-- Atualização do Teorema 1.3 (#38);
-- Inclusão de nota sobre resolução de equação (#39);
-- Atualização de Método 3 (Usando o Discriminante) (#40);
-- Atualização de Exemplo 1.16 (#41);
-- Atualização de Fórmulas elementares de integração (#42);
+<ulink url="{gitrepo}/issues/30">Atualização de exercícios no capítulo 7;</ulink>
+<ulink url="{gitrepo}/issues/31">Atualização de exercícios no capítulo 8;</ulink>
+<ulink url="{gitrepo}/issues/36">Atualização da seção 1.1 Sistema dos Números Reais</ulink>
+<ulink url="{gitrepo}/issues/37">Inclusão de nota sobre Elementos Neutros da adição e multiplicação;</ulink>
+<ulink url="{gitrepo}/issues/38">Atualização do Teorema 1.3;</ulink>
+<ulink url="{gitrepo}/issues/39">Inclusão de nota sobre resolução de equação;</ulink>
+<ulink url="{gitrepo}/issues/40">Atualização de Método 3 (Usando o Discriminante);</ulink>
+<ulink url="{gitrepo}/issues/41">Atualização de Exemplo 1.16;</ulink>
+<ulink url="{gitrepo}/issues/42">Atualização de Fórmulas elementares de integração;</ulink>
       </revremark>
     </revision>
 
