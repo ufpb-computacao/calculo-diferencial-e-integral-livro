@@ -4,10 +4,11 @@
 
     <revision>
       <revnumber>v1.1.2</revnumber>
-      <date>20/Agosto/2014</date>
-      <authorinitials>Kely</authorinitials>
+      <date>22/09/2014</date>
+      <authorinitials>Kely, Eduardo</authorinitials>
       <revremark>
-<ulink url="{gitrepo}/issues/43">Atualização do Exemplo 1.15;</ulink>
+<ulink url="{gitrepo}/issues/45">Adição de links no histórico de revisão;</ulink>
+<ulink url="{gitrepo}/issues/46">Correção de referência ao gráfico no Exemplo 2.4;</ulink>
       </revremark>
     </revision>
 
