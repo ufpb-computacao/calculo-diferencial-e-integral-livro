@@ -3,6 +3,15 @@
   <revhistory>
 
     <revision>
+      <revnumber>v1.2.0</revnumber>
+      <date>24/10/2014</date>
+      <authorinitials>Eduardo</authorinitials>
+      <revremark>
+<ulink url="{gitrepo}/issues/44">Atualização da Ficha Técnica;</ulink>
+      </revremark>
+    </revision>
+
+    <revision>
       <revnumber>v1.1.3</revnumber>
       <date>23/09/2014</date>
       <authorinitials>Eduardo</authorinitials>
@@ -24,7 +33,7 @@
 
     <revision>
       <revnumber>v1.1.1</revnumber>
-      <date>20/Agosto/2014</date>
+      <date>20/8/2014</date>
       <authorinitials>Kely</authorinitials>
       <revremark>
 <ulink url="{gitrepo}/issues/43">Atualização do Exemplo 1.15;</ulink>
@@ -33,7 +42,7 @@
 
     <revision>
       <revnumber>v1.1.0</revnumber>
-      <date>12/Agosto/2014</date>
+      <date>12/8/2014</date>
       <authorinitials>Kely</authorinitials>
       <revremark>
 <ulink url="{gitrepo}/issues/30">Atualização de exercícios no capítulo 7;</ulink>
@@ -50,139 +59,12 @@
 
     <revision>
       <revnumber>v1.0.0</revnumber>
-      <date>19/Novembro/2013</date>
-      <authorinitials>Kely,Camyle</authorinitials>
+      <date>19/11/2013</date>
+      <authorinitials>Kely, Camyle, Eduardo</authorinitials>
       <revremark>
         Livro revisado por completo.
       </revremark>
     </revision>
-
-
-    <revision>
-      <revnumber>v0.8.11</revnumber>
-      <date>12/Novembro/2013</date>
-      <authorinitials>Kely</authorinitials>
-      <revremark>
-        Revisão nos capítulos 1-5.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.10</revnumber>
-      <date>23/Setembro/2013</date>
-      <authorinitials>Kely</authorinitials>
-      <revremark>
-        Correções pontuais no capítulo 3.
-      </revremark>
-    </revision>
-
-    <revision>
-      <revnumber>v0.8.9</revnumber>
-      <date>26/Agosto/2013</date>
-      <authorinitials>Kely,Camyle</authorinitials>
-      <revremark>
-        Revisão ortográfica dos capítulos 7 e 8. Correções pontuais no capítulo 3.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.8</revnumber>
-      <date>26/Agosto/2013</date>
-      <authorinitials>Kely</authorinitials>
-      <revremark>
-        Revisão de todo o livro pela autora.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.7</revnumber>
-      <date>25/Agosto/2013</date>
-      <authorinitials>Kely/Camyle</authorinitials>
-      <revremark>
-        Revisão ortográfica cap1. Revisão cap 3 e 4.
-      </revremark>
-    </revision>
-
-    <revision>
-      <revnumber>v0.8.6</revnumber>
-      <date>23/Agosto/2013</date>
-      <authorinitials>Kely/Camyle</authorinitials>
-      <revremark>
-        Numerando teoremas e correções no primeiro capítulo. Correção ortográfica do Cap 6.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.5</revnumber>
-      <date>23/Agosto/2013</date>
-      <authorinitials>Camyle</authorinitials>
-      <revremark>
-        Correção ortográfica do Capítulo 5.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.4</revnumber>
-      <date>22/Agosto/2013</date>
-      <authorinitials>Kely, Eduardo</authorinitials>
-      <revremark>
-        Atualização do prefácio e remoção de texto duplicado no capítulo 1.
-      </revremark>
-    </revision>
-
-    <revision>
-      <revnumber>v0.8.3</revnumber>
-      <date>21/Agosto/2013</date>
-      <authorinitials>Kely, Eduardo</authorinitials>
-      <revremark>
-        Reincorporando o capítulo 6.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.2</revnumber>
-      <date>20/Agosto/2013</date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
-        Extensão do prefácio.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.1</revnumber>
-      <date>20/Agosto/2013</date>
-      <authorinitials>Camyle</authorinitials>
-      <revremark>
-        Revisão ortográfica do prefácio.
-      </revremark>
-    </revision>
-
-
-    <revision>
-      <revnumber>v0.8.0</revnumber>
-      <date>20/Agosto/2013</date>
-      <authorinitials>Kely D. V. V., Felipe A. G. M.</authorinitials>
-      <revremark>
-        Capítulo 8 incorporado. Removido capítulo 6 com problemas.
-      </revremark>
-    </revision>
-
-    <revision>
-      <revnumber>v0.7.0</revnumber>
-      <date>12/Agosto/2013</date>
-      <authorinitials>Kely D. V. V., Felipe A. G. M. </authorinitials>
-      <revremark>
-        Incorporando capítulo 7.
-      </revremark>
-    </revision>
- 
   </revhistory>
 
 
