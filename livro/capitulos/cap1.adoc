@@ -48,7 +48,7 @@ Um conjunto não vazio de suma importância, para o bom entendimento de toda a t
 
 Os números reais são identificados por pontos numa reta. E essa identificação dá-se da seguinte maneira:
 
-image::images/images_cap_I/retareal.eps[scaledwidth="50%"]
+image::images/{cap}/retareal.eps[scaledwidth="50%"]
 
 Dada uma reta (por conveniência horizontal) e uma unidade de medida arbitrária, fixamos 
 o ponto latexmath:[$0$] da reta, logo, a cada número real latexmath:[$x$] se identifica com o ponto que está situado a latexmath:[$x$] unidades à direita do latexmath:[$0$], se latexmath:[$x>0$], e com o ponto situado a latexmath:[$-x$] unidades à esquerda  do latexmath:[$0$], se latexmath:[$x<0$]. 
@@ -205,7 +205,7 @@ Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}
 
 [[Distância]]
 .Distância entre latexmath:[$x$] e latexmath:[$y$], e distância entre latexmath:[$y$] e latexmath:[$z$]
-image::images/images_cap_I/xyz.eps[scaledwidth="40%"]
+image::images/{cap}/xyz.eps[scaledwidth="40%"]
 
 Definição 1.2:: Uma *((desigualdade))* é uma expressão algébrica que contém relações como latexmath:[$<,\,\,\leq,\,\,>,\,\,\geq$].
  
@@ -326,42 +326,42 @@ Dados latexmath:[$a$] e latexmath:[$b \in \mathbb{R}$], com latexmath:[$a<b$]. O
 ((Intervalos Limitados)):::	
 . ((Intervalo Aberto)): latexmath:[$(a,b)=\{x \in \mathbb{R}: a<x<b\}$]
 +
-image::images/images_cap_I/IA.eps[scaledwidth="40%"]
+image::images/{cap}/IA.eps[scaledwidth="40%"]
 
 . ((Intervalo Fechado)): latexmath:[$[a,b\]=\{x \in \mathbb{R}: a\leq x\leq b\} $]
 +
-image::images/images_cap_I/IF.eps[scaledwidth="40%"]
+image::images/{cap}/IF.eps[scaledwidth="40%"]
 
 . Intervalo Semiaberto pela Direita: latexmath:[$[a,b)=\{x \in \mathbb{R}: a\leq x<b\}$]
 +
-image::images/images_cap_I/ISAD.eps[scaledwidth="40%"]
+image::images/{cap}/ISAD.eps[scaledwidth="40%"]
 
 . Intervalo Semiaberto pela Esquerda: latexmath:[$(a,b\]=\{x \in \mathbb{R}: a< x\leq b\}$]
 +
-image::images/images_cap_I/ISAE.eps[scaledwidth="40%"]
+image::images/{cap}/ISAE.eps[scaledwidth="40%"]
 
 ((Intervalos Ilimitados))	:::
 . ((Intervalo Aberto)):
 ... latexmath:[$(a,+\infty)=\{x \in \mathbb{R}: a<x\}$] 
 +
-image::images/images_cap_I/AInfty.eps[scaledwidth="40%"] 
+image::images/{cap}/AInfty.eps[scaledwidth="40%"] 
 	
 ... latexmath:[$(-\infty,a)=\{x \in \mathbb{R}: x<a\}$]
 +
-image::images/images_cap_I/InftyA.eps[scaledwidth="40%"]
+image::images/{cap}/InftyA.eps[scaledwidth="40%"]
 
 . ((Intervalo Fechado)):
 ... latexmath:[$[a,+\infty)=\{x \in \mathbb{R}: a\leq x\}$]
 +
-image::images/images_cap_I/FInfty.eps[scaledwidth="40%"]
+image::images/{cap}/FInfty.eps[scaledwidth="40%"]
 
 ... latexmath:[$(-\infty,a\]=\{x \in \mathbb{R}: x\leq a\}$]
 +
-image::images/images_cap_I/InftyF.eps[scaledwidth="40%"]
+image::images/{cap}/InftyF.eps[scaledwidth="40%"]
 
 . A Reta Real: latexmath:[$(-\infty,+\infty)=\mathbb{R}$]
 +
-image::images/images_cap_I/InftyInfty.eps[scaledwidth="40%"] 
+image::images/{cap}/InftyInfty.eps[scaledwidth="40%"] 
 
 
 NOTE: Os intervalos semiabertos latexmath:[$[a,b)$] e latexmath:[$(a,b\]$] também podem ser referenciados como intervalos semifechados pela esquerda e pela direita, respectivamente.
@@ -372,31 +372,31 @@ NOTE: Os intervalos semiabertos latexmath:[$[a,b)$] e latexmath:[$(a,b\]$] tamb�
 
 latexmath:[$A=[-5,2\]$], latexmath:[$B=(-2,3\]$] e latexmath:[$C=(2,6)$],
 
-image::images/images_cap_I/intervalos.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos.eps[scaledwidth="40%"]
 
 temos que:
 
 .. latexmath:[$A\cap B=[-2,2\]$] 
 +
-image::images/images_cap_I/intervalos_intersecao1.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos_intersecao1.eps[scaledwidth="40%"]
 
 .. latexmath:[$A\cap C=\emptyset$]
 
 .. latexmath:[$B\cap C=(2,3\]$]
 +
-image::images/images_cap_I/intervalos_intersecao2.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos_intersecao2.eps[scaledwidth="40%"]
 
 .. latexmath:[$A\cup B=[-5,3\] $]
 +
-image::images/images_cap_I/intervalos_uniao1.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos_uniao1.eps[scaledwidth="40%"]
 
 .. latexmath:[$A\cup C=[-5,6)$]
 +
-image::images/images_cap_I/intervalos_uniao2.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos_uniao2.eps[scaledwidth="40%"]
 
 .. latexmath:[$B\cup C=(-2,6)$]
 +
-image::images/images_cap_I/intervalos_uniao3.eps[scaledwidth="40%"]
+image::images/{cap}/intervalos_uniao3.eps[scaledwidth="40%"]
 ====
 
 
@@ -578,7 +578,7 @@ latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$
 Os valores de latexmath:[$x$] para os que latexmath:[$(x+1)(x-4)=0$] são latexmath:[$x=-1$] e latexmath:[$x=4$] (raízes de cada fator). Logo,
 +
 .Quadro de sinais
-image::images/images_cap_I/pc1.eps[scaledwidth="50%"]
+image::images/{cap}/pc1.eps[scaledwidth="50%"]
 +
 Na Figura 1.3 observamos que latexmath:[$(x+1)(x-4)<0$],  se latexmath:[$x \in (-1,4)$].
 --
@@ -619,7 +619,7 @@ Assim como nos casos anteriores, este tipo de inequação é resolvido de acordo
 Caso I:: 
 Se latexmath:[$P(x)=0$] tem latexmath:[$n$] raízes diferentes em latexmath:[$\mathbb{R}$], com latexmath:[$r_1<r_2<\dots<r_{n-1}<r_n$],  então alternamos o sinal latexmath:[$+$]  e latexmath:[$-$] nos intervalos consecutivos determinados por elas raízes, começamos assinando o sinal latexmath:[$+$] ao intervalo mais a direita, isto é, aquele que contém a raiz  latexmath:[$r_n$], veja a figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio.eps[scaledwidth="80%"]
+image::images/{cap}/raizes_polinomio.eps[scaledwidth="80%"]
 +
 Logo, 
 
@@ -666,7 +666,7 @@ Caso III:: Se algumas das raízes de latexmath:[$P(x)=0$] não são reais, entã
 Solução::
 Resolvendo a equação latexmath:[$(x-1)^4(x+2)(x+4)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$], com multiciplicidade latexmath:[$4$]. Como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item i do *Caso II* e   o item iv(a) do *Caso I*, pois, somente consideraremos as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio1.eps[scaledwidth="50%"]
+image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
 Em outras palavras,  
 +
@@ -681,7 +681,7 @@ C.S.=[-4,-2].
 Solução::
 Resolvendo a equação latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$], com multiciplicidade latexmath:[$5$] cada, e  latexmath:[$r_4=4$]. Note que latexmath:[$x^4+1= 0$] e latexmath:[$x^2+16= 0$] não têm raízes reais, logo, as expressões latexmath:[$x^4+1$] e latexmath:[$x^2+16$] não serão consideradas.  Como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item ii do *Caso II* e   o item i(a) do *Caso I*, pois,  consideraremos todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio2.eps[scaledwidth="70%"]
+image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
 Em outras palavras,  
 +
@@ -733,7 +733,7 @@ Solução:: latexmath:[\,\,]
 +
 Assim, as raízes dos fatores são latexmath:[$r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio4.eps[scaledwidth="50%"]
+image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
 Logo, latexmath:[$C.\,\,S.=(-\infty,0)\cup (4,+\infty)$].
 
@@ -757,7 +757,7 @@ latexmath:[\,\,]
 com latexmath:[$x\neq-1, 0,1$]. Assim, as raízes dos fatores são latexmath:[$r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e 
 latexmath:[$r_4=1$]. Note que latexmath:[$2x^2-x+1=0$]  não tem raízes reais, logo a expressão  latexmath:[$2x^2-x+1$] não será considerada. Como a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio3.eps[scaledwidth="80%"]
+image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 +
 Logo, latexmath:[$C.\,\,S.=[-2,-1)\cup (0,1)$].
 
@@ -878,7 +878,7 @@ Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[
 +
 Como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(b) do *Caso I*. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
-image::images/images_cap_I/raizes_polinomio5.eps[scaledwidth="60%"]
+image::images/{cap}/raizes_polinomio5.eps[scaledwidth="60%"]
 +
 Logo, latexmath:[$C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
 ====
@@ -1094,11 +1094,11 @@ a,  & & \mbox{se } a\geq 0\\
 Desde o ponto de vista geométrico latexmath:[$|a|$] representa a distância entre o ponto da 
 reta real latexmath:[$a$] e a origem latexmath:[$0$].
 
-image::images/images_cap_I/va1.eps[scaledwidth="40%"]
+image::images/{cap}/va1.eps[scaledwidth="40%"]
 
 Da mesma forma, latexmath:[$|a-b|=|b-a|$] se interpreta como a distância entre os pontos latexmath:[$a$] e latexmath:[$b$].
 
-image::images/images_cap_I/va2.eps[scaledwidth="40%"]
+image::images/{cap}/va2.eps[scaledwidth="40%"]
 
 
 .{zwsp}

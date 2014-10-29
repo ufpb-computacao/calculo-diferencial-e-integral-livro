@@ -179,7 +179,7 @@ Do exemplo anterior, obtém-se:
 ====
 O significado geométrico da antiderivada latexmath:[$F(x)$] da função latexmath:[$f(x)$] é que qualquer outra antiderivada de latexmath:[$f(x)$] é uma curva paralela ao gráfico de latexmath:[$y=F(x)$]. No item (a) da figura abaixo podemos ver uma interpretação geométrica geral e no item (b) vemos a ilustração das antiderivadas da função latexmath:[$f(x)=e^x$], isto é, latexmath:[$F(x)=e^x+c$].
 
-image::images/images_cap_VII/antiderivada.eps[scaledwidth="70%"] 
+image::images/{cap}/antiderivada.eps[scaledwidth="70%"] 
 
 ====
 
@@ -1959,7 +1959,7 @@ Caso I::
 +
 Construímos um triângulo retângulo, de acordo com a figura a seguir, e consideramos a função:
 +
-image::images/images_cap_VII/subs_tri_1.eps[scaledwidth="70%"]
+image::images/{cap}/subs_tri_1.eps[scaledwidth="70%"]
 +
 As demais funções são consideradas de acordo ao integrando que se tem.
 
@@ -1974,7 +1974,7 @@ Caso II::
 +
 Construímos um triângulo retângulo, de acordo com a figura a seguir, e consideramos a função:
 +
-image::images/images_cap_VII/subs_tri_2.eps[scaledwidth="70%"]
+image::images/{cap}/subs_tri_2.eps[scaledwidth="70%"]
 +
 As demais funções são consideradas de acordo ao integrando que se tem.
 
@@ -1989,7 +1989,7 @@ Caso III::
 +
 Construímos um triângulo retângulo, de acordo com a figura a seguir, e consideramos a função:
 +
-image::images/images_cap_VII/subs_tri_3.eps[scaledwidth="70%"]
+image::images/{cap}/subs_tri_3.eps[scaledwidth="70%"]
 +
 As demais funções são consideradas de acordo ao integrando que se tem.
 

@@ -36,7 +36,7 @@ podemos entender  que o  gráfico da função latexmath:[$f$] pode ser descrito 
 * O limite de latexmath:[$f(x)$] não existe quando latexmath:[$x$] tende a  latexmath:[$a$]. Veja os itens (b) e (c);
 * O valor da função e o valor do limite em latexmath:[$a$] são diferentes. Veja o item (d).
 
-image::images/images_cap_IV/fun_continuas.eps[scaledwidth="100%"]
+image::images/{cap}/fun_continuas.eps[scaledwidth="100%"]
 Agora, apresentamos a definição formal desse conceito.
 
 === Definição formal
@@ -102,7 +102,7 @@ Assim, latexmath:[$\lim\limits_{x\rightarrow 3}f(x)$] existe e é igual a latexm
 +
 Portanto, pela *Definição 4.1*, latexmath:[$f$] é contínua em latexmath:[$3$]; veja o item (a) da seguinte figura.
 +
-image::images/images_cap_IV/fun_continuas1.eps[scaledwidth="100%"]
+image::images/{cap}/fun_continuas1.eps[scaledwidth="100%"]
 
 .. Seja a função
 +
@@ -207,7 +207,7 @@ Descontinuidade evitável ou removível:: Diz-se que a função latexmath:[$f:\m
 ... latexmath:[$a\in {\rm Dom}(f)$], porém  latexmath:[$\lim\limits_{x\to a}f(x)\neq f(a)$]. Veja o item (b) da figura a seguir.
 --
 +
-image::images/images_cap_IV/descont_evita.eps[scaledwidth="80%"]
+image::images/{cap}/descont_evita.eps[scaledwidth="80%"]
 +
 Logo, podemos *evitar* ou *remover* a descontinuidade de latexmath:[$f$]  definindo a nova função:
 +
@@ -242,7 +242,7 @@ em latexmath:[$a$] se os limites laterais
 +
 existem, ou seja, são finitos,  porém, diferentes;   veja o item (a) da figura a seguir.
 +
-image::images/images_cap_IV/descont_nao_evita.eps[scaledwidth="80%"]
+image::images/{cap}/descont_nao_evita.eps[scaledwidth="80%"]
 
 Descontinuidade de segunda espécie::: Diz-se que a função latexmath:[$f:\mathbb{R} \to \mathbb{R}$] tem  descontinuidade de segunda 
 espécie em latexmath:[$a$], se  latexmath:[$\lim\limits_{x\to a}f(x)$] não existe, ou seja, se algum dos limites laterais é  latexmath:[$\pm\infty$];  veja o item (b) da figura acima.
@@ -841,7 +841,7 @@ Sejam latexmath:[$f:\mathbb{R}\to \mathbb{R}$] uma função contínua no interva
 
 A interpretação geométrica pode ser vista na figura a seguir. O *Teorema 4.4* diz que qualquer reta horizontal latexmath:[$y=w$] que intersecta o eixo latexmath:[$y$] entre os valores latexmath:[$f(a)$] e latexmath:[$f(b)$], intersectará a  curva latexmath:[$y=f(x)$] pelo menos uma vez no intervalo latexmath:[$[a,b\]$]. Em outras palavras, uma função contínua em um intervalo não passa de um valor a outro sem assumir todos os valores intermédios.
 
-image::images/images_cap_IV/teoremavi.eps[scaledwidth="100%"]
+image::images/{cap}/teoremavi.eps[scaledwidth="100%"]
 
 Corolário 4.1::
 Sejam latexmath:[$f:\mathbb{R}\to \mathbb{R}$] uma função contínua no intervalo fechado latexmath:[$[a,b\]$]. Se latexmath:[$f$] não se anula em  nenhum ponto  de latexmath:[$[a,b\]$], então,  latexmath:[$f(x)$] tem o mesmo sinal em todo latexmath:[$x \in [a,b\]$].
@@ -880,7 +880,7 @@ Seja latexmath:[$f:\mathbb{R}\to \mathbb{R}$] uma função contínua e injetora 
 
 Na figura seguinte podemos ver uma ilustração do *Teorema 4.6*.
 
-image::images/images_cap_IV/FCInversa.eps[scaledwidth="30%"]
+image::images/{cap}/FCInversa.eps[scaledwidth="30%"]
 
 Corolário 4.3::
 Seja latexmath:[$f:\mathbb{R}\to \mathbb{R}$] uma função contínua e estritamente crescente ou decrescente no intervalo latexmath:[$[a,b\]$]. Então:
