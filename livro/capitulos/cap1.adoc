@@ -201,8 +201,8 @@ No *Teorema 1.3* temos que:
 
 [IMPORTANT]
 ====
-.. Se latexmath:[$a$] e latexmath:[$b$] são dois números tais que latexmath:[$a^2=b$], diz-se que latexmath:[$a$] é a *raiz quadrada* de latexmath:[$b$] e se escreve latexmath:[$a=\sqrt{b}$]. Por exemplo, latexmath:[$2$] e latexmath:[$-2$] são raízes quadradas de latexmath:[$4$], já que latexmath:[$(-2)^2=2^2=4$], e latexmath:[$\sqrt{3}$] e latexmath:[$-\sqrt{3}$] são raízes quadradas de latexmath:[$3$], pois latexmath:[$(-\sqrt{3})^2=(\sqrt{3})^2=3$].
-..  Pelo  *Teorema 1.3.ii*, não existe latexmath:[$a \in \mathbb{R}$] e latexmath:[$b<0$] tal que latexmath:[$a^2=b$]. Em outras palavras, *no conjunto dos números reais não existe raiz quadrada de números negativos*;
+.. Se latexmath:[$a$] e latexmath:[$b$] são dois números reias tais que latexmath:[$a^2=b$], diz-se que latexmath:[$a$] é a *raiz quadrada* de latexmath:[$b$], denotada por latexmath:[$\sqrt{b}$]. Por exemplo, latexmath:[$2$] e latexmath:[$-2$] são raízes quadradas de latexmath:[$4$], já que latexmath:[$(-2)^2=2^2=4$], e latexmath:[$\sqrt{3}$] e latexmath:[$-\sqrt{3}$] são raízes quadradas de latexmath:[$3$], pois latexmath:[$(-\sqrt{3})^2=(\sqrt{3})^2=3$].
+..  Pelo  item(ii) do *Teorema 1.3*, não existe latexmath:[$a \in \mathbb{R}$] e latexmath:[$b<0$] tal que latexmath:[$a^2=b$]. Em outras palavras, *no conjunto dos números reais não existe raiz quadrada de números negativos*;
 .. Se latexmath:[$a^2=0$], então deduz-se que latexmath:[$a=0$]. Portanto, latexmath:[$\sqrt{0}=0$].
 ====
 
