@@ -6,11 +6,11 @@
 ____________________
 Ao final deste capítulo você deverá ser capaz de:
 
-* Entender o conceito do sistema dos números reais e saber diferenciar os subconjuntos que o integram: naturais, inteiros, racionais e irracionais;
 * Dados dois números reais, reconhecer a relação de ordem estabelecida entre eles e suas principais propriedades;
 * Determinar as raízes de uma equação dada;
 * Determinar o conjunto solução de uma inequação dada;
 * Dominar o conceito de valor absoluto;
+* Entender o conceito do sistema dos números reais e saber diferenciar os subconjuntos que o integram: naturais, inteiros, racionais e irracionais;
 * Familiarizar-se com o Axioma do Supremo.
 ____________________
 
@@ -29,12 +29,11 @@ Nosso sistema decimal foi criado pelos Hindus e introduzido na Europa Ocidental 
  árabes, porém, essa notação demorou para ter uma aceitação geral, e muito depois disso veio a aceitação dos números negativos, a qual 
  aconteceu apenas no final do século XVI, época em que eram descartadas as raízes negativas das equações.
 
-Ainda que a necessidade dos números irracionais, tais como latexmath:[$\sqrt{2}$] e latexmath:[$\pi$], tivesse-se apresentado já 
-aos matemáticos da antiga Grécia no seus estudos geométricos, não foram introduzidos métodos satisfatórios de construção dos 
+Ainda que a necessidade dos números irracionais, tais como latexmath:[$\sqrt{2}$] e latexmath:[$\pi$], já tinha se  apresentado aos matemáticos da antiga Grécia no seus estudos geométricos, não foram introduzidos métodos satisfatórios de construção dos 
 números reais a partir dos racionais até finais do século XIX, quando os matemáticos conseguiram propor um ponto de partida 
 para a construção total dos números reais, abordagem atualmente utilizada.
 
-O ponto de vista adotado neste livro não é construtivo, pois assume-se que existam certos objetos, chamados de números reais, que verificam 
+Embora seja muito interessante apresentar o construção do conjunto dos números reais passo a passo, o foco deste livro não é o construtivo, pois assumiremos que existam certos objetos, chamados de números reais, que verificam 
 os 11 axiomas a serem enunciados neste capítulo. Todas as propriedades dos números reais que serão apresentadas aqui, ou estão entre 
 estes axiomas, ou podem ser deduzidas a partir deles.
 
@@ -43,7 +42,7 @@ Axioma do Supremo, e resolveremos alguns problemas usando a teoria apresentada.
 
 === Sistema dos Números Reais
 
-Um conjunto não vazio de suma importância, para o bom entendimento de toda a teoria apresentada neste livro, é o conjunto dos *números reais*, representado por latexmath:[$\mathbb{R}$]. Cada elemento de latexmath:[$\mathbb{R}$] é chamado de *número real*.
+Um conjunto não vazio de suma importância, para o bom entendimento de toda a teoria apresentada neste livro, é o conjunto dos *números reais*, denotado por latexmath:[$\mathbb{R}$]. Cada elemento de latexmath:[$\mathbb{R}$] é chamado de *número real*.
 
 
 Os números reais são identificados por pontos numa reta. E essa identificação dá-se da seguinte maneira:
@@ -60,7 +59,7 @@ Logo, o *((sistema dos números reais))*, denotado por latexmath:[$(\mathbb{R};+
  *Axioma do Supremo*. Para simplificar a notação usaremos somente latexmath:[$\mathbb{R}$]. 
 
 ==== Adição e Multiplicação de Números Reais
-Embora as operações de adição e multiplicação sejam duas operações aritmeticas com as quais estamos muito acostumados desde o início dos nossos estudos na escola, a adição e a multiplicação de números reais são duas operações internas em latexmath:[$\mathbb{R}$] e são definidas, formalmente, como segue:
+Embora as operações de adição e multiplicação sejam duas operações aritméticas com as quais estamos muito acostumados desde o início dos nossos estudos na escola, a adição e a multiplicação de números reais são duas operações internas em latexmath:[$\mathbb{R}$] e são definidas, formalmente, como segue:
 
 Adição:: Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$] existe um único latexmath:[$w \in \mathbb{R}$], chamado de *soma* de latexmath:[$a$] e latexmath:[$b$], tal que latexmath:[$w=a+b$]. 
 
@@ -75,13 +74,12 @@ Axioma 2::: latexmath:[$(a+b)+c=a+(b+c), \quad \forall\,a,b,c\in \mathbb{R}$].
 
 Axioma 3::: Existe o número real *zero*, denotado por latexmath:[$0$], tal que latexmath:[$a+0=0+a=a,\quad \forall\, a\in \mathbb{R}$].
 
-Axioma 4::: Para cada número real latexmath:[$a$] existe um real chamado de *oposto* de latexmath:[$a$] e 
-é representado por latexmath:[$-a$], tal que latexmath:[$a+(-a)=0$].
+Axioma 4::: Para cada número real latexmath:[$a$] existe um real chamado de *oposto* de latexmath:[$a$], denotado por latexmath:[$-a$], tal que latexmath:[$a+(-a)=0$].
 
 Axioma 5::: latexmath:[$a\cdot b=b\cdot a,\quad \forall\,a,b\in \mathbb{R}$].
 Axioma 6::: latexmath:[$(a\cdot b)\cdot c=a\cdot(b\cdot c), \quad  \forall\,a,b,c\in \mathbb{R}$].
 Axioma 7::: Existe o número real *um*, denotado por latexmath:[$1$], tal que latexmath:[$a\cdot 1=1\cdot a=a$], latexmath:[$\,\,\, \forall\, a\in \mathbb{R}$].
-Axioma 8::: Para cada número real latexmath:[$a$], diferente de zero, existe um número real chamado de *inverso* de latexmath:[$a$] e é representado por latexmath:[$a^{-1}$] ou latexmath:[$\dfrac{1}{a}$], tal que latexmath:[$a\cdot a^{-1}=a^{-1}\cdot a=a\cdot \frac{1}{a}=\frac{1}{a}\cdot a=1$].
+Axioma 8::: Para cada número real latexmath:[$a$], diferente de zero, existe um número real chamado de *inverso* de latexmath:[$a$], denotado por latexmath:[$a^{-1}$] ou latexmath:[$\dfrac{1}{a}$], tal que latexmath:[$a\cdot a^{-1}=a^{-1}\cdot a=1$].
 
 Axioma 9::: latexmath:[$a(b+c)=a\cdot b + a\cdot c,\quad  \forall\,a,b,c\in \mathbb{R}$]
 
@@ -96,14 +94,14 @@ Axioma 9::: latexmath:[$a(b+c)=a\cdot b + a\cdot c,\quad  \forall\,a,b,c\in \mat
 O seguinte teorema enuncia as propriedades dessas duas operações. 
 
 [options="unbreakable"]
-Teorema 1.1::
+Teorema 1.1:: Sejam latexmath:[$a$, $b$ e $ c \in \mathbb{R}$]. Então:
 ...  Os números latexmath:[$0,\,\,1,\,\,-a$] e latexmath:[$a^{-1}$] são únicos;
-...  latexmath:[$a=-(-a), \,\,\, \forall a \in \mathbb{R}$];
+...  latexmath:[$a=-(-a)$];
 ...  Se latexmath:[$a\neq 0$], então  latexmath:[$a=(a^{-1})^{-1}$];
 ...  latexmath:[$a\cdot 0=0\cdot a= 0,\,\,\,  \forall a \in \mathbb{R}$];
-...  latexmath:[$-a=(-1)\cdot a,\,\,\,  \forall a \in \mathbb{R}$];
-...  latexmath:[$a\cdot (-b)=(-a)\cdot b,\,\,\,  \forall a,\,\,b \in \mathbb{R}$];
-...  latexmath:[$(-a)\cdot (-b)=a\cdot b,\,\,\,  \forall a,\,\,b \in \mathbb{R}$];
+...  latexmath:[$-a=(-1)\cdot a$];
+...  latexmath:[$a\cdot (-b)=(-a)\cdot b$];
+...  latexmath:[$(-a)\cdot (-b)=a\cdot b$];
 ...  Se latexmath:[$a+c=b+c$], então latexmath:[$a=b$];
 ...  Se latexmath:[$a \cdot c=b\cdot c$] e latexmath:[$c\neq 0$], então latexmath:[$a=b$];
 ...  latexmath:[$a\cdot b=0$] se, e somente se, latexmath:[$a=0$] ou latexmath:[$b=0$];
