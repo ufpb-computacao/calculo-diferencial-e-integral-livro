@@ -289,7 +289,7 @@ temos que:
 .. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$]. 
 ============================
 
-////
+
 [NOTE]
 Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
@@ -383,7 +383,7 @@ image::images/{cap}/InftyInfty.eps[scaledwidth="40%"]
 
 NOTE: Os intervalos semiabertos latexmath:[$[a,b)$] e latexmath:[$(a,b\]$] também podem ser referenciados como intervalos semifechados pela esquerda e pela direita, respectivamente.
 
-////
+
 
 .{zwsp}
 ====
@@ -498,13 +498,13 @@ ax+b>0 \quad \mbox{ou}\quad ax+b<0 \quad \mbox{ou}\quad ax+b\geq 0 \quad \mbox{o
 ++++++++++++++++++++++++++++++++++++++++++++
 Então, para resolver estas inequações  consideramos, sem perda de generalidade que, latexmath:[$a>0$]. Assim,
 
-* latexmath:[ax+b>0 \quad \equiv x>-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\frac{b}{a}, + \infty\right)$];
+* latexmath:[$ax+b>0 \quad \equiv x>-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\frac{b}{a}, + \infty\right)$];
 
-* latexmath:[ax+b<0 \quad \equiv x<-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right)$];
+* latexmath:[$ax+b<0 \quad \equiv x<-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right)$];
 
-* latexmath:[ax+b\geq 0 \quad \equiv x\geq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left[-\frac{b}{a}, + \infty\right)$];
+* latexmath:[$ax+b\geq 0 \quad \equiv x\geq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left[-\frac{b}{a}, + \infty\right)$];
 
-* latexmath:[ax+b\leq 0 \quad \equiv x\leq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right\]$].
+* latexmath:[$ax+b\leq 0 \quad \equiv x\leq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right\]$].
 
 
 
