@@ -289,7 +289,7 @@ temos que:
 .. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$]. 
 ============================
 
-
+////
 [NOTE]
 Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
@@ -383,6 +383,7 @@ image::images/{cap}/InftyInfty.eps[scaledwidth="40%"]
 
 NOTE: Os intervalos semiabertos latexmath:[$[a,b)$] e latexmath:[$(a,b\]$] também podem ser referenciados como intervalos semifechados pela esquerda e pela direita, respectivamente.
 
+////
 
 .{zwsp}
 ====
@@ -508,15 +509,18 @@ Então, para resolver estas inequações  consideramos, sem perda de generalidad
 
 
 
-.Resolvamos as seguintes inequações de primeiro grau
+.{zwsp}
 ====
+Resolvamos as seguintes inequações de primeiro grau:
+
 .. latexmath:[$5x+6<8$].
 Solução::
 latexmath:[$5x+6<8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x<8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x<\dfrac{2}{5}$]. Portanto, latexmath:[$C.\,\,S.=\left(-\infty,\dfrac{2}{5}\right)$]. 
 
 .. latexmath:[$5x+5 \geq 1-3x$].
 Solução::
-latexmath:[$5x+5\geq 1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x\geq 1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x\geq -4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x\geq -\dfrac{4}{8}=-\dfrac{1}{2}$]. Portanto, latexmath:[$C.\,\,S.=\left[-\dfrac{1}{2},+\infty\right)$].
+latexmath:[$5x+5\geq 1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x\geq 1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x\geq -4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x\geq -\dfrac{4}{8}=-\dfrac{1}{2}$]. +
+Portanto, latexmath:[$C.\,\,S.=\left[-\dfrac{1}{2},+\infty\right)$].
 
 .. latexmath:[$3x-4<2+x$].
 
@@ -533,14 +537,17 @@ As inequações de segundo grau numa variável são da forma:
 ax^2+bx+c>0 \quad \mbox{ou}\quad ax^2+bx+c<0 \quad \mbox{ou}\quad ax^2+bx+c \geq 0 \quad \mbox{ou}\quad ax^2+bx+c\leq 0,  \quad \mbox{com}\quad a\neq 0.
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-Suponhamos, sem perda de generalidade, que latexmath:[$a>0$]. Antes de mostrar como resolver este tipo de inequação, devemos lembrar que:
+Suponhamos, sem perda de generalidade, que latexmath:[$a>0$]. Antes de mostrar como resolver este tipo de inequação, devemos lembrar que a *fórmula de Bhaskara*:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
 \mbox{Se} \quad ax^2+bx+c=0, \quad \mbox{então}\quad x=\dfrac{-b\pm\sqrt{\Delta}}{2a},
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-onde latexmath:[$\Delta=b^2-4a c$] é conhecido como o *discriminante*. Se latexmath:[$\Delta<0$],  então esta equação não tem raízes em latexmath:[$\mathbb{R}$]. Se latexmath:[$\Delta\geq 0$],  então esta equação terá as seguintes raízes latexmath:[$x=\dfrac{-b+\sqrt{\Delta}}{2a}$] ou latexmath:[$x=\dfrac{-b-\sqrt{\Delta}}{2a}$] em latexmath:[$\mathbb{R}$]. Denotemos a cada uma destas raízes por latexmath:[$r_1$] e latexmath:[$r_2$], respectivamente.
+onde latexmath:[$\Delta=b^2-4a c$] é conhecido como o *discriminante*. Assim:
+
+* Se latexmath:[$\Delta<0$],  então esta equação não tem raízes em latexmath:[$\mathbb{R}$];
+* Se latexmath:[$\Delta\geq 0$],  então esta equação terá as seguintes raízes latexmath:[$r_1=\dfrac{-b-\sqrt{\Delta}}{2a}$] ou latexmath:[$r_2=\dfrac{-b+\sqrt{\Delta}}{2a}$] em latexmath:[$\mathbb{R}$]. Denotemos a cada uma destas raízes por latexmath:[$r_1$] e latexmath:[$r_2$], respectivamente.
 
 Caso I:: Se latexmath:[$ax^2+bx+c=0$] tem duas raízes diferentes, com latexmath:[$r_1< r_2$], então 
 +
