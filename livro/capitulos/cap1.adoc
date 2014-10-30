@@ -313,11 +313,11 @@ Solução::
 +
 --
 Método 1 (Fatorando):::
-latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$] latexmath:[$\,\,\,\stackrel{\Leftrightarrow}{Teorema 1.1(x)}\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
+latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$]. Pelo item (x) do *Teorema 1.1* para  latexmath:[$a=4x+3$ e $b=x-1$, temos que $(4x+3)(x-1)=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
 latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$]. 
 
 Método 2 (Completando quadrados):::
-latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(2x)^2-x +\left(-\dfrac{1}{4}\right)^2=\dfrac{49}{16}$]
+latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(2x)^2-x +\left(-\dfrac{1}{4}\right)^2-3=\left(-\dfrac{1}{4}\right)^2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(2x)^2-x +\left(-\dfrac{1}{4}\right)^2=\dfrac{49}{16}$]
  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$\left(2x-\dfrac{1}{4}\right)^2=\dfrac{49}{16}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$2x-\dfrac{1}{4}=-\dfrac{7}{4}$] ou latexmath:[$2x-\dfrac{1}{4}=\dfrac{7}{4}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$2x=-\dfrac{3}{2}$] ou
