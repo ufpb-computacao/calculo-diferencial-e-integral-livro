@@ -194,6 +194,7 @@ Teorema 1.3:: Dados latexmath:[$a$, $b$, $c$ e $d\in \mathbb{R}$]. Então:
 [NOTE]
 ====
 No *Teorema 1.3* temos que:
+
 .. O item(i)  é conhecido como  *((Lei da tricotomia))*;
 .. O item(iii) é conhecido como *((Lei transitiva))*; 
 .. O item(iv) é conhecido como *((Lei da monotonia)) para a soma*.
@@ -207,15 +208,9 @@ No *Teorema 1.3* temos que:
 ====
 
 
-Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}$] tais que latexmath:[$x<y<z$]. Então latexmath:[$x$] está à esquerda de latexmath:[$y$], a uma distância de latexmath:[$y-x$] unidades e latexmath:[$z$] está à direita de latexmath:[$y$], a uma distância de latexmath:[$z-y$] unidades.
-
-[[Distância]]
-.Distância entre latexmath:[$x$] e latexmath:[$y$], e distância entre latexmath:[$y$] e latexmath:[$z$]
-image::images/{cap}/xyz.eps[scaledwidth="40%"]
-
 Definição 1.2:: Uma *((desigualdade))* é uma expressão algébrica que contém relações como latexmath:[$<,\,\,\leq,\,\,>,\,\,\geq$].
  
-Assim: +
+Desta forma temos que: +
 [width="100%",cols="^",frame="none",grid="none"]
 |======================
 | latexmath:[$x<y<z$] significa que latexmath:[$x<y$] e latexmath:[$y<z$];
@@ -226,6 +221,16 @@ Assim: +
 |
 | latexmath:[$x\leq y\leq z$] significa que latexmath:[$x\leq y$] e latexmath:[$y\leq z$]. 
 |======================
+
+
+Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}$] tais que latexmath:[$x<y<z$]. Então estas desigualdades são repŕesentadas na reta real da seguinte maneira:
+
+[[Distância]]
+.Distância entre latexmath:[$x$] e latexmath:[$y$], e distância entre latexmath:[$y$] e latexmath:[$z$]
+image::images/{cap}/xyz.eps[scaledwidth="40%"]
+
+Ou seja, latexmath:[$x$] está à esquerda de latexmath:[$y$], a uma distância de latexmath:[$y-x$] unidades e latexmath:[$z$] está à direita de latexmath:[$y$], a uma distância de latexmath:[$z-y$] unidades.
+
 
 === Equações 
 
@@ -269,17 +274,24 @@ Definição 1.3:: Uma *((equação))* é uma afirmação que se estabelece entre
 
 Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, *resolver uma  equação* significa encontrar todas as suas raízes.
 
-[NOTE]
-Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
-
 
 
 .{zwsp}
 ============================
+Dada a equação
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[ x^2-4x -5=0 \]
+++++++++++++++++++++++++++++++++++++++++++++
+temos que:
+
 .. Os números reais latexmath:[$-1$] e  latexmath:[$5$] são raízes da equação de segundo grau acima, pois latexmath:[$(-1)^2-4(-1)-5= 0$] e latexmath:[$(5)^2-4(5)-5= 0$];
 .. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$]. 
 ============================
 
+
+[NOTE]
+Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
 
 [options="unbreakable"]
@@ -289,20 +301,19 @@ Para resolver uma equação é necessário por em evidência, de alguma forma, a
 Solução::
 latexmath:[$5x+6=8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x=8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{2}{5}$]. Portanto, latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$].
 
-.. latexmath:[$x^2+1=0$].
-Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. Portanto, latexmath:[$x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$]. Veja o item b da nota cima.
-
-
 .. latexmath:[$5x+5=1-3x$].
 Solução::
 latexmath:[$5x+5=1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x=1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x=-4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{4}{8}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{1}{2}$]. Portanto,  latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] 
+
+.. latexmath:[$x^2+1=0$].
+Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$].
 
 .. latexmath:[$4x^2-x-3=0$].
 Solução::
 +
 --
 Método 1 (Fatorando):::
-latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
+latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$] latexmath:[$\,\,\,\stackrel{\Leftrightarrow}{Teorema 1.1(x)}\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
 latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$]. 
 
 Método 2 (Completando quadrados):::
