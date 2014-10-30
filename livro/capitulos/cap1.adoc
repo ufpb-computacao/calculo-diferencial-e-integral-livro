@@ -323,8 +323,8 @@ latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$2x-\dfrac{1}{4}=-\dfrac{7}
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$2x=-\dfrac{3}{2}$] ou
  latexmath:[$2x=2$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$].
 
-Método 3 (Usando o Discriminante):::
-latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{-(-1)\pm\sqrt{(-1)^2-4(4)(-3)}}{2(4)}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm\sqrt{1+48}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
+Método 3 (Usando a fórmula de Bhaskara ou o Discriminante latexmath:[$\Delta$]):::
+Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-4(4)(-3)=49$] e latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{-(-1)\pm\sqrt{\Delta}}{2(4)}$].   Então, latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\dfrac{3}{4}$]. 
 --
 +
@@ -338,7 +338,7 @@ Portanto, latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latex
 
 
 Definição 1.5:: 
-Dados latexmath:[$a$] e latexmath:[$b \in \mathbb{R}$], com latexmath:[$a<b$]. Os *((intervalos))* são subconjuntos de latexmath:[$\mathbb{R}$] e podem ser clasificados em:
+Dados latexmath:[$a$] e latexmath:[$b \in \mathbb{R}$], com latexmath:[$a<b$]. Um *((intervalo))* é um  subconjunto de latexmath:[$\mathbb{R}$] e podem ser classificado em:
 
 ((Intervalos Limitados)):::	
 . ((Intervalo Aberto)): latexmath:[$(a,b)=\{x \in \mathbb{R}: a<x<b\}$]
@@ -384,8 +384,9 @@ image::images/{cap}/InftyInfty.eps[scaledwidth="40%"]
 NOTE: Os intervalos semiabertos latexmath:[$[a,b)$] e latexmath:[$(a,b\]$] também podem ser referenciados como intervalos semifechados pela esquerda e pela direita, respectivamente.
 
 
-.Dados os intervalos
+.{zwsp}
 ====
+Dados os intervalos:
 
 latexmath:[$A=[-5,2\]$], latexmath:[$B=(-2,3\]$] e latexmath:[$C=(2,6)$],
 
@@ -431,7 +432,7 @@ Definição 1.6:: Uma *((inequação))* é uma afirmação que se estabelece ent
 +
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
-\[3x-4<2-x\]
+\[3x-4\leq 2-x\]
 ++++++++++++++++++++++++++++++++++++++++++++
 
 * Inequação de Segundo grau
@@ -467,16 +468,23 @@ da expressão por latexmath:[$a$], a desigualdade se faz verdadeira.
 
 .{zwsp}
 ============================
+Seja a inequação
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[ x^2-4x -5<0 \]
+++++++++++++++++++++++++++++++++++++++++++++
+Então:
+
 .. O número real latexmath:[$4$] é uma solução da inequação de segundo grau acima, pois latexmath:[$(4)^2-4(4)-5=-5< 0$];
 .. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois latexmath:[$(-1)^2-4(-1)-5= 0\not < 0$] e latexmath:[$(5)^2-4(5)-5= 0\not < 0$];
 ============================
 
-Definição 1.8:: O conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, e é denotado por  latexmath:[$C.\,\,S.$]. Resolver uma inequação significa encontrar seu  latexmath:[$C.\,\,S.$].
+Definição 1.8:: O conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Resolver uma inequação significa encontrar seu  latexmath:[$C.\,\,S.$].
 
-NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, isto é, latexmath:[$C.\,\,S.=\emptyset$].
+NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
 
 
-==== Resolução de uma Inequação
+==== Resolvendo Inequações
 
 ===== Inequação de Primeiro Grau
 
@@ -487,21 +495,17 @@ As inequações de primeiro grau numa variável são da forma:
 ax+b>0 \quad \mbox{ou}\quad ax+b<0 \quad \mbox{ou}\quad ax+b\geq 0 \quad \mbox{ou}\quad ax+b\leq 0,  \quad \mbox{com}\quad a\neq 0.
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-Para resolver estas inequações  consideramos, sem perda de generalidade que, latexmath:[$a>0$]. Assim,
-[latexmath]
-++++++++++++++++++++++++++++++++++++++++++++
-\[
-x>-\frac{b}{a} \quad \mbox{ou}\quad x<-\frac{b}{a} \quad \mbox{ou}\quad x \geq -\frac{b}{a} \quad \mbox{ou}\quad x\leq -\frac{b}{a},
-\]
-++++++++++++++++++++++++++++++++++++++++++++
-respectivamente. O que corresponde a:
-[latexmath]
-++++++++++++++++++++++++++++++++++++++++++++
-\[
-C.\,\,S.=\left(-\frac{b}{a}, + \infty\right) ,\quad C.\,\,S.= \left(-\infty, -\frac{b}{a}\right),\quad C.\,\,S.=\left[-\frac{b}{a}, \infty\right), \quad C.\,\,S.= \left(-\infty, -\frac{b}{a}\right],
-\]
-++++++++++++++++++++++++++++++++++++++++++++
-respectivamente.
+Então, para resolver estas inequações  consideramos, sem perda de generalidade que, latexmath:[$a>0$]. Assim,
+
+* latexmath:[ax+b>0 \quad \equiv x>-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\frac{b}{a}, + \infty\right)$];
+
+* latexmath:[ax+b<0 \quad \equiv x<-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right)$];
+
+* latexmath:[ax+b\geq 0 \quad \equiv x\geq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left[-\frac{b}{a}, + \infty\right)$];
+
+* latexmath:[ax+b\leq 0 \quad \equiv x\leq-\frac{b}{a} \quad \Rightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right\]$].
+
+
 
 
 .Resolvamos as seguintes inequações de primeiro grau
