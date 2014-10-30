@@ -98,7 +98,7 @@ Teorema 1.1:: Sejam latexmath:[$a$, $b$ e $ c \in \mathbb{R}$]. Então:
 ...  Os números latexmath:[$0,\,\,1,\,\,-a$] e latexmath:[$a^{-1}$] são únicos;
 ...  latexmath:[$a=-(-a)$];
 ...  Se latexmath:[$a\neq 0$], então  latexmath:[$a=(a^{-1})^{-1}$];
-...  latexmath:[$a\cdot 0=0\cdot a= 0,\,\,\,  \forall a \in \mathbb{R}$];
+...  latexmath:[$a\cdot 0=0\cdot a= 0$];
 ...  latexmath:[$-a=(-1)\cdot a$];
 ...  latexmath:[$a\cdot (-b)=(-a)\cdot b$];
 ...  latexmath:[$(-a)\cdot (-b)=a\cdot b$];
@@ -110,9 +110,9 @@ Teorema 1.1:: Sejam latexmath:[$a$, $b$ e $ c \in \mathbb{R}$]. Então:
 
 [NOTE]
 ====
-..  latexmath:[$0$ e  $1$] também são conhecidos como elementos neutros para a *adição* e para a *multiplicação*, respectivamente;
+latexmath:[$0$ e  $1$] também são conhecidos como elementos neutros para a *adição* e para a *multiplicação*, respectivamente;
 
-.. latexmath:[$-a$ e $a^{-1}$], do item(i) do teorema acima, dizem ao respeito da unicidade do *oposto* e do *inverso*, respectivamente.
+//.. latexmath:[$-a$ e $a^{-1}$], do item(i) do teorema acima, dizem ao respeito da unicidade do *oposto* e do *inverso*, respectivamente.
 
 ====
 
@@ -120,14 +120,14 @@ Teorema 1.1:: Sejam latexmath:[$a$, $b$ e $ c \in \mathbb{R}$]. Então:
 
 ==== Subtração e Divisão de Números  Reais
 
-Subtração::  Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], a  *diferença* de latexmath:[$a$] e latexmath:[$b$] é latexmath:[$a-b=a+(-b)$].
+Subtração::  Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], a  *diferença* de latexmath:[$a$] e latexmath:[$b$] é definida como latexmath:[$a-b=a+(-b)$].
 
 
-Divisão ou quociente:: Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], com latexmath:[$b\neq 0$],  o *quociente* de latexmath:[$a$] e latexmath:[$b$] 
-é latexmath:[$\dfrac{a}{b}=a\cdot( b^{-1})$].
+Divisão ou quociente:: Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], com latexmath:[$b\neq 0$],  a *divisão* ou *quociente* de latexmath:[$a$] e latexmath:[$b$] 
+é definida como latexmath:[$\dfrac{a}{b}=a\cdot( b^{-1})$].
 
 [options="unbreakable"]
-Teorema 1.2::
+Teorema 1.2:: Sejam latexmath:[$a$, $b$, $ c$ e $d \in \mathbb{R}$]. Então:
 ... latexmath:[$a-b=-(b-a)$];
 ... latexmath:[$a-b=c$] se, e somente se, latexmath:[$a=b+c$];
 ... Se latexmath:[$b\neq 0$], então latexmath:[$c=\dfrac{a}{b}$] se, e somente se, latexmath:[$b\cdot c=a$];
@@ -151,8 +151,8 @@ Em latexmath:[$\mathbb{R}$] existe um subconjunto chamado de *reais positivos*, 
 Definição 1.1:: Sejam latexmath:[$a,\,b\in\mathbb{R}$]. Diz-se que: 
 +
 --
-... latexmath:[$a$] é *menor* que latexmath:[$b$], denotado por latexmath:[$a<b$] se, e somente se, latexmath:[$b-a\in\mathbb{R}_{++}$];
-... latexmath:[$a$] é *menor ou igual* que latexmath:[$b$], denotado por latexmath:[$a\leq b$] se, e somente se, latexmath:[$a<b$] ou latexmath:[$a=b$].
+... latexmath:[$a$] é *menor* que latexmath:[$b$], denotado por latexmath:[$a<b$], se, e somente se, latexmath:[$b-a\in\mathbb{R}_{++}$];
+... latexmath:[$a$] é *menor ou igual* que latexmath:[$b$], denotado por latexmath:[$a\leq b$], se, e somente se, latexmath:[$a<b$] ou latexmath:[$a=b$].
 --
 
 [NOTE]
@@ -165,16 +165,16 @@ Definição 1.1:: Sejam latexmath:[$a,\,b\in\mathbb{R}$]. Diz-se que:
 O seguinte teorema enuncia as propriedades associadas à relação de ordem.
 
 [options="unbreakable"]
-Teorema 1.3:: Dados latexmath:[$a$, $b$, $c$ e $d\in \mathbb{R}$]. Então
-... *((Lei da tricotomia)):* latexmath:[$a=b$] ou latexmath:[$a<b$] ou latexmath:[$a>b$];
-... latexmath:[$a^2\geq 0, \,\,\, \forall\, a\in \mathbb{R}$]. Se latexmath:[$a\neq 0$], então latexmath:[$a^2>0$];
-... *((Lei transitiva)):* se latexmath:[$a<b$] e latexmath:[$b<c$], então latexmath:[$a<c$]; 
-... *((Lei da monotonia)) para a soma:* se latexmath:[$a<b$], então latexmath:[$a+c<b+c$], latexmath:[$\,\,\,\forall\,c \in \mathbb{R}$]; 
+Teorema 1.3:: Dados latexmath:[$a$, $b$, $c$ e $d\in \mathbb{R}$]. Então:
+... latexmath:[$a=b$] ou latexmath:[$a<b$] ou latexmath:[$a>b$];
+... latexmath:[$a^2\geq 0$]. Se latexmath:[$a\neq 0$], então latexmath:[$a^2>0$];
+... se latexmath:[$a<b$] e latexmath:[$b<c$], então latexmath:[$a<c$]; 
+... se latexmath:[$a<b$], então latexmath:[$a+c<b+c$]; 
 ... Se latexmath:[$a<b$] e latexmath:[$c<d$], então latexmath:[$a+c<b+d$];
 ... Se latexmath:[$a<b$] e latexmath:[$c>0$], então latexmath:[$a\cdot c<b\cdot c$];
 ... Se latexmath:[$a<b$] e latexmath:[$c<0$], então latexmath:[$a\cdot c>b\cdot c$];
-... Se latexmath:[$a<b$] e latexmath:[$0<c<d$], então latexmath:[$a\cdot c<b\cdot d$];
-... latexmath:[$a$] e latexmath:[$a^{-1}$] têm o mesmo sinal, isto é:
+... Se latexmath:[$0<a<b$] e latexmath:[$0<c<d$], então latexmath:[$a\cdot c<b\cdot d$];
+... Se latexmath:[$a\neq 0$, então $a$] e latexmath:[$a^{-1}$] têm o mesmo sinal, isto é:
 +
 --
 .. Se latexmath:[$a>0$], então latexmath:[$a^{-1}>0$],
@@ -192,11 +192,19 @@ Teorema 1.3:: Dados latexmath:[$a$, $b$, $c$ e $d\in \mathbb{R}$]. Então
 
 
 [NOTE]
-===============================
+====
+No *Teorema 1.3* temos que:
+.. O item(i)  é conhecido como  *((Lei da tricotomia))*;
+.. O item(iii) é conhecido como *((Lei transitiva))*; 
+.. O item(iv) é conhecido como *((Lei da monotonia)) para a soma*.
+====
+
+[IMPORTANT]
+====
 .. Se latexmath:[$a$] e latexmath:[$b$] são dois números tais que latexmath:[$a^2=b$], diz-se que latexmath:[$a$] é a *raiz quadrada* de latexmath:[$b$] e se escreve latexmath:[$a=\sqrt{b}$]. Por exemplo, latexmath:[$2$] e latexmath:[$-2$] são raízes quadradas de latexmath:[$4$], já que latexmath:[$(-2)^2=2^2=4$], e latexmath:[$\sqrt{3}$] e latexmath:[$-\sqrt{3}$] são raízes quadradas de latexmath:[$3$], pois latexmath:[$(-\sqrt{3})^2=(\sqrt{3})^2=3$].
 ..  Pelo  *Teorema 1.3.ii*, não existe latexmath:[$a \in \mathbb{R}$] e latexmath:[$b<0$] tal que latexmath:[$a^2=b$]. Em outras palavras, *no conjunto dos números reais não existe raiz quadrada de números negativos*;
 .. Se latexmath:[$a^2=0$], então deduz-se que latexmath:[$a=0$]. Portanto, latexmath:[$\sqrt{0}=0$].
-===============================
+====
 
 
 Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}$] tais que latexmath:[$x<y<z$]. Então latexmath:[$x$] está à esquerda de latexmath:[$y$], a uma distância de latexmath:[$y-x$] unidades e latexmath:[$z$] está à direita de latexmath:[$y$], a uma distância de latexmath:[$z-y$] unidades.
