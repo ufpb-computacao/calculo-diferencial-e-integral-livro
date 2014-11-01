@@ -745,17 +745,22 @@ Desde que:
 [latexmath]
 ++++
 \[
-x^2-3= (x+\sqrt{3})(x-\sqrt{3})\quad\mbox{e}\quad x^2-16=(x-4)(x+4).
-\]
-Além disso,
-\[
 x^2+16=0\quad\mbox{e}\quad x^4+1=0\quad \mbox{não tem raízes em}\quad \mathbb{R}
 \]
 ++++
 +
-Logo, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]
+temos que, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$] Além disso,
+[latexmath]
+++++
+\[
+x^2-3= (x+\sqrt{3})(x-\sqrt{3})\quad\mbox{e}\quad x^2-16=(x-4)(x+4).
+\]
+Assim, 
+\[(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0\quad \Leftrightarrow\quad (x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)> 0.
+\]
+++++
 +
-Assim, latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0$ $\,\,\,\Leftrightarrow\,\,\,$ $(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)> 0$]. Logo, resolvendo a equação latexmath:[$(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
+Logo, resolvendo a equação latexmath:[$(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
@@ -798,7 +803,7 @@ Para resolver este tipo de inequações, devemos ter em mente que:
 
 [NOTE]
 ====
- latexmath:[$Q(x)\neq 0$] implica que os intervalos que contêm  alguma das raízes da equação latexmath:[$Q(x)=0$] devem ser abertos nesses extremos.
+latexmath:[$Q(x)\neq 0$] implica que os intervalos que contêm  alguma das raízes da equação latexmath:[$Q(x)=0$] devem ser abertos nesses extremos.
 ====
 
 Logo, para obter o conjunto solução procedemos como nos casos anteriores. 
