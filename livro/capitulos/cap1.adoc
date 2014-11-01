@@ -487,7 +487,7 @@ NOTE: Se não existem soluções reais para a inequação, então diz-se que  la
 
 ==== Resolvendo Inequações
 
-===== Inequação de Primeiro Grau
+===== Inequações de Primeiro Grau
 
 As inequações de primeiro grau numa variável são da forma:
 [latexmath]
@@ -528,7 +528,7 @@ Solução::  latexmath:[$3x-4<2+x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] la
 Portanto, latexmath:[$C.\,\,S.=(-\infty,3)$].
 ====
 
-===== Inequação de Segundo Grau
+===== Inequações de Segundo Grau
 
 As inequações de segundo grau numa variável são da forma:
 [latexmath]
@@ -777,7 +777,7 @@ C.S.=(-\infty, -4)\cup (-\sqrt{3},\sqrt{3})\cup (4,+\infty).
 
 
 
-===== Inequação Racional
+===== Inequações Racionais
 
 Sejam os polinômios:
 [latexmath]
@@ -991,9 +991,11 @@ Assim, agora precisamos determinar o $C.\,S.$ de $ \dfrac{(3x+2)(x+1)}{x+2}\leq 
 Como $x^2-4x-8=(x-2-2\sqrt{3})(x-2+2\sqrt{3})$, então
 \[\dfrac{x^2-4x-8}{x+2}\leq  0\quad \Leftrightarrow \quad 
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
-\quad \Leftrightarrow 
 \]
+Pelo item(iv) de *Inequações Racionais*
 \[
+\dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
+\quad \Leftrightarrow 
 {(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}\leq  0, \quad \mbox{com }\quad x\neq -2.
 \]
 ++++
