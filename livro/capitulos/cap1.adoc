@@ -1075,7 +1075,7 @@ Temos as seguintes equivalências:
 ... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
 --
 
-////
+
 
 .{zwsp}
 ====
@@ -1141,7 +1141,7 @@ Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\
 
 
 ====
-
+////
 
 Caso IV:: Para as inequações da forma:
 +
