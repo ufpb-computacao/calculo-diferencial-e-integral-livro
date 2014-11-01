@@ -1098,10 +1098,10 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
 Logo,
-\[\begin{array}{rcl}
-(x-2)(x+1)\geq 0&\quad \Leftrightarrow \quad &  x \in (-\infty, -1]\cup[2,+\infty);\\
-5 \geq x&\quad \Leftrightarrow \quad&   x \in (-\infty, 5];\\
-9x<27&\quad \Leftrightarrow \quad & x \in (-\infty,3).
+\[\begin{array}{rclcl}
+(x-2)(x+1)&\geq& 0&\quad \Leftrightarrow \quad &  x \in (-\infty, -1]\cup[2,+\infty);\\
+5 &\geq& x&\quad \Leftrightarrow \quad&   x \in (-\infty, 5];\\
+9x&<&27&\quad \Leftrightarrow \quad & x \in (-\infty,3).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
@@ -1128,10 +1128,10 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 \quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
 \]
 Logo,
-\[\begin{array}{rcl}
-x\geq 8&\quad \Leftrightarrow \quad & x \in (-\infty, 8];\\
-0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
-x\leq 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
+\[\begin{array}{rclcl}
+x&\geq& 8&\quad \Leftrightarrow \quad & x \in (-\infty, 8];\\
+0&\leq &0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
+x&\leq& 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
@@ -1155,10 +1155,10 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
 \]
 Logo,
-\[\begin{array}{rcl}
-x\geq -5&\quad \Leftrightarrow \quad &  x \in (-\infty, -5];\\
-0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
-x<-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
+\[\begin{array}{rclcl}
+x&\geq& -5&\quad \Leftrightarrow \quad &  x \in (-\infty, -5];\\
+0&\leq& 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
+x&<&-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
@@ -1184,7 +1184,7 @@ Caso IV:: Para as inequações da forma:
 \]
 ++++
 +
-com latexmath:[$n\geq 1$] e ímpar. Temos as seguintes equivalências:
+com latexmath:[$n\geq 1$] e impar. Temos as seguintes equivalências:
 +
 --
 ...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 $] latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\geq 0 $];
@@ -1242,15 +1242,16 @@ Resolvamos as seguintes inequações:
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[7\]{81-x^2}}\leq 0$]
 
-Solução:: Desde que  latexmath:[$n=7$], é um número impar, podemos aplicar o item ii do *Caso IV*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[7\]{81-x^2}$ e $R(x)=x-4$], temos que:
+Solução:: Desde que  latexmath:[$n=7$] é um número impar, podemos aplicar o item ii do *Caso IV*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[7\]{81-x^2}$ e $R(x)=x-4$]. Assim, temos que:
 +
 [latexmath]
 ++++
 \[
-\dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x+5}{(x-4)(81-x^2)}\leq 0\quad \Leftrightarrow
+\dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x+5}{(x-4)(81-x^2)}\leq 0
 \]
+Por outro lado,
 \[
- \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0\quad \Leftrightarrow\quad 
+\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 \quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0\quad \Leftrightarrow\quad 
 -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow
 \]
 \[
