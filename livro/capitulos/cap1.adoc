@@ -1098,7 +1098,7 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
 Logo,
-\[\begin{array}{rclcl}
+\[\begin{array}{rcrcl}
 (x-2)(x+1)&\geq& 0&\quad \Leftrightarrow \quad &  x \in (-\infty, -1]\cup[2,+\infty);\\
 5 &\geq& x&\quad \Leftrightarrow \quad&   x \in (-\infty, 5];\\
 9x&<&27&\quad \Leftrightarrow \quad & x \in (-\infty,3).
@@ -1128,7 +1128,7 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 \quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
 \]
 Logo,
-\[\begin{array}{rclcl}
+\[\begin{array}{rcrcl}
 x&\geq& 8&\quad \Leftrightarrow \quad & x \in (-\infty, 8];\\
 0&\leq &0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
 x&\leq& 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
@@ -1155,7 +1155,7 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
 \]
 Logo,
-\[\begin{array}{rclcl}
+\[\begin{array}{rcrcl}
 x&\geq& -5&\quad \Leftrightarrow \quad &  x \in (-\infty, -5];\\
 0&\leq& 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
 x&<&-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
@@ -1251,16 +1251,18 @@ Solução:: Desde que  latexmath:[$n=7$] é um número impar, podemos aplicar o 
 \]
 Por outro lado,
 \[
-\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 \quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0\quad \Leftrightarrow\quad 
--\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow
+\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 \quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0
 \]
 \[
-  \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
-\quad \Leftrightarrow\quad   x \in(-\infty, -9)\cup [-5, 4)\cup (9,+\infty).
+ \Leftrightarrow\quad -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0\]
+e pelo item(iii) de {\bf Inequações Irracionais} temos que 
+\[
+\dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
+\quad \Leftrightarrow\quad  (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
+Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0 implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do caso I, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
 
