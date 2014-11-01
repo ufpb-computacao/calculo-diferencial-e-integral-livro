@@ -831,7 +831,7 @@ Logo, pelo item(i) acima,
 \]
 ++++ 
 +
-Fazendo latexmath:[$P(x)=x(x-4)}$, temos que as raízes de $P(x)=0$  são $r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
+Fazendo latexmath:[$P(x)=x(x-4)$, temos que as raízes de $P(x)=0$  são $r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
