@@ -1098,8 +1098,8 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
 Logo,
-\[\begin{array}{lcr}
-(x-2)(x+1)\geq 0&\Leftrightarrow&  x \in (-\infty, -1]\cup[2,+\infty);\\
+\[\begin{array}{rcl}
+(x-2)(x+1)\geq 0&\quad \Leftrightarrow \quad &  x \in (-\infty, -1]\cup[2,+\infty);\\
 5 \geq x&\quad \Leftrightarrow \quad&   x \in (-\infty, 5];\\
 9x<27&\quad \Leftrightarrow \quad & x \in (-\infty,3).
 \end{array}
@@ -1128,8 +1128,8 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 \quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
 \]
 Logo,
-\[\begin{array}{lcr}
-x\geq 8&\Leftrightarrow&  x \in (-\infty, 8];\\
+\[\begin{array}{rcl}
+x\geq 8&\quad \Leftrightarrow \quad & x \in (-\infty, 8];\\
 0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
 x\leq 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
 \end{array}
@@ -1155,8 +1155,8 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
 \]
 Logo,
-\[\begin{array}{lcr}
-x\geq -5&\Leftrightarrow&  x \in (-\infty, -5];\\
+\[\begin{array}{rcl}
+x\geq -5&\quad \Leftrightarrow \quad &  x \in (-\infty, -5];\\
 0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
 x<-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
 \end{array}
