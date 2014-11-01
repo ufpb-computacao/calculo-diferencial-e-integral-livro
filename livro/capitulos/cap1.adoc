@@ -654,7 +654,7 @@ Portanto, aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], latex
 ============================
 
 
-////
+
 ===== Inequações Polinomiais
 Seja o polinômio de grau latexmath:[$n$]:
 
@@ -674,7 +674,7 @@ P(x)>0 \quad \mbox{ou}\quad P(x)<0 \quad \mbox{ou}\quad P(x) \geq 0 \quad \mbox{
 ++++++++++++++++++++++++++++++++++++++++++++
 
 Assim como nos casos anteriores, este tipo de inequações são resolvidas de acordo com a natureza das raízes da equação polinomial latexmath:[$P(x)=0$]. Desde que latexmath:[$P(x)$ tem grau $n$], então esta equação pode ter no máximo latexmath:[$n$] raízes em latexmath:[$\mathbb{R}$]. Vamos denotar cada uma destas  raízes por latexmath:[$r_1,\,\,r_2,\dots,r_n$].
-
+////
 Caso I:: 
 Se latexmath:[$P(x)=0$] tem latexmath:[$n$] raízes diferentes em latexmath:[$\mathbb{R}$], com latexmath:[$r_1<r_2<\dots<r_{n-1}<r_n$],  então alternamos o sinal latexmath:[$+$]  e latexmath:[$-$] nos intervalos consecutivos delimitados por estas raízes, começamos assinando o sinal latexmath:[$+$] ao intervalo mais a direita, isto é, aquele intervalo à direita da raiz  latexmath:[$r_n$], veja a figura a seguir:
 +
@@ -712,10 +712,10 @@ Logo,
 
 Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou igual que $2$]. Então: 
 
-... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$].
+... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
 
 
-... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$].
+... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
 
 Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]. Em outras palavras, o latexmath:[$C.\,\,S.$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
 
