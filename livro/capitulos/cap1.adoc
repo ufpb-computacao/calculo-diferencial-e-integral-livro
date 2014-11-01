@@ -1093,7 +1093,8 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \]
 \[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
-\]\[
+\]
+\[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
 ++++
@@ -1101,8 +1102,8 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 Logo,
 +
 --
-* latexmath:[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)$];
-* latexmath:[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5]$];
+* latexmath:[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1\]\cup[2,+\infty)$];
+* latexmath:[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5\]$];
 * latexmath:[$9x<27\quad \Leftrightarrow \quad  x \in (-\infty,3) $];
 --
 +
@@ -1130,10 +1131,26 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 \sqrt{x-8}\leq 0\quad \Leftrightarrow \quad x-8 \geq 0 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x-8\leq 0^2=0
 \]
 \[
-\quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad x\leq 8 \quad \Leftrightarrow \quad x=8.
+\quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
 \]
 ++++
 +
+Logo,
++
+--
+* latexmath:[$x\geq 8\quad \Leftrightarrow \quad  x \in (-\infty, 8\]$];
+* latexmath:[$0\leq 0 \quad \Leftrightarrow \quad   x \in \mathbb{R}$];
+* latexmath:[$x\leq 8\quad \Leftrightarrow \quad  x \in [8,+\infty) $];
+--
++
+Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
++
+[latexmath]
+++++
+\[
+  x \in \Big( (-\infty, 8]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( [8,+\infty) \Big) \quad \Leftrightarrow \quad x \in \{8\}.
+\]
+++++
 Portanto, latexmath:[$C.S.=\{8\}$].
 
 ..  latexmath:[$\sqrt{x+5}<0$]
