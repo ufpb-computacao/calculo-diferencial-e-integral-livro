@@ -602,6 +602,7 @@ latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$
 r_1=\dfrac{-(-3)-\sqrt{\Delta}}{2(1)}=\dfrac{3-\sqrt{25}}{2}=\dfrac{-2}{2}=-1\quad \mbox{e}\quad r_2=\dfrac{-(-3)+\sqrt{\Delta}}{2(1)}=\dfrac{3+\sqrt{25}}{2}=\dfrac{8}{2}=4.
 \]
 ++++ 
++
 Aplicando o  item(ii) do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= (-1,4)$].
 
 Embora já tenhamos encontrado o conjunto solução para a inequação dada, a seguir apresentamos métodos alternativos para determiná-lo.
@@ -643,10 +644,11 @@ Para latexmath:[$4x^2-x-3\geq 0$] temos que latexmath:[$\Delta=(-1)^2-4(4)(-3)=4
 [latexmath]
 +++++
 \[
-r_1=\dfrac{-(-1)-\sqrt{\Delta}}{2(4)}=\dfrac{1-\sqrt{49}}{8}=\dfrac{1-7}{8}=-\frac{3}{4}\quad \mbox{e}\quad r_2=\dfrac{-(-1)+\sqrt{\Delta}}{2(4)}=\dfrac{1+\sqrt{49}}{8}=\dfrac{1+7}{8}=\frac{8}{8}=1.
+r_1=\dfrac{-(-1)-\sqrt{\Delta}}{2(4)}=\dfrac{1-\sqrt{49}}{8}=-\frac{3}{4}\quad \mbox{e}\quad r_2=\dfrac{-(-1)+\sqrt{\Delta}}{2(4)}=\dfrac{1+\sqrt{49}}{8}=\frac{8}{8}=1.
 \]
-++++ 
-Aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big)$].
+++++
++ 
+Portanto, aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], latexmath:[$C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big)$].
 
 
 ============================
@@ -654,71 +656,75 @@ Aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latex
 
 
 ===== Inequações Polinomiais
-
-As inequações polinomiais numa variável são da forma:
+Seja o polinômio de grau latexmath:[$n$]:
+[latexmath]
+++++
+\[
+P(x)=a_nx^n+\dots + a_1x+a_0
+\]
+++++
+onde latexmath:[$a_0,\,\,a_1,\dots,a_n$] são contantes e latexmath:[$a_n> 0$], latexmath:[$n \in \mathbb{N}$].
+Então, as inequações polinomiais numa variável são da forma:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
-P(x)=a_nx^n+\dots + a_1x+a_0>0 \quad \mbox{ou}\quad P(x)=a_nx^n+\dots + a_1x+a_0<0 \quad \mbox{ou}
-\]
-\[
-P(x)=a_nx^n+\dots + a_1x+a_0 \geq 0 \quad \mbox{ou}\quad P(x)=a_nx^n+\dots + a_1x+a_0\leq 0,  
+P(x)>0 \quad \mbox{ou}\quad P(x)<0 \quad \mbox{ou}\quad P(x) \geq 0 \quad \mbox{ou}\quad P(x)\leq 0.
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-onde latexmath:[$a_0,\,\,a_1,\dots,a_n$] são contantes e latexmath:[$a_n> 0$], latexmath:[$n \in \mathbb{N}$].
 
-
-Assim como nos casos anteriores, este tipo de inequação é resolvido de acordo com a natureza das raízes da equação polinomial latexmath:[$P(x)=0$]. Desde que este polinômio seja de grau latexmath:[$n$], então esta equação pode ter no máximo latexmath:[$n$] raízes em latexmath:[$\mathbb{R}$]. Vamos denotar cada uma destas  raízes por latexmath:[$r_1,\,\,r_2,\dots,r_n$].
+Assim como nos casos anteriores, este tipo de inequações são resolvidas de acordo com a natureza das raízes da equação polinomial latexmath:[$P(x)=0$]. Desde que latexmath:[$P(x)$ tem grau $n$], então esta equação pode ter no máximo latexmath:[$n$] raízes em latexmath:[$\mathbb{R}$]. Vamos denotar cada uma destas  raízes por latexmath:[$r_1,\,\,r_2,\dots,r_n$].
 
 Caso I:: 
-Se latexmath:[$P(x)=0$] tem latexmath:[$n$] raízes diferentes em latexmath:[$\mathbb{R}$], com latexmath:[$r_1<r_2<\dots<r_{n-1}<r_n$],  então alternamos o sinal latexmath:[$+$]  e latexmath:[$-$] nos intervalos consecutivos determinados por elas raízes, começamos assinando o sinal latexmath:[$+$] ao intervalo mais a direita, isto é, aquele que contém a raiz  latexmath:[$r_n$], veja a figura a seguir:
+Se latexmath:[$P(x)=0$] tem latexmath:[$n$] raízes diferentes em latexmath:[$\mathbb{R}$], com latexmath:[$r_1<r_2<\dots<r_{n-1}<r_n$],  então alternamos o sinal latexmath:[$+$]  e latexmath:[$-$] nos intervalos consecutivos delimitados por estas raízes, começamos assinando o sinal latexmath:[$+$] ao intervalo mais a direita, isto é, aquele intervalo à direita da raiz  latexmath:[$r_n$], veja a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio.eps[scaledwidth="80%"]
 +
 Logo, 
 
-... latexmath:[$P(x)>0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$+$], isto é:
+... latexmath:[$P(x)>0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos abertos com sinal latexmath:[$+$], isto é:
 +
 --
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (-\infty, r_1)\cup \dots\cup (r_n,+\infty)$];
-.. Se  latexmath:[$ n$] é í
-ímpar, então  latexmath:[$C.\,\,S.= ( r_1,r_2)\cup \dots\cup (r_n,+\infty)$];
+.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.= ( r_1,r_2)\cup \dots\cup (r_n,+\infty)$];
 --
 +
-... latexmath:[$P(x)<0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$-$], isto é:
+... latexmath:[$P(x)<0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos aberots com sinal latexmath:[$-$], isto é:
 +
 --
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (r_1,r_2)\cup \dots\cup (r_{n-1},r_n)$];
 .. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.=(-\infty, r_1)\cup \dots\cup (r_{n-1},r_n)$];
 --
 +
-... latexmath:[$P(x)\geq 0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$+$], isto é:
+... latexmath:[$P(x)\geq 0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos fechados com sinal latexmath:[$+$], isto é:
 +
 --
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (-\infty, r_1\]\cup \dots\cup [r_n,+\infty)$];
 .. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.= [ r_1,r_2\]\cup \dots\cup [r_n,+\infty)$];
 --
 +
-... latexmath:[$P(x)\leq 0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$-$], isto é:
+... latexmath:[$P(x)\leq 0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos fechados com sinal latexmath:[$-$], isto é:
 +
 --
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= [r_1,r_2\]\cup \dots\cup [r_{n-1},r_n\]$];
 .. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.=(-\infty, r_1\]\cup \dots\cup [r_{n-1},r_n\]$];
 --
 
-Caso II:: Se algumas das raízes de latexmath:[$P(x)=0$] são reais de multiciplicidade de ordem maior que  latexmath:[$1$], então: 
+Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou igual que $2$]. Então: 
 
-... Se a multiciplicidade de uma das raízes é par, então esta raiz não será considerada para a determinação dos intervalos e o latexmath:[$C.\,\,S.$] será obtido com o mesmo procedimento do *Caso I*;
+... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$].
 
-... Se a multiciplicidade de uma das raízes é ímpar, então esta raiz é considerada para a determinação dos intervalos e o latexmath:[$C.\,\,S.$] será obtido com o mesmo procedimento do *Caso I*.
 
-Caso III:: Se algumas das raízes de latexmath:[$P(x)=0$] não são reais, então elas não são consideradas na determinação dos intervalos. Em outras palavras, o latexmath:[$C.\,\,S.$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
+... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$].
 
-.Resolvamos as seguintes inequações
+Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]. Em outras palavras, o latexmath:[$C.\,\,S.$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
+
+.{zwsp}
 ====
+Resolvamos as seguintes inequações:
+
 .. latexmath:[$(x-1)^4(x+2)(x+4)\leq 0$]
 Solução::
-Resolvendo a equação latexmath:[$(x-1)^4(x+2)(x+4)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$], com multiciplicidade latexmath:[$4$]. Como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item i do *Caso II* e   o item iv(a) do *Caso I*, pois, somente consideraremos as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
+Resolvendo a equação latexmath:[$(x-1)^4(x+2)(x+4)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item(i), latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
@@ -733,7 +739,21 @@ C.S.=[-4,-2].
 
 .. latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0$]
 Solução::
-Resolvendo a equação latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$], com multiciplicidade latexmath:[$5$] cada, e  latexmath:[$r_4=4$]. Note que latexmath:[$x^4+1= 0$] e latexmath:[$x^2+16= 0$] não têm raízes reais, logo, as expressões latexmath:[$x^4+1$] e latexmath:[$x^2+16$] não serão consideradas.  Como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item ii do *Caso II* e   o item i(a) do *Caso I*, pois,  consideraremos todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
+Desde que:
++
+++++
+\[
+x^2-3= (x+\sqrt{3})(x-\sqrt{3})\quad\mbox{e}\quad x^2-16=(x-4)(x+4).
+\]
+Além disso,
+\[
+x^2+16=0\quad\mbox{e}\quad x^4+1=0\quad \mbox{não tem raízes em}\quad \mathbb{R}
+\]
+++++
++
+Logo, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]
++
+Assim, latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0$ $\,\,\,\Leftrightarrow\,\,\,$ $(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)> 0$]. Logo, resolvendo a equação latexmath:[$(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
@@ -750,27 +770,41 @@ C.S.=(-\infty, -4)\cup (-\sqrt{3},\sqrt{3})\cup (4,+\infty).
 
 ===== Inequação Racional
 
-As inequações racionais numa variável são da forma:
+Sejam os polinômios:
 [latexmath]
 ++++
 \[
-\dfrac{P(x)}{Q(x)}>0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}<0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}\geq0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}\leq 0,
+P(x)=a_nx^n+\dots + a_1x+a_0\quad \mbox{e}\quad Q(x)=b_mx^m+\dots + b_1x+b_0
 \]
-++++ 
-onde latexmath:[$P(x)$] e latexmath:[$Q(x)$] são polinômios diferentes de zero.
+++++
+onde latexmath:[$a_0,\,\,a_1,\dots,a_n, b_0,\,\,b_1,\dots,b_m$] são contantes, latexmath:[$a_n> 0$ e $b_m>0$], latexmath:[$n$, $m \in \mathbb{N}$] e latexmath:[$Q(x)$] é um polinômio diferente de zero.
 
-Para resolver este tipo de inequações, devemos ter em mente que elas são equivalentes a:
+Então, as inequações racionais numa variável são da forma:
 [latexmath]
 ++++
 \[
-P(x)Q(x)>0 \quad \mbox{ou}\quad {P(x)}{Q(x)}<0 \quad \mbox{ou}\quad {P(x)}{Q(x)}\geq0  \quad \mbox{e}\quad  \quad \mbox{ou}\quad {P(x)}{Q(x)}\leq 0,
+\dfrac{P(x)}{Q(x)}>0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}<0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}\geq0 \quad \mbox{ou}\quad \dfrac{P(x)}{Q(x)}\leq 0.
 \]
 ++++ 
-respectivamente. Logo, para obter o conjunto solução procedemos como nos casos anteriores, sendo que quando a inequação é latexmath:[$\geq $] ou latexmath:[$\leq $], os intervalos que contêm  alguma das raízes da equação latexmath:[$Q(x)=0$] devem ser abertos nesses extremos.
+Para resolver este tipo de inequações, devemos ter em mente que:
 
+... latexmath:[$\dfrac{P(x)}{Q(x)}>0\quad \equiv \quad P(x)Q(x)>0$];
+... latexmath:[$\dfrac{P(x)}{Q(x)}<0\quad \equiv \quad P(x)Q(x)<0$];
+... latexmath:[$\dfrac{P(x)}{Q(x)}\geq 0\quad \equiv \quad P(x)Q(x)\geq 0\quad\mbox{e}\quad Q(x)\neq 0$];
+... latexmath:[$\dfrac{P(x)}{Q(x)}\leq 0\quad \equiv \quad P(x)Q(x)\leq 0\quad\mbox{e}\quad Q(x)\neq 0$].
 
-.Resolvamos a seguinte inequação
+[NOTE]
 ====
+ latexmath:[$Q(x)\neq 0$] implica que os intervalos que contêm  alguma das raízes da equação latexmath:[$Q(x)=0$] devem ser abertos nesses extremos.
+====
+
+Logo, para obter o conjunto solução procedemos como nos casos anteriores. 
+
+
+.{zwsp}
+====
+Resolvamos a seguinte inequação:
+
 .. latexmath:[\dfrac{x-2}{x-4}>\dfrac{x+2}{x}]
 
 Solução:: latexmath:[\,\,]
@@ -781,11 +815,15 @@ Solução:: latexmath:[\,\,]
  \dfrac{x-2}{x-4}>\dfrac{x+2}{x}\quad \Leftrightarrow\quad\dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\quad \Leftrightarrow\quad\dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0
 \]
 \[
-  \Leftrightarrow\quad\dfrac{-8}{x(x-4)}<0\quad \Leftrightarrow\quad\dfrac{1}{x(x-4)}>0\quad \Leftrightarrow\quad{x(x-4)}>0.
+  \Leftrightarrow\quad\dfrac{-8}{x(x-4)}<0\quad \Leftrightarrow\quad\dfrac{1}{x(x-4)}>0.
+\]
+Logo, pelo item(i) acima,
+\[
+\dfrac{1}{x(x-4)}>0\quad \Leftrightarrow\quad{x(x-4)}>0.
 \]
 ++++ 
 +
-Assim, as raízes dos fatores são latexmath:[$r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
+Assim, as raízes da última inequação equivalente são latexmath:[$r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
@@ -804,12 +842,16 @@ latexmath:[\,\,]
 \[
    \Leftrightarrow\quad\dfrac{(x^2(x+1)+(x-1)(x-1)(x+1)-2x^2(x-1))(x+2)}{(x-1)x(x+1)}\leq 0  \quad \Leftrightarrow \]
 \[
-\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \Leftrightarrow\quad {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0,
+\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
+\]
+Logo, pelo item(iv) acima,
+\[
+\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \Leftrightarrow\quad {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
 \]
 ++++ 
 +
-com latexmath:[$x\neq-1, 0,1$]. Assim, as raízes dos fatores são latexmath:[$r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e 
-latexmath:[$r_4=1$]. Note que latexmath:[$2x^2-x+1=0$]  não tem raízes reais, logo a expressão  latexmath:[$2x^2-x+1$] não será considerada. Como a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
+Como latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não será considerada para a obtenção de $C.\,S.$]. Assim, as raízes dos fatores são latexmath:[$r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e 
+latexmath:[$r_4=1$]. Note que latexmath:[$(x-1)x(x+1)\neq 0$ implica que $x\neq-1, 0,1$]. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 +
