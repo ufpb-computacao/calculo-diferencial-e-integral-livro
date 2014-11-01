@@ -1141,7 +1141,7 @@ Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\
 
 
 ====
-////
+
 
 Caso IV:: Para as inequações da forma:
 +
@@ -1169,6 +1169,7 @@ com latexmath:[$n\geq 1$] e ímpar. Temos as seguintes equivalências:
 [NOTE]
 Se  a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
 
+
 Caso V:: Para as inequações da forma:
 +
 [latexmath]
@@ -1181,7 +1182,6 @@ Caso V:: Para as inequações da forma:
 com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 +
 --
-
 ...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$P(x)\geq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
 
 ...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$P(x)\leq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
