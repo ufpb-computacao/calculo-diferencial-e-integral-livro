@@ -1015,17 +1015,17 @@ Sejam os polinômios:
 P(x)=a_nx^n+\dots + a_1x+a_0, \quad Q(x)=b_mx^m+\dots + b_1x+b_0,\quad\mbox{e}\quad R(x)=c_lx^l+\dots + c_1x+c_0
 \]
 ++++
-onde latexmath:[$a_0,\,\,a_1,\dots,a_n, b_0,\,\,b_1,\dots,b_m, c_0,\,\,c_1,\dots,c_l$] são contantes, latexmath:[$a_n> 0$, $b_m>0$ e $c_l>0$], latexmath:[$n$, $m$ e $l \in \mathbb{N}$]. Então, as inequações irracionais, numa variável, são da forma:
-Casos Particulares:: latexmath:[$\,$]
+onde latexmath:[$a_0,\,\,a_1,\dots,a_n, b_0,\,\,b_1,\dots,b_m, c_0,\,\,c_1,\dots,c_l$] são contantes, latexmath:[$a_n> 0$, $b_m>0$ e $c_l>0$], latexmath:[$n$, $m$ e $l \in \mathbb{N}$]. Então, os casos particulares das inequações irracionais numa variável, que trabalaremos, são da forma:
 
-Caso I::: Para as inequações da forma:
+
+Caso I:: Para as inequações da forma:
 ... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \Leftrightarrow\quad$] latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x)>Q^2(x))$]; 
 ... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x) \geq Q^2(x))$]; 
 
 ... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)> 0$] e latexmath:[$ P(x)<Q^2(x)$]; 
 ... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)\geq 0$] e latexmath:[$P(x) \leq Q^2(x)$].
 
-Caso II::: Para as inequações da forma:
+Caso II:: Para as inequações da forma:
 
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$(P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)> 0)$]  ou latexmath:[$(P(x)> 0\,\,\mbox{e}\,\,  Q(x)\geq 0)$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$];
@@ -1035,7 +1035,7 @@ Caso II::: Para as inequações da forma:
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$C.S.=\emptyset$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)= 0\,\,\mbox{e}\,\,  Q(x)= 0$].
 
-Caso III::: Para as inequações da forma:
+Caso III:: Para as inequações da forma:
 
 ... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
 ... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
@@ -1106,7 +1106,7 @@ Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\
 ====
 
 
-Caso IV::: Se latexmath:[$n\geq 1$] é ímpar
+Caso IV:: Se latexmath:[$n\geq 1$] é ímpar
 ...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 $] latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\geq 0 $];
 
 ...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\leq 0 $]latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\leq 0 $];
@@ -1120,7 +1120,7 @@ Caso IV::: Se latexmath:[$n\geq 1$] é ímpar
 [NOTE]
 Se  a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
 
-Caso V::: Se latexmath:[$n>0$] é par
+Caso V:: Se latexmath:[$n>0$] é par
 
 ...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$P(x)\geq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
 
@@ -1133,7 +1133,6 @@ Caso V::: Se latexmath:[$n>0$] é par
 ...  latexmath:[$\sqrt[n\]{P(x)}\geq Q(x)$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad (Q(x)\leq 0 \quad \mbox{ou} \quad  P(x)\geq Q^n(x))$];
 
 ... latexmath:[$\sqrt[n\]{P(x)}\leq Q(x)$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad  P(x)\leq Q^n(x)$];
-
 
 ... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad P(x)\leq   Q(x)$].  
 
