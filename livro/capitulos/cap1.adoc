@@ -767,7 +767,7 @@ C.S.=(-\infty, -4)\cup (-\sqrt{3},\sqrt{3})\cup (4,+\infty).
 ++++ 
 ====
 
-
+////
 ===== Inequação Racional
 
 Sejam os polinômios:
@@ -858,7 +858,7 @@ image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 Logo, latexmath:[$C.\,\,S.=[-2,-1)\cup (0,1)$].
 
 ====
-
+////
 
 ===== Inequações Exponenciais
 As inequações exponenciais numa variável são da forma:
