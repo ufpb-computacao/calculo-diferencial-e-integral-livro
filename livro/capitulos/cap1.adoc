@@ -1071,8 +1071,8 @@ Caso III:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq  0\quad\mbox{e}\quad  P(x)>  Q(x)$];
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0\quad\mbox{e}\quad P(x)\geq   Q(x)$].
 --
 
 
@@ -1094,11 +1094,24 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
 \]
-\[
-\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)\quad \mbox{e}\quad  x \in (-\infty, 5]  \quad \mbox{e} \quad 9x<27 
+\quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
+++++
++
+O que implica em:
++
+--
+* latexmath[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)$];
+* latexmath[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5]$];
+* latexmath[$9x<27\quad \Leftrightarrow \quad  x \in (-\infty,3) $];
+--
++
+Assim, $x$ pertence à interceção destes intervalos, isto é
++
+[latexmath]
+++++
 \[
- \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 5]  \quad \mbox{e} \quad x \in (-\infty,3) \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 3).
+  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 3)
 \]
 ++++
 +
