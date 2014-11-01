@@ -725,7 +725,7 @@ Resolvamos as seguintes inequações:
 
 .. latexmath:[$(x-1)^4(x+2)(x+4)\leq 0$]
 Solução::
-Resolvendo a equação latexmath:[$(x-1)^4(x+2)(x+4)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item(i), latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
+Resolvendo a equação latexmath:[$(x-1)^4(x+2)(x+4)=0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item(i), latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
@@ -737,8 +737,7 @@ Em outras palavras,
 C.S.=[-4,-2].
 \]
 ++++ 
-====
-////
+
 .. latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0$]
 Solução::
 Desde que:
@@ -754,6 +753,8 @@ x^2+16=0\quad\mbox{e}\quad x^4+1=0\quad \mbox{não tem raízes em}\quad \mathbb{
 ++++
 +
 Logo, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]
+====
+////
 +
 Assim, latexmath:[$(x^2-3)^5(x^2+16)(x^2-16)(x^4+1)> 0$ $\,\,\,\Leftrightarrow\,\,\,$ $(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)> 0$]. Logo, resolvendo a equação latexmath:[$(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$], temos que latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
