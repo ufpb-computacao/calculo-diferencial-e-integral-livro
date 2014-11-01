@@ -1262,11 +1262,11 @@ e pelo item(iii) de {\bf Inequações Irracionais} temos que
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0 implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do caso I, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
+Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do caso I, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
 
-Solução:: Aplicando o item iii do *Caso V*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[6\]{81-x^2}$ e $R(x)=x-4$], temos que:
+Solução:: Desde que  latexmath:[$n=6$] é um número par, podemos aplicar Aplicando o item iii do *Caso V*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[6\]{81-x^2}$ e $R(x)=x-4$], temos que:
 +
 [latexmath]
 ++++
