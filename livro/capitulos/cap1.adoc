@@ -1093,12 +1093,12 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \]
 \[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
-\]
+\]\[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
 ++++
 +
-O que implica em:
+Logo,
 +
 --
 * latexmath:[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)$];
@@ -1116,6 +1116,7 @@ Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
 ++++
 +
 Portanto, latexmath:[$C.S.=(-\infty, -1\]\cup[2, 3)$].
+
 
 
 ..  latexmath:[$\sqrt{x-8}\leq 0$]
