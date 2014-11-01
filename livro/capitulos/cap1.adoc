@@ -1101,17 +1101,17 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 O que implica em:
 +
 --
-* latexmath[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)$];
-* latexmath[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5]$];
-* latexmath[$9x<27\quad \Leftrightarrow \quad  x \in (-\infty,3) $];
+* latexmath:[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1]\cup[2,+\infty)$];
+* latexmath:[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5]$];
+* latexmath:[$9x<27\quad \Leftrightarrow \quad  x \in (-\infty,3) $];
 --
 +
-Assim, $x$ pertence à interceção destes intervalos, isto é
+Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
 +
 [latexmath]
 ++++
 \[
-  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 3)
+  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 3).
 \]
 ++++
 +
@@ -1145,7 +1145,7 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \sqrt{x+5}< 0\quad \Leftrightarrow \quad x+5 \geq 0 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x+5< 0^2=0
 \]
 \[
-\quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x\leq -5 \quad \Leftrightarrow \quad  \emptyset.
+\quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5 \quad \Leftrightarrow \quad  \emptyset.
 \]
 ++++
 +
