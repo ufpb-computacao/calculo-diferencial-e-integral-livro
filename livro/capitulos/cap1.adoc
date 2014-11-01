@@ -598,6 +598,7 @@ latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$
 +
 [latexmath]
 +++++
+\[
 r_1=\dfrac{-(-3)-\sqrt{\Delta}}{2(1)}=\dfrac{3-\sqrt{25}}{2}=\dfrac{-2}{2}=-1\quad \mbox{e}\quad r_2=\dfrac{-(-3)+\sqrt{\Delta}}{2(1)}=\dfrac{3+\sqrt{25}}{2}=\dfrac{8}{2}=4.
 \]
 ++++ 
@@ -618,7 +619,6 @@ latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$
  latexmath:[$x^2-3x+\dfrac{9}{4}<4+\dfrac{9}{4}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$\left(x-\dfrac{3}{2}\right)^2<\dfrac{25}{4}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$\left(x-\dfrac{3}{2}\right)^2-\left(\dfrac{5}{2}\right)^2<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$\left(x-\dfrac{3}{2}-\dfrac{5}{2}\right)\left(x-\dfrac{3}{2}+\dfrac{5}{2}\right)<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$\left(x-\dfrac{8}{2}\right)\left(x+\dfrac{2}{2}\right)<0$]latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$\left(x-4\right)\left(x+1\right)<0$]. Assim, trabalhando de forma analoga ao Método 1 acima, 
  temos que  latexmath:[$\left(x-4\right)\left(x+1\right)<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x \in (-1,4)$]. 
 
-
 Método 3 (Encontrando o quadro de sinais):::
 latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x^2-3x-4<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(x+1)(x-4)<0$]. 
 Os valores de latexmath:[$x$] para os que latexmath:[$(x+1)(x-4)=0$] são latexmath:[$x=-1$] e latexmath:[$x=4$] (raízes de cada fator). Logo,
@@ -634,7 +634,7 @@ Portanto, latexmath:[$C.\,\,S.=(-1,4)$].
 
 .. latexmath:[$x^2+1<0$]
 
-Solução::  latexmath:[$x^2-1<0$]. Logo, temos que as raízes de latexmath:[$x^2+1=0$] são latexmath:[$x=\dfrac{-(0)\pm\sqrt{\Delta}}{2(1)}=\pm\dfrac{\sqrt{\Delta}}{2}$], com latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Desde que, latexmath:[$\Delta=<0$], então a equação latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$]. Assim, Aplicando o  item ii do *Caso III*, temos que latexmath:[$C.\,\,S.= \emptyset$].
+Solução:: Para latexmath:[$x^2-1<0$] temos que latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Então, do *Caso III* item(ii), se segue que latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$] . Assim, Aplicando o  item ii do *Caso III*, temos que latexmath:[$C.\,\,S.= \emptyset$].
 
 .. latexmath:[$4x^2-x-3\geq 0$].
 Solução::
