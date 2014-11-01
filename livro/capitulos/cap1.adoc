@@ -1030,8 +1030,8 @@ Caso I:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \equiv \quad$] latexmath:[$\left( P(x)\geq 0\quad \mbox{e}\quad Q(x)\leq 0\right)\quad \mbox{ou}\quad \left(  P(x)\geq 0\quad \mbox{e}\quad P(x)>Q^2(x)\right)$]; 
-... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x) \geq Q^2(x))$]; 
+... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \equiv \quad$] latexmath:[$\Big( P(x)\geq 0\quad \mbox{e}\quad Q(x)\leq 0\Big)\quad \mbox{ou}\quad \Big(  P(x)\geq 0\quad \mbox{e}\quad P(x)>Q^2(x)\Big)$]; 
+... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$\Big( P(x)\geq 0\quad \mbox{e}\quad Q(x)\leq 0\Big)\quad \mbox{ou}\quad \Big(  P(x)\geq 0\quad \mbox{e}\quad P(x)\geq Q^2(x)\Big)$];
 
 ... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)> 0$] e latexmath:[$ P(x)<Q^2(x)$]; 
 ... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)\geq 0$] e latexmath:[$P(x) \leq Q^2(x)$].
