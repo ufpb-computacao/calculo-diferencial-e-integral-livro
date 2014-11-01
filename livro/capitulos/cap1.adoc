@@ -709,7 +709,7 @@ Logo,
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= [r_1,r_2\]\cup \dots\cup [r_{n-1},r_n\]$];
 .. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.=(-\infty, r_1\]\cup \dots\cup [r_{n-1},r_n\]$];
 --
-////
+
 Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou igual que $2$]. Então: 
 
 ... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
@@ -718,7 +718,7 @@ Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou
 ... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
 
 Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]. Em outras palavras, o latexmath:[$C.\,\,S.$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
-
+////
 .{zwsp}
 ====
 Resolvamos as seguintes inequações:
