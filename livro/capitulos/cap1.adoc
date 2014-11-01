@@ -750,6 +750,7 @@ x^2+16=0\quad\mbox{e}\quad x^4+1=0\quad \mbox{não tem raízes em}\quad \mathbb{
 ++++
 +
 temos que, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$] Além disso,
++
 [latexmath]
 ++++
 \[
