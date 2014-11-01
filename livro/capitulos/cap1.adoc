@@ -1023,7 +1023,7 @@ Caso I:: Para as inequações da forma:
 [latexmath]
 ++++
 \[
-\sqrt{P(x)}>Q(x), \quad \sqrt{P(x)}\geq Q(x),\quad\sqrt{P(x)}<Q(x)\quad \mbox{e}\quad  \sqrt{P(x)}\leq Q(x)
+\sqrt{P(x)}>Q(x), \quad \sqrt{P(x)}\geq Q(x),\quad\sqrt{P(x)}<Q(x)\quad \mbox{e}\quad  \sqrt{P(x)}\leq Q(x).
 \]
 ++++
 +
@@ -1033,8 +1033,8 @@ Temos as seguintes equivalências:
 ... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \equiv \quad$] latexmath:[$\Big( P(x)\geq 0\quad \mbox{e}\quad Q(x)\leq 0\Big)\quad \mbox{ou}\quad \Big(  P(x)\geq 0\quad \mbox{e}\quad P(x)>Q^2(x)\Big)$]; 
 ... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$\Big( P(x)\geq 0\quad \mbox{e}\quad Q(x)\leq 0\Big)\quad \mbox{ou}\quad \Big(  P(x)\geq 0\quad \mbox{e}\quad P(x)\geq Q^2(x)\Big)$];
 
-... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)> 0$] e latexmath:[$ P(x)<Q^2(x)$]; 
-... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)\geq 0$] e latexmath:[$P(x) \leq Q^2(x)$].
+... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad \mbox{e}\quad Q(x)> 0\quad \mbox{e}\quad  P(x)<Q^2(x)$]; 
+... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad \mbox{e}\quad Q(x)\geq 0\quad \mbox{e}\quad P(x) \leq Q^2(x)$].
 --
 
 Caso II:: Para as inequações da forma:
@@ -1043,20 +1043,20 @@ Caso II:: Para as inequações da forma:
 ++++
 \[
 \sqrt{P(x)}+ \sqrt{Q(x)}>0, \quad \sqrt{P(x)}+ \sqrt{Q(x)}\geq 0,\quad\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k,\quad k>0,\]
-\[ \sqrt{P(x)}+ \sqrt{Q(x)}< 0\quad \mbox{e}\quad \sqrt{P(x)}+ \sqrt{Q(x)}\leq 0
+\[ \sqrt{P(x)}+ \sqrt{Q(x)}< 0\quad \mbox{e}\quad \sqrt{P(x)}+ \sqrt{Q(x)}\leq 0.
 \]
 ++++
 +
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$(P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)> 0)$]  ou latexmath:[$(P(x)> 0\,\,\mbox{e}\,\,  Q(x)\geq 0)$];
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$\Big(P(x)\geq 0\quad\mbox{e}\quad Q(x)> 0\Big)\quad \mbox{ou}\quad \Big(P(x)> 0\quad\mbox{e}\quad Q(x)\geq 0\Big)$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0$];
 
-... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0 \,\,\mbox{e}\,\, P(x)\geq (k\mp\sqrt{Q(x)})^2$];
+... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0 \quad\mbox{e}\quad P(x)\geq (k\mp\sqrt{Q(x)})^2$];
 
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$C.S.=\emptyset$];
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)= 0\,\,\mbox{e}\,\,  Q(x)= 0$].
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)= 0\quad\mbox{e}\quad Q(x)= 0$].
 --
 
 Caso III:: Para as inequações da forma:
@@ -1071,8 +1071,8 @@ Caso III:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
 --
 
 
