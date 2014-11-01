@@ -654,9 +654,10 @@ Portanto, aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], latex
 ============================
 
 
-
+////
 ===== Inequações Polinomiais
 Seja o polinômio de grau latexmath:[$n$]:
+
 [latexmath]
 ++++
 \[
@@ -766,6 +767,7 @@ C.S.=(-\infty, -4)\cup (-\sqrt{3},\sqrt{3})\cup (4,+\infty).
 \]
 ++++ 
 ====
+////
 
 ////
 ===== Inequação Racional
