@@ -1148,7 +1148,7 @@ Caso IV:: Para as inequações da forma:
 [latexmath]
 ++++
 \[
-\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 ,\quad\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0\quad \mbox{e}\quad \sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}.
+\dfrac{P(x)\sqrt[n]{Q(x)}}{R(x)}\geq 0 ,\quad\dfrac{P(x)\sqrt[n]{Q(x)}}{R(x)}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\geq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)}.
 \]
 ++++
 +
@@ -1174,7 +1174,7 @@ Caso V:: Para as inequações da forma:
 [latexmath]
 ++++
 \[
-{P(x)\sqrt[n\]{Q(x)}}\geq 0 ,\quad{P(x)\sqrt[n\]{Q(x)}}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0\quad\sqrt[n\]{P(x)}\geq Q(x)\quad \mbox{e}\quad \sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}.
+{P(x)\sqrt[n]{Q(x)}}\geq 0 ,\quad{P(x)\sqrt[n]{Q(x)}}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\geq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0\quad\sqrt[n]{P(x)}\geq Q(x)\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)}.
 \]
 ++++
 +
@@ -1197,7 +1197,7 @@ com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 ... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad P(x)\leq   Q(x)$].
 --  
 
-////
+
 
 [NOTE]
 Se a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
