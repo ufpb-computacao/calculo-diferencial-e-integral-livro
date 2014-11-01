@@ -1112,7 +1112,7 @@ Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
 [latexmath]
 ++++
 \[
-  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) \quad \Leftrightarrow \quad x \in (-\infty, -1]\cup[2, 3).
+  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) = (-\infty, -1]\cup[2, 3).
 \]
 ++++
 +
@@ -1148,9 +1148,10 @@ Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
 [latexmath]
 ++++
 \[
-  x \in \Big( (-\infty, 8]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( [8,+\infty) \Big) \quad \Leftrightarrow \quad x \in \{8\}.
+  x \in \Big( (-\infty, 8]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( [8,+\infty) \Big)= \{8\}.
 \]
 ++++
++
 Portanto, latexmath:[$C.S.=\{8\}$].
 
 ..  latexmath:[$\sqrt{x+5}<0$]
@@ -1163,7 +1164,24 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \sqrt{x+5}< 0\quad \Leftrightarrow \quad x+5 \geq 0 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x+5< 0^2=0
 \]
 \[
-\quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5 \quad \Leftrightarrow \quad  \emptyset.
+\quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
+\]
+++++
++
+Logo,
++
+--
+* latexmath:[$x\geq -5\quad \Leftrightarrow \quad  x \in (-\infty, -5\]$];
+* latexmath:[$0\leq 0 \quad \Leftrightarrow \quad   x \in \mathbb{R}$];
+* latexmath:[$x<-5\quad \Leftrightarrow \quad  x \in (-5,+\infty) $];
+--
++
+Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
++
+[latexmath]
+++++
+\[
+  x \in \Big( (-\infty, -5]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( (-5,+\infty) \Big) =\emptyset
 \]
 ++++
 +
