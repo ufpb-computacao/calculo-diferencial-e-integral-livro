@@ -728,7 +728,7 @@ Fazendo latexmath:[$P(x)=(x-1)^4(x+2)(x+4)=0$, temos que as raízes de $P(x)=0$ 
 +
 image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
-Em outras palavras,  
+Portanto,  
 +
 [latexmath]
 ++++
@@ -760,11 +760,11 @@ Assim,
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]. Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
+Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
-Em outras palavras,  
+Portanto,    
 +
 [latexmath]
 ++++
@@ -1002,25 +1002,20 @@ Fazendo latexmath:[$P(x)={(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}$, temos que as 
 +
 image::images/{cap}/raizes_polinomio5.eps[scaledwidth="60%"]
 +
-Lembre que, pela nota acima, $ x+2\neq0$ implica que o intervalos que tenham $r_1=-2$ devem ser abertos neste extremo. Portanto, latexmath:[$C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
+Lembre que, pela nota acima, latexmath:[$x+2\neq0$ implica que o intervalos que tenham $r_1=-2$ devem ser abertos neste extremo. Portanto, $C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
 ====
 
 
 
 ===== Inequações Irracionais
-
-As inequações irracionais numa variável são da forma:
+Sejam os polinômios:
 [latexmath]
 ++++
 \[
-F(x,P(x),\sqrt{Q(x)},\sqrt[3]{R(x)},\dots,\sqrt[n]{W(x)})>0\quad \mbox{ou}\quad F(x,P(x),\sqrt{Q(x)},\sqrt[3]{R(x)},\dots,\sqrt[n]{W(x)})<0\quad \mbox{ou}
-\]
-\[
-F(x,P(x),\sqrt{Q(x)},\sqrt[3]{R(x)},\dots,\sqrt[n]{W(x)})\geq 0\quad \mbox{ou}\quad F(x,P(x),\sqrt{Q(x)},\sqrt[3]{R(x)},\dots,\sqrt[n]{W(x)})\leq 0,
+P(x)=a_nx^n+\dots + a_1x+a_0, \quad Q(x)=b_mx^m+\dots + b_1x+b_0,\quad\mbox{e}\quad R(x)=c_lx^l+\dots + c_1x+c_0
 \]
 ++++
-onde latexmath:[$P(x),\,\,Q(x),\dots,W(x)$] são polinômios. 
-
+onde latexmath:[$a_0,\,\,a_1,\dots,a_n, b_0,\,\,b_1,\dots,b_m, c_0,\,\,c_1,\dots,c_l$] são contantes, latexmath:[$a_n> 0$, $b_m>0$ e $c_l>0$], latexmath:[$n$, $m$ e $l \in \mathbb{N}$]. Então, as inequações irracionais, numa variável, são da forma:
 Casos Particulares:: latexmath:[$\,$]
 
 Caso I::: Para as inequações da forma:
