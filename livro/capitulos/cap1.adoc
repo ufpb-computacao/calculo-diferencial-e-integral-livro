@@ -1097,20 +1097,14 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \[
 \quad \Leftrightarrow \quad (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
 \]
-++++
-+
 Logo,
-+
---
-* latexmath:[$(x-2)(x+1)\geq 0\quad \Leftrightarrow \quad  x \in (-\infty, -1\]\cup[2,+\infty)$];
-* latexmath:[$5 \geq x\quad \Leftrightarrow \quad   x \in (-\infty, 5\]$];
-* latexmath:[$9x<27\quad \Leftrightarrow \quad  x \in (-\infty,3) $];
---
-+
-Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
-+
-[latexmath]
-++++
+\[\begin{array}{lcr}
+(x-2)(x+1)\geq 0&\Leftrightarrow&  x \in (-\infty, -1]\cup[2,+\infty);\\
+5 \geq x&\quad \Leftrightarrow \quad&   x \in (-\infty, 5];\\
+9x<27&\quad \Leftrightarrow \quad & x \in (-\infty,3).
+\end{array}
+\]
+Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
   x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) = (-\infty, -1]\cup[2, 3).
 \]
@@ -1198,7 +1192,7 @@ Caso IV:: Para as inequações da forma:
 ++++
 \[
 \dfrac{P(x)\sqrt[n]{Q(x)}}{R(x)}\geq 0 ,\quad\dfrac{P(x)\sqrt[n]{Q(x)}}{R(x)}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\geq 0 ,\]
-\[\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)}.
+\[\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)},
 \]
 ++++
 +
@@ -1226,7 +1220,7 @@ Caso V:: Para as inequações da forma:
 ++++
 \[
 {P(x)\sqrt[n]{Q(x)}}\geq 0 ,\quad{P(x)\sqrt[n]{Q(x)}}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\geq 0 ,\]
-\[\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0,\quad\sqrt[n]{P(x)}\geq Q(x)\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)}.
+\[\dfrac{P(x)}{R(x)\sqrt[n]{Q(x)}}\leq 0,\quad\sqrt[n]{P(x)}\geq Q(x)\quad \mbox{e}\quad \sqrt[n]{P(x)}\leq \sqrt[n]{Q(x)},
 \]
 ++++
 +
