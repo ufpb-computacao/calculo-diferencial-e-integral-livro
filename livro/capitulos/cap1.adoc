@@ -868,7 +868,7 @@ Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não 
 \]
 ++++
 +
-Então, as raízes dos fatores são latexmath:[$r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e 
+Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$ as raízes dos fatores são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e 
 latexmath:[$r_4=1$]. Pela nota acima latexmath:[$(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2=-1$, $r_3=0$ e $r_4=1$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
@@ -978,7 +978,7 @@ Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[
 ++++
 \[
  (0,3)^{\frac{(3x+2)(x+1)}{x+2}}\geq (0,3)^{2x+5}
-\quad \Leftrightarrow \quad \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5} 
+\quad \Leftrightarrow \quad \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5} .
 \]
 Assim, agora precisamos determinar o $C.\,S.$ de $ \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5}$. Desde que
 \[
@@ -987,24 +987,24 @@ Assim, agora precisamos determinar o $C.\,S.$ de $ \dfrac{(3x+2)(x+1)}{x+2}\leq 
 \[
 \quad \Leftrightarrow \quad \dfrac{(3x+2)(x+1)-(2x+5)(x+2)}{x+2}\leq  0
 \quad \Leftrightarrow 
-\dfrac{x^2-4x-8}{x+2}\leq  0\]
+\dfrac{x^2-4x-8}{x+2}\leq  0.\]
 Como $x^2-4x-8=(x-2-2\sqrt{3})(x-2+2\sqrt{3})$, então
 \[\dfrac{x^2-4x-8}{x+2}\leq  0\quad \Leftrightarrow \quad 
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
 \]
-Pelo item(iv) de *Inequações Racionais*
+Pelo item(iv) de {\bf Inequações Racionais} temos que
 \[
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
 \quad \Leftrightarrow 
-{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}\leq  0, \quad \mbox{com }\quad x\neq -2.
+{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}\leq  0 \quad \mbox{e }\quad x+2\neq0.
 \]
 ++++
 +
-Como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(b) do *Caso I*. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
+Fazendo latexmath:[$P(x)={(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}$, temos que as raízes de $P(x)= 0$  são $r_1=-2$, $r_2=2-2\sqrt{3}$, $r_3=2+2\sqrt{3}$. Como a inequação é da forma $P(x)\leq 0$], podemos aplicar o item iv(b) do *Caso I*. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio5.eps[scaledwidth="60%"]
 +
-Logo, latexmath:[$C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
+Lembre que, pela nota acima, $ x+2\neq0$ implica que o intervalos que tenham $r_1=-2$ devem ser abertos neste extremo. Portanto, latexmath:[$C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
 ====
 
 
