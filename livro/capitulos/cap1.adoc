@@ -1127,20 +1127,14 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 \[
 \quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
 \]
-++++
-+
 Logo,
-+
---
-* latexmath:[$x\geq 8\quad \Leftrightarrow \quad  x \in (-\infty, 8\]$];
-* latexmath:[$0\leq 0 \quad \Leftrightarrow \quad   x \in \mathbb{R}$];
-* latexmath:[$x\leq 8\quad \Leftrightarrow \quad  x \in [8,+\infty) $];
---
-+
-Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
-+
-[latexmath]
-++++
+\[\begin{array}{lcr}
+x\geq 8&\Leftrightarrow&  x \in (-\infty, 8];\\
+0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
+x\leq 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
+\end{array}
+\]
+Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
   x \in \Big( (-\infty, 8]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( [8,+\infty) \Big)= \{8\}.
 \]
@@ -1160,20 +1154,14 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 \[
 \quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
 \]
-++++
-+
 Logo,
-+
---
-* latexmath:[$x\geq -5\quad \Leftrightarrow \quad  x \in (-\infty, -5\]$];
-* latexmath:[$0\leq 0 \quad \Leftrightarrow \quad   x \in \mathbb{R}$];
-* latexmath:[$x<-5\quad \Leftrightarrow \quad  x \in (-5,+\infty) $];
---
-+
-Assim, latexmath:[$x$] pertence à interceção destes intervalos, isto é
-+
-[latexmath]
-++++
+\[\begin{array}{lcr}
+x\geq -5&\Leftrightarrow&  x \in (-\infty, -5];\\
+0\leq 0&\quad \Leftrightarrow \quad&   x \in \mathbb{R};\\
+x<-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
+\end{array}
+\]
+Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
   x \in \Big( (-\infty, -5]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( (-5,+\infty) \Big) =\emptyset
 \]
