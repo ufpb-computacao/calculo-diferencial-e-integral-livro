@@ -1030,11 +1030,11 @@ Caso I:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \Leftrightarrow\quad$] latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x)>Q^2(x))$]; 
-... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x) \geq Q^2(x))$]; 
+... latexmath:[$\sqrt{P(x)}>Q(x)$] latexmath:[$ \quad \equiv \quad$] latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x)>Q^2(x))$]; 
+... latexmath:[$\sqrt{P(x)}\geq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$(Q(x)\leq 0\,\,\mbox{ou}\,\,  P(x) \geq Q^2(x))$]; 
 
-... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)> 0$] e latexmath:[$ P(x)<Q^2(x)$]; 
-... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)\geq 0$] e latexmath:[$P(x) \leq Q^2(x)$].
+... latexmath:[$\sqrt{P(x)}<Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)> 0$] e latexmath:[$ P(x)<Q^2(x)$]; 
+... latexmath:[$\sqrt{P(x)}\leq Q(x)$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0$] e  latexmath:[$Q(x)\geq 0$] e latexmath:[$P(x) \leq Q^2(x)$].
 --
 
 Caso II:: Para as inequações da forma:
@@ -1050,20 +1050,30 @@ Caso II:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$(P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)> 0)$]  ou latexmath:[$(P(x)> 0\,\,\mbox{e}\,\,  Q(x)\geq 0)$];
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$(P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)> 0)$]  ou latexmath:[$(P(x)> 0\,\,\mbox{e}\,\,  Q(x)\geq 0)$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$];
 
-... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0 \,\,\mbox{e}\,\, P(x)\geq (k\mp\sqrt{Q(x)})^2$];
+... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0 \,\,\mbox{e}\,\, P(x)\geq (k\mp\sqrt{Q(x)})^2$];
 
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$C.S.=\emptyset$];
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)= 0\,\,\mbox{e}\,\,  Q(x)= 0$].
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$C.S.=\emptyset$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)= 0\,\,\mbox{e}\,\,  Q(x)= 0$].
 --
 
 Caso III:: Para as inequações da forma:
-
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
-... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow\quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
-
++
+[latexmath]
+++++
+\[
+\sqrt{P(x)}- \sqrt{Q(x)}>0\quad \mbox{e}\quad  \sqrt{P(x)}- \sqrt{Q(x)}\geq 0
+\]
+++++
++
+Temos as seguintes equivalências:
++
+--
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}>0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq  0$]  e latexmath:[$P(x)>  Q(x)$];
+... latexmath:[$\sqrt{P(x)}- \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\,\,\mbox{e}\,\,  Q(x)\geq 0$]   e latexmath:[$P(x)\geq   Q(x)$].
+--
 
 
 .{zwsp}
@@ -1132,35 +1142,47 @@ Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\
 ====
 
 
-Caso IV:: Se latexmath:[$n\geq 1$] é ímpar
-...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 $] latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\geq 0 $];
+Caso IV:: Para as inequações da forma:
++
+[latexmath]
+++++
+\[
+\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 ,\quad\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\leq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0 ,\quad\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0\quad \mbox{e}\quad \sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}.
+\]
+++++
++
+com latexmath:[$n\geq 1$] e ímpar. Temos as seguintes equivalências:
++
+--
+...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\geq 0 $] latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\geq 0 $];
 
-...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\leq 0 $]latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\leq 0 $];
+...  latexmath:[$\dfrac{P(x)\sqrt[n\]{Q(x)}}{R(x)}\leq 0 $]latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$\dfrac{P(x){Q(x)}}{R(x)}\leq 0 $];
 
-...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0 $]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$\dfrac{P(x)}{R(x){Q(x)}}\geq 0 $];
+...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0 $]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x){Q(x)}}\geq 0 $];
 
-...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0 $]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$\dfrac{P(x)}{R(x){Q(x)}}\leq 0 $];
+...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0 $]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x){Q(x)}}\leq 0 $];
 
-... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\leq   Q(x)$].  
+... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\leq   Q(x)$].  
+--
 
 [NOTE]
 Se  a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
 
 Caso V:: Se latexmath:[$n>0$] é par
 
-...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$P(x)\geq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
+...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$P(x)\geq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
 
-...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$] latexmath:[$P(x)\leq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
+...  latexmath:[${P(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$] latexmath:[$P(x)\leq 0 \quad \mbox{e}  \quad {Q(x)}\geq 0$];
 
-...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$Q(x)>0 \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\geq 0$];
+...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q(x)>0 \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\geq 0$];
 
-...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$Q(x)>0 \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0$];
+...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q(x)>0 \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0$];
 
-...  latexmath:[$\sqrt[n\]{P(x)}\geq Q(x)$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad (Q(x)\leq 0 \quad \mbox{ou} \quad  P(x)\geq Q^n(x))$];
+...  latexmath:[$\sqrt[n\]{P(x)}\geq Q(x)$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad (Q(x)\leq 0 \quad \mbox{ou} \quad  P(x)\geq Q^n(x))$];
 
-... latexmath:[$\sqrt[n\]{P(x)}\leq Q(x)$]latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad  P(x)\leq Q^n(x)$];
+... latexmath:[$\sqrt[n\]{P(x)}\leq Q(x)$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad  P(x)\leq Q^n(x)$];
 
-... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\Leftrightarrow \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad P(x)\leq   Q(x)$].  
+... latexmath:[$\sqrt[n\]{P(x)}\leq \sqrt[n\]{Q(x)}$] latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad P(x)\leq   Q(x)$].  
 
 [NOTE]
 Se a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
