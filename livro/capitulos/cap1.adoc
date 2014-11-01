@@ -1168,7 +1168,7 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 ++++
 +
 Portanto, latexmath:[$C.S.=\emptyset$]. +
-Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\emptyset$], pois  latexmath:[$\sqrt{x+5}\geq 0$] da definição da raiz quadrada, logo, latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
+Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\emptyset$], pois  latexmath:[$\sqrt{x+5}\geq 0$], pela definição da raiz quadrada, logo, latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
 
 
 ====
@@ -1223,7 +1223,7 @@ com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 
 ...  latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n\]{Q(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q(x)>0 \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0$];
 
-...  latexmath:[$\sqrt[n\]{P(x)}\geq Q(x)$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad (Q(x)\leq 0 \quad \mbox{ou} \quad  P(x)\geq Q^n(x))$];
+...  latexmath:[$\sqrt[n\]{P(x)}\geq Q(x)$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\Big(P(x)\geq 0 \quad \mbox{e} \quad Q(x)\leq 0 \Big)\quad \mbox{ou} \quad  \Big(P(x)\geq 0 \quad \mbox{e}\quad P(x)\geq Q^n(x)\Big)$];
 
 ... latexmath:[$\sqrt[n\]{P(x)}\leq Q(x)$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$P(x)\geq 0 \quad \mbox{e} \quad Q(x)\geq 0 \quad \mbox{e} \quad  P(x)\leq Q^n(x)$];
 
@@ -1236,11 +1236,13 @@ com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 Se a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
 
 
-.Resolvamos as seguintes inequações
+.{zwsp}
 ====
+Resolvamos as seguintes inequações:
+
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[7\]{81-x^2}}\leq 0$]
 
-Solução:: Aplicando o item ii do *Caso IV*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[7\]{81-x^2}$ e $R(x)=x-4$], temos que:
+Solução:: Desde que  latexmath:[$n=7$], é um número impar, podemos aplicar o item ii do *Caso IV*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[7\]{81-x^2}$ e $R(x)=x-4$], temos que:
 +
 [latexmath]
 ++++
