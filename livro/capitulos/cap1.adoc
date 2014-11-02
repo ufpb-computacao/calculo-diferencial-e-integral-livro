@@ -1324,7 +1324,14 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 \]
 ++++
 
-.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_k(x)>0,   \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0$].
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0 \quad \,\equiv $]
++
+[latexmath]
+++++
+\[
+Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \quad Q_k(x)>0    \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0.
+\]
+++++
 --
 
 ... Se latexmath:[$n_i\geq 1$ e impar, para todo $i=1,\dots,k$]. Temos as seguintes equivalências:
@@ -1335,12 +1342,26 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 .. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x)Q_1(x)Q_2(x)\dots Q_k(x)}\leq 0$].
 --
 
-... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$] e latexmath:[$n_i\geq 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
+... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$], e latexmath:[$n_i\geq 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
 +
 --
-.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_l(x)>0,   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\geq 0$];
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\geq 0\quad \,\equiv$]
++
+[latexmath]
+++++
+\[
+Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \quad Q_k(x)>0   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\geq 0;
+\]
+++++
 
-.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_l(x)>0,   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\leq 0$].
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0 \quad \,\equiv $]
++
+[latexmath]
+++++
+\[
+Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \quad Q_k(x)>0  \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\leq 0.
+\]
+++++
 --
 --
 
