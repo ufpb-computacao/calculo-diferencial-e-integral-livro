@@ -1301,6 +1301,7 @@ Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$].
 
 ====
 
+
 Caso VI:: Para as inequações da forma:
 +
 [latexmath]
@@ -1334,7 +1335,7 @@ Caso VI:: Para as inequações da forma:
 
 .. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_l(x)>0,   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\leq 0$].
 --
-
+--
 
 [NOTE]
 ====
@@ -1348,13 +1349,14 @@ Caso os latexmath:[$n_i$'s dos $l$] primeiros radicais, não sejam pares, reoden
 de tal forma que que isto seja verdadeiro.
 ====
 
+
 .{zwsp}
 ====
 Resolvamos as seguintes inequações:
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[4\]{x^2-4}\sqrt{x-1}\sqrt[6\]{x+3}}\leq 0$]
 
-Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos pares, podemos aplicar o item i() do *Caso IV*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[7\]{81-x^2}$ e $R(x)=x-4$]. Assim, temos que:
+Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos pares, podemos aplicar o item i(b) do *Caso VI*, para latexmath:[$P(x)=x+5$, $Q_1(x)=\sqrt[4\]{x^2-4}$, $Q_2(x)=\sqrt{x-1}$, $Q_3(x)=\sqrt[6\]{x+3}$ e $R(x)=x-4$]. Assim, temos que:
 +
 [latexmath]
 ++++
