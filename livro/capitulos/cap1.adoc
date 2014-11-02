@@ -1571,7 +1571,11 @@ Resolvamos as seguintes equações com valor absoluto:
 Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], temos que:
 +
 --
-latexmath:[$|3x-5|=4  \quad \,\Leftrightarrow \quad \, 3x-5=4\quad \mbox{ou}\quad 3x-5=-4  \quad \,\Leftrightarrow \quad \, x=3\quad \mbox{ou}\quad x=\dfrac{1}{3}$].
+[latexmath]
+++++
+\[|3x-5|=4  \quad \,\Leftrightarrow \quad \, 3x-5=4\quad \mbox{ou}\quad 3x-5=-4  \quad \,\Leftrightarrow \quad \, x=3\quad \mbox{ou}\quad x=\dfrac{1}{3}.
+\]
+++++
 
 Portanto,  latexmath:[$\frac{1}{3}$] e latexmath:[$3$] são raízes de latexmath:[$|3x-5|=4$].
 --
@@ -1580,17 +1584,33 @@ Portanto,  latexmath:[$\frac{1}{3}$] e latexmath:[$3$] são raízes de latexmath
 Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$], temos que:
 +
 --
-latexmath:[$||7-4x|-3|=9$] latexmath:[$ \quad \,\Leftrightarrow \quad \,$]  latexmath:[$|7-4x|-3 =9\quad \mbox{ou}\quad |7-4x|-3=-9$] 
-
-latexmath:[$\Leftrightarrow \quad \,$] latexmath:[$|7-4x| =12\quad \mbox{ou}\quad |7-4x|=-6$].
+[latexmath]
+++++
+\[
+||7-4x|-3|=9 \quad \,\Leftrightarrow \quad \,|7-4x|-3 =9\quad \mbox{ou}\quad |7-4x|-3=-9
+\]
+\[
+\Leftrightarrow \quad |7-4x| =12\quad \mbox{ou}\quad |7-4x|=-6.
+\]
+++++
 
 Porém pelo item(i) do *Teorema 1.4* , latexmath:[$|7-4x|\geq 0$], assim  e latexmath:[$|7-4x|=-6<0$], é uma igualdade impossível, isto é, latexmath:[$|7-4x|=-6$] não tem raízes. Então, só devemos analisar latexmath:[$|7-4x| =12$]. 
 
 Novamente, pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], temos que:
 
-latexmath:[$|7-4x| =12$] latexmath:[$ \quad \,\Leftrightarrow \quad \,$]  latexmath:[$7-4x =12\quad \mbox{ou}\quad 7-4x=-12$] 
-latexmath:[$ \Leftrightarrow \quad \,$]  latexmath:[$7-12=4x\quad \mbox{ou}\quad 7+12=4x$]  latexmath:[$ \Leftrightarrow \quad \,$]  latexmath:[$-5=4x\quad \mbox{ou}\quad 19=4x$] 
-latexmath:[$\Leftrightarrow \quad \,$] latexmath:[$x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}$]. 
+[latexmath]
+++++
+\[
+|7-4x| =12 \quad \Leftrightarrow \quad 7-4x =12\quad \mbox{ou}\quad 7-4x=-12
+\]
+\[
+\Leftrightarrow \quad 7-12=4x\quad \mbox{ou}\quad 7+12=4x
+\quad \Leftrightarrow \quad-5=4x\quad \mbox{ou}\quad 19=4x
+\] 
+\[
+\Leftrightarrow \quad x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}.
+\]
+++++ 
 
 Portanto, latexmath:[$-\frac{5}{4}$] e latexmath:[$\frac{19}{4}$] são raízes de latexmath:[$||7-4x|-3|=9$]. 
 --
