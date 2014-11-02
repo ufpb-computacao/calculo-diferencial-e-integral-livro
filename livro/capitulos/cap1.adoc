@@ -1749,6 +1749,8 @@ Portanto, latexmath:[$C. S.=(0,+\infty)$]
 
 
 Antes de começar a falar sobre os *limitantes* de um conjunto latexmath:[$A \subset \mathbb{R}$], vejamos alguns conjuntos importantes em latexmath:[$\mathbb{R}$]:
+
+////
 --
 * O *conjunto dos números naturais*, denotado por  latexmath:[$\mathbb{N}$], é o conjunto 
 +
@@ -1810,7 +1812,7 @@ Assim, verifica-se que:
 - latexmath:[$e=2,71828182\dots$]
 .. Uma propriedade importante dos números racionais e irracionais é que:
 - Entre dois números racionais existe um *número infinito* de números irracionais;
-- Entre dois números irracionais existe um *número finito* de números racionais.
+- Entre dois números irracionais existe um *número enumerável* de números racionais.
 ====
 
 Definição 1.10::
@@ -1838,12 +1840,12 @@ m\leq x,\quad \forall\, x \in A.
 +
 O número  latexmath:[$m$] é chamado de *limitante inferior* de  latexmath:[$A$].
 
-... latexmath:[$A$] é *limitado* se existe  latexmath:[$k >0$] tal que
+... latexmath:[$A$] é *limitado* se existe  latexmath:[$L >0$] tal que
 +
 [latexmath]
 ++++
 \[
-|x|\leq k,\quad \forall\, x \in A.
+|x|\leq L,\quad \forall\, x \in A.
 \]
 ++++
 +
@@ -1851,14 +1853,13 @@ Um conjunto é *limitado* se é limitado superiormente e inferiormente.
 
 .{zwsp}
 ====
-.. Os conjuntos latexmath:[$\mathbb{N}$]  e latexmath:[$(-1,+\infty)$] são limitados inferiormente 
-pelo limitante latexmath:[$-2$], por exemplo, porém não são limitados superiormente.
+.. Os conjuntos latexmath:[$\mathbb{N}$]  e latexmath:[$(-1,+\infty)$] são conjuntos limitados inferiormente, em particular latexmath:[$m=-1$], latexmath:[$m=-2$] são  limitantes inferiores. No entanto, estes conjuntos não limitados superiormente.
 
 .. Os conjuntos latexmath:[$(-\infty,4\]$] e latexmath:[-\mathbb{N}] são conjuntos 
-limitados superiormente pelo limitante superior latexmath:[$7$], por exemplo, porém não são limitados inferiormente.
+limitados superiormente, em particular latexmath:[$M=4$], latexmath:[$M=20$] são  limitantes superiores. No entanto, estes conjuntos não limitados inferiormente.
 
 .. Os conjuntos latexmath:[$\left\{\dfrac{2}{3z}:z\in\mathbb{Z}\setminus \{0\} \right\}$] e
- latexmath:[$\{x \in \mathbb{R}: 2x-x^2\geq -7\}$] são limitados por latexmath:[$4$].
+ latexmath:[$\{x \in \mathbb{R}: 2x-x^2\geq -7\}$] são conjuntos limitados, em particular por latexmath:[$4$].
 ====
 
 
@@ -1874,6 +1875,9 @@ x\leq s,\,\,\,\forall\,x\in A$].
 
 .. Se latexmath:[$b \in\mathbb{R}$] e latexmath:[$b<s$], então existe  latexmath:[$x\in A$] tal que latexmath:[$b<x\leq s$].
 --
++
+Em outras palavras, o supremo de um conjunto é o menor de seus limitantes superiores.
+
 ... latexmath:[$r\in \mathbb{R}$] é o *((ínfimo))* de latexmath:[$A$], denotado por latexmath:[${\rm Inf}(A)$] se:
 +
 --
@@ -1882,14 +1886,14 @@ r\leq x,\,\,\,\forall\,x\in A$].
 
 .. Se latexmath:[$c \in\mathbb{R}$] e latexmath:[$r<c$], então existe  latexmath:[$x\in A$] tal que latexmath:[$r\leq x<c$].
 --
++
+Em outras palavras, o ínfimo de um conjunto é o maior de seus limitantes inferiores. 
 --
 
 
 [NOTE]
 ====
-.. O supremo de um conjunto é o menor limitante superior, e o ínfimo é o maior limitante inferior. 
-
-.. Se o supremo e o ínfimo de um conjunto latexmath:[$A$] pertencem ao conjunto, esses elementos são chamados *máximo* de latexmath:[$A$], denotado por latexmath:[${\rm max}(A)$], e *mínimo* de latexmath:[$A$], denotado por latexmath:[${\rm min}(A)$], respectivamente.
+Se o supremo e o ínfimo de um conjunto latexmath:[$A$] pertencem ao conjunto, esses elementos são chamados *máximo* de latexmath:[$A$], denotado por latexmath:[${\rm max}(A)$], e *mínimo* de latexmath:[$A$], denotado por latexmath:[${\rm min}(A)$], respectivamente.
 
 ====
 
@@ -1910,11 +1914,11 @@ temos que:
 
 .. latexmath:[${\rm Inf}(C)=-20={\rm min}(C)$]. Porém, latexmath:[$C$] não é limitado superiormente, logo, não tem  supremo. Portanto, não é limitado.
 ====
-
+////
 O axioma a seguir completa os axiomas que definem o sistema dos números reais.
 
 Axioma 11 (Axioma do Supremo)::
-Todo subconjunto não vazio, limitado superiormente, latexmath:[$B\subset \mathbb{R}$] 
+Todo subconjunto latexmath:[$B\neq \emptyset$ de $\mathbb{R}$] e  limitado superiormente, 
 possui um supremo latexmath:[$s={\rm Sup}(B)\in \mathbb{R}$].
 
 
@@ -1924,11 +1928,13 @@ limitado inferiormente, então este possui ínfimo.
 
 Para finalizar, embora o *princípio da boa ordem* seja muito importante para essa teoria, ele será apenas enunciado. 
 
+O seguinte princípio é usado para demonstrar o Princípio da Indução Finita e 
+para provar várias propriedades referentes aos números inteiros.
+
 Teorema 1.7 (Princípio da boa ordem)::
 Todo subconjunto não vazio de latexmath:[$\mathbb{Z}$], limitado inferiormente, possui ínfimo.
  
-Este princípio é usado para demonstrar o Princípio da Indução Finita e 
-para provar várias propriedades referentes aos números inteiros.
+
 
 
 
@@ -1936,10 +1942,10 @@ para provar várias propriedades referentes aos números inteiros.
 === Recapitulando
 
 Neste capítulo, apresentamos as noções básicas sobre o conjunto dos *Números Reais* com o intuito de fazer com que o aluno tenha um melhor 
-entendimento dos próximos capítulos. 
+entendimento nos próximos capítulos. 
 
 Desta forma, apresentamos o *sistema dos números reais*, e nele os axiomas que regem a *adição* e *multiplicação*. Seguindo esse raciocínio, apresentamos 
-dois teoremas que mostram as propriedades da *substração* e *divisão*. 
+dois teoremas que mostram as principais propriedades da *substração* e *divisão*. 
 
 Desde que em matemática é importantíssimo entender qual é a *relação de ordem* entre dois elementos quaisquer, visando lidar com 
 desigualdades, intervalos, inequações, etc., esse conceito e suas principais propriedades foram revisadas. 
@@ -1949,7 +1955,7 @@ Nas seções subsequentes, trabalhamos os conceitos de *desigualdades*, *interva
 Por último, mas não menos importante, o *axioma do supremo* e o *princípio da boa ordem* foram apresentados, estabelecendo-se  
 os conceitos de conjuntos limitados inferiormente, superiormente, supremo, ínfimo, máximo e mínimo.
  
-No próximo capítulo, apresentaremos as noções básicas sobre relações e funções, já que esta teoria é fundamental para, por exemplo, 
+No próximo capítulo, apresentaremos as noções básicas sobre funções, já que esta teoria é fundamental para, por exemplo, 
 determinar com precisão o domínio e a imagem das funções reais.
  
 
