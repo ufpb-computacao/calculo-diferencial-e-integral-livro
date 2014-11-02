@@ -1284,15 +1284,15 @@ Assim,
 \quad \Leftrightarrow\quad   (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
 \]
 Logo,
-\[\begin{array}{rcrcr}
+\[\begin{array}{rcrcl}
 (x+9)(x-9)&<& 0&\quad\Leftrightarrow\quad&  x \in (-9,9);\\
 (x+5)(x-4) &\geq& 0&\quad\Leftrightarrow\quad&  x \in [-5,4];\\
-x-4&\neq& 0 0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
+x-4&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-9,9)\Big)\cap\Big( [-5,4] \Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9)
+  x \in \Big( (-9,9)\Big)\cap\Big( [-5,4] \Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
 \]
 ++++
 +
@@ -1301,9 +1301,52 @@ Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$].
 
 ====
 
+Caso VI:: Para as inequações da forma:
++
+[latexmath]
+++++
+\[
+\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\geq 0 \quad \mbox{e}\quad\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\leq 0
+\]
+++++
++
+--
+... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,k$]. Temos as seguintes equivalências:
++
+--
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_k(x)>0,   \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\geq 0$];
+
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_k(x)>0,   \quad \mbox{e} \quad \dfrac{P(x)}{R(x)}\leq 0$].
+--
+
+... Se latexmath:[$n_i\geq 1$ e impar, para todo $i=1,\dots,k$]. Temos as seguintes equivalências:
++
+--
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x)Q_1(x)Q_2(x)\dots Q_k(x)}\geq 0$];
+
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x)Q_1(x)Q_2(x)\dots Q_k(x)}\leq 0$].
+--
+
+... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$] e latexmath:[$n_i\geq 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
++
+--
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\geq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_l(x)>0,   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\geq 0$];
+
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1]{Q_1(x)}\sqrt[n_2]{Q_2(x)}\dots\sqrt[n_k]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\equiv  \quad \,$]latexmath:[$Q_1(x)>0,\quad Q_2(x)>0,\quad\dots Q_l(x)>0,   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\leq 0$].
+--
+
 
 [NOTE]
-Se temos latexmath:[$k$] radicais, cada um deles terá um conjunto solução relativo, então o conjunto solução da inequação toda será a interseção destes latexmath:[$k$] conjuntos soluções.
+====
+Caso os latexmath:[$n_i$'s dos $l$] primeiros radicais, não sejam pares, reodenamos os
+[latexmath]
+++++
+\[
+\sqrt[n_1]{Q_1(x)},\quad \sqrt[n_2]{Q_2(x)},\dots,\sqrt[n_k]{Q_k(x)}
+\]
+++++
+de tal forma que que isto seja verdadeiro.
+====
 
 
 === Valor absoluto 
