@@ -1445,43 +1445,42 @@ Fazendo $P(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $
 +
 Portanto, latexmath:[$C.S.= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)$].
 
-.. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[6\]{x^2-9}\sqrt[7\]{x-1}\sqrt[4\]{x-4}}\leq 0$]
+.. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[7\]{x^2-9}\sqrt[6\]{x-1}\sqrt[4\]{x-4}}\leq 0$]
 
 Solução:: Reescrevendo latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[6\]{x^2-9}\sqrt[7\]{x-1}\sqrt[4\]{x-4}}\leq 0$] como
 +
 [latexmath]
 ++++
 \[
-\dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0
+\dfrac{x^2-4}{(x-13)\sqrt[6]{x-1}\sqrt[4]{x-4}\sqrt[7]{x^2-9}}\leq 0
 \]
 ++++
 +
-temos que latexmath:[$n_1=6$, $n_2=4$ e $n_3=7$], ou podemos aplicar o item iii(b) do *Caso VI*, para latexmath:[$l=2$ e $k=3$ e  $P(x)=x^2-4$, $Q_1(x)=\sqrt[6\]{x^2-9}$, $Q_2(x)=\sqrt[4\]{x-4}$, $Q_3(x)=\sqrt[7\]{x-1} $ e $R(x)=x-13$]. Assim, temos que:
+temos que latexmath:[$n_1=6$, $n_2=4$ e $n_3=7$], ou podemos aplicar o item iii(b) do *Caso VI*, para latexmath:[$l=2$ e $k=3$ e  $P(x)=x^2-4$, $Q_1(x)=\sqrt[6\]{x-1}$, $Q_2(x)=\sqrt[4\]{x-4}$, $Q_3(x)=\sqrt[7\]{x^2-9} $ e $R(x)=x-13$]. Assim, temos que:
 +
 [latexmath]
 ++++
 \[
-\dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0\quad \Leftrightarrow\quad  x^2-9> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x-1)}\leq 0\]
+\dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0\quad \Leftrightarrow\quad  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0\]
 Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
 \[
-\dfrac{x^2-4}{(x-13)(x-1)}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)(x-1)} \leq 0\quad \mbox{e}\quad (x-13)(x-1)\neq 0.
+\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0.
 \]
 Assim, 
 \[
- x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0\quad \Leftrightarrow\]
+ x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0 \Leftrightarrow\]
 \[
-x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
+ x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad{(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0
 \]
 \[
-\Leftrightarrow\quad   (x+3)(x-3)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)} \leq 0\quad \mbox{e}\quad x\neq 13.
+\Leftrightarrow\quad   x>1\quad\mbox{e}\quad\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)(x+3)(x-3)} \leq 0\quad \mbox{e}\quad(x-13)(x+3)(x-3)\neq 0.
 \]
 Logo,
 \[\begin{array}{rcrcl}
-(x+3)(x-3)&>& 0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(3,+\infty);\\
 x &>& 1&\quad\Leftrightarrow\quad&  x \in (1,+\infty);\\
 x &>& 4&\quad\Leftrightarrow\quad&  x \in (4,+\infty);\\
-{(x-2)(x+2)}{(x-13)}&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-2]\cup[2,13];\\
-x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
+{(x-2)(x+2)}{(x-13)(x+3)(x-3)}&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3]\cup[-2,2]\cup[3,13];\\
+(x-13)(x+3)(x-3)&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(-3,3)\cup(3,13)\cup(13,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
@@ -1490,7 +1489,7 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(3,13)$].
+Portanto, latexmath:[$C.S.=(4,13)$].
 
 ====
 
