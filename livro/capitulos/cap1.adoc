@@ -1382,42 +1382,64 @@ de tal forma que que isto seja verdadeiro.
 ====
 Resolvamos as seguintes inequações:
 
-.. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[4\]{x^2-9}\sqrt{x-1}\sqrt[6\]{x+3}}\leq 0$]
+.. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[4\]{x^2-9}\sqrt{x-1}\sqrt[6\]{x-4}}\leq 0$]
 
-Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos pares, podemos aplicar o item i(b) do *Caso VI*, para latexmath:[$P(x)=x^2-4$, $Q_1(x)=\sqrt[4\]{x^2-9}$, $Q_2(x)=\sqrt{x-1}$, $Q_3(x)=\sqrt[6\]{x+3}$ e $R(x)=x-4$]. Assim, temos que:
+Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos pares, podemos aplicar o item i(b) do *Caso VI*, para latexmath:[$P(x)=x^2-4$, $Q_1(x)=\sqrt[4\]{x^2-9}$, $Q_2(x)=\sqrt{x-1}$, $Q_3(x)=\sqrt[6\]{x-4}$ e $R(x)=x-13$]. Assim, temos que:
 +
 [latexmath]
 ++++
 \[
-\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x+3}}\geq 0\quad \Leftrightarrow\quad  x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0\]
+\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x+4}}\geq 0\quad \Leftrightarrow\quad  x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0\]
 Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
 \[
 \dfrac{x^2-4}{x-13}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Assim, 
 \[
-x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
+x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
 \]
 \[
-\Leftrightarrow\quad   (x+3)(x-3)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>-3 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
+\Leftrightarrow\quad   (x+3)(x-3)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Logo,
 \[\begin{array}{rcrcl}
 (x+3)(x-3)&>& 0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(3,+\infty);\\
 x &>& 1&\quad\Leftrightarrow\quad&  x \in (1,+\infty);\\
-x &>& -3&\quad\Leftrightarrow\quad&  x \in (-3,+\infty);\\
+x &>& 4&\quad\Leftrightarrow\quad&  x \in (4,+\infty);\\
 {(x-2)(x+2)}{(x-13)}&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-2]\cup[2,13];\\
 x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (-3,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(3,13).
+  x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (4,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(4,13).
 \]
 ++++
 +
 Portanto, latexmath:[$C.S.=(3,13)$].
 
+.. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[3\]{x^2-9}\sqrt[9\]{x-1}\sqrt[5\]{x-4}}\leq 0$]
+
+Solução:: Desde que  latexmath:[$n_1=3$, $n_2=9$ e $n_3=5$], ou seja todos impares, podemos aplicar o item ii(a) do *Caso VI*, para latexmath:[$P(x)=x^2-4$, $Q_1(x)=\sqrt[3\]{x^2-9}$, $Q_2(x)=\sqrt[9\]{x-1}$, $Q_3(x)=\sqrt[5\]{x-4}$ e $R(x)=x-13$]. Assim, temos que:
++
+[latexmath]
+++++
+\[
+\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\]
+Por outro lado, pelo item(iii) de {\bf Inequações Irracionais}, temos que
+\[
+\dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\quad \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0.
+\]
+\[
+\Leftrightarrow \quad {(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\quad \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.
+\]
+Fazendo $P(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $P(x)=0$ são $r_1=-3$, $r_2=-2$, $r_3=1$, $r_4=2$, $r_5=3$, $r_6=4$ e $r_7=13$. Desde que a inequação é da forma $P(x)\leq 0$, pelo item iv(b) do {\bf Caso I} de {\bf Inequações Polinomiais}, temos que 
+\[
+  x \in  (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13) .
+\]
+++++
++
+Portanto, latexmath:[$C.S.= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)$].
 
 ====
 
