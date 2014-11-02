@@ -1566,9 +1566,13 @@ Sejam latexmath:[$a$], latexmath:[$b$] e latexmath:[$x \in \mathbb{R}$], então:
 .Resolvamos as seguintes equações com valor absoluto:
 ====
 .. latexmath:[$|3x-5|=4$].
-Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], temos que:+
-latexmath:[$|3x-5|=4  \quad \,\Leftrightarrow \quad \, 3x-5=4$] ou	 latexmath:[$3x-5=-4  \quad \,\Leftrightarrow \quad \, x=3$] ou latexmath:[$x=\dfrac{1}{3}$].+
+Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], temos que:
++
+--
+latexmath:[$|3x-5|=4  \quad \,\Leftrightarrow \quad \, 3x-5=4\quad \mbox{ou}\quad 3x-5=-4  \quad \,\Leftrightarrow \quad \, x=3$ $\quad \mbox{ou}\quad $ $x=\dfrac{1}{3}$].
+
  Portanto,  latexmath:[$\frac{1}{3}$] e latexmath:[$3$] são raízes de latexmath:[$|3x-5|=4$].
+--
 
 .. latexmath:[$||7-4x|-3|=9$].
 Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$], temos que:+
