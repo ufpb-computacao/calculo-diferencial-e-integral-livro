@@ -1262,7 +1262,7 @@ e pelo item(iii) de {\bf Inequações Irracionais} temos que
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do caso I, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
+Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
 
@@ -1271,18 +1271,32 @@ Solução:: Desde que  latexmath:[$n=6$] é um número par, podemos aplicar Apli
 [latexmath]
 ++++
 \[
-\dfrac{x+5}{(x-4)\sqrt[6]{81-x^2}}\geq 0\quad \Leftrightarrow\quad  81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0
-\quad \Leftrightarrow\]
+\dfrac{x+5}{(x-4)\sqrt[6]{81-x^2}}\geq 0\quad \Leftrightarrow\quad  81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0\]
+Por outro lado, pelo item(iii) de {\bf Inequações Irracionais}, temos que
 \[
-  81>x^2\quad\mbox{e}\quad ((x+5)(x-4)\geq 0\quad\mbox{com}\quad x\neq 4)
+\dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow \quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0
+\]
+Assim, 
+\[
+81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow\quad   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
 \]
 \[
-\quad \Leftrightarrow\quad  x \in(-9,9)\quad\mbox{e}\quad x \in (-\infty, -5]\cup (4,+\infty)
-\quad \Leftrightarrow\quad  x \in(-9, -5]\cup (4,9)
+\quad \Leftrightarrow\quad   (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
+\]
+Logo,
+\[\begin{array}{rcrcr}
+(x+9)(x-9)&<& 0&\quad\Leftrightarrow\quad&  x \in (-9,9);\\
+(x+5)(x-4) &\geq& 0&\quad\Leftrightarrow\quad&  x \in [-5,4];\\
+x-4&\neq& 0 0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
+\end{array}
+\]
+Assim, $x$ pertence à interceção destes intervalos, isto é
+\[
+  x \in \Big( (-9,9)\Big)\cap\Big( [-5,4] \Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5\]\cup (4,9)
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$]
+Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$].
 
 
 ====
