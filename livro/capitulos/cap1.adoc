@@ -1734,7 +1734,7 @@ Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.1$, $C.\, S.2$ 
 [latexmath]
 ++++
 \[
-\Big((-1,+\infty)\Big)\cap\left(\left(-\frac{3}{2},-1\right)\right)\cup (0,+\infty)\left)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
+\Big((-1,+\infty)\Big)\cap\left(\Big(-\frac{3}{2},-1\Big)\cup (0,+\infty)\right)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
 \]
 ++++
 
@@ -1934,7 +1934,6 @@ para provar várias propriedades referentes aos números inteiros.
 Teorema 1.7 (Princípio da boa ordem)::
 Todo subconjunto não vazio de latexmath:[$\mathbb{Z}$], limitado inferiormente, possui ínfimo.
  
-
 
 
 

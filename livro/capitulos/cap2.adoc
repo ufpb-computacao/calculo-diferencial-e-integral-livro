@@ -434,11 +434,8 @@ image::images/{cap}/FimparEx.eps[scaledwidth="100%"]
 
 [NOTE]
 ====
-.. O gráfico de toda função par é simétrico em relação ao eixo latexmath:[$y$], uma vez que latexmath:[$f(-x)=f(x)$], um ponto latexmath:[$(x,y)$] 
-estará no gráfico se, e somente se, o ponto latexmath:[$(-x,y)$] estiver no gráfico. Uma reflexão através do eixo latexmath:[$y$] não altera o gráfico.
-.. O gráfico de toda função ímpar é simétrico em relação à origem, uma vez que latexmath:[$f(-x)=-f(x)$], um ponto latexmath:[$(x,y)$] estará 
-no gráfico se, e somente se, o ponto latexmath:[$(-x,-y)$] estiver no gráfico. 
-.. Um gráfico é simétrico em relação à origem se uma rotação de latexmath:[$180^{\circ}$] em relação à origem não altera o gráfico.
+.. O gráfico de toda função par é simétrico em relação ao eixo latexmath:[$y$], uma vez que latexmath:[$f(-x)=f(x)$], um ponto latexmath:[$(x,y)$] estará no gráfico se, e somente se, o ponto latexmath:[$(-x,y)$] estiver no gráfico. Uma reflexão através do eixo latexmath:[$y$] não altera o gráfico;
+.. O gráfico de toda função ímpar é simétrico em relação à origem, uma vez que latexmath:[$f(-x)=-f(x)$], um ponto latexmath:[$(x,y)$] estará no gráfico se, e somente se, o ponto latexmath:[$(-x,-y)$] estiver no gráfico. 
 ====
 
 
