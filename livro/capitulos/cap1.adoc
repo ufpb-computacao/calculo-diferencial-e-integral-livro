@@ -1473,7 +1473,7 @@ Assim,
  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad{(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0
 \]
 \[
-\Leftrightarrow\quad   x>1\quad\mbox{e}\quad\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)(x+3)(x-3)} \leq 0\quad \mbox{e}\quad(x-13)(x+3)(x-3)\neq 0.
+\Leftrightarrow\quad   x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)(x+3)(x-3)} \leq 0\quad \mbox{e}\quad(x-13)(x+3)(x-3)\neq 0.
 \]
 Logo,
 \[\begin{array}{rcrcl}
