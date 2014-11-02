@@ -1690,7 +1690,7 @@ C.\,S.2=(-\infty,-2)\cup (-1,+\infty).
 \]
 ++++
 
-Assim, o $C.\, S.$ será obtido intersectando $C.\, S.2$ e $C.\, S.2$, isto é,
+Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.2$ e $C.\, S.2$], isto é,
 [latexmath]
 ++++
 \[
@@ -1705,6 +1705,7 @@ Portanto, latexmath:[$C. S.=(-\infty,-2)\cup (0,+\infty)$].
 
 Solução:: Pelo item(vii) do *Teorema 1.5*   para latexmath:[$c= \dfrac{x+3}{x+1}$ e $b=4x+3$] temos que:
 +
+--
 [latexmath]
 ++++
 \[
@@ -1723,15 +1724,22 @@ Solução:: Pelo item(vii) do *Teorema 1.5*   para latexmath:[$c= \dfrac{x+3}{x+
 \[ \quad \Leftrightarrow \quad x>-\frac{3}{4} \quad \mbox{ e}\quad  \left(0< \dfrac{2x^2+4x+3}{x+1} \quad \mbox{e} \quad \dfrac{x(2x+3)}{x+1}>0\right)
 \]
 ++++
-+
---
+
 Caso 1::: Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$]. Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então  latexmath:[$C. S. 1=(-1,+\infty)$].
 
 Caso 2::: Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$]. Daqui, latexmath:[$r_1=-\frac{3}{2}$], latexmath:[$ r_2= -1$] e latexmath:[$ r_3= 0$], então  latexmath:[$C. S. 2=\left(-\frac{3}{2},-1\right)\cup (0,+\infty)$].
---
-+
-Assim, o conjunto solução será obtido intersectando (latexmath:[$C. S. 1$] e latexmath:[$C. S. 2$]) e latexmath:[$x>-\frac{3}{4} $]. Portanto, latexmath:[$C. S.=(0,+\infty)$]  
 
+
+Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.1$, $C.\, S.2$ e $x>-\frac{3}{4} $], isto é,
+[latexmath]
+++++
+\[
+\Big((-1,+\infty)\Big)\cap \Big(\left(-\frac{3}{2},-1\right)\cup (0,+\infty)\Big)\cap \Big((-\frac{3}{4},+\infty)\Big)=(0,+\infty)
+\]
+++++
+
+Portanto, latexmath:[$C. S.=(0,+\infty)$]  
+--
 
 
 ====
