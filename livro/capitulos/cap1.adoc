@@ -1558,6 +1558,8 @@ Sejam latexmath:[$a$], latexmath:[$b$] e latexmath:[$x \in \mathbb{R}$], então:
 ... Se latexmath:[$b\geq 0$], então  latexmath:[$|x|\leq b$] se, e somente se, latexmath:[$ -b\leq x\leq b$];
 ... latexmath:[$|x|> b $]  se, e somente se, latexmath:[$x>b$] ou latexmath:[$x<-b$];
 ... latexmath:[$|x|\geq b$] se, e somente se, latexmath:[$ x\geq b$] ou latexmath:[$x\leq-b$];
+... latexmath:[$|a|\leq | b|$] se, e somente se, latexmath:[$ -a\leq |b|$ e $a\leq|b|$];
+... latexmath:[$|a|<| b| $]  se, e somente se, latexmath:[$ -a<|b|$ e $a<|b|$];
 ... latexmath:[$||a|-|b|| \leq |a-b|\leq |a|+|b|$].
 
 
