@@ -1199,7 +1199,7 @@ com latexmath:[$n\geq 1$] e impar. Temos as seguintes equivalências:
 --
 
 [NOTE]
-Se  a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
+Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso IV*, porem ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
 
 
 Caso V:: Para as inequações da forma:
@@ -1233,7 +1233,7 @@ com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 
 
 [NOTE]
-Se a desigualdade a ser analisada é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
+Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso V*, porem ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
 
 
 .{zwsp}
