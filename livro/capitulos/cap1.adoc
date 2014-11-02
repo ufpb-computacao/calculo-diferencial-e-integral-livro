@@ -1388,7 +1388,7 @@ Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos par
 +
 [latexmath]
 ++++
-\hspace*{-1cm}\[
+\[
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x+3}}\geq 0\quad \Leftrightarrow\quad  x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0\]
 Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
 \[
@@ -1399,7 +1399,7 @@ Assim,
 x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
 \]
 \[
-\quad \Leftrightarrow\quad   (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
+\quad \Leftrightarrow\quad   (x+9)(x-9)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>-3 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Logo,
 \[\begin{array}{rcrcl}
