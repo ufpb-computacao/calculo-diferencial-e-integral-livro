@@ -1399,22 +1399,24 @@ Assim,
 x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
 \]
 \[
-\quad \Leftrightarrow\quad   (x+9)(x-9)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>-3 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
+\Leftrightarrow\quad   (x+3)(x-3)>0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>-3 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Logo,
 \[\begin{array}{rcrcl}
-(x+9)(x-9)&<& 0&\quad\Leftrightarrow\quad&  x \in (-9,9);\\
-(x+5)(x-4) &\geq& 0&\quad\Leftrightarrow\quad&  x \in [-5,4];\\
-x-4&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
+(x+3)(x-3)&>& 0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(3,+\infty);\\
+x &>& 1&\quad\Leftrightarrow\quad&  x \in (1,+\infty);\\
+x &>& -3&\quad\Leftrightarrow\quad&  x \in (-3,+\infty);\\
+{(x-2)(x+2)}{(x-13)}&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-2]\cup[2,13];\\
+x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-9,9)\Big)\cap\Big( [-5,4] \Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
+  x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (-3,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(3,13).
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$].
+Portanto, latexmath:[$C.S.=(3,13)$].
 
 
 ====
