@@ -1779,7 +1779,7 @@ Se latexmath:[$z \in \mathbb{Z}$], então latexmath:[$z$] é dito de *número in
 [latexmath]
 ++++
 \[
-\mathbb{Z}=-\mathbb{N}\cup\{0\}\cup \mathbb{N},\quad \mathbb{Q}=\left\{\dfrac{a}{b}: a\in \mathbb{Z}\,\,\,\mbox{e}\,\,\, b\in \mathbb{Z},\,\,\,\mbox{com}\,\,\,b \neq 0\right\}.
+\mathbb{Q}=\left\{\dfrac{a}{b}: a\in \mathbb{Z}\,\,\,\mbox{e}\,\,\, b\in \mathbb{Z},\,\,\,\mbox{com}\,\,\,b \neq 0\right\}.
 \]
 ++++
 +
@@ -1800,7 +1800,7 @@ Assim, verifica-se que:
 [latexmath]
 ++++
 \[
-\mathbb{N}\subset \mathbb{Z}\subset \mathbb{Q}\subset \mathbb{R},\quad  \mathbb{R}=\mathbb{Q}\cup\mathbb{I}\quad\mbox{e}\quad \mathbb{Q}\cap\mathbb{I}=\emptyset.
+\mathbb{Z}=-\mathbb{N}\cup\{0\}\cup \mathbb{N},\quad \mathbb{N}\subset \mathbb{Z}\subset \mathbb{Q}\subset \mathbb{R},\quad  \mathbb{R}=\mathbb{Q}\cup\mathbb{I}\quad\mbox{e}\quad \mathbb{Q}\cap\mathbb{I}=\emptyset.
 \]
 ++++ 
 

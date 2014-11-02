@@ -292,7 +292,7 @@ sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}\setminus\{0\}$],
 ... Se latexmath:[$n$] é par, o domínio da função é  latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{0\}$], sua imagem é 
 latexmath:[${\rm Im }(f)=[0,+\infty)$] e seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x^2}$],
  e cada gráfico passa pelos pontos latexmath:[$(-1,1)$] e latexmath:[$(1,1)$]; veja o item (b) da figura abaixo; 
-... O fato de latexmath:[$x \notin {\rm Dom }(f)$] implica que o gráfico tem uma quebra na origem. Por esse motivo, zero é denominado *_ponto de descontinuidade_*. Esse conceito 
+... O fato de latexmath:[$0 \notin {\rm Dom }(f)$] implica que o gráfico tem uma quebra na origem. Por esse motivo, zero é denominado *_ponto de descontinuidade_*. Esse conceito 
 será visto no Capítulo 4;
 ... Quando latexmath:[$n$] cresce, nos intervalos latexmath:[$(-\infty,-1)$] e latexmath:[$(1,+\infty)$], os gráficos ficam mais achatados e nos intervalos 
 latexmath:[$(-1,0)$] e latexmath:[$(0,1)$] cada vez mais próximos ao eixo latexmath:[$y$]: 
