@@ -1734,7 +1734,7 @@ Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.1$, $C.\, S.2$ 
 [latexmath]
 ++++
 \[
-\Big((-1,+\infty)\Big)\cap \Big(\left(-\frac{3}{2},-1\right)\cup (0,+\infty)\Big)\cap \Big((-\frac{3}{4},+\infty)\Big)=(0,+\infty)
+\Big((-1,+\infty)\Big)\cap\left(\left(-\frac{3}{2},-1\right)\cup (0,+\infty)\left)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
 \]
 ++++
 
@@ -1755,7 +1755,7 @@ Antes de começar a falar sobre os *limitantes* de um conjunto latexmath:[$A \su
 [latexmath]
 ++++
 \[
-\mathbb{N}=\{1,2,3,4,\dots,n-1,n,n+1,\dots\}.
+\mathbb{N}=\{1,2,3,4,\dots\}.
 \]
 ++++ 
 +
@@ -1777,7 +1777,7 @@ Se latexmath:[$z \in \mathbb{Z}$], então latexmath:[$z$] é dito de *número in
 [latexmath]
 ++++
 \[
-\mathbb{Q}=\left\{\dfrac{a}{b}: a\in \mathbb{Z}\,\,\,\mbox{e}\,\,\, b\in \mathbb{Z},\,\,\,\mbox{com}\,\,\,b \neq 0\right\}.
+\mathbb{Z}=-\mathbb{N}\cup\{0\}\cup \mathbb{N},\quad \mathbb{Q}=\left\{\dfrac{a}{b}: a\in \mathbb{Z}\,\,\,\mbox{e}\,\,\, b\in \mathbb{Z},\,\,\,\mbox{com}\,\,\,b \neq 0\right\}.
 \]
 ++++
 +
