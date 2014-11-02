@@ -1350,7 +1350,7 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 [latexmath]
 ++++
 \[
-Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \quad Q_k(x)>0   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\geq 0;
+Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_k(x)>0   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\geq 0;
 \]
 ++++
 
@@ -1359,7 +1359,7 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 [latexmath]
 ++++
 \[
-Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \quad Q_k(x)>0  \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)Q_{l+2}(x)\dots Q_k(x)}\leq 0.
+Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_k(x)>0  \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\leq 0.
 \]
 ++++
 --
@@ -1371,7 +1371,7 @@ Caso os latexmath:[$n_i$'s dos $l$] primeiros radicais, não sejam pares, reoden
 [latexmath]
 ++++
 \[
-\sqrt[n_1]{Q_1(x)},\quad \sqrt[n_2]{Q_2(x)},\dots,\sqrt[n_k]{Q_k(x)}
+\sqrt[n_1]{Q_1(x)},\quad \sqrt[n_2]{Q_2(x)},\quad\dots,\quad \sqrt[n_k]{Q_k(x)}
 \]
 ++++
 de tal forma que que isto seja verdadeiro.
@@ -1388,15 +1388,15 @@ Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos par
 +
 [latexmath]
 ++++
-\[
+\hspace*{-1cm}\[
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x+3}}\geq 0\quad \Leftrightarrow\quad  x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0\]
-Por outro lado, pelo item(iii) de {\bf Inequações Irracionais}, temos que
+Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
 \[
-\dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow \quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0
+\dfrac{x^2-4}{x-13}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Assim, 
 \[
-81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow\quad   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
+x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x+3>0 \quad\mbox{e}\quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0
 \]
 \[
 \quad \Leftrightarrow\quad   (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
