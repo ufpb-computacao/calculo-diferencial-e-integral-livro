@@ -1734,15 +1734,15 @@ Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.1$, $C.\, S.2$ 
 [latexmath]
 ++++
 \[
-\Big((-1,+\infty)\Big)\cap\left(\left(-\frac{3}{2},-1\right)\cup (0,+\infty)\left)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
+\Big((-1,+\infty)\Big)\cap\left(\left(-\frac{3}{2},-1\right)\right)\cup (0,+\infty)\left)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
 \]
 ++++
 
 Portanto, latexmath:[$C. S.=(0,+\infty)$]  
 --
 
-
 ====
+
 
 
 === Axioma do Supremo
@@ -1750,7 +1750,7 @@ Portanto, latexmath:[$C. S.=(0,+\infty)$]
 
 Antes de começar a falar sobre os *limitantes* de um conjunto latexmath:[$A \subset \mathbb{R}$], vejamos alguns conjuntos importantes em latexmath:[$\mathbb{R}$]:
 
-////
+
 --
 * O *conjunto dos números naturais*, denotado por  latexmath:[$\mathbb{N}$], é o conjunto 
 +
@@ -1914,7 +1914,7 @@ temos que:
 
 .. latexmath:[${\rm Inf}(C)=-20={\rm min}(C)$]. Porém, latexmath:[$C$] não é limitado superiormente, logo, não tem  supremo. Portanto, não é limitado.
 ====
-////
+
 O axioma a seguir completa os axiomas que definem o sistema dos números reais.
 
 Axioma 11 (Axioma do Supremo)::
