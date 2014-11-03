@@ -223,7 +223,7 @@ Desta forma temos que: +
 |======================
 
 
-Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}$] tais que latexmath:[$x<y<z$]. Então estas desigualdades são repŕesentadas na reta real da seguinte maneira:
+Mais ainda, sejam latexmath:[$x$], latexmath:[$y$] e latexmath:[$z\in \mathbb{R}$] tais que latexmath:[$x<y<z$]. Então estas desigualdades são representadas na reta real da seguinte maneira:
 
 [[Distância]]
 .Distância entre latexmath:[$x$] e latexmath:[$y$], e distância entre latexmath:[$y$] e latexmath:[$z$]
@@ -688,7 +688,7 @@ Logo,
 .. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.= ( r_1,r_2)\cup \dots\cup (r_n,+\infty)$];
 --
 +
-... latexmath:[$P(x)<0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos aberots com sinal latexmath:[$-$], isto é:
+... latexmath:[$P(x)<0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos abertos com sinal latexmath:[$-$], isto é:
 +
 --
 .. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (r_1,r_2)\cup \dots\cup (r_{n-1},r_n)$];
