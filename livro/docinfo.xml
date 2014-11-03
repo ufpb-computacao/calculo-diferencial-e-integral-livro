@@ -3,6 +3,19 @@
   <revhistory>
 
     <revision>
+      <revnumber>v1.2.1</revnumber>
+      <date>3/10/2014</date>
+      <authorinitials>Kely</authorinitials>
+      <revremark>
+<ulink url="{gitrepo}/issues/48">cap1 Atualização das Atividades 1.8;</ulink>
+<ulink url="{gitrepo}/issues/49">cap1 Revisão;</ulink>
+<ulink url="{gitrepo}/issues/50">cap2 Revisão;</ulink>
+      </revremark>
+    </revision>
+
+
+
+    <revision>
       <revnumber>v1.2.0</revnumber>
       <date>24/10/2014</date>
       <authorinitials>Eduardo</authorinitials>
