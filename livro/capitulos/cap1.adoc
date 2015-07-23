@@ -325,7 +325,7 @@ latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$2x=-\dfrac{3}{2}$] ou
  latexmath:[$2x=2$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$].
 
 Método 3 (Usando a fórmula de Bhaskara ou o Discriminante latexmath:[$\Delta$]):::
-Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-4(4)(-3)=49$] e latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{-(-1)\pm\sqrt{\Delta}}{2(4)}$].   Então, latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
+Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-4(4)(-3)=49$]. Assim, latexmath:[$x=\dfrac{-(-1)\pm\sqrt{\Delta}}{2(4)}$].   Então, latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\dfrac{3}{4}$]. 
 --
 +
@@ -426,7 +426,6 @@ image::images/{cap}/intervalos_uniao3.eps[scaledwidth="40%"]
 
 Definição 1.6:: Uma *((inequação))* é uma afirmação que se estabelece entre duas expressões algébricas mediante uma desigualdade.
 
-// que contém alguma das relações latexmath:[$<,\,\,\leq,\,\,>,\,\,\geq$]. 
 
 .Tipos de Inequações
 ===========================
@@ -478,8 +477,8 @@ Seja a inequação
 ++++++++++++++++++++++++++++++++++++++++++++
 Então:
 
-.. O número real latexmath:[$4$] é uma solução da inequação de segundo grau acima, pois latexmath:[$(4)^2-4(4)-5=-5< 0$];
-.. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois latexmath:[$(-1)^2-4(-1)-5= 0\not < 0$] e latexmath:[$(5)^2-4(5)-5= 0\not < 0$];
+.. O número real latexmath:[$4$] é uma solução da inequação de segundo grau acima, pois latexmath:[$(4)^2-4(4)-5=-5< 0$]. Assim, latexmath:[$4 \in C.\,\,S.$];
+.. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois latexmath:[$(-1)^2-4(-1)-5= 0\not < 0$] e latexmath:[$(5)^2-4(5)-5= 0\not < 0$]. Assim latexmath:[$-1,\,\,5 \notin C.\,\,S.$].
 ============================
 
 
