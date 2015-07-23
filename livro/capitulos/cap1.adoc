@@ -111,9 +111,6 @@ Teorema 1.1:: Sejam latexmath:[$a$, $b$ e $ c \in \mathbb{R}$]. Então:
 [NOTE]
 ====
 latexmath:[$0$ e  $1$] também são conhecidos como elementos neutros para a *adição* e para a *multiplicação*, respectivamente;
-
-//.. latexmath:[$-a$ e $a^{-1}$], do item(i) do teorema acima, dizem ao respeito da unicidade do *oposto* e do *inverso*, respectivamente.
-
 ====
 
 
@@ -195,15 +192,15 @@ Teorema 1.3:: Dados latexmath:[$a$, $b$, $c$ e $d\in \mathbb{R}$]. Então:
 ====
 No *Teorema 1.3* temos que:
 
-.. O item(i)  é conhecido como  *((Lei da tricotomia))*;
-.. O item(iii) é conhecido como *((Lei transitiva))*; 
-.. O item(iv) é conhecido como *((Lei da monotonia)) para a soma*.
+.. O item i  é conhecido como  *((Lei da tricotomia))*;
+.. O item iii é conhecido como *((Lei transitiva))*; 
+.. O item iv é conhecido como *((Lei da monotonia)) para a soma*.
 ====
 
 [IMPORTANT]
 ====
 .. Se latexmath:[$a$] e latexmath:[$b$] são dois números reias tais que latexmath:[$a^2=b$], diz-se que latexmath:[$a$] é a *raiz quadrada* de latexmath:[$b$], denotada por latexmath:[$\sqrt{b}$]. Por exemplo, latexmath:[$2$] e latexmath:[$-2$] são raízes quadradas de latexmath:[$4$], já que latexmath:[$(-2)^2=2^2=4$], e latexmath:[$\sqrt{3}$] e latexmath:[$-\sqrt{3}$] são raízes quadradas de latexmath:[$3$], pois latexmath:[$(-\sqrt{3})^2=(\sqrt{3})^2=3$].
-..  Pelo  item(ii) do *Teorema 1.3*, não existe latexmath:[$a \in \mathbb{R}$] e latexmath:[$b<0$] tal que latexmath:[$a^2=b$]. Em outras palavras, *no conjunto dos números reais não existe raiz quadrada de números negativos*;
+..  Pelo  item ii do *Teorema 1.3*, não existe latexmath:[$a \in \mathbb{R}$] e latexmath:[$b<0$] tal que latexmath:[$a^2=b$]. Em outras palavras, *no conjunto dos números reais não existe raiz quadrada de números negativos*;
 .. Se latexmath:[$a^2=0$], então deduz-se que latexmath:[$a=0$]. Portanto, latexmath:[$\sqrt{0}=0$].
 ====
 
@@ -272,9 +269,9 @@ Definição 1.3:: Uma *((equação))* é uma afirmação que se estabelece entre
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, o conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Assim, *resolver uma equação* significa encontrar seu  latexmath:[$C.\,\,S.$].
+Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação, se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, o conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Assim, *resolver uma equação* significa encontrar seu  latexmath:[$C.\,\,S.$]
 
-NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
+NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$].
 
 
 .{zwsp}
@@ -287,7 +284,7 @@ Dada a equação
 temos que:
 
 .. Os números reais latexmath:[$-1$] e  latexmath:[$5$] são raízes da equação de segundo grau acima, pois latexmath:[$(-1)^2-4(-1)-5= 0$] e latexmath:[$(5)^2-4(5)-5= 0$]. Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
-.. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$]. 
+.. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$].  Assim, latexmath:[$4 \notin C.\,\,S.$]
 ============================
 
 
@@ -300,21 +297,33 @@ Para resolver uma equação é necessário por em evidência, de alguma forma, a
 ====
 .. latexmath:[$5x+6=8$].
 Solução::
-latexmath:[$5x+6=8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x=8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{2}{5}$]. Portanto, latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$] e latexmath:[$C.\,\,S.=\left\{\dfrac{2}{5}\right\}$].
+latexmath:[$5x+6=8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x=8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{2}{5}$]. 
+
+Portanto, 
+
+latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$] e latexmath:[$C.\,\,S.=\left\{\dfrac{2}{5}\right\}$].
 
 .. latexmath:[$5x+5=1-3x$].
 Solução::
-latexmath:[$5x+5=1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x=1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x=-4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{4}{8}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{1}{2}$]. Portanto,  latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{1}{2}\right\}$].
+latexmath:[$5x+5=1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x=1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x=-4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{4}{8}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{1}{2}$]. 
+
+Portanto,  
+
+latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{1}{2}\right\}$].
 
 .. latexmath:[$x^2+1=0$].
-Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$] e latexmath:[$C.\,\,S.=\emptyset$].
+Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. 
+
+Portanto, 
+
+do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$] e latexmath:[$C.\,\,S.=\emptyset$].
 
 .. latexmath:[$4x^2-x-3=0$].
 Solução::
 +
 --
 Método 1 (Fatorando):::
-latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$]. Pelo item (x) do *Teorema 1.1* para  latexmath:[$a=4x+3$ e $b=x-1$, temos que $(4x+3)(x-1)=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
+latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$]. Pelo item x do *Teorema 1.1* para  latexmath:[$a=4x+3$ e $b=x-1$, temos que $(4x+3)(x-1)=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
 latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$]. 
 
 Método 2 (Completando quadrados):::
@@ -329,7 +338,9 @@ Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\dfrac{3}{4}$]. 
 --
 +
-Portanto, latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latexmath:[$4x^2-x-3=0$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{3}{4},1\right\}$].
+Portanto, 
+
+latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latexmath:[$4x^2-x-3=0$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{3}{4},1\right\}$].
 ====
 
 
@@ -601,13 +612,13 @@ r_1=\dfrac{-(-3)-\sqrt{\Delta}}{2(1)}=\dfrac{3-\sqrt{25}}{2}=\dfrac{-2}{2}=-1\qu
 \]
 ++++ 
 
-Aplicando o  item(ii) do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= (-1,4)$].
+Aplicando o  item ii do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= (-1,4)$].
 
 Embora já tenhamos encontrado o conjunto solução para a inequação dada, a seguir apresentamos métodos alternativos para determiná-lo.
 
 
 Método 1 (Decompondo):::
-latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x^2-3x-4<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(x-4)(x+1)<0$]. Logo, pelo item(xiv) do *Teorema 1.3*  temos que
+latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x^2-3x-4<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(x-4)(x+1)<0$]. Logo, pelo item xiv do *Teorema 1.3*  temos que
 latexmath:[$(x-4)(x+1)<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  (latexmath:[$x-4<0$] e latexmath:[$x+1>0$])  ou (latexmath:[$x-4>0$] e latexmath:[$x+1<0$])  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
 (latexmath:[$x<4$] e latexmath:[$x>-1$])  ou (latexmath:[$x>4$] e latexmath:[$x<-1$]) 
  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$-1<x<4$ ou $\emptyset$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x \in (-1,4)$]. 
@@ -633,7 +644,7 @@ Portanto, latexmath:[$C.\,\,S.=(-1,4)$].
 
 .. latexmath:[$x^2+1<0$]
 
-Solução:: Para latexmath:[$x^2-1<0$] temos que latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Então, do *Caso III* item(ii), se segue que latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$]. Portanto, latexmath:[$C.\,\,S.= \emptyset$].
+Solução:: Para latexmath:[$x^2-1<0$] temos que latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Então, do *Caso III* item ii, se segue que latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$]. Portanto, latexmath:[$C.\,\,S.= \emptyset$].
 
 .. latexmath:[$4x^2-x-3\geq 0$].
 Solução::
@@ -646,7 +657,7 @@ r_1=\dfrac{-(-1)-\sqrt{\Delta}}{2(4)}=\dfrac{1-\sqrt{49}}{8}=-\frac{3}{4}\quad \
 \]
 ++++
 + 
-Portanto, aplicando o  item(iii) do *Caso II*, pois latexmath:[$r_1<r_2$], latexmath:[$C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big)$].
+Portanto, aplicando o  item iii do *Caso II*, pois latexmath:[$r_1<r_2$], latexmath:[$C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big)$].
 
 
 ============================
@@ -723,7 +734,7 @@ Resolvamos as seguintes inequações:
 
 .. latexmath:[$(x-1)^4(x+2)(x+4)\leq 0$]
 Solução::
-Fazendo latexmath:[$P(x)=(x-1)^4(x+2)(x+4)=0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item(i), latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
+Fazendo latexmath:[$P(x)=(x-1)^4(x+2)(x+4)=0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item i, latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
@@ -759,7 +770,7 @@ Assim,
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item(ii) latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item(ia) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
+Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item ii latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item i(a) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
@@ -823,13 +834,13 @@ Solução:: latexmath:[\,\,]
 \[
   \Leftrightarrow\quad\dfrac{-8}{x(x-4)}<0\quad \Leftrightarrow\quad\dfrac{1}{x(x-4)}>0.
 \]
-Logo, pelo item(i) acima,
+Logo, pelo item i acima,
 \[
 \dfrac{1}{x(x-4)}>0\quad \Leftrightarrow\quad{x(x-4)}>0.
 \]
 ++++ 
 +
-Fazendo latexmath:[$P(x)=x(x-4)$, temos que as raízes de $P(x)=0$  são $r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
+Fazendo latexmath:[$P(x)=x(x-4)$, temos que as raízes de $P(x)=0$  são $r_1=0$] e latexmath:[$r_2=4$]. Como a inequação é da forma latexmath:[$P(x)> 0$],  podemos aplicar o item i(a) do *Caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$], conforme a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
@@ -850,7 +861,7 @@ latexmath:[\,\,]
 \[
 \Leftrightarrow\quad \dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
 \]
-Logo, pelo item(iv) acima,
+Logo, pelo item iv acima,
 \[
 \dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \Leftrightarrow\quad {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
 \]
@@ -866,7 +877,7 @@ Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não 
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$  são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e latexmath:[$r_4=1$]. Pela nota acima latexmath:[$(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2=-1$, $r_3=0$ e $r_4=1$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
+Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$  são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e latexmath:[$r_4=1$]. Pela nota acima latexmath:[$(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2=-1$, $r_3=0$ e $r_4=1$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *Caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 +
@@ -928,7 +939,7 @@ latexmath:[$\,$]
 \]
 ++++
 +
-Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[$a=2>1$],  podemos aplicar o item i do *caso I*, isto é
+Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[$a=2>1$],  podemos aplicar o item i do *Caso I*, isto é
 +
 [latexmath]
 ++++
@@ -969,7 +980,7 @@ latexmath:[$\,$]
 \]
 ++++
 +
-Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[$a=0,3<1$],  podemos aplicar o item iv do *caso II*, isto é
+Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[$a=0,3<1$],  podemos aplicar o item iv do *Caso II*, isto é
 +
 [latexmath]
 ++++
@@ -989,7 +1000,7 @@ Como $x^2-4x-8=(x-2-2\sqrt{3})(x-2+2\sqrt{3})$, então
 \[\dfrac{x^2-4x-8}{x+2}\leq  0\quad \Leftrightarrow \quad 
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
 \]
-Pelo item(iv) de {\bf Inequações Racionais} temos que
+Pelo item iv de {\bf Inequações Racionais} temos que
 \[
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
 \quad \Leftrightarrow 
@@ -1254,7 +1265,7 @@ Por outro lado,
 \]
 \[
  \Leftrightarrow\quad -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0\]
-e pelo item(iii) de {\bf Inequações Irracionais} temos que 
+e pelo item iii de {\bf Inequações Irracionais} temos que 
 \[
 \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
 \quad \Leftrightarrow\quad  (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
@@ -1271,7 +1282,7 @@ Solução:: Desde que  latexmath:[$n=6$] é um número par, podemos aplicar Apli
 ++++
 \[
 \dfrac{x+5}{(x-4)\sqrt[6]{81-x^2}}\geq 0\quad \Leftrightarrow\quad  81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0\]
-Por outro lado, pelo item(iii) de {\bf Inequações Irracionais}, temos que
+Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
 \dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow \quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0
 \]
@@ -1393,7 +1404,7 @@ Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos par
 \quad \Downarrow\quad \\\\
  x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0
 \end{array}\]
-Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
+Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \[
 \dfrac{x^2-4}{x-13}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
@@ -1431,7 +1442,7 @@ Solução:: Desde que  latexmath:[$n_1=3$, $n_2=9$ e $n_3=5$], ou seja todos imp
 ++++
 \[
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\]
-Por outro lado, pelo item(iii) de {\bf Inequações Irracionais}, temos que
+Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
 \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\quad \Leftrightarrow 
 \]
@@ -1465,7 +1476,7 @@ temos que latexmath:[$n_1=6$, $n_2=4$ e $n_3=7$], ou podemos aplicar o item iii(
 ++++
 \[
 \dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0\quad \Leftrightarrow\quad  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0\]
-Por outro lado, pelo item(iv) de {\bf Inequações Irracionais}, temos que
+Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \[
 \dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0.
 \]
@@ -1573,7 +1584,7 @@ Sejam latexmath:[$a$], latexmath:[$b$] e latexmath:[$c \in \mathbb{R}$], então:
 Resolvamos as seguintes equações com valor absoluto:
 
 .. latexmath:[$|3x-5|=4$].
-Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], temos que:
+Solução:: Pelo item ii do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], temos que:
 +
 --
 [latexmath]
@@ -1586,7 +1597,7 @@ Portanto,  latexmath:[$\frac{1}{3}$] e latexmath:[$3$] são raízes de latexmath
 --
 
 .. latexmath:[$||7-4x|-3|=9$].
-Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$], temos que:
+Solução:: Pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$], temos que:
 +
 --
 [latexmath]
@@ -1599,9 +1610,9 @@ Solução:: Pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$
 \]
 ++++
 
-Porém pelo item(i) do *Teorema 1.4* , latexmath:[$|7-4x|\geq 0$], assim  e latexmath:[$|7-4x|=-6<0$], é uma igualdade impossível, isto é, latexmath:[$|7-4x|=-6$] não tem raízes. Então, só devemos analisar latexmath:[$|7-4x| =12$]. 
+Porém pelo item i do *Teorema 1.4* , latexmath:[$|7-4x|\geq 0$], assim  e latexmath:[$|7-4x|=-6<0$], é uma igualdade impossível, isto é, latexmath:[$|7-4x|=-6$] não tem raízes. Então, só devemos analisar latexmath:[$|7-4x| =12$]. 
 
-Novamente, pelo item(ii) do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], temos que:
+Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], temos que:
 
 [latexmath]
 ++++
@@ -1647,7 +1658,7 @@ Resolvamos as seguintes inequações com valor absoluto:
 
 .. latexmath:[$\left|{x+1}\right|<\left|{x^2+2x+1}\right|$].
 
-Solução:: Pelo item(xii) do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+2x+1}$] temos que:
+Solução:: Pelo item xii do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+2x+1}$] temos que:
 +
 --
 [latexmath]
@@ -1659,7 +1670,7 @@ Solução:: Pelo item(xii) do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+
 
 Caso 1:: Encontremos o latexmath:[$C.\,S.$ de $ -(x+1)<\left|{x^2+2x+1}\right|$]
 
-Pelo item(ix) do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1}$] temos que:
+Pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
 ++++
 \[
@@ -1677,7 +1688,7 @@ C.\,S.1=(-\infty,-2)\cup (-1,+\infty).
 
 Caso 2:: Encontremos o latexmath:[$C.\,S.$ de $ (x+1)<\left|{x^2+2x+1}\right|$]
 
-Novamente, pelo item(ix) do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
+Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
 ++++
 \[
@@ -1706,7 +1717,7 @@ Portanto, latexmath:[$C. S.=(-\infty,-2)\cup (0,+\infty)$].
 
 .. latexmath:[$\left| \dfrac{x+3}{x+1}\right|<4x+3$].
 
-Solução:: Pelo item(vii) do *Teorema 1.5*   para latexmath:[$c= \dfrac{x+3}{x+1}$ e $b=4x+3$] temos que:
+Solução:: Pelo item vii do *Teorema 1.5*   para latexmath:[$c= \dfrac{x+3}{x+1}$ e $b=4x+3$] temos que:
 +
 --
 [latexmath]
