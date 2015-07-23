@@ -272,11 +272,7 @@ Definição 1.3:: Uma *((equação))* é uma afirmação que se estabelece entre
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. 
-
-//Além disso, *resolver uma  equação* significa encontrar todas as suas raízes.
-
-Definição 1.5:: O conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Resolver uma equação significa encontrar seu  latexmath:[$C.\,\,S.$].
+Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, o conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Assim, *resolver uma equação* significa encontrar seu  latexmath:[$C.\,\,S.$].
 
 NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
 
@@ -468,8 +464,9 @@ Definição 1.6:: Uma *((inequação))* é uma afirmação que se estabelece ent
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável 
-da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. 
+Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. Além disso, o conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$]. Assim, resolver uma inequação significa encontrar seu  latexmath:[$C.\,\,S.$].
+
+NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
 
 
 .{zwsp}
@@ -485,9 +482,7 @@ Então:
 .. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois latexmath:[$(-1)^2-4(-1)-5= 0\not < 0$] e latexmath:[$(5)^2-4(5)-5= 0\not < 0$];
 ============================
 
-Definição 1.8:: O conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Resolver uma inequação significa encontrar seu  latexmath:[$C.\,\,S.$].
 
-NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
 
 
 ==== Resolvendo Inequações
@@ -1501,7 +1496,7 @@ Portanto, latexmath:[$C.S.=(4,13)$].
 
 === Valor absoluto 
 
-Definição 1.9:: O *((valor absoluto))* de um número real, denotado por latexmath:[$|a|$], é definido como:
+Definição 1.8:: O *((valor absoluto))* de um número real, denotado por latexmath:[$|a|$], é definido como:
 +
 [latexmath]
 ++++
@@ -1820,7 +1815,7 @@ Assim, verifica-se que:
 - Entre dois números irracionais existe um *número enumerável* de números racionais.
 ====
 
-Definição 1.10::
+Definição 1.9::
 Seja latexmath:[$A$] um subconjunto não vazio de latexmath:[$\mathbb{R}$]. Diz-se que:
 
 ... latexmath:[$A$] é *((limitado superiormente))* se existe  latexmath:[$M \in \mathbb{R}$] tal que
@@ -1868,7 +1863,7 @@ limitados superiormente, em particular latexmath:[$M=4$], latexmath:[$M=20$] sã
 ====
 
 
-Definição 1.11::
+Definição 1.10::
 Seja latexmath:[$A$] um subconjunto não vazio de  latexmath:[$\mathbb{R}$]. Diz-se que:
 +
 --
