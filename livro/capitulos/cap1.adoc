@@ -1,4 +1,4 @@
-== kelNúmeros Reais
+== Números Reais
 
 :cap: cap1
 
@@ -272,8 +272,13 @@ Definição 1.3:: Uma *((equação))* é uma afirmação que se estabelece entre
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, *resolver uma  equação* significa encontrar todas as suas raízes.
+Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. 
 
+//Além disso, *resolver uma  equação* significa encontrar todas as suas raízes.
+
+Definição 1.5:: O conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Resolver uma equação significa encontrar seu  latexmath:[$C.\,\,S.$].
+
+NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
 
 
 .{zwsp}
@@ -1656,7 +1661,7 @@ Solução:: Pelo item(xii) do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+
 
 Caso 1:: Encontremos o latexmath:[$C.\,S.$ de $ -(x+1)<\left|{x^2+2x+1}\right|$]
 
-Pelo item(ix) do {\bf Teorema 1.5} para $b=-(x+1)$ e $c={x^2+2x+1}$ temos que:
+Pelo item(ix) do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
 ++++
 \[
@@ -1674,7 +1679,7 @@ C.\,S.1=(-\infty,-2)\cup (-1,+\infty).
 
 Caso 2:: Encontremos o latexmath:[$C.\,S.$ de $ (x+1)<\left|{x^2+2x+1}\right|$]
 
-Novamente, pelo item(ix) do {\bf Teorema 1.5} para $b=x+1$ e $c={x^2+2x+1}$ temos que:
+Novamente, pelo item(ix) do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
 ++++
 \[
@@ -1853,10 +1858,10 @@ Um conjunto é *limitado* se é limitado superiormente e inferiormente.
 
 .{zwsp}
 ====
-.. Os conjuntos latexmath:[$\mathbb{N}$]  e latexmath:[$(-1,+\infty)$] são conjuntos limitados inferiormente, em particular latexmath:[$m=-1$], latexmath:[$m=-2$] são  limitantes inferiores. No entanto, estes conjuntos não limitados superiormente.
+.. Os conjuntos latexmath:[$\mathbb{N}$]  e latexmath:[$(-1,+\infty)$] são conjuntos limitados inferiormente, em particular latexmath:[$m=-1$], latexmath:[$m=-2$] são  limitantes inferiores. No entanto, estes conjuntos não são limitados superiormente.
 
 .. Os conjuntos latexmath:[$(-\infty,4\]$] e latexmath:[-\mathbb{N}] são conjuntos 
-limitados superiormente, em particular latexmath:[$M=4$], latexmath:[$M=20$] são  limitantes superiores. No entanto, estes conjuntos não limitados inferiormente.
+limitados superiormente, em particular latexmath:[$M=4$], latexmath:[$M=20$] são  limitantes superiores. No entanto, estes conjuntos não são limitados inferiormente.
 
 .. Os conjuntos latexmath:[$\left\{\dfrac{2}{3z}:z\in\mathbb{Z}\setminus \{0\} \right\}$] e
  latexmath:[$\{x \in \mathbb{R}: 2x-x^2\geq -7\}$] são conjuntos limitados, em particular por latexmath:[$4$].
