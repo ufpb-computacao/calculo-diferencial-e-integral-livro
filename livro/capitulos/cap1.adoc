@@ -510,7 +510,7 @@ Então:
 \[(4)^2-4(4)-5=-5< 0 .\]
 ++++++++++++++++++++++++++++++++++++++++++++
 +
-Assim, latexmath:[$4 \in C.\,\,S.$];
+Assim, latexmath:[$4 \in C.\,\,S.$]
 
 .. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois
 +
@@ -519,7 +519,7 @@ Assim, latexmath:[$4 \in C.\,\,S.$];
 \[(-1)^2-4(-1)-5= 0\not < 0\quad \mbox{e}\quad (5)^2-4(5)-5= 0\not < 0. \]
 ++++++++++++++++++++++++++++++++++++++++++++
 +
-Assim, latexmath:[$-1,\,\,5 \notin C.\,\,S.$].
+Assim, latexmath:[$-1,\,\,5 \notin C.\,\,S.$]
 ============================
 
 
@@ -688,7 +688,12 @@ image::images/{cap}/pc1.eps[scaledwidth="50%"]
 Nesta figura observamos que latexmath:[$(x+1)(x-4)<0$],  se latexmath:[$x \in (-1,4)$].
 --
 +
-Portanto, latexmath:[$C.\,\,S.=(-1,4)$].
+Portanto, em todos estes casos obtivemos
++
+[latexmath]
+++++
+\[C.\,\,S.= (-1,4).\]
+++++
 
 
 .. latexmath:[$x^2+1<0$]
