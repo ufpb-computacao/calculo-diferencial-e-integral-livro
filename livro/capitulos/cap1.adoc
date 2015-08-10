@@ -1756,15 +1756,15 @@ Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], 
 
 [latexmath]
 ++++
-\[
-|7-4x| =12 \quad \Leftrightarrow \quad 7-4x =12\quad \mbox{ou}\quad 7-4x=-12
-\]
-\[
-\Leftrightarrow \quad 7-12=4x\quad \mbox{ou}\quad 7+12=4x
-\quad \Leftrightarrow \quad-5=4x\quad \mbox{ou}\quad 19=4x
-\] 
-\[
-\Leftrightarrow \quad x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}.
+\[\begin{array}{cc}
+&|7-4x| =12\\\\
+\Leftrightarrow & 7-4x =12\quad \mbox{ou}\quad 7-4x=-12\\\\
+\Leftrightarrow &7-12=4x\quad \mbox{ou}\quad 7+12=4x
+\\\\
+\Leftrightarrow &-5=4x\quad \mbox{ou}\quad 19=4x
+\\\\
+\Leftrightarrow & x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}.
+\end{array}
 \]
 Portanto, $-\frac{5}{4}$ e $\frac{19}{4}$ são raízes de $||7-4x|-3|=9$ e
 \[
@@ -1781,7 +1781,20 @@ Denotemos por latexmath:[$E(x)$] a equação latexmath:[$|x-2|+3|x-4|=5|x+1|$]. 
 latexmath:[$x=-1$]. Agora, precisamos analisar os latexmath:[$4$]  casos a seguir:
 +
 --
-Caso 1: ::: Se latexmath:[$x<-1$], então latexmath:[$ \quad x+1<0  \quad \, \Rightarrow  \quad \, |x+1|=-x-1$], latexmath:[$\quad x-2<-3  \quad \, \Rightarrow  \quad \, |x-2|=-x+2 \quad $] e latexmath:[$\quad x-4<-5  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=-5x-5$]. Assim, latexmath:[$x=-19$] e latexmath:[$-19\in  (-\infty,-1)$], implicando que neste intervalo latexmath:[$-19$] é uma raíz de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
+Caso 1: ::: Se latexmath:[$x<-1$], então
++
+[latexmath]
+++++
+\[
+\begin{array}{lll}
+ x+1<0 &\Rightarrow & |x+1|=-x-1\\\\
+x-2<-3& \Rightarrow &|x-2|=-x+2\\\\
+x-4<-5&\Rightarrow &|x-4|=-x+4$
+\end{array}
+\]
+++++
++
+Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=-5x-5$]. Assim, latexmath:[$x=-19$] e latexmath:[$-19\in  (-\infty,-1)$], implicando que neste intervalo latexmath:[$-19$] é uma raíz de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 
 Caso 2: ::: Se latexmath:[$-1\leq x<2$], então latexmath:[$ \quad 0\leq x+1<3  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad -3\leq x-2<0  \quad \, \Rightarrow  \quad \, |x-2|=-x+2\quad $] e latexmath:[$\quad -5\leq x-4<-2  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=5x+5$]. Assim, latexmath:[$x=1$] e latexmath:[$1 \in [-1,2)$], implicando que neste intervalo latexmath:[$1$] é uma raíz de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 
