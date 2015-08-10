@@ -911,9 +911,9 @@ Solução:: latexmath:[\,\,]
 ++++
 \[
 \begin{array}{cccccc}
-\dfrac{x-2}{x-4}>\dfrac{x+2}{x}\quad\Leftrightarrow \quad \dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\quad
-\Leftrightarrow \quad \dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0\\\\
-\Leftrightarrow \dfrac{-8}{x(x-4)}<0\quad \Leftrightarrow \quad\dfrac{1}{x(x-4)}>0.
+\dfrac{x-2}{x-4}>\dfrac{x+2}{x}&\Leftrightarrow &\dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0&
+\Leftrightarrow & \dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0\\\\
+&\Leftrightarrow& \dfrac{-8}{x(x-4)}<0& \Leftrightarrow &\dfrac{1}{x(x-4)}>0.
 \end{array} 
 \]
 Logo, pelo item i acima,
@@ -962,9 +962,10 @@ Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não 
 [latexmath]
 ++++
 \[
- {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0\]\[\quad \Leftrightarrow
-\quad {(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
-\]
+\begin{array}{cc}&
+ {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0\\\\
+\Leftrightarrow &{(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
+\end{array}\]
 ++++
 +
 Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$  são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e latexmath:[$r_4=1$]. Pela nota acima latexmath:[$(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2=-1$, $r_3=0$ e $r_4=1$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *Caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
