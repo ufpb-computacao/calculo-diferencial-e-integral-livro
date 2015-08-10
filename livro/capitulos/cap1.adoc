@@ -1618,7 +1618,7 @@ Logo,
 \[\hspace{-.2cm}\begin{array}{rcrcl}
 x &>& 1&\quad\Leftrightarrow\quad&  x \in (1,+\infty);\\
 x &>& 4&\quad\Leftrightarrow\quad&  x \in (4,+\infty);\\
-(x-2)(x+2)}{(x-13)(x+3)(x-3)&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3]\cup[-2,2]\cup[3,13];\\
+(x-2)(x+2)(x-13)(x+3)(x-3)&\leq &0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3]\cup[-2,2]\cup[3,13];\\
 (x-13)(x+3)(x-3)&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(-3,3)\cup(3,13)\cup(13,+\infty).
 \end{array}
 \]
@@ -1756,9 +1756,11 @@ Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], 
 \[
 \Leftrightarrow \quad x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}.
 \]
-++++ 
-
-Portanto, latexmath:[$-\frac{5}{4}$] e latexmath:[$\frac{19}{4}$] são raízes de latexmath:[$||7-4x|-3|=9$]. 
+Portanto, $-\frac{5}{4}$ e $\frac{19}{4}$ são raízes de $||7-4x|-3|=9$ e
+\[
+C.\,\,S.=\{-\frac{5}{4},\frac{19}{4}\}.
+\]
+++++
 --
 
 .. latexmath:[$|x-2|+3|x-4|=5|x+1|$].
