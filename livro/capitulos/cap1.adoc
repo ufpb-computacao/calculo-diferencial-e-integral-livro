@@ -811,7 +811,7 @@ Portanto,
 [latexmath]
 ++++
 \[
-C.S.=[-4,-2].
+C.\,\,S.=[-4,-2].
 \]
 ++++ 
 
@@ -847,7 +847,7 @@ Portanto,
 [latexmath]
 ++++
 \[
-C.S.=(-\infty, -4)\cup \left(-\sqrt{3},\sqrt{3}\right)\cup (4,+\infty).
+C.\,\,S.=(-\infty, -4)\cup \left(-\sqrt{3},\sqrt{3}\right)\cup (4,+\infty).
 \]
 ++++ 
 ====
@@ -1042,7 +1042,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.S.=\left(-\frac{2}{7},+\infty\right).\]
+\[C.\,\,S.=\left(-\frac{2}{7},+\infty\right).\]
 ++++
 
 
@@ -1160,7 +1160,7 @@ Temos as seguintes equivalências:
 
 ... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0 \quad\mbox{e}\quad P(x)\geq (k\mp\sqrt{Q(x)})^2$];
 
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$C.S.=\emptyset$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$C.\,\,S.=\emptyset$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)= 0\quad\mbox{e}\quad Q(x)= 0$].
 --
 
@@ -1280,11 +1280,11 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 Portanto,
 \[
-C.S.=\emptyset
+C.\,\,S.=\emptyset
 \]
 ++++
 +
-Note que, não é necessário fazer as contas acima para obter que latexmath:[$C.S.=\emptyset$], pois a definição da raiz quadrada, se segue que latexmath:[$\sqrt{x+5}\geq 0$]. Assim,  latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
+Note que, não é necessário fazer as contas acima para obter que latexmath:[$C.\,\,S.=\emptyset$], pois a definição da raiz quadrada, se segue que latexmath:[$\sqrt{x+5}\geq 0$]. Assim,  latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
 
 
 ====
@@ -1373,12 +1373,18 @@ Por outro lado,
  \Leftrightarrow\quad -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0\]
 e pelo item iii de {\bf Inequações Irracionais} temos que 
 \[
+\begin{array}{c}
 \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
-\quad \Leftrightarrow\quad  (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
+\\\\
+\Updownarrow
+\\\\
+(x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
+\end{array}
 \]
+Fazendo $P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes. 
+Portanto,
+\[C.\,\,S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)\]
 ++++
-+
-Fazendo latexmath:[$P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes. Portanto, $C.S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)$]
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
 
@@ -1412,7 +1418,7 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(-9, -5\]\cup (4,9)$].
+Portanto, latexmath:[$C.\,\,S.=(-9, -5\]\cup (4,9)$].
 
 
 ====
@@ -1547,7 +1553,7 @@ x \in (4,13).
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(4,13)$].
+Portanto, latexmath:[$C.\,\,S.=(4,13)$].
 
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[3\]{x^2-9}\sqrt[9\]{x-1}\sqrt[5\]{x-4}}\leq 0$]
 
@@ -1572,7 +1578,7 @@ Fazendo $P(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)$].
+Portanto, latexmath:[$C.\,\,S.= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)$].
 
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[7\]{x^2-9}\sqrt[6\]{x-1}\sqrt[4\]{x-4}}\leq 0$]
 
@@ -1618,7 +1624,7 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(4,13)$].
+Portanto, latexmath:[$C.\,\,S.=(4,13)$].
 
 ====
 
