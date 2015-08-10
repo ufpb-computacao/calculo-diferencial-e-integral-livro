@@ -1789,7 +1789,7 @@ Caso 1: ::: Se latexmath:[$x<-1$], então
 \begin{array}{lll}
  x+1<0 &\Rightarrow & |x+1|=-x-1\\\\
 x-2<-3& \Rightarrow &|x-2|=-x+2\\\\
-x-4<-5&\Rightarrow &|x-4|=-x+4$
+x-4<-5&\Rightarrow &|x-4|=-x+4
 \end{array}
 \]
 ++++
