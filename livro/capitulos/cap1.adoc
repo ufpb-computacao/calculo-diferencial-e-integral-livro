@@ -1814,19 +1814,27 @@ Pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1
 [latexmath]
 ++++
 \[
--(x+1)<\left|{x^2+2x+1}\right|\quad \Leftrightarrow \quad x^2+2x+1>-(x+1) \quad \mbox{ou }\quad x^2+2x+1<-(-(x+1))
+\begin{array}{c}
+-(x+1)<\left|{x^2+2x+1}\right|
+\\\Updownarrow \\\\
+x^2+2x+1>-(x+1) \quad \mbox{ou }\quad x^2+2x+1<-(-(x+1))
+\\\Updownarrow \\\\
+x^2+2x+1>-x-1 \quad \mbox{ou }\quad x^2+2x+1<x+1
+\\\Updownarrow \\\\
+x^2+3x+2>0 \quad \mbox{ou }\quad x^2+x<0
+\\\Updownarrow \\\\
+(x+2)(x+1)>0 \quad \mbox{ou }\quad x(x+1)<0
+\\\Updownarrow \\\\
+x \in (-\infty,-2)\cup (-1,+\infty)
+\end{array}
 \]
-\[
- \Leftrightarrow \quad x^2+2x+1>-x-1 \quad \mbox{ou }\quad x^2+2x+1<x+1\quad \Leftrightarrow \quad  x^2+3x+2>0 \quad \mbox{ou }\quad x^2+x<0\]
-\[
- \Leftrightarrow \quad (x+2)(x+1)>0 \quad \mbox{ou }\quad x(x+1)<0\quad \Leftrightarrow \quad x \in (-\infty,-2)\cup (-1,+\infty)\]
 Logo,
 \[
 C.\,\,S.1=(-\infty,-2)\cup (-1,+\infty).
 \]
 ++++
 
-Caso 2:: Encontremos o conjunto solução de latexmath:[$ (x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,\,S.1$]
+Caso 2:: Encontremos o conjunto solução de latexmath:[$ (x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,\,S.2$]
 +
 Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
 +
