@@ -1429,11 +1429,11 @@ x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
- \hspace{- 1cm} x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (4,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(4,13).
+ x \in \tiny{\Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( 1,+\infty \Big)\cap\Big( 4,+\infty \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(4,13).}
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(3,13)$].
+Portanto, latexmath:[$C.S.=(4,13)$].
 
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[3\]{x^2-9}\sqrt[9\]{x-1}\sqrt[5\]{x-4}}\leq 0$]
 
