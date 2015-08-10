@@ -1578,7 +1578,10 @@ Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
 \begin{array}{cc}
 & \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\\\\
-\Leftrightarrow &\tiny{{(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\quad \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0}\\\\\Leftrightarrow & \tiny{{(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\quad \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.}
+\Leftrightarrow &(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\\\\
+& \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0
+\\\\\Leftrightarrow & (x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\\\\
+& \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.
 \end{array}
 \]
 Fazendo $P(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $P(x)=0$ são $r_1=-3$, $r_2=-2$, $r_3=1$, $r_4=2$, $r_5=3$, $r_6=4$ e $r_7=13$. Desde que a inequação é da forma $P(x)\leq 0$, pelo item iv(b) do {\bf Caso I} de {\bf Inequações Polinomiais}, temos que 
