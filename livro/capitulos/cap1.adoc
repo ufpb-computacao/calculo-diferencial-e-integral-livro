@@ -1414,11 +1414,13 @@ x-4&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-9,9)\Big)\cap\Big( [-5,4] \Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
+  x \in \Big( -9,9\Big)\cap\Big[-5,4 \Big]\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
+\]
+Portanto, 
+\[C.\,\,S.=(-9, -5\]\cup (4,9).
 \]
 ++++
-+
-Portanto, latexmath:[$C.\,\,S.=(-9, -5\]\cup (4,9)$].
+
 
 
 ====
