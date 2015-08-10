@@ -1578,7 +1578,7 @@ Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
 \begin{array}{ccccc}
 & \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\\\\
-\Leftrightarrow &(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\\\\
+\Leftrightarrow &(x^2-4)(x-13)(x^2-9)(x-1)(x-4)\leq 0\\\\
 & \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0
 \\\\\Leftrightarrow & (x-2)(x+2)(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\\\\
 & \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.
