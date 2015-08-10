@@ -1610,10 +1610,8 @@ temos que latexmath:[$n_1=6$, $n_2=4$ e $n_3=7$], ou podemos aplicar o item iii(
 [latexmath]
 ++++
 \[\begin{array}{cc}
-\\\\
-\Leftrightarrow &
-
-\dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0\quad \Leftrightarrow\quad  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0
+&\dfrac{x^2-4}{(x-13)\sqrt[6]{x^2-9}\sqrt[4]{x-4}\sqrt[7]{x-1}}\leq 0\\\\
+\Leftrightarrow & x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0
 \end{array}\]
 Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \[
