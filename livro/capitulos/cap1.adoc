@@ -660,14 +660,9 @@ latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$
 r_1=\dfrac{-(-3)-\sqrt{\Delta}}{2(1)}=\dfrac{3-\sqrt{25}}{2}=\dfrac{-2}{2}=-1\quad \mbox{e}\quad r_2=\dfrac{-(-3)+\sqrt{\Delta}}{2(1)}=\dfrac{3+\sqrt{25}}{2}=\dfrac{8}{2}=4.
 \]
 ++++ 
-+
-Portanto, aplicando o  item ii do *Caso II*, pois latexmath:[$r_1<r_2$], temos que
-+
-[latexmath]
-++++
-\[C.\,\,S.= (-1,4).\]
-++++
-+
+
+Aplicando o  item ii do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= (-1,4)$]
+
 Embora já tenhamos encontrado o conjunto solução para a inequação dada, a seguir apresentamos métodos alternativos para determiná-lo.
 
 Método 1 (Decompondo):::
