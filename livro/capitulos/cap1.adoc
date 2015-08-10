@@ -1101,7 +1101,7 @@ Assim, agora precisamos determinar o ${\rm C.\,\,S.}$ de $ \dfrac{(3x+2)(x+1)}{x
 Como $x^2-4x-8=(x-2-2\sqrt{3})(x-2+2\sqrt{3})$, então
 \[\dfrac{x^2-4x-8}{x+2}\leq  0\quad \Leftrightarrow \quad 
 \dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
-\end{array}\]
+\]
 Pelo item iv de {\bf Inequações Racionais} temos que
 \[
 \begin{array}{cc}
