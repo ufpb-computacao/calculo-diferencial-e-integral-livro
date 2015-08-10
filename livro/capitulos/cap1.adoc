@@ -1576,11 +1576,11 @@ Solução:: Desde que  latexmath:[$n_1=3$, $n_2=9$ e $n_3=5$], ou seja todos imp
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\]
 Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
-\begin{array}{cc}
+\begin{array}{ccccc}
 & \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\\\\
 \Leftrightarrow &(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\\\\
 & \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0
-\\\\\Leftrightarrow & (x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\\\\
+\\\\\Leftrightarrow & (x-2)(x+2)(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\\\\
 & \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.
 \end{array}
 \]
@@ -1619,7 +1619,8 @@ Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \]
 Assim, 
 \[
- \begin{array}{cc}&
+ \begin{array}{cc}
+&
 x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0
 \\\\\Leftrightarrow &
  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad{(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0
