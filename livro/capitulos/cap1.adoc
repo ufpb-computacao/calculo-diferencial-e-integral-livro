@@ -1291,7 +1291,7 @@ x&<&-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( -\infty, -5\Big]\cap\mathbb{R}\cap\Big( -5,+\infty \Big) =\emptyset
+  x \in ( -\infty, -5]\cap\mathbb{R}\cap( -5,+\infty ) =\emptyset
 \]
 Portanto,
 \[
@@ -1381,19 +1381,18 @@ Solução:: Desde que  latexmath:[$n=7$] é um número impar, podemos aplicar o 
 \dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x+5}{(x-4)(81-x^2)}\leq 0
 \]
 Por outro lado,
-\[
-\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 \quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0
-\]
-\[
- \Leftrightarrow\quad -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\quad \Leftrightarrow \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0\]
+\[\begin{array}{cccccc}
+&\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 &
+\Leftrightarrow & \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0\\\\
+\Leftrightarrow & -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0&
+\Leftrightarrow & \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
+\end{array}\]
 e pelo item iii de {\bf Inequações Irracionais} temos que 
 \[
-\begin{array}{c}
-\dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
+\begin{array}{cccc}
+&\dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
 \\\\
-\Updownarrow
-\\\\
-(x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
+\Leftrightarrow & (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
 \end{array}
 \]
 Fazendo $P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes.
@@ -1415,12 +1414,12 @@ Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow \quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0
 \]
 Assim, 
-\[
-81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0\quad \Leftrightarrow\quad   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
-\]
-\[
-\quad \Leftrightarrow\quad   (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
-\]
+\[\begin{array}{cc}
+& 81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0
+\\\\
+\Leftrightarrow &   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0\\\\
+\Leftrightarrow &  (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
+\end{array}\]
 Logo,
 \[\begin{array}{rcrcl}
 (x+9)(x-9)&<& 0&\quad\Leftrightarrow\quad&  x \in (-9,9);\\
@@ -1430,7 +1429,7 @@ x-4&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( -9,9\Big)\cap\Big[-5,4 \Big]\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
+  x \in ( -9,9)\cap[-5,4 ]\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
 \]
 Portanto, 
 \[{\rm C.\,\,S.}=(-9, -5]\cup (4,9).
