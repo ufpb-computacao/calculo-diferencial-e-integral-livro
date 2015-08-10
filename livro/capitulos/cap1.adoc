@@ -269,9 +269,9 @@ Definição 1.3:: Uma *((equação))* é uma afirmação que se estabelece entre
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação, se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, o conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$] Assim, *resolver uma equação* significa encontrar seu  latexmath:[$C.\,\,S.$]
+Definição 1.4:: Dada uma equação. Diz-se que um número real latexmath:[$a$] é uma *((raiz))* da equação, ou é um *zero* da equação, se ao substituir a variável da equação por latexmath:[$a$], a igualdade for verdadeira. Além disso, o conjunto de todas as soluções de  uma equação é chamado de *conjunto solução*, denotado por  latexmath:[${\rm C.\,\,S.}$] Assim, *resolver uma equação* significa encontrar seu  latexmath:[${\rm C.\,\,S.}$]
 
-NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$].
+NOTE: Se não existem soluções reais para a equação, então diz-se que  latexmath:[${\rm C.\,\,S.}$] é vazio, e se escreve, latexmath:[${\rm C.\,\,S.}=\emptyset$].
 
 
 .{zwsp}
@@ -290,7 +290,7 @@ temos que:
 \[ (-1)^2-4(-1)-5= 0\quad \mbox{e}\quad (5)^2-4(5)-5= 0.\]
 ++++++++++++++++++++++++++++++++++++++++++++ 
 +
-Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
+Assim, latexmath:[${\rm C.\,\,S.}=\{-1,5\}$];
 
 .. Porém, o número real latexmath:[$4$] não é uma raiz, pois
 +
@@ -299,7 +299,7 @@ Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
 \[ (4)^2-4(4)-5=-5\neq 0.\]
 ++++++++++++++++++++++++++++++++++++++++++++ 
 +
-Assim, latexmath:[$4 \notin C.\,\,S.$]
+Assim, latexmath:[$4 \notin {\rm C.\,\,S.}$]
 ============================
 
 
@@ -318,7 +318,7 @@ Portanto, latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$] e
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left\{\dfrac{2}{5}\right\}.\]
+\[{\rm C.\,\,S.}=\left\{\dfrac{2}{5}\right\}.\]
 ++++
 
 .. latexmath:[$5x+5=1-3x$].
@@ -329,7 +329,7 @@ Portanto, latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] e
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left\{-\dfrac{1}{2}\right\}.\]
+\[{\rm C.\,\,S.}=\left\{-\dfrac{1}{2}\right\}.\]
 ++++
 
 .. latexmath:[$x^2+1=0$].
@@ -339,7 +339,7 @@ Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\emptyset.\]
+\[{\rm C.\,\,S.}=\emptyset.\]
 ++++
 
 .. latexmath:[$4x^2-x-3=0$].
@@ -366,7 +366,7 @@ Portanto, latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latex
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left\{-\dfrac{3}{4},1\right\}.\]
+\[{\rm C.\,\,S.}=\left\{-\dfrac{3}{4},1\right\}.\]
 ++++
 
 ====
@@ -502,9 +502,9 @@ Definição 1.6:: Uma *((inequação))* é uma afirmação que se estabelece ent
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. Além disso, o conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[$C.\,\,S.$]. Assim, resolver uma inequação significa encontrar seu  latexmath:[$C.\,\,S.$].
+Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. Além disso, o conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[${\rm C.\,\,S.}$]. Assim, resolver uma inequação significa encontrar seu  latexmath:[${\rm C.\,\,S.}$].
 
-NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[$C.\,\,S.$] é vazio, e se escreve, latexmath:[$C.\,\,S.=\emptyset$]
+NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[${\rm C.\,\,S.}$] é vazio, e se escreve, latexmath:[${\rm C.\,\,S.}=\emptyset$]
 
 
 .{zwsp}
@@ -523,7 +523,7 @@ Então:
 \[(4)^2-4(4)-5=-5< 0 .\]
 ++++++++++++++++++++++++++++++++++++++++++++
 +
-Assim, latexmath:[$4 \in C.\,\,S.$]
+Assim, latexmath:[$4 \in {\rm C.\,\,S.}$]
 
 .. Porém, os números reais latexmath:[$-1$] e  latexmath:[$5$] não são soluções, pois
 +
@@ -532,7 +532,7 @@ Assim, latexmath:[$4 \in C.\,\,S.$]
 \[(-1)^2-4(-1)-5= 0\not < 0\quad \mbox{e}\quad (5)^2-4(5)-5= 0\not < 0. \]
 ++++++++++++++++++++++++++++++++++++++++++++
 +
-Assim, latexmath:[$-1,\,\,5 \notin C.\,\,S.$]
+Assim, latexmath:[$-1,\,\,5 \notin {\rm C.\,\,S.}$]
 ============================
 
 
@@ -551,13 +551,13 @@ ax+b>0 \quad \mbox{ou}\quad ax+b<0 \quad \mbox{ou}\quad ax+b\geq 0 \quad \mbox{o
 ++++++++++++++++++++++++++++++++++++++++++++
 Então, para resolver estas inequações  consideramos, sem perda de generalidade que, latexmath:[$a>0$]. Assim,
 
-... latexmath:[$ax+b>0 \quad \Leftrightarrow\quad  x>-\frac{b}{a} \quad \Leftrightarrow \quad  C.\,\,S.=\left(-\frac{b}{a}, + \infty\right)$];
+... latexmath:[$ax+b>0 \quad \Leftrightarrow\quad  x>-\frac{b}{a} \quad \Leftrightarrow \quad  {\rm C.\,\,S.}=\left(-\frac{b}{a}, + \infty\right)$];
 
-... latexmath:[$ax+b<0 \quad \Leftrightarrow \quad x<-\frac{b}{a} \quad \Leftrightarrow\quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right)$];
+... latexmath:[$ax+b<0 \quad \Leftrightarrow \quad x<-\frac{b}{a} \quad \Leftrightarrow\quad  {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right)$];
 
-... latexmath:[$ax+b\geq 0 \quad \Leftrightarrow\quad  x\geq-\frac{b}{a} \quad \Leftrightarrow \quad  C.\,\,S.=\left[-\frac{b}{a}, + \infty\right)$];
+... latexmath:[$ax+b\geq 0 \quad \Leftrightarrow\quad  x\geq-\frac{b}{a} \quad \Leftrightarrow \quad  {\rm C.\,\,S.}=\left[-\frac{b}{a}, + \infty\right)$];
 
-... latexmath:[$ax+b\leq 0 \quad \Leftrightarrow \quad x\leq-\frac{b}{a} \quad\Leftrightarrow \quad  C.\,\,S.=\left(-\infty, -\frac{b}{a}\right\]$].
+... latexmath:[$ax+b\leq 0 \quad \Leftrightarrow \quad x\leq-\frac{b}{a} \quad\Leftrightarrow \quad  {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right\]$].
 
 
 
@@ -574,7 +574,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left(-\infty,\dfrac{2}{5}\right).\]
+\[{\rm C.\,\,S.}=\left(-\infty,\dfrac{2}{5}\right).\]
 ++++
 
 .. latexmath:[$5x+5 \geq 1-3x$].
@@ -585,7 +585,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left[-\dfrac{1}{2},+\infty\right).\]
+\[{\rm C.\,\,S.}=\left[-\dfrac{1}{2},+\infty\right).\]
 ++++
 
 .. latexmath:[$3x-4<2+x$].
@@ -596,7 +596,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=(-\infty,3).\]
+\[{\rm C.\,\,S.}=(-\infty,3).\]
 ++++
 ====
 
@@ -632,28 +632,28 @@ r_1=\dfrac{-b-\sqrt{\Delta}}{2a}\quad \mbox{ou}\quad r_2=\dfrac{-b+\sqrt{\Delta}
 Caso I:: Se latexmath:[$\Delta=0$], então latexmath:[$ax^2+bx+c=0$] tem uma única raiz, isto é, latexmath:[$r=r_1= r_2$]. Portanto:
 +
 --
-... latexmath:[$ax^2+bx+c>0$] se, e somente, latexmath:[$ C.\,\,S.= \mathbb{R}\setminus\{r\}$];
-... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[$C.\,\,S.=\emptyset$];
-... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[$C.\,\,S.= \mathbb{R}$];
-... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[$ C.\,\,S.=\{r\}$].
+... latexmath:[$ax^2+bx+c>0$] se, e somente, latexmath:[$ {\rm C.\,\,S.}= \mathbb{R}\setminus\{r\}$];
+... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[${\rm C.\,\,S.}=\emptyset$];
+... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[${\rm C.\,\,S.}= \mathbb{R}$];
+... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[$ {\rm C.\,\,S.}=\{r\}$].
 --
 
 Caso II:: Se latexmath:[$\Delta>0$], então latexmath:[$ax^2+bx+c=0$] tem duas raízes diferentes, com latexmath:[$r_1< r_2$]. Portanto: 
 +
 --
-... latexmath:[$ax^2+bx+c>0$] se, e somente, latexmath:[$ C.\,\,S.= (-\infty, r_1)\cup (r_2,+\infty)$];
-... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[$C.\,\,S.= (r_1,r_2)$];
-... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[$C.\,\,S.= (-\infty, r_1\]\cup [r_2,+\infty)$];
-... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[$ C.\,\,S.= [r_1,r_2\]$].
+... latexmath:[$ax^2+bx+c>0$] se, e somente, latexmath:[$ {\rm C.\,\,S.}= (-\infty, r_1)\cup (r_2,+\infty)$];
+... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[${\rm C.\,\,S.}= (r_1,r_2)$];
+... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[${\rm C.\,\,S.}= (-\infty, r_1\]\cup [r_2,+\infty)$];
+... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[$ {\rm C.\,\,S.}= [r_1,r_2\]$].
 --
 
 Caso III:: Se latexmath:[$\Delta<0$], então latexmath:[$ax^2+bx+c=0$] não tem raízes em latexmath:[$\mathbb{R}$]. Portanto:
 +
 --
-... latexmath:[$ax^2+bx+c>0$] se, e somente,  latexmath:[$C.\,\,S.= \mathbb{R}$];
-... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[$C.\,\,S.=\emptyset$];
-... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[$C.\,\,S.=  \mathbb{R}$];
-... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[$C.\,\,S.=\emptyset$].
+... latexmath:[$ax^2+bx+c>0$] se, e somente,  latexmath:[${\rm C.\,\,S.}= \mathbb{R}$];
+... latexmath:[$ax^2+bx+c<0$] se, e somente se, latexmath:[${\rm C.\,\,S.}=\emptyset$];
+... latexmath:[$ax^2+bx+c\geq 0$] se, e somente se, latexmath:[${\rm C.\,\,S.}=  \mathbb{R}$];
+... latexmath:[$ax^2+bx+c\leq 0$] se, e somente se, latexmath:[${\rm C.\,\,S.}=\emptyset$].
 --
 
 
@@ -674,7 +674,7 @@ r_1=\dfrac{-(-3)-\sqrt{\Delta}}{2(1)}=\dfrac{3-\sqrt{25}}{2}=\dfrac{-2}{2}=-1\qu
 \]
 ++++ 
 
-Aplicando o  item ii do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[$C.\,\,S.= (-1,4)$].
+Aplicando o  item ii do *Caso II*, pois latexmath:[$r_1<r_2$], temos que latexmath:[${\rm C.\,\,S.}= (-1,4)$].
 
 Embora já tenhamos encontrado o conjunto solução para a inequação dada, a seguir apresentamos métodos alternativos para determiná-lo.
 
@@ -705,7 +705,7 @@ Portanto, em todos estes casos obtivemos,
 +
 [latexmath]
 ++++
-\[C.\,\,S.= (-1,4).\]
+\[{\rm C.\,\,S.}= (-1,4).\]
 ++++
 
 
@@ -717,7 +717,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.= \emptyset.\]
+\[{\rm C.\,\,S.}= \emptyset.\]
 ++++
 
 
@@ -736,7 +736,7 @@ Portanto, aplicando o  item iii do *Caso II*, pois latexmath:[$r_1<r_2$],
 +
 [latexmath]
 ++++
-\[C.\,\,S.= \left(-\infty,-\frac{3}{4}\right]\cup \big[1,+\infty\big).\]
+\[{\rm C.\,\,S.}= \left(-\infty,-\frac{3}{4}\right]\cup \big[1,+\infty\big).\]
 ++++
 
 
@@ -775,39 +775,39 @@ Logo,
 ... latexmath:[$P(x)>0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos abertos com sinal latexmath:[$+$], isto é:
 +
 --
-.. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (-\infty, r_1)\cup \dots\cup (r_n,+\infty)$];
-.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.= ( r_1,r_2)\cup \dots\cup (r_n,+\infty)$];
+.. Se  latexmath:[$ n$] é par, então  latexmath:[${\rm C.\,\,S.}= (-\infty, r_1)\cup \dots\cup (r_n,+\infty)$];
+.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[${\rm C.\,\,S.}= ( r_1,r_2)\cup \dots\cup (r_n,+\infty)$];
 --
 +
 ... latexmath:[$P(x)<0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos abertos com sinal latexmath:[$-$], isto é:
 +
 --
-.. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (r_1,r_2)\cup \dots\cup (r_{n-1},r_n)$];
-.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.=(-\infty, r_1)\cup \dots\cup (r_{n-1},r_n)$];
+.. Se  latexmath:[$ n$] é par, então  latexmath:[${\rm C.\,\,S.}= (r_1,r_2)\cup \dots\cup (r_{n-1},r_n)$];
+.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[${\rm C.\,\,S.}=(-\infty, r_1)\cup \dots\cup (r_{n-1},r_n)$];
 --
 +
 ... latexmath:[$P(x)\geq 0$]  se, e somente, latexmath:[$x$] pertence à união dos intervalos fechados com sinal latexmath:[$+$], isto é:
 +
 --
-.. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= (-\infty, r_1\]\cup \dots\cup [r_n,+\infty)$];
-.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.= [ r_1,r_2\]\cup \dots\cup [r_n,+\infty)$];
+.. Se  latexmath:[$ n$] é par, então  latexmath:[${\rm C.\,\,S.}= (-\infty, r_1\]\cup \dots\cup [r_n,+\infty)$];
+.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[${\rm C.\,\,S.}= [ r_1,r_2\]\cup \dots\cup [r_n,+\infty)$];
 --
 +
 ... latexmath:[$P(x)\leq 0$] se, e somente se, latexmath:[$x$] pertence à união dos intervalos fechados com sinal latexmath:[$-$], isto é:
 +
 --
-.. Se  latexmath:[$ n$] é par, então  latexmath:[$C.\,\,S.= [r_1,r_2\]\cup \dots\cup [r_{n-1},r_n\]$];
-.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[$C.\,\,S.=(-\infty, r_1\]\cup \dots\cup [r_{n-1},r_n\]$];
+.. Se  latexmath:[$ n$] é par, então  latexmath:[${\rm C.\,\,S.}= [r_1,r_2\]\cup \dots\cup [r_{n-1},r_n\]$];
+.. Se  latexmath:[$ n$] é ímpar, então  latexmath:[${\rm C.\,\,S.}=(-\infty, r_1\]\cup \dots\cup [r_{n-1},r_n\]$];
 --
 
 Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou igual que $2$]. Então: 
 
-... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
+... Se a multiciplicidade de latexmath:[$r_k$] é par, então aplicaremos o mesmo procedimento do *Caso I* sem considerar latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[${\rm C.\,\,S.}$]
 
 
-... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$]
+... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[${\rm C.\,\,S.}$]
 
-Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$]. Em outras palavras, o latexmath:[$C.\,\,S.$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
+Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[${\rm C.\,\,S.}$]. Em outras palavras, o latexmath:[${\rm C.\,\,S.}$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
 
 .{zwsp}
 ====
@@ -815,7 +815,7 @@ Resolvamos as seguintes inequações:
 
 .. latexmath:[$(x-1)^4(x+2)(x+4)\leq 0$]
 Solução::
-Fazendo latexmath:[$P(x)=(x-1)^4(x+2)(x+4)=0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item i, latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
+Fazendo latexmath:[$P(x)=(x-1)^4(x+2)(x+4)=0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-2$] e latexmath:[$r_3=1$]. Notemos que a multiciplicidade de latexmath:[$r_3$ é $4$]. Então, aplicando o *Caso II* item i, latexmath:[$r_3=1$] não será considerada para a obtenção dos intervalos que definem o latexmath:[${\rm C.\,\,S.}$] Mais ainda, como a inequação é da forma latexmath:[$P(x)\leq 0$], podemos aplicar o item iv(a) do *Caso I*,  considerando, somente, as raízes latexmath:[$r_1=-4$], latexmath:[$r_2=-2$]. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$]. Veja a figura a seguir:
 +
 image::images/{cap}/raizes_polinomio1.eps[scaledwidth="50%"]
 +
@@ -824,7 +824,7 @@ Portanto,
 [latexmath]
 ++++
 \[
-C.\,\,S.=[-4,-2].
+{\rm C.\,\,S.}=[-4,-2].
 \]
 ++++ 
 
@@ -839,7 +839,7 @@ x^2+16=0\quad\mbox{e}\quad x^4+1=0\quad \mbox{não tem raízes em}\quad \mathbb{
 \]
 ++++
 +
-temos que, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[$C.\,\,S.$] Além disso,
+temos que, pelo *Caso III*, latexmath:[$x^2+16$ e $x^4+1$] não serão consideradas na obtenção dos intervalos que definem  latexmath:[${\rm C.\,\,S.}$] Além disso,
 +
 [latexmath]
 ++++
@@ -851,7 +851,7 @@ Assim,
 \]
 ++++
 +
-Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item ii latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[$C.\,\,S.$] Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item i(a) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
+Fazendo latexmath:[$P(x)=(x+\sqrt{3})^5(x-\sqrt{3})^5(x-4)(x+4)= 0$, temos que as raízes de $P(x)=0$ são $r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e  latexmath:[$r_4=4$]. Note que tanto latexmath:[$r_2$ como $r_3$] têm multiciplicidade latexmath:[$5$]. Do *Caso II* item ii latexmath:[$r_2$ e $r_3$] serão consideradas para a obtenção dos intervalos que definem o latexmath:[${\rm C.\,\,S.}$] Mais ainda, como a inequação é da forma latexmath:[$P(x)> 0$], podemos aplicar o item i(a) do *Caso I*, para todas as raízes  latexmath:[$r_1=-4$], latexmath:[$r_2=-\sqrt{3}$],  latexmath:[$r_3=\sqrt{3}$] e latexmath:[$r_4=4$]. Ou seja, então latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(+)$]. Veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio2.eps[scaledwidth="70%"]
 +
@@ -860,7 +860,7 @@ Portanto,
 [latexmath]
 ++++
 \[
-C.\,\,S.=(-\infty, -4)\cup \left(-\sqrt{3},\sqrt{3}\right)\cup (4,+\infty).
+{\rm C.\,\,S.}=(-\infty, -4)\cup \left(-\sqrt{3},\sqrt{3}\right)\cup (4,+\infty).
 \]
 ++++ 
 ====
@@ -892,7 +892,7 @@ Para resolver este tipo de inequações, devemos saber que:
 ... latexmath:[$\dfrac{P(x)}{Q(x)}\geq 0\quad \equiv \quad P(x)Q(x)\geq 0\quad\mbox{e}\quad Q(x)\neq 0$];
 ... latexmath:[$\dfrac{P(x)}{Q(x)}\leq 0\quad \equiv \quad P(x)Q(x)\leq 0\quad\mbox{e}\quad Q(x)\neq 0$].
 
-Logo, fazendo latexmath:[$\hat P(x)={P(x)}{Q(x)}$],  procedemos como nos casos anteriores para  latexmath:[$\hat P(x)$ em ordem a obter o $C.\,\,S.$] 
+Logo, fazendo latexmath:[$\hat P(x)={P(x)}{Q(x)}$],  procedemos como nos casos anteriores para  latexmath:[$\hat P(x)$ em ordem a obter o ${\rm C.\,\,S.}$] 
 
 [NOTE]
 ====
@@ -928,7 +928,7 @@ image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
 [latexmath]
 ++++
-\[C.\,\,S.=(-\infty,0)\cup (4,+\infty).\]
+\[{\rm C.\,\,S.}=(-\infty,0)\cup (4,+\infty).\]
 ++++
 
 
@@ -956,7 +956,7 @@ Logo, pelo item iv acima,
 \]
 ++++ 
 +
-Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não será considerada para a obtenção de $C.\,\,S.$] Assim, 
+Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não será considerada para a obtenção de ${\rm C.\,\,S.}$] Assim, 
 +
 [latexmath]
 ++++
@@ -974,7 +974,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.= [-2,-1)\cup (0,1).\]
+\[{\rm C.\,\,S.}= [-2,-1)\cup (0,1).\]
 ++++
 
 ====
@@ -1040,7 +1040,7 @@ Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[
 \[
 2^{(5x+2)/4}> 2^{(x+1)/5}\quad \Leftrightarrow\quad \dfrac{5x+2}{4}> \dfrac{x+1}{5}.
 \]
-Assim, agora precisamos determinar o $C.\,\,S.$ de $\dfrac{5x+2}{4}> \dfrac{x+1}{5}$. Desde que
+Assim, agora precisamos determinar o ${\rm C.\,\,S.}$ de $\dfrac{5x+2}{4}> \dfrac{x+1}{5}$. Desde que
 \[ 
 \dfrac{5x+2}{4}> \dfrac{x+1}{5}\quad \Leftrightarrow\quad\dfrac{5x+2}{4}- \dfrac{x+1}{5}>0\quad \Leftrightarrow \quad 
 \dfrac{5(5x+2)-4(x+1)}{20}\quad \Leftrightarrow 
@@ -1054,7 +1054,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\left(-\frac{2}{7},+\infty\right).\]
+\[{\rm C.\,\,S.}=\left(-\frac{2}{7},+\infty\right).\]
 ++++
 
 
@@ -1087,7 +1087,7 @@ Como a inequação é da forma latexmath:[$a^{f(x)}>a^{g(x)}$], com  latexmath:[
  (0,3)^{\frac{(3x+2)(x+1)}{x+2}}\geq (0,3)^{2x+5}
 \quad \Leftrightarrow \quad \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5} .
 \]
-Assim, agora precisamos determinar o $C.\,\,S.$ de $ \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5}$. Desde que
+Assim, agora precisamos determinar o ${\rm C.\,\,S.}$ de $ \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5}$. Desde que
 \[
  \dfrac{(3x+2)(x+1)}{x+2}\leq {2x+5} \quad \Leftrightarrow \quad\dfrac{(3x+2)(x+1)}{x+2}-{2x+5}\leq  0
 \]
@@ -1118,7 +1118,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=(-\infty,-2)\cup \left[2-2\sqrt{3},2+2\sqrt{3}\right].\]
+\[{\rm C.\,\,S.}=(-\infty,-2)\cup \left[2-2\sqrt{3},2+2\sqrt{3}\right].\]
 ++++
 ====
 
@@ -1172,7 +1172,7 @@ Temos as seguintes equivalências:
 
 ... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0 \quad\mbox{e}\quad P(x)\geq (k\mp\sqrt{Q(x)})^2$];
 
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$C.\,\,S.=\emptyset$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}<0$]latexmath:[$ \quad \equiv \quad$]latexmath:[${\rm C.\,\,S.}=\emptyset$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\leq 0$]latexmath:[$ \quad \equiv \quad$]latexmath:[$P(x)= 0\quad\mbox{e}\quad Q(x)= 0$].
 --
 
@@ -1231,7 +1231,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=(-\infty, -1]\cup[2, 3).\]
+\[{\rm C.\,\,S.}=(-\infty, -1]\cup[2, 3).\]
 ++++
 
 ..  latexmath:[$\sqrt{x-8}\leq 0$]
@@ -1264,7 +1264,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=\{8\}.\]
+\[{\rm C.\,\,S.}=\{8\}.\]
 ++++
 
 ..  latexmath:[$\sqrt{x+5}<0$]
@@ -1292,11 +1292,11 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 Portanto,
 \[
-C.\,\,S.=\emptyset
+{\rm C.\,\,S.}=\emptyset
 \]
 ++++
 +
-Note que, não é necessário fazer as contas acima para obter que latexmath:[$C.\,\,S.=\emptyset$], pois a definição da raiz quadrada, se segue que latexmath:[$\sqrt{x+5}\geq 0$]. Assim,  latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
+Note que, não é necessário fazer as contas acima para obter que latexmath:[${\rm C.\,\,S.}=\emptyset$], pois a definição da raiz quadrada, se segue que latexmath:[$\sqrt{x+5}\geq 0$]. Assim,  latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
 
 
 ====
@@ -1396,7 +1396,7 @@ e pelo item iii de {\bf Inequações Irracionais} temos que
 Fazendo $P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes.
  
 Portanto,
-\[C.\,\,S.=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)\]
+\[{\rm C.\,\,S.}=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)\]
 ++++
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
@@ -1430,7 +1430,7 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
   x \in \Big( -9,9\Big)\cap\Big[-5,4 \Big]\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
 \]
 Portanto, 
-\[C.\,\,S.=(-9, -5]\cup (4,9).
+\[{\rm C.\,\,S.}=(-9, -5]\cup (4,9).
 \]
 ++++
 
@@ -1562,7 +1562,7 @@ Assim, $x$ pertence à interceção dos seguintes intervalos
 \]
 Portanto,
 \[
-C.\,\,S.=(4,13).\]
+{\rm C.\,\,S.}=(4,13).\]
 ++++
 
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[3\]{x^2-9}\sqrt[9\]{x-1}\sqrt[5\]{x-4}}\leq 0$]
@@ -1588,7 +1588,7 @@ Fazendo $P(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $
 \]
 Portanto, 
 \[
-C.\,\,S.= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)
+{\rm C.\,\,S.}= (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13)
 \]
 ++++
 
@@ -1639,7 +1639,7 @@ Assim, $x$ pertence à interceção dos seguintes intervalos:
 \end{array}
 \]
 Portanto,
-\[C.\,\,S.=(4,13).
+\[{\rm C.\,\,S.}=(4,13).
 \]
 ++++
 ====
@@ -1730,7 +1730,7 @@ Solução:: Pelo item ii do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], te
 \]
 Portanto, $\frac{1}{3}$ e $3$ são raízes de $|3x-5|=4$ e
 \[
-C.\,\,S.=\left\{\frac{1}{3},3\right\}.
+{\rm C.\,\,S.}=\left\{\frac{1}{3},3\right\}.
 \]
 ++++
 --
@@ -1741,11 +1741,12 @@ Solução:: Pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|-3$ e $b=9$]
 --
 [latexmath]
 ++++
-\[
-||7-4x|-3|=9 \quad \,\Leftrightarrow \quad \,|7-4x|-3 =9\quad \mbox{ou}\quad |7-4x|-3=-9
-\]
-\[
-\Leftrightarrow \quad |7-4x| =12\quad \mbox{ou}\quad |7-4x|=-6.
+\[\begin{array}{cc}
+&||7-4x|-3|=9 \\\\
+\Leftrightarrow & |7-4x|-3 =9\quad \mbox{ou}\quad |7-4x|-3=-9
+\\\\
+\Leftrightarrow & |7-4x| =12\quad \mbox{ou}\quad |7-4x|=-6.
+\end{array}
 \]
 ++++
 
@@ -1767,7 +1768,7 @@ Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], 
 \]
 Portanto, $-\frac{5}{4}$ e $\frac{19}{4}$ são raízes de $||7-4x|-3|=9$ e
 \[
-C.\,\,S.=\left\{-\frac{5}{4},\frac{19}{4}\right\}.
+{\rm C.\,\,S.}=\left\{-\frac{5}{4},\frac{19}{4}\right\}.
 \]
 ++++
 --
@@ -1794,7 +1795,7 @@ Portanto, latexmath:[$-19$] e  latexmath:[$1$] são as raízes de latexmath:[$|x
 [latexmath]
 ++++
 \[
-C.\,\,S.=\{-19,1\}.
+{\rm C.\,\,S.}=\{-19,1\}.
 \]
 ++++
 ====
@@ -1816,7 +1817,7 @@ Solução:: Pelo item xii do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+2
 \]
 ++++
 
-Caso 1:: Encontremos o conjunto solução de latexmath:[$ -(x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,\,S.1$]
+Caso 1:: Encontremos o conjunto solução de latexmath:[$ -(x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por ${\rm C.\,\,S.}1$]
 +
 Pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1}$] temos que:
 +
@@ -1839,11 +1840,11 @@ x \in (-\infty,-2)\cup (-1,+\infty)
 \]
 Logo,
 \[
-C.\,\,S.1=(-\infty,-2)\cup (-1,+\infty).
+{\rm C.\,\,S.}1=(-\infty,-2)\cup (-1,+\infty).
 \]
 ++++
 
-Caso 2:: Encontremos o conjunto solução de latexmath:[$ (x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,\,S.2$]
+Caso 2:: Encontremos o conjunto solução de latexmath:[$ (x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por ${\rm C.\,\,S.}2$]
 +
 Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
 +
@@ -1864,11 +1865,11 @@ x \in (-\infty,-1)\cup (0,+\infty)
 \]
 Logo,
 \[
-C.\,\,S.2=(-\infty,-1)\cup (0,+\infty).
+{\rm C.\,\,S.}2=(-\infty,-1)\cup (0,+\infty).
 \]
 ++++
 
-Assim, o latexmath:[$C.\,\,S.$ será obtido intersectando $C.\,\,S.1$ e $C.\,\,S.2$], isto é,
+Assim, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$ e ${\rm C.\,\,S.}2$], isto é,
 [latexmath]
 ++++
 \[
@@ -1876,7 +1877,7 @@ Assim, o latexmath:[$C.\,\,S.$ será obtido intersectando $C.\,\,S.1$ e $C.\,\,S
 \]
 Portanto, 
 \[
-C.\,\,S.=(-\infty,-2)\cup (0,+\infty).
+{\rm C.\,\,S.}=(-\infty,-2)\cup (0,+\infty).
 \]
 ++++
 --
@@ -1907,15 +1908,15 @@ x>-\frac{3}{4} \quad \mbox{ e}\quad 0< 4x+3+\dfrac{x+3}{x+1} \quad \mbox{e} \qua
 \]
 ++++
 
-Caso 1::: Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$, e o denotemos por $C.\,\,S.1$]. 
+Caso 1::: Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$, e o denotemos por ${\rm C.\,\,S.}1$]. 
 +
-Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ equivale a $x+1>0$]. Logo,   latexmath:[$C.\,\,S. 1=(-1,+\infty)$].
+Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ equivale a $x+1>0$]. Logo,   latexmath:[${\rm C.\,\,S.} 1=(-1,+\infty)$].
 
-Caso 2::: Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$, e o denotemos por $C.\,\,S.2$].
+Caso 2::: Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$, e o denotemos por ${\rm C.\,\,S.}2$].
 +
-Desde que, latexmath:[$\dfrac{x(2x+3)}{x+1}>0$ equivale a $x(2x+3)(x+1)>0$]. Segue-se que, latexmath:[$r_1=-\frac{3}{2}$], latexmath:[$ r_2= -1$] e latexmath:[$ r_3= 0$], então  latexmath:[$C.\,\,S. 2=\left(-\frac{3}{2},-1\right)\cup (0,+\infty)$].
+Desde que, latexmath:[$\dfrac{x(2x+3)}{x+1}>0$ equivale a $x(2x+3)(x+1)>0$]. Segue-se que, latexmath:[$r_1=-\frac{3}{2}$], latexmath:[$ r_2= -1$] e latexmath:[$ r_3= 0$], então  latexmath:[${\rm C.\,\,S.} 2=\left(-\frac{3}{2},-1\right)\cup (0,+\infty)$].
 
-Assim, o latexmath:[$C.\,\,S.$ será obtido intersectando $C.\,\,S.1$, $C.\,\,S.2$ e $x>-\frac{3}{4} $], isto é,
+Assim, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$, ${\rm C.\,\,S.}2$ e $x>-\frac{3}{4} $], isto é,
 [latexmath]
 ++++
 \[
@@ -1923,7 +1924,7 @@ Assim, o latexmath:[$C.\,\,S.$ será obtido intersectando $C.\,\,S.1$, $C.\,\,S.
 \]
 ++++
 
-Portanto, latexmath:[$C.\,\,S.=(0,+\infty)$]  
+Portanto, latexmath:[${\rm C.\,\,S.}=(0,+\infty)$]  
 --
 
 ====
