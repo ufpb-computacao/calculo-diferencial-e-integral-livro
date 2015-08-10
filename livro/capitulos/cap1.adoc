@@ -723,7 +723,7 @@ Portanto, aplicando o  item iii do *Caso II*, pois latexmath:[$r_1<r_2$],
 +
 [latexmath]
 ++++
-\[C.\,\,S.= \big(-\infty,-\frac{3}{4}\big]\cup \big[1,+\infty\big).\]
+\[C.\,\,S.= \left(-\infty,-\frac{3}{4}\right]\cup \big[1,+\infty\big).\]
 ++++
 
 
@@ -847,7 +847,7 @@ Portanto,
 [latexmath]
 ++++
 \[
-C.S.=(-\infty, -4)\cup (-\sqrt{3},\sqrt{3})\cup (4,+\infty).
+C.S.=(-\infty, -4)\cup \left(-\sqrt{3},\sqrt{3}\right)\cup (4,+\infty).
 \]
 ++++ 
 ====
