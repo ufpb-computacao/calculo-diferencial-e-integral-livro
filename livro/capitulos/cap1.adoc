@@ -688,7 +688,7 @@ image::images/{cap}/pc1.eps[scaledwidth="50%"]
 Nesta figura observamos que latexmath:[$(x+1)(x-4)<0$],  se latexmath:[$x \in (-1,4)$].
 --
 +
-Portanto, em todos estes casos obtivemos
+Portanto, em todos estes casos obtivemos,
 +
 [latexmath]
 ++++
@@ -698,7 +698,15 @@ Portanto, em todos estes casos obtivemos
 
 .. latexmath:[$x^2+1<0$]
 
-Solução:: Para latexmath:[$x^2-1<0$] temos que latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Então, do *Caso III* item ii, se segue que latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$]. Portanto, latexmath:[$C.\,\,S.= \emptyset$].
+Solução:: Para latexmath:[$x^2-1<0$] temos que latexmath:[$\Delta=(0)^2-4(1)(1)=-16<0$]. Então, do *Caso III* item ii, se segue que latexmath:[$x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$]. 
++
+Portanto, 
++
+[latexmath]
+++++
+\[C.\,\,S.= \emptyset.\]
+++++
+
 
 .. latexmath:[$4x^2-x-3\geq 0$].
 Solução::
@@ -711,7 +719,13 @@ r_1=\dfrac{-(-1)-\sqrt{\Delta}}{2(4)}=\dfrac{1-\sqrt{49}}{8}=-\frac{3}{4}\quad \
 \]
 ++++
 + 
-Portanto, aplicando o  item iii do *Caso II*, pois latexmath:[$r_1<r_2$], latexmath:[$C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big)$].
+Portanto, aplicando o  item iii do *Caso II*, pois latexmath:[$r_1<r_2$],
++
+[latexmath]
+++++
+\[C.\,\,S.= \big(-\infty,-\frac{3}{4}\big\]\cup \big[1,+\infty\big).\]
+++++
+
 
 
 ============================
