@@ -1213,7 +1213,7 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 \\\\
 \Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
 \\\\
-\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27
+\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27.
 \end{array}
 \]
 Logo,
@@ -1243,11 +1243,12 @@ Aplicando o item iv do *Caso I*, para latexmath:[$P(x)=x-8$] e latexmath:[$Q(x)=
 +
 [latexmath]
 ++++
-\[
-\sqrt{x-8}\leq 0\quad \Leftrightarrow \quad x-8 \geq 0 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x-8\leq 0^2=0
-\]
-\[
-\quad \Leftrightarrow \quad x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
+\[\begin{array}{cc}
+&\sqrt{x-8}\leq 0\\\\
+\Leftrightarrow & x-8 \geq 0 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x-8\leq 0
+\\\\
+\Leftrightarrow & x\geq 8 \quad \mbox{e} \quad 0\leq 0  \quad \mbox{e} \quad x\leq 8. 
+\end{array}
 \]
 Logo,
 \[\begin{array}{rcrcl}
@@ -1258,7 +1259,7 @@ x&\leq& 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( -\infty, 8\Big]\cap \mathbb{R}\cap\Big[8,+\infty \Big)= \{8\}.
+  x \in ( -\infty, 8]\cap \mathbb{R}\cap[8,+\infty )= \{8\}.
 \]
 ++++
 +
@@ -1275,12 +1276,12 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x+5$] e latexmath:[$Q(x)
 +
 [latexmath]
 ++++
-\[
-\sqrt{x+5}< 0\quad \Leftrightarrow \quad x+5 \geq 0 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x+5< 0^2=0
-\]
-\[
-\quad \Leftrightarrow \quad x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
-\]
+\[\begin{array}{cc}
+&\sqrt{x+5}< 0\\\\
+\Leftrightarrow & x+5 \geq 0 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x+5< 0^2=0
+\\\\
+\Leftrightarrow & x\geq -5 \quad \mbox{e} \quad 0> 0  \quad \mbox{e} \quad x< -5.
+\end{array}\]
 Logo,
 \[\begin{array}{rcrcl}
 x&\geq& -5&\quad \Leftrightarrow \quad &  x \in (-\infty, -5];\\
