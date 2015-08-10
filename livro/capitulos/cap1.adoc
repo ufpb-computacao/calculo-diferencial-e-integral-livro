@@ -1215,9 +1215,12 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=(-\infty, -1\]\cup[2, 3)$].
-
-
+Portanto, 
++
+[latexmath]
+++++
+\[C.\,\,S.=(-\infty, -1\]\cup[2, 3).\]
+++++
 
 ..  latexmath:[$\sqrt{x-8}\leq 0$]
 Solução:: 
@@ -1245,7 +1248,12 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]
 ++++
 +
-Portanto, latexmath:[$C.S.=\{8\}$].
+Portanto, 
++
+[latexmath]
+++++
+\[C.\,\,S.=\{8\}.\]
+++++
 
 ..  latexmath:[$\sqrt{x+5}<0$]
 Solução:: 
@@ -1270,10 +1278,13 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
   x \in \Big( (-\infty, -5]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( (-5,+\infty) \Big) =\emptyset
 \]
+Portanto,
+\[
+C.S.=\emptyset
+\]
 ++++
 +
-Portanto, latexmath:[$C.S.=\emptyset$]. +
-Note que não é necessário fazer as contas acima para obter latexmath:[$C.S.=\emptyset$], pois  latexmath:[$\sqrt{x+5}\geq 0$], pela definição da raiz quadrada, logo, latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
+Note que, não é necessário fazer as contas acima para obter que latexmath:[$C.S.=\emptyset$], pois a definição da raiz quadrada, se segue que latexmath:[$\sqrt{x+5}\geq 0$]. Assim,  latexmath:[$\sqrt{x+5}< 0$] é uma inequação não válida.
 
 
 ====
