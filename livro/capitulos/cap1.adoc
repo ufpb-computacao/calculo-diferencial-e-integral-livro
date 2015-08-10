@@ -1395,16 +1395,12 @@ Resolvamos as seguintes inequações:
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[4\]{x^2-9}\sqrt{x-1}\sqrt[6\]{x-4}}\leq 0$]
 
 Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos pares, podemos aplicar o item i(b) do *Caso VI*, para latexmath:[$P(x)=x^2-4$, $Q_1(x)=\sqrt[4\]{x^2-9}$, $Q_2(x)=\sqrt{x-1}$, $Q_3(x)=\sqrt[6\]{x-4}$ e $R(x)=x-13$]. Assim, temos que:
-
-////
 +
 [latexmath]
 ++++
 \[
 \begin{array}{c}
-\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\\\\
-\Downarrow\\\\
-x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0
+\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\\
 \end{array}
 \]
 Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
@@ -1435,8 +1431,6 @@ Assim, $x$ pertence à interceção destes intervalos, isto é
 \]}
 ++++
 +
-////
-
 Portanto, latexmath:[$C.S.=(3,13)$].
 
 .. latexmath:[$\dfrac{x^2-4}{(x-13)\sqrt[3\]{x^2-9}\sqrt[9\]{x-1}\sqrt[5\]{x-4}}\leq 0$]
