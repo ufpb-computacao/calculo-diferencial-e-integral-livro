@@ -910,10 +910,10 @@ Solução:: latexmath:[\,\,]
 [latexmath]
 ++++
 \[
-\begin{array}{cccc}
-&\dfrac{x-2}{x-4}>\dfrac{x+2}{x}&\Leftrightarrow &\dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\\\\
-\Leftrightarrow &\dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0&\Leftrightarrow &\dfrac{-8}{x(x-4)}<0\\\\
-\Leftrightarrow &\dfrac{1}{x(x-4)}>0.
+\begin{array}{cccccc}
+\dfrac{x-2}{x-4}>\dfrac{x+2}{x}\quad\Leftrightarrow \quad \dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\quad
+\Leftrightarrow \quad \dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0\\\\
+\Leftrightarrow \dfrac{-8}{x(x-4)}<0\quad \Leftrightarrow \quad\dfrac{1}{x(x-4)}>0.
 \end{array} 
 \]
 Logo, pelo item i acima,
@@ -940,12 +940,13 @@ latexmath:[\,\,]
 [latexmath]
 ++++
 \[
-\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}\leq \dfrac{2x(x+2)}{x+1} \quad \Leftrightarrow\quad\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}- \dfrac{2x(x+2)}{x+1}\leq 0 
-\]
-\[
-   \Leftrightarrow\quad\dfrac{(x^2(x+1)+(x-1)(x-1)(x+1)-2x^2(x-1))(x+2)}{(x-1)x(x+1)}\leq 0   \]
-\[
-\Leftrightarrow\quad \dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
+\begin{array}{cc}
+&\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}\leq \dfrac{2x(x+2)}{x+1}\\\\
+\Leftrightarrow &\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}- \dfrac{2x(x+2)}{x+1}\leq 0 
+\\\\
+\Leftrightarrow &\dfrac{(x^2(x+1)+(x-1)(x-1)(x+1)-2x^2(x-1))(x+2)}{(x-1)x(x+1)}\leq 0   \\\\
+\Leftrightarrow &\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
+\end{array}
 \]
 Logo, pelo item iv acima,
 \[
