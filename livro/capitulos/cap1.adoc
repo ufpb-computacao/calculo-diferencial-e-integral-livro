@@ -1938,7 +1938,7 @@ Logo,
 \]
 ++++
 --
-
++
 Assim, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$ e ${\rm C.\,\,S.}2$], isto é,
 [latexmath]
 ++++
