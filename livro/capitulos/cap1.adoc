@@ -1721,7 +1721,7 @@ Solução:: Pelo item ii do *Teorema 1.5*, para latexmath:[$a=3x-5$ e $b=4$], te
 \]
 Portanto, $\frac{1}{3}$ e $3$ são raízes de $|3x-5|=4$ e
 \[
-C.\,\,S.=\{\frac{1}{3},3\}.
+C.\,\,S.=\left\{\frac{1}{3},3\right\}.
 \]
 ++++
 --
@@ -1758,7 +1758,7 @@ Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], 
 \]
 Portanto, $-\frac{5}{4}$ e $\frac{19}{4}$ são raízes de $||7-4x|-3|=9$ e
 \[
-C.\,\,S.=\{-\frac{5}{4},\frac{19}{4}\}.
+C.\,\,S.=\left\{-\frac{5}{4},\frac{19}{4}\right\}.
 \]
 ++++
 --
@@ -1771,16 +1771,23 @@ Denotemos por latexmath:[$E(x)$] a equação latexmath:[$|x-2|+3|x-4|=5|x+1|$]. 
 latexmath:[$x=-1$]. Agora, precisamos analisar os latexmath:[$4$]  casos a seguir:
 +
 --
-Caso 1: ::: Se latexmath:[$x<-1$], então latexmath:[$ \quad x+1<0  \quad \, \Rightarrow  \quad \, |x+1|=-x-1$], latexmath:[$\quad x-2<-3  \quad \, \Rightarrow  \quad \, |x-2|=-x+2 \quad $] e latexmath:[$\quad x-4<-5  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=-5x-5$]. Assim, latexmath:[$x=-19$] e latexmath:[$-19\in  (-\infty,-1)$].
+Caso 1: ::: Se latexmath:[$x<-1$], então latexmath:[$ \quad x+1<0  \quad \, \Rightarrow  \quad \, |x+1|=-x-1$], latexmath:[$\quad x-2<-3  \quad \, \Rightarrow  \quad \, |x-2|=-x+2 \quad $] e latexmath:[$\quad x-4<-5  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=-5x-5$]. Assim, latexmath:[$x=-19$] e latexmath:[$-19\in  (-\infty,-1)$], implicando que neste intervalo latexmath:[$-19$] é uma raíz de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 
-Caso 2: ::: Se latexmath:[$-1\leq x<2$], então latexmath:[$ \quad 0\leq x+1<3  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad -3\leq x-2<0  \quad \, \Rightarrow  \quad \, |x-2|=-x+2\quad $] e latexmath:[$\quad -5\leq x-4<-2  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=5x+5$]. Assim, latexmath:[$x=1$] e latexmath:[$1 \in [-1,2)$].
+Caso 2: ::: Se latexmath:[$-1\leq x<2$], então latexmath:[$ \quad 0\leq x+1<3  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad -3\leq x-2<0  \quad \, \Rightarrow  \quad \, |x-2|=-x+2\quad $] e latexmath:[$\quad -5\leq x-4<-2  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$-x+2-3x+12=5x+5$]. Assim, latexmath:[$x=1$] e latexmath:[$1 \in [-1,2)$], implicando que neste intervalo latexmath:[$1$] é uma raíz de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 
-Caso 3: ::: Se latexmath:[$2\leq x<4$], então latexmath:[$ \quad 3\leq x+1<4  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad 0\leq x-2<2  \quad \, \Rightarrow  \quad \, |x-2|=x-2\quad $] e latexmath:[$\quad -2\leq x-4<0  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$x-2-3x+12=5x+5$]. Assim, latexmath:[$x=\dfrac{5}{7}$], porém latexmath:[$\dfrac{5}{7} \not\in [2,4)$].
+Caso 3: ::: Se latexmath:[$2\leq x<4$], então latexmath:[$ \quad 3\leq x+1<4  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad 0\leq x-2<2  \quad \, \Rightarrow  \quad \, |x-2|=x-2\quad $] e latexmath:[$\quad -2\leq x-4<0  \quad \, \Rightarrow  \quad \, |x-4|=-x+4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$x-2-3x+12=5x+5$]. Assim, latexmath:[$x=\dfrac{5}{7}$], porém latexmath:[$\dfrac{5}{7} \not\in [2,4)$], implicando que neste intervalo não existem raízes de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 
-Caso 4: ::: Se latexmath:[$4\leq x$], então latexmath:[$ \quad 5\leq x+1  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad 2\leq x-2  \quad \, \Rightarrow  \quad \, |x-2|=x-2\quad $] e latexmath:[$\quad 0\leq x-4  \quad \, \Rightarrow  \quad \, |x-4|=x-4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$x-2+3x-12=5x+5$]. Assim, latexmath:[$x=-19$], porém latexmath:[$-19 \not \in [4,+\infty)$].
+Caso 4: ::: Se latexmath:[$4\leq x$], então latexmath:[$ \quad 5\leq x+1  \quad \, \Rightarrow  \quad \, |x+1|=x+1$], latexmath:[$\quad 2\leq x-2  \quad \, \Rightarrow  \quad \, |x-2|=x-2\quad $] e latexmath:[$\quad 0\leq x-4  \quad \, \Rightarrow  \quad \, |x-4|=x-4$]. Logo, latexmath:[$E(x)$] é equivalente a latexmath:[$x-2+3x-12=5x+5$]. Assim, latexmath:[$x=-19$], porém latexmath:[$-19 \not \in [4,+\infty)$], implicando que neste intervalo não existem raízes de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
 --
 +
-Portanto, latexmath:[$-19$] e  latexmath:[$1$] são as raízes de latexmath:[$|x-2|+3|x-4|=5|x+1|$].
+Portanto, latexmath:[$-19$] e  latexmath:[$1$] são as raízes de latexmath:[$|x-2|+3|x-4|=5|x+1|$] e 
++
+[latexmath]
+++++
+\[
+C.\,\,S.=\{-19,1\}.
+\]
+++++
 ====
 
 
@@ -1800,7 +1807,7 @@ Solução:: Pelo item xii do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+2
 \]
 ++++
 
-Caso 1:: Encontremos o latexmath:[$C.\,S.$ de $ -(x+1)<\left|{x^2+2x+1}\right|$]
+Caso 1:: Encontremos o conjunto solução de latexmath:[$ -(x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,S.1$]
 
 Pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
@@ -1818,7 +1825,7 @@ C.\,S.1=(-\infty,-2)\cup (-1,+\infty).
 \]
 ++++
 
-Caso 2:: Encontremos o latexmath:[$C.\,S.$ de $ (x+1)<\left|{x^2+2x+1}\right|$]
+Caso 2:: Encontremos o conjunto solução de latexmath:[$ (x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por $C.\,S.1$]
 
 Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={x^2+2x+1}$] temos que:
 [latexmath]
@@ -1832,19 +1839,21 @@ Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={
 \]
 Logo,
 \[
-C.\,S.2=(-\infty,-2)\cup (-1,+\infty).
+C.\,S.2=(-\infty,-1)\cup (0,+\infty).
 \]
 ++++
 
-Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.2$ e $C.\, S.2$], isto é,
+Assim, o latexmath:[$C.\, S.$ será obtido intersectando $C.\, S.1$ e $C.\, S.2$], isto é,
 [latexmath]
 ++++
 \[
 \Big((-\infty,-2)\cup (-1,+\infty)\Big)\cap \Big( (-\infty,-1)\cup (0,+\infty)\Big)=(-\infty,-2)\cup (0,+\infty)
 \]
+Portanto, 
+\[
+C.\,S.(-\infty,-2)\cup (0,+\infty).
+\]
 ++++
-
-Portanto, latexmath:[$C. S.=(-\infty,-2)\cup (0,+\infty)$].
 --
 
 .. latexmath:[$\left| \dfrac{x+3}{x+1}\right|<4x+3$].
