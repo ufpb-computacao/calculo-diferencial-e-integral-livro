@@ -910,11 +910,9 @@ Solução:: latexmath:[\,\,]
 [latexmath]
 ++++
 \[
-\begin{array}{cc}
-&\dfrac{x-2}{x-4}>\dfrac{x+2}{x}\\\\
-\Leftrightarrow &\dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\\\\
-\Leftrightarrow &\dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0\\\\
-\Leftrightarrow &\dfrac{-8}{x(x-4)}<0\\\\
+\begin{array}{cccc}
+&\dfrac{x-2}{x-4}>\dfrac{x+2}{x}&\Leftrightarrow &\dfrac{x+2}{x}-\dfrac{x-2}{x-4}<0\\\\
+\Leftrightarrow &\dfrac{(x+2)(x-4)-x(x-2)}{x(x-4)}<0&\Leftrightarrow &\dfrac{-8}{x(x-4)}<0\\\\
 \Leftrightarrow &\dfrac{1}{x(x-4)}>0.
 \end{array} 
 \]
