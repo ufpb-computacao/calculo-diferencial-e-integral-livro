@@ -1028,7 +1028,7 @@ latexmath:[$\,$]
 +
 [latexmath]
 ++++
-\[\begin{array}{cccc}
+\[\begin{array}{cccccc}
 2^{(5x+2)/4}> \sqrt[4]{2^{4(x+1)/5}}& \Leftrightarrow & 2^{(5x+2)/4}> \left(2^{4(x+1)/5}\right)^{\frac{1}{4}}\\\\
 &\Leftrightarrow &
 2^{(5x+2)/4}> 2^{4(x+1)/(4\cdot 5)}& \Leftrightarrow &
