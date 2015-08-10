@@ -283,8 +283,22 @@ Dada a equação
 ++++++++++++++++++++++++++++++++++++++++++++
 temos que:
 
-.. Os números reais latexmath:[$-1$] e  latexmath:[$5$] são raízes da equação de segundo grau acima, pois latexmath:[$(-1)^2-4(-1)-5= 0$] e latexmath:[$(5)^2-4(5)-5= 0$]. Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
-.. Porém, o número real latexmath:[$4$] não é uma raiz, pois latexmath:[$(4)^2-4(4)-5=-5\neq 0$].  Assim, latexmath:[$4 \notin C.\,\,S.$]
+.. Os números reais latexmath:[$-1$] e  latexmath:[$5$] são raízes da equação de segundo grau acima, pois
++
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[ (-1)^2-4(-1)-5= 0\quad \mbox{e}\quad (5)^2-4(5)-5= 0.\]
+++++++++++++++++++++++++++++++++++++++++++++ 
++
+Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
+.. Porém, o número real latexmath:[$4$] não é uma raiz, pois
++
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[ (4)^2-4(4)-5=-5\neq 0.\]
+++++++++++++++++++++++++++++++++++++++++++++ 
++
+Assim, latexmath:[$4 \notin C.\,\,S.$]
 ============================
 
 
