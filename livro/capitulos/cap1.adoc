@@ -912,7 +912,12 @@ Fazendo latexmath:[$P(x)=x(x-4)$, temos que as raízes de $P(x)=0$  são $r_1=0$
 +
 image::images/{cap}/raizes_polinomio4.eps[scaledwidth="50%"]
 +
-Logo, latexmath:[$C.\,\,S.=(-\infty,0)\cup (4,+\infty)$].
++
+[latexmath]
+++++
+\[C.\,\,S.=(-\infty,0)\cup (4,+\infty).\]
+++++
+
 
 .. latexmath:[\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}\leq \dfrac{2x(x+2)}{x+1}]
 
@@ -949,7 +954,12 @@ Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$
 +
 image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 +
-Logo, latexmath:[$C.\,\,S.=[-2,-1)\cup (0,1)$].
+Portanto,
++
+[latexmath]
+++++
+\[C.\,\,S.= [-2,-1)\cup (0,1).\]
+++++
 
 ====
 
