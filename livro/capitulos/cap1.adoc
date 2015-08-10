@@ -291,6 +291,7 @@ temos que:
 ++++++++++++++++++++++++++++++++++++++++++++ 
 +
 Assim, latexmath:[$C.\,\,S.=\{-1,5\}$];
+
 .. Porém, o número real latexmath:[$4$] não é uma raiz, pois
 +
 [latexmath]
@@ -311,10 +312,10 @@ Para resolver uma equação é necessário por em evidência, de alguma forma, a
 ====
 .. latexmath:[$5x+6=8$].
 Solução::
-latexmath:[$5x+6=8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x=8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{2}{5}$]. 
-
-Portanto, 
-
+latexmath:[$5x+6=8$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x=8-6=2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{2}{5}$].
++
+Portanto,
++
 latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$] e latexmath:[$C.\,\,S.=\left\{\dfrac{2}{5}\right\}$].
 
 .. latexmath:[$5x+5=1-3x$].
