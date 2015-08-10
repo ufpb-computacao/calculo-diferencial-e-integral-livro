@@ -117,10 +117,10 @@ latexmath:[$0$ e  $1$] também são conhecidos como elementos neutros para a *ad
 
 ==== Subtração e Divisão de Números  Reais
 
-Subtração::  Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], a  *diferença* de latexmath:[$a$] e latexmath:[$b$] é definida como latexmath:[$a-b=a+(-b)$].
+Subtração::  Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], a  *ubtração*, ou *diferença*, de latexmath:[$a$] e latexmath:[$b$] é definida como latexmath:[$a-b=a+(-b)$].
 
 
-Divisão ou quociente:: Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], com latexmath:[$b\neq 0$],  a *divisão* ou *quociente* de latexmath:[$a$] e latexmath:[$b$] 
+Divisão ou quociente:: Dados latexmath:[$a$] e  latexmath:[$b\in \mathbb{R}$], com latexmath:[$b\neq 0$],  a *divisão*, ou *quociente*, de latexmath:[$a$] e latexmath:[$b$] 
 é definida como latexmath:[$\dfrac{a}{b}=a\cdot( b^{-1})$].
 
 [options="unbreakable"]
@@ -210,13 +210,13 @@ Definição 1.2:: Uma *((desigualdade))* é uma expressão algébrica que conté
 Desta forma temos que: +
 [width="100%",cols="^",frame="none",grid="none"]
 |======================
-| latexmath:[$x<y<z$] significa que latexmath:[$x<y$] e latexmath:[$y<z$];
+| latexmath:[$x<y<z$] é equivalente a latexmath:[$x<y$] e latexmath:[$y<z$];
 |
-| latexmath:[$x<y\leq z$] significa que latexmath:[$x<y$] e latexmath:[$y\leq z$]; 
+| latexmath:[$x<y\leq z$] é equivalente a  latexmath:[$x<y$] e latexmath:[$y\leq z$]; 
 |
-| latexmath:[$x\leq y< z$] significa que latexmath:[$x\leq y$] e latexmath:[$y< z$]; 
+| latexmath:[$x\leq y< z$] é equivalente a  latexmath:[$x\leq y$] e latexmath:[$y< z$]; 
 |
-| latexmath:[$x\leq y\leq z$] significa que latexmath:[$x\leq y$] e latexmath:[$y\leq z$]. 
+| latexmath:[$x\leq y\leq z$] é equivalente a  latexmath:[$x\leq y$] e latexmath:[$y\leq z$]. 
 |======================
 
 
