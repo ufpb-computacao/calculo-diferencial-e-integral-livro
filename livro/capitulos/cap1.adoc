@@ -1627,9 +1627,10 @@ Assim, $x$ pertence à interceção dos seguintes intervalos:
 \begin{array}{c}
 (1,+\infty) \cap (4,+\infty) \cap\Big((-\infty,-3]\cup[-2,2]\cup[3,13]\Big)\cap\Big((-\infty,-3)\cup(-3,3)\cup(3,13)\cup(13,+\infty)\Big)\\\\
 =(4,13).
-\end{array}\]
+\end{array}
+\]
 Portanto,
-\[C.\,\,S.=(4,13).\]
+\[C.\,\,S.=(4,13).
 \]
 ++++
 ====
