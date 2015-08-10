@@ -1606,12 +1606,13 @@ Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \]
 Assim, 
 \[
- x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0 \Leftrightarrow\]
-\[
+ \begin{array}{c}
+x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0
+\\\\\Updownarrow\\\\
  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad{(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0
-\]
-\[
-\Leftrightarrow\quad   x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)(x+3)(x-3)} \leq 0\quad \mbox{e}\quad(x-13)(x+3)(x-3)\neq 0.
+\\\\\Updownarrow\\\\
+x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad {(x-2)(x+2)}{(x-13)(x+3)(x-3)} \leq 0\quad \mbox{e}\quad(x-13)(x+3)(x-3)\neq 0.
+\end{array}
 \]
 Logo,
 \[\begin{array}{rcrcl}
@@ -1621,14 +1622,16 @@ x &>& 4&\quad\Leftrightarrow\quad&  x \in (4,+\infty);\\
 (x-13)(x+3)(x-3)&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,-3)\cup(-3,3)\cup(3,13)\cup(13,+\infty).
 \end{array}
 \]
-Assim, $x$ pertence à interceção destes intervalos, isto é
+Assim, $x$ pertence à interceção dos seguintes intervalos:
 \[
-  x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (4,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(4,13).
+\begin{array}{c}
+(1,+\infty) \cap (4,+\infty) \cap\Big((-\infty,-3]\cup[-2,2]\cup[3,13]\Big)\cap\Big((-\infty,-3)\cup(-3,3)\cup(3,13)\cup(13,+\infty)\Big)\\\\
+=(4,13).
+\end{array}\]
+Portanto,
+\[C.\,\,S.=(4,13).\]
 \]
 ++++
-+
-Portanto, latexmath:[$C.\,\,S.=(4,13)$].
-
 ====
 
 
