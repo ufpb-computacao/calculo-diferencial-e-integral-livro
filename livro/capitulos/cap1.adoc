@@ -320,17 +320,17 @@ latexmath:[$\dfrac{2}{5}$] é a  raiz de latexmath:[$5x+6=8$] e latexmath:[$C.\,
 
 .. latexmath:[$5x+5=1-3x$].
 Solução::
-latexmath:[$5x+5=1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x=1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x=-4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{4}{8}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{1}{2}$]. 
-
+latexmath:[$5x+5=1-3x$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$5x+3x=1-5$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$8x=-4$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{4}{8}$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{1}{2}$].
++
 Portanto,  
-
++
 latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{1}{2}\right\}$].
 
 .. latexmath:[$x^2+1=0$].
 Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. 
-
++
 Portanto, 
-
++
 do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$] e latexmath:[$C.\,\,S.=\emptyset$].
 
 .. latexmath:[$4x^2-x-3=0$].
@@ -354,7 +354,7 @@ latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\
 --
 +
 Portanto, 
-
++
 latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latexmath:[$4x^2-x-3=0$] e latexmath:[$C.\,\,S.=\left\{-\dfrac{3}{4},1\right\}$].
 ====
 
