@@ -936,7 +936,7 @@ latexmath:[\,\,]
 \]
 Logo, pelo item iv acima,
 \[
-\begin{array}{cc}
+\begin{array}{cc}&
 \dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\\\\\Leftrightarrow &
 {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
 \end{array}
@@ -1513,7 +1513,7 @@ Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos par
 [latexmath]
 ++++
 \[
-\begin{array}{cc}
+\begin{array}{cc}&
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\\\\\Leftrightarrow &
 x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0
 \end{array}
@@ -1562,7 +1562,7 @@ Solução:: Desde que  latexmath:[$n_1=3$, $n_2=9$ e $n_3=5$], ou seja todos imp
 \dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\]
 Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \[
-\begin{array}{cc}
+\begin{array}{cc}&
 \dfrac{x^2-4}{(x-13)(x^2-9)(x-1)(x-4)}\leq 0\\\\\Leftrightarrow &
 {(x^2-4)}(x-13)(x^2-9)(x-1)(x-4)\leq 0\quad \mbox{e}\quad(x-13)(x^2-9)(x-1)(x-4)\neq 0\\\\\Leftrightarrow &
 {(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)\leq 0\quad \mbox{e}\\\\
@@ -1602,7 +1602,7 @@ Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
 \]
 Assim, 
 \[
- \begin{array}{cc}
+ \begin{array}{cc}&
 x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{(x-13)(x^2-9)}\leq 0
 \\\\\Leftrightarrow &
  x-1> 0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad{(x^2-4)}{(x-13)(x^2-9)} \leq 0\quad \mbox{e}\quad (x-13)(x^2-9)\neq 0
@@ -1810,7 +1810,7 @@ Pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=-(x+1)$ e $c={x^2+2x+1
 [latexmath]
 ++++
 \[
-\begin{array}{cc}
+\begin{array}{cc}&
 -(x+1)<\left|{x^2+2x+1}\right|
 \\\\\Leftrightarrow &
 x^2+2x+1>-(x+1) \quad \mbox{ou }\quad x^2+2x+1<-(-(x+1))
@@ -1837,7 +1837,7 @@ Novamente, pelo item ix do latexmath:[$\textbf{Teorema 1.5}$ para $b=x+1$ e $c={
 [latexmath]
 ++++
 \[
-\begin{array}{cc}
+\begin{array}{cc}&
 (x+1)<\left|{x^2+2x+1}\right|
 \\\\\Leftrightarrow &
 x^2+2x+1>(x+1) \quad \mbox{ou }\quad x^2+2x+1<-(x+1)
