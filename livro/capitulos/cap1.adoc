@@ -1089,17 +1089,25 @@ Como $x^2-4x-8=(x-2-2\sqrt{3})(x-2+2\sqrt{3})$, então
 \]
 Pelo item iv de {\bf Inequações Racionais} temos que
 \[
-\dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0
-\quad \Leftrightarrow 
+\begin{array}{c}
+\dfrac{(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{x+2}\leq  0\\\\
+\Updownarrow \\\\
 {(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}\leq  0 \quad \mbox{e }\quad x+2\neq0.
-\]
+\end{array}\]
 ++++
 +
 Fazendo latexmath:[$P(x)={(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}$, temos que as raízes de $P(x)= 0$  são $r_1=-2$, $r_2=2-2\sqrt{3}$, $r_3=2+2\sqrt{3}$. Como a inequação é da forma $P(x)\leq 0$], podemos aplicar o item iv(b) do *Caso I*. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio5.eps[scaledwidth="60%"]
 +
-Lembre que, pela nota acima, latexmath:[$x+2\neq0$ implica que o intervalos que tenham $r_1=-2$ devem ser abertos neste extremo. Portanto, $C.\,\,S.=(-\infty,-2)\cup [2-2\sqrt{3},2+2\sqrt{3}\]$].
+Lembre que, pela nota acima, latexmath:[$x+2\neq0$ implica que o intervalos que tenham $r_1=-2$] devem ser abertos neste extremo. 
++
+Portanto, 
++
+[latexmath]
+++++
+\[C.\,\,S.=(-\infty,-2)\cup \left[2-2\sqrt{3},2+2\sqrt{3}\right].\]
+++++
 ====
 
 
