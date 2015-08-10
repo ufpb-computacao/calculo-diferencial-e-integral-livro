@@ -1896,7 +1896,7 @@ x>-\frac{3}{4} \quad \mbox{ e}\quad 0< 4x+3+\dfrac{x+3}{x+1} \quad \mbox{e} \qua
 
 Caso 1::: Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$, e o denotemos por $C.\,\,S.1$]. 
 +
-Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ equivale a $$x+1>0$]. Logo,   latexmath:[$C.\,\,S. 1=(-1,+\infty)$].
+Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ equivale a $x+1>0$]. Logo,   latexmath:[$C.\,\,S. 1=(-1,+\infty)$].
 
 Caso 2::: Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$, e o denotemos por $C.\,\,S.2$].
 +
