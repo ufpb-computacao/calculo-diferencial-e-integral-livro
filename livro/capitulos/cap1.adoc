@@ -1211,7 +1211,7 @@ Logo,
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( (-\infty, 5] \Big)\cap\Big((-\infty,3) \Big) = (-\infty, -1]\cup[2, 3).
+  x \in \Big( (-\infty, -1]\cup[2,+\infty)\Big)\cap\Big( -\infty, 5 \Big]\cap\Big(-\infty,3 \Big) = (-\infty, -1]\cup[2, 3).
 \]
 ++++
 +
@@ -1219,7 +1219,7 @@ Portanto,
 +
 [latexmath]
 ++++
-\[C.\,\,S.=(-\infty, -1\]\cup[2, 3).\]
+\[C.\,\,S.=(-\infty, -1]\cup[2, 3).\]
 ++++
 
 ..  latexmath:[$\sqrt{x-8}\leq 0$]
@@ -1244,7 +1244,7 @@ x&\leq& 8&\quad \Leftrightarrow \quad & x \in [8,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-\infty, 8]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( [8,+\infty) \Big)= \{8\}.
+  x \in \Big( -\infty, 8\Big]\cap \mathbb{R}\cap\Big[8,+\infty \Big)= \{8\}.
 \]
 ++++
 +
@@ -1276,7 +1276,7 @@ x&<&-5&\quad \Leftrightarrow \quad & x \in (5,+\infty).
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in \Big( (-\infty, -5]\Big)\cap\Big( \mathbb{R} \Big)\cap\Big( (-5,+\infty) \Big) =\emptyset
+  x \in \Big( -\infty, -5\Big]\cap\mathbb{R}\cap\Big( -5,+\infty \Big) =\emptyset
 \]
 Portanto,
 \[
