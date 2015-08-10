@@ -1545,7 +1545,7 @@ x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
  \begin{array}{rcl}
-x &\in& \tiny{\Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( 1,+\infty \Big)\cap\Big( 4,+\infty \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big)}\\
+x &\in& {\tiny \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( 1,+\infty \Big)\cap\Big( 4,+\infty \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big)}\\
 &=&(4,13).
 \end{array}
 \]
