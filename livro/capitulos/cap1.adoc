@@ -1958,7 +1958,6 @@ Portanto,
 
 Solução:: Pelo item vii do *Teorema 1.5*   para latexmath:[$c= \dfrac{x+3}{x+1}$ e $b=4x+3$] temos que:
 +
---
 [latexmath]
 ++++
 \[
@@ -1979,26 +1978,34 @@ x>-\frac{3}{4} \quad \mbox{ e}\quad 0< 4x+3+\dfrac{x+3}{x+1} \quad \mbox{e} \qua
 \end{array}
 \]
 ++++
-
-Caso 1::: Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$, e o denotemos por ${\rm C.\,\,S.}1$]. 
 +
-Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ equivale a $x+1>0$]. Logo,   latexmath:[${\rm C.\,\,S.} 1=(-1,+\infty)$].
-
-Caso 2::: Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$, e o denotemos por ${\rm C.\,\,S.}2$].
+Assim,
 +
-Desde que, latexmath:[$\dfrac{x(2x+3)}{x+1}>0$ equivale a $x(2x+3)(x+1)>0$]. Segue-se que, latexmath:[$r_1=-\frac{3}{2}$], latexmath:[$ r_2= -1$] e latexmath:[$ r_3= 0$], então  latexmath:[${\rm C.\,\,S.} 2=\left(-\frac{3}{2},-1\right)\cup (0,+\infty)$].
+--
+... Encontremos o conjunto solução de latexmath:[$x>-\frac{3}{4}$, e o denotemos por ${\rm C.\,\,S.}1$].
++
+Desde que latexmath:[$x>-\frac{3}{4}$ é equivalente  a $x \in \left(-\frac{3}{4},+\infty\right)$]. Segue-se que, latexmath:[${\rm C.\,\,S.} 1=\left(-\frac{3}{4},+\infty\right)$].
 
-Assim, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$, ${\rm C.\,\,S.}2$ e $x>-\frac{3}{4} $], isto é,
+... Encontremos o conjunto solução de latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$, e o denotemos por ${\rm C.\,\,S.}2$]. 
++
+Desde que latexmath:[$ 2x^2+4x+3= 0$] não tem raízes reais, então latexmath:[$0< \dfrac{2x^2+4x+3}{x+1}$ é equivalente a $x+1>0$]. Logo,   latexmath:[${\rm C.\,\,S.} 2=(-1,+\infty)$].
+
+... Encontremos o conjunto solução de latexmath:[$\dfrac{x(2x+3)}{x+1}>0$, e o denotemos por ${\rm C.\,\,S.}3$].
++
+Desde que, latexmath:[$\dfrac{x(2x+3)}{x+1}>0$ é equivalente  a $x(2x+3)(x+1)>0$]. Segue-se que, latexmath:[$r_1=-\frac{3}{2}$], latexmath:[$ r_2= -1$] e latexmath:[$ r_3= 0$], então  latexmath:[${\rm C.\,\,S.} 3=\left(-\frac{3}{2},-1\right)\cup (0,+\infty)$].
+--
++
+Então, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$, ${\rm C.\,\,S.}2$ e ${\rm C.\,\,S.}3$], isto é,
 [latexmath]
 ++++
 \[
-\Big((-1,+\infty)\Big)\cap\left(\Big(-\frac{3}{2},-1\Big)\cup (0,+\infty)\right)\cap \Big(\left(-\frac{3}{4},+\infty\right)\Big)=(0,+\infty)
+\left(-\frac{3}{4},+\infty\right)\cap (-1,+\infty)\cap\left(\Big(-\frac{3}{2},-1\Big)\cup (0,+\infty)\right)=(0,+\infty)
+\]
+Portanto,
+\[
+{\rm C.\,\,S.}=(0,+\infty)
 \]
 ++++
-
-Portanto, latexmath:[${\rm C.\,\,S.}=(0,+\infty)$]  
---
-
 ====
 
 
