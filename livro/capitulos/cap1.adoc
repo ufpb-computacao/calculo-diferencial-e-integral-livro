@@ -936,7 +936,11 @@ latexmath:[\,\,]
 \]
 Logo, pelo item iv acima,
 \[
-\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \Leftrightarrow\quad {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
+\begin{array}{c}
+\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\\\\
+\Updownarrow\\\\
+{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad (x-1)x(x+1)\neq 0
+\end{array}
 \]
 ++++ 
 +
@@ -1034,7 +1038,12 @@ Assim, agora precisamos determinar o $C.\,S.$ de $\dfrac{5x+2}{4}> \dfrac{x+1}{5
 \]
 ++++
 +
-Portanto,  latexmath:[$C.S.=\big(-\frac{2}{7},+\infty\big)$].
+Portanto,
++
+[latexmath]
+++++
+\[C.S.=\left(-\frac{2}{7},+\infty\right).\]
+++++
 
 
 
