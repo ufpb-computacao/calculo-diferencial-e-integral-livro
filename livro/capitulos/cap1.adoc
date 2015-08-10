@@ -1399,6 +1399,14 @@ Solução:: Desde que  latexmath:[$n_1=4$, $n_2=2$ e $n_3=6$], ou seja todos par
 [latexmath]
 ++++
 \[
+\begin{array}{c}
+\dfrac{x^2-4}{(x-13)\sqrt[4]{x^2-9}\sqrt{x-1}\sqrt[6]{x-4}}\leq 0\\
+\Downarrow\\
+x^2-9> 0\quad\mbox{e}\quad x-1>0\quad\mbox{e}\quad x-4>0 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0
+\end{array}
+\]
+Por outro lado, pelo item iv de {\bf Inequações Irracionais}, temos que
+\[
 \dfrac{x^2-4}{x-13}\leq 0\quad \Leftrightarrow \quad {(x^2-4)}{(x-13)} \leq 0\quad \mbox{e}\quad x-13\neq 0.
 \]
 Assim, 
@@ -1420,9 +1428,9 @@ x&\neq&  13&\quad\Leftrightarrow\quad&  x \in (-\infty,13)\cup(13,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
-\scriptsize{\[
+\[
   x \in \Big( (-\infty,-3)\cup(3,+\infty)\Big)\cap\Big( (1,+\infty) \Big)\cap\Big( (4,+\infty) \Big)\cap\Big( (-\infty,-2]\cup[2,13]\Big)\cap\Big((-\infty,13)\cup(13,+\infty)\Big) =(4,13).
-\]}
+\]
 ++++
 +
 Portanto, latexmath:[$C.S.=(3,13)$].
