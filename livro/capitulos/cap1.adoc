@@ -1877,13 +1877,14 @@ Resolvamos as seguintes inequações com valor absoluto:
 
 Solução:: Pelo item xii do *Teorema 1.5* para latexmath:[$a={x+1}$ e $b={x^2+2x+1}$] temos que:
 +
---
 [latexmath]
 ++++
 \[
 \left|{x+1}\right|<\left|{x^2+2x+1}\right|\quad \Leftrightarrow \quad -(x+1)<\left|{x^2+2x+1}\right| \quad \mbox{e}\quad (x+1)<\left|{x^2+2x+1}\right|
 \]
 ++++
++
+Assim,
 +
 --
 .. Encontremos o conjunto solução de latexmath:[$ -(x+1)<\left|{x^2+2x+1}\right|$, e o denotemos por ${\rm C.\,\,S.}1$]
@@ -1939,7 +1940,8 @@ Logo,
 ++++
 --
 +
-Assim, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$ e ${\rm C.\,\,S.}2$], isto é,
+Então, o latexmath:[${\rm C.\,\,S.}$ será obtido intersectando ${\rm C.\,\,S.}1$ e ${\rm C.\,\,S.}2$], isto é,
++
 [latexmath]
 ++++
 \[
@@ -1950,7 +1952,7 @@ Portanto,
 {\rm C.\,\,S.}=(-\infty,-2)\cup (0,+\infty).
 \]
 ++++
---
+
 
 .. latexmath:[$\left| \dfrac{x+3}{x+1}\right|<4x+3$].
 
