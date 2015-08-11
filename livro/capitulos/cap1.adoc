@@ -307,16 +307,20 @@ Assim, latexmath:[$4 \notin {\rm C.\,\,S.}$]
 Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
 [IMPORTANT]
-.fórmula de Bhaskara
+.Fórmula de Bhaskara
 ====
-Para equações de segundo grau, existe a *fórmula de Bhaskara*:
+A *fórmula de Bhaskara* a encontrar as raízes de uma equação de segundo grau, isto é, ajudará a resolver equações de segundo grau. Esta fórmula provavelmente está entre as cinco principais fórmulas matemáticas. Assim, para a equação de segundo grau:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
-\mbox{Se} \quad ax^2+bx+c=0, \quad \mbox{então}\quad x=\dfrac{-b\pm\sqrt{\Delta}}{2a},
+ ax^2+bx+c=0.
+\]
+Então
+\[
+x=\dfrac{-b\pm\sqrt{\Delta}}{2a}, \quad \mbox{com}\quad \Delta=b^2-4a c.
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-onde latexmath:[$\Delta=b^2-4a c$] é conhecido como o *discriminante*. Assim, usando a *fórmula de Bhaskara*:
+onde latexmath:[$\Delta$] é conhecido como o *discriminante*. Assim:
 
 * Se latexmath:[$\Delta<0$],  então esta equação não tem raízes em latexmath:[$\mathbb{R}$];
 * Se latexmath:[$\Delta\geq 0$],  então esta equação terá as seguintes raízes 
