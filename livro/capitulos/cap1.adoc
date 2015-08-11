@@ -1426,20 +1426,20 @@ Solução:: Desde que  latexmath:[$n=7$] é um número impar, podemos aplicar o 
 [latexmath]
 ++++
 \[
+\begin{array}{cclc}
 \dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x+5}{(x-4)(81-x^2)}\leq 0
+\quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(x^2-81)}\geq 0
 \]
-Por outro lado,
-\[\begin{array}{cclclll}
-\dfrac{x+5}{(x-4)(81-x^2)}\leq 0 &\Leftrightarrow & \dfrac{x+5}{(x-4)(9-x)(9+x)}\leq 0\\\\
-& \Leftrightarrow & -\dfrac{x+5}{(x-4)(x-9)(x+9)}\leq 0\\\\
-&\Leftrightarrow & \dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0
-\end{array}\]
-e pelo item iii de {\bf Inequações Irracionais} temos que 
+Por outro lado, pelo item iii de {\bf Inequações Racionais} temos que 
 \[
 \begin{array}{cclc}
-\dfrac{x+5}{(x-4)(x-9)(x+9)}\geq 0&
-\Leftrightarrow & (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
+\dfrac{x+5}{(x-4)(x^2-81)}\geq 0&
+\Leftrightarrow &\Leftrightarrow & (x+5){(x-4)(x^2-81)}\geq 0\quad \mbox{e}\quad (x-4)(x^2-81)\neq 0.
 \end{array}
+\]
+No entanto,
+\[
+x^2-81\quad \Leftrightarrow\quad (x-9)(x+9)
 \]
 Assim,
 \[
