@@ -306,9 +306,10 @@ Assim, latexmath:[$4 \notin {\rm C.\,\,S.}$]
 [NOTE]
 Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
-[NOTE]
+[IMPORTANT]
+.fórmula de Bhaskara
 ====
- Para equações de segundo grau, existe a *fórmula de Bhaskara*:
+Para equações de segundo grau, existe a *fórmula de Bhaskara*:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
