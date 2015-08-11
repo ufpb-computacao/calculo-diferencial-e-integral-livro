@@ -1461,20 +1461,21 @@ Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \]
 Assim, 
 \[\begin{array}{ccl}
-81-x^2> 0\quad\mbox{e}\quad\dfrac{x+5}{x-4}\geq 0
+\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0
 &\Leftrightarrow &   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0\\\\
-&\Leftrightarrow &  (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0.
+&\Leftrightarrow &   x^2-81< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x\neq 4\\\\
+&\Leftrightarrow &  (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x\neq 4.
 \end{array}\]
 Logo,
 \[\begin{array}{rcrcl}
 (x+9)(x-9)&<& 0&\quad\Leftrightarrow\quad&  x \in (-9,9);\\
-(x+5)(x-4) &\geq& 0&\quad\Leftrightarrow\quad&  x \in [-5,4];\\
-x-4&\neq&  0&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
+(x+5)(x-4) &\geq& 0&\quad\Leftrightarrow\quad&  x \in (-\infty,-5]\cap[4,+\infty);\\
+x&\neq&4&\quad\Leftrightarrow\quad&  x \in (-\infty,4)\cup(4,+\infty).
 \end{array}
 \]
 Assim, $x$ pertence à interceção destes intervalos, isto é
 \[
-  x \in ( -9,9)\cap[-5,4 ]\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
+  x \in ( -9,9)\cap\Big((-\infty,-5]\cap[4,+\infty\Big)\cap\Big(  (-\infty,4)\cup(4,+\infty) \Big) =(-9, -5]\cup (4,9).
 \]
 Portanto, 
 \[{\rm C.\,\,S.}=(-9, -5]\cup (4,9).
