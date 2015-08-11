@@ -1030,8 +1030,8 @@ Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não 
 \[
 \begin{array}{cccccc}
 &
- {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0& \mbox{e}& (x-1)x(x+1)\neq 0\\\\
-\Leftrightarrow &{(x+2)}{(x-1)x(x+1)}\leq 0&\mbox{e}& (x-1)x(x+1)\neq 0
+ {(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0\quad  \mbox{e}\quad  (x-1)x(x+1)\neq 0\\\\
+\Leftrightarrow &{(x+2)}{(x-1)x(x+1)}\leq 0\quad \mbox{e}\quad  (x-1)x(x+1)\neq 0
 \end{array}\]
 ++++
 +
@@ -1234,7 +1234,7 @@ Caso II:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow \quad$]latexmath:[$\Big(P(x)\geq 0\quad\mbox{e}\quad Q(x)> 0\Big)\quad \mbox{ou}\quad \Big(P(x)> 0\quad\mbox{e}\quad Q(x)\geq 0\Big)$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \,\,\, \Leftrightarrow \,\,\,$]latexmath:[$\Big(P(x)\geq 0\quad\mbox{e}\quad Q(x)> 0\Big)\quad \mbox{ou}\quad \Big(P(x)> 0\quad\mbox{e}\quad Q(x)\geq 0\Big)$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0$];
 
 ... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \Leftrightarrow \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0 \quad\mbox{e}\quad P(x)\geq (k\mp\sqrt{Q(x)})^2$];
