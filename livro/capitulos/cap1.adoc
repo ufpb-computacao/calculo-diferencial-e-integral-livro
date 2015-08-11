@@ -327,7 +327,7 @@ r_1=\dfrac{-b-\sqrt{\Delta}}{2a}\quad \mbox{ou}\quad r_2=\dfrac{-b+\sqrt{\Delta}
 \mathbb{R}.
 \]
 ++++
-===
+====
 
 [options="unbreakable"]
 .Resolvamos as seguintes equações
