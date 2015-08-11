@@ -1234,7 +1234,7 @@ Caso II:: Para as inequações da forma:
 Temos as seguintes equivalências:
 +
 --
-... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \,\,\, \Leftrightarrow \,\,\,$]latexmath:[$\Big(P(x)\geq 0\quad\mbox{e}\quad Q(x)> 0\Big)\quad \mbox{ou}\quad \Big(P(x)> 0\quad\mbox{e}\quad Q(x)\geq 0\Big)$];
+... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}>0$]latexmath:[$ \quad \Leftrightarrow \quad $]latexmath:[$\Big(P(x)\geq 0\,\,\,\mbox{e}\,\,\, Q(x)> 0\Big)\quad \mbox{ou}\quad \Big(P(x)> 0\,\,\,\mbox{e}\,\,\, Q(x)\geq 0\Big)$];
 ... latexmath:[$\sqrt{P(x)}+ \sqrt{Q(x)}\geq 0$]latexmath:[$ \quad \Leftrightarrow \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0$];
 
 ... latexmath:[$\sqrt{P(x)}\pm \sqrt{Q(x)}\geq k$], latexmath:[$k > 0$]latexmath:[$ \quad \Leftrightarrow \quad$]latexmath:[$P(x)\geq 0\quad\mbox{e}\quad  Q(x)\geq 0 \quad\mbox{e}\quad P(x)\geq (k\mp\sqrt{Q(x)})^2$];
