@@ -1426,7 +1426,6 @@ Solução:: Desde que  latexmath:[$n=7$] é um número impar, podemos aplicar o 
 [latexmath]
 ++++
 \[
-\begin{array}{cclc}
 \dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad \Leftrightarrow\quad  \dfrac{x+5}{(x-4)(81-x^2)}\leq 0
 \quad \Leftrightarrow\quad \dfrac{x+5}{(x-4)(x^2-81)}\geq 0
 \]
