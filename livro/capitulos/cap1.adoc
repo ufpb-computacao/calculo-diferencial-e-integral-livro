@@ -309,7 +309,7 @@ Para resolver uma equação é necessário por em evidência, de alguma forma, a
 [IMPORTANT]
 .Fórmula de Bhaskara
 ====
-A *fórmula de Bhaskara* nos ajudará a encontrar as raízes de uma equação de segundo grau. Assim, para a equação de segundo grau:
+Esta fórmula nos ajudará a encontrar as raízes de uma equação de segundo grau. Assim, para a equação de segundo grau:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
@@ -529,7 +529,7 @@ Definição 1.6:: Uma *((inequação))* é uma afirmação que se estabelece ent
 ++++++++++++++++++++++++++++++++++++++++++++
 ============================
 
-Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. Além disso, o conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[${\rm C.\,\,S.}$]. Assim, resolver uma inequação significa encontrar seu  latexmath:[${\rm C.\,\,S.}$]
+Definição 1.7:: Diz-se que um número real latexmath:[$a$]  é *solução da inequação*, ou *satisfaz uma inequação*, se ao substituir a variável da expressão por latexmath:[$a$], a desigualdade se faz verdadeira. Além disso, o conjunto de todas as soluções de  uma inequação é chamado de *conjunto solução*, denotado por  latexmath:[${\rm C.\,\,S.}$] Assim, resolver uma inequação significa encontrar seu  latexmath:[${\rm C.\,\,S.}$]
 
 NOTE: Se não existem soluções reais para a inequação, então diz-se que  latexmath:[${\rm C.\,\,S.}$] é vazio, e se escreve, latexmath:[${\rm C.\,\,S.}=\emptyset$]
 
@@ -578,13 +578,13 @@ ax+b>0 \quad \mbox{ou}\quad ax+b<0 \quad \mbox{ou}\quad ax+b\geq 0 \quad \mbox{o
 ++++++++++++++++++++++++++++++++++++++++++++
 Então, para resolver estas inequações  consideramos, sem perda de generalidade que, latexmath:[$a>0$]. Assim,
 
-... latexmath:[$ax+b>0 \quad \Leftrightarrow\quad  x>-\frac{b}{a}$ se, e somente se, ${\rm C.\,\,S.}=\left(-\frac{b}{a}, + \infty\right)$];
+... latexmath:[$ax+b>0 \quad \Leftrightarrow\quad  x>-\frac{b}{a}\quad $ se, e somente se, $\quad {\rm C.\,\,S.}=\left(-\frac{b}{a}, + \infty\right)$];
 
-... latexmath:[$ax+b<0 \quad \Leftrightarrow \quad x<-\frac{b}{a} $ se, e somente se, $ {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right)$];
+... latexmath:[$ax+b<0 \quad \Leftrightarrow \quad x<-\frac{b}{a} \quad $ se, e somente se, $\quad  {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right)$];
 
-... latexmath:[$ax+b\geq 0 \quad \Leftrightarrow\quad  x\geq-\frac{b}{a}$ se, e somente se, ${\rm C.\,\,S.}=\left[-\frac{b}{a}, + \infty\right)$];
+... latexmath:[$ax+b\geq 0 \quad \Leftrightarrow\quad  x\geq-\frac{b}{a}\quad $ se, e somente se, $\quad {\rm C.\,\,S.}=\left[-\frac{b}{a}, + \infty\right)$];
 
-... latexmath:[$ax+b\leq 0 \quad \Leftrightarrow \quad x\leq-\frac{b}{a}$ se, e somente se, $ {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right\]$].
+... latexmath:[$ax+b\leq 0 \quad \Leftrightarrow \quad x\leq-\frac{b}{a}\quad $ se, e somente se, $ \quad {\rm C.\,\,S.}=\left(-\infty, -\frac{b}{a}\right\]$].
 
 
 
@@ -863,7 +863,7 @@ Caso II:: Seja latexmath:[$r_k$ uma raiz de $P(x)=0$ com multiplicidade maior ou
 
 ... Se a multiciplicidade de latexmath:[$r_k$] é impar, então aplicaremos o mesmo procedimento do *Caso I*  considerando latexmath:[$r_k$] para a obtenção dos intervalos que definem o latexmath:[${\rm C.\,\,S.}$]
 
-Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[${\rm C.\,\,S.}$]. Em outras palavras, o latexmath:[${\rm C.\,\,S.}$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
+Caso III:: Se alguma raiz de latexmath:[$P(x)=0$] não é real, então ela não é consideradas na obtenção dos intervalos que definem  latexmath:[${\rm C.\,\,S.}$] Em outras palavras, o latexmath:[${\rm C.\,\,S.}$] será obtido  seguindo os procedimentos dos casos anteriores com as raízes reais.
 
 .{zwsp}
 ====
@@ -1025,7 +1025,7 @@ Desde que latexmath:[$2x^2-x+1=0$  não tem raízes reais, esta expressão não 
 \end{array}\]
 ++++
 +
-Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$  são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e latexmath:[$r_4=1$]. Pela {\bf nota} da {\bf subseção 1.4.14}, latexmath:[$(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2$, $r_3$ e $r_4$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *Caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
+Fazendo latexmath:[$P(x)={(x+2)}{(x-1)x(x+1)}$, temos que as raízes de $P(x)=0$  são $r_1=-2$], latexmath:[$r_2=-1$], latexmath:[$r_3=0$] e latexmath:[$r_4=1$. Pela {\bf nota} da {\bf subseção 1.4.1.4}, $(x-1)x(x+1)\neq 0$ implica que os intervalos que tenham  $r_2$, $r_3$ e $r_4$] devem ser abertos nestes extremos. Desde que a inequação é da forma latexmath:[$P(x)\leq 0$],  podemos aplicar o item iii(a) do *Caso I*, pois  consideraremos todas as raízes. Ou seja, latexmath:[$x$] pertence à união dos intervalos com sinal latexmath:[$(-)$], veja figura a seguir:
 +
 image::images/{cap}/raizes_polinomio3.eps[scaledwidth="80%"]
 +
@@ -1169,7 +1169,7 @@ Fazendo latexmath:[$P(x)={(x-2-2\sqrt{3})(x-2+2\sqrt{3})}{(x+2)}$, temos que as 
 +
 image::images/{cap}/raizes_polinomio5.eps[scaledwidth="60%"]
 +
-Lembre que, pela {\bf nota} da {\bf subseção 1.4.14}, latexmath:[$x+2\neq0$ implica que o intervalos que tenham $r_1$] devem ser abertos neste extremo. 
+Lembre que, pela *nota* da *subseção 1.4.1.4*, latexmath:[$x+2\neq0$ implica que o intervalos que tenham $r_1$] devem ser abertos neste extremo. 
 +
 Portanto, 
 +
@@ -1454,7 +1454,7 @@ Assim,
 \dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad 
 \Leftrightarrow \quad  (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0
 \]
-Fazendo $S(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $S(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela {\bf nota} da {\bf subseção 1.4.14}, $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1$, $r_3$ e $r_4$ devem ser abertos nestes extremos. Desde que a inequação é da forma $S(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes.
+Fazendo $S(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $S(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela {\bf nota} da {\bf subseção 1.4.1.4}, $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1$, $r_3$ e $r_4$ devem ser abertos nestes extremos. Desde que a inequação é da forma $S(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes.
  
 Portanto,
 \[{\rm C.\,\,S.}=(-\infty, -9)\cup [-5, 4)\cup (9,+\infty)\]
@@ -1646,7 +1646,7 @@ Por outro lado, pelo item iv de {\bf Inequações Racionais}, temos que
 & \mbox{e}\quad(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0.
 \end{array}
 \]
-Fazendo $S(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $S(x)=0$ são $r_1=-3$, $r_2=-2$, $r_3=1$, $r_4=2$, $r_5=3$, $r_6=4$ e $r_7=13$. Pela {\bf nota} da {\bf subseção 1.4.14}, $(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0$ implica que os intervalos que tenham $r_1$, $r_3$, $r_5$, $r_6$ e $r_7$ devem ser abertos nestes extremos. Desde que a inequação é da forma $S(x)\leq 0$, pelo item iv(b) do {\bf Caso I} de {\bf Inequações Polinomiais}, se segue que 
+Fazendo $S(x)={(x-2)(x+2)}(x-13)(x-3)(x+3)(x-1)(x-4)$, temos que as raízes de $S(x)=0$ são $r_1=-3$, $r_2=-2$, $r_3=1$, $r_4=2$, $r_5=3$, $r_6=4$ e $r_7=13$. Pela {\bf nota} da {\bf subseção 1.4.1.4}, $(x-13)(x-3)(x+3)(x-1)(x-4)\neq 0$ implica que os intervalos que tenham $r_1$, $r_3$, $r_5$, $r_6$ e $r_7$ devem ser abertos nestes extremos. Desde que a inequação é da forma $S(x)\leq 0$, pelo item iv(b) do {\bf Caso I} de {\bf Inequações Polinomiais}, se segue que 
 \[
   x \in  (-\infty,-3)\cup[-2,1)\cup [2,3)\cup [4,13) .
 \]
