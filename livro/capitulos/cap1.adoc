@@ -309,13 +309,13 @@ Para resolver uma equação é necessário por em evidência, de alguma forma, a
 [IMPORTANT]
 .Fórmula de Bhaskara
 ====
-A *fórmula de Bhaskara* a encontrar as raízes de uma equação de segundo grau, isto é, ajudará a resolver equações de segundo grau. Esta fórmula provavelmente está entre as cinco principais fórmulas matemáticas. Assim, para a equação de segundo grau:
+A *fórmula de Bhaskara* nos ajudará a encontrar as raízes de uma equação de segundo grau. Assim, para a equação de segundo grau:
 [latexmath]
 ++++++++++++++++++++++++++++++++++++++++++++
 \[
  ax^2+bx+c=0.
 \]
-Então
+temos que
 \[
 x=\dfrac{-b\pm\sqrt{\Delta}}{2a}, \quad \mbox{com}\quad \Delta=b^2-4a c.
 \]
@@ -362,7 +362,7 @@ Portanto, latexmath:[$-\dfrac{1}{2}$] é a  raiz de latexmath:[$5x+5=1-3x$] e
 .. latexmath:[$x^2+1=0$].
 Solução::  latexmath:[$x^2+1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x^2=-1$]. 
 +
-Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem solução em latexmath:[$\mathbb{R}$] e 
+Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[$b=-1$, podemos concluir que $x^2+1=0$] não tem raízes em latexmath:[$\mathbb{R}$] e 
 +
 [latexmath]
 ++++
@@ -373,20 +373,20 @@ Portanto, do item b do *Importante* posterior ao *Teorema 1.3*, para latexmath:[
 Solução::
 +
 --
-Método 1 (Fatorando):::
+Método 1 (Usando a fórmula de Bhaskara ou o Discriminante latexmath:[$\Delta$]):::
+Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-4(4)(-3)=49$]. Assim, latexmath:[$x=\dfrac{-(-1)\pm\sqrt{\Delta}}{2(4)}$].   Então, latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
+latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\dfrac{3}{4}$]. 
+Método 2 (Fatorando):::
 latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(4x+3)(x-1)=0$]. Pelo item x do *Teorema 1.1* para  latexmath:[$a=4x+3$ e $b=x-1$, temos que $(4x+3)(x-1)=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$4x+3=0$] ou latexmath:[$x-1=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  
 latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$]. 
 
-Método 2 (Completando quadrados):::
+Método 3 (Completando quadrados):::
 latexmath:[$4x^2-x-3=0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(2x)^2-x +\left(-\dfrac{1}{4}\right)^2-3=\left(-\dfrac{1}{4}\right)^2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(2x)^2-x +\left(-\dfrac{1}{4}\right)^2=\dfrac{49}{16}$]
  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$\left(2x-\dfrac{1}{4}\right)^2=\dfrac{49}{16}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$2x-\dfrac{1}{4}=-\dfrac{7}{4}$] ou latexmath:[$2x-\dfrac{1}{4}=\dfrac{7}{4}$] 
 latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$2x=-\dfrac{3}{2}$] ou
  latexmath:[$2x=2$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=-\dfrac{3}{4}$] ou latexmath:[$x=1$].
 
-Método 3 (Usando a fórmula de Bhaskara ou o Discriminante latexmath:[$\Delta$]):::
-Dada a equação latexmath:[$4x^2-x-3=0$], temos que  latexmath:[$\Delta=(-1)^2-4(4)(-3)=49$]. Assim, latexmath:[$x=\dfrac{-(-1)\pm\sqrt{\Delta}}{2(4)}$].   Então, latexmath:[$x=\dfrac{1\pm\sqrt{49}}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=\dfrac{1\pm 7}{8}$]  latexmath:[$\,\,\,\Leftrightarrow\,\,\,$] latexmath:[$x=\dfrac{8}{8}$] ou latexmath:[$x=-\dfrac{6}{8}$] 
-latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x=1$] ou latexmath:[$x=-\dfrac{3}{4}$]. 
 --
 +
 Portanto, latexmath:[$-\dfrac{3}{4}$] e latexmath:[$1$] são as raízes de latexmath:[$4x^2-x-3=0$] e
