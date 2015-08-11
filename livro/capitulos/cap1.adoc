@@ -1562,7 +1562,7 @@ Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_l(x)>0   \quad \mbox{e}
 \]
 ++++
 
-.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0 \quad \,\Leftrightarrow $]
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_l\]{Q_l(x)}\sqrt[n_{l+1}\]{Q_{l+1}(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0 \quad \,\Leftrightarrow $]
 +
 [latexmath]
 ++++
