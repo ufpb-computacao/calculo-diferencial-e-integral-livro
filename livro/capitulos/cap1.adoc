@@ -1441,6 +1441,11 @@ e pelo item iii de {\bf Inequações Irracionais} temos que
 \Leftrightarrow & (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0.
 \end{array}
 \]
+Assim,
+\[
+\dfrac{x+5}{(x-4)\sqrt[7]{81-x^2}}\leq 0\quad 
+\Leftrightarrow \quad  (x+5){(x-4)(x-9)(x+9)}\geq 0\quad \mbox{e}\quad (x-4)(x-9)(x+9)\neq 0
+\]
 Fazendo $P(x)=(x+5)(x-4)(x-9)(x+9)$, temos que as raízes de $P(x)=0$ são $r_1=-9$, $r_2=-5$, $r_3=4$ e $r_4=9$. Pela nota acima $(x-4)(x-9)(x+9)\neq 0$ implica que os intervalos que tenham $r_1=-9$, $r_3=4$ e $r_4=9$ devem ser abertos nestes extremos. Desde que a inequação é da forma $P(x)\geq 0$,  podemos aplicar o item iii(a) do {\bf Caso I}, pois consideraremos todas as raízes.
  
 Portanto,
@@ -1461,7 +1466,7 @@ Por outro lado, pelo item iii de {\bf Inequações Irracionais}, temos que
 \]
 Assim, 
 \[\begin{array}{ccl}
-\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0
+\dfrac{x+5}{(x-4)\sqrt[6]{81-x^2}}\geq 0
 &\Leftrightarrow &   81-x^2> 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x-4\neq 0\\\\
 &\Leftrightarrow &   x^2-81< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x\neq 4\\\\
 &\Leftrightarrow &  (x+9)(x-9)< 0\quad\mbox{e}\quad (x+5)(x-4) \geq 0\quad \mbox{e}\quad x\neq 4.
