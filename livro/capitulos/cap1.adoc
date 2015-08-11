@@ -1788,7 +1788,7 @@ Caso 1: ::: Se latexmath:[$x<-1$], então
 [latexmath]
 ++++
 \[
-\begin{array}{lll}
+\begin{array}{rrrr}
  x+1<0 &\Rightarrow & |x+1|=-x-1\\\\
 x-2<-3& \Rightarrow &|x-2|=-x+2\\\\
 x-4<-5&\Rightarrow &|x-4|=-x+4
@@ -1807,7 +1807,7 @@ Caso 2: ::: Se latexmath:[$-1\leq x<2$], então
 [latexmath]
 ++++
 \[
-\begin{array}{lll}
+\begin{array}{rrrrr}
 0\leq x+1<3 &\Rightarrow & |x+1|=x+1\\\\
 -3\leq x-2<0& \Rightarrow &|x-2|=-x+2\\\\
 -5\leq x-4<-2&\Rightarrow &|x-4|=-x+4
@@ -1826,7 +1826,7 @@ Caso 3: ::: Se latexmath:[$2\leq x<4$], então
 [latexmath]
 ++++
 \[
-\begin{array}{lll}
+\begin{array}{rrrrr}
 3\leq x+1<4 &\Rightarrow & |x+1|=x+1\\\\
 0\leq x-2<2 & \Rightarrow &|x-2|=x-2\\\\
 -2\leq x-4<0&\Rightarrow &|x-4|=-x+4
@@ -1845,7 +1845,7 @@ Caso 4: ::: Se latexmath:[$4\leq x$], então
 [latexmath]
 ++++
 \[
-\begin{array}{lll}
+\begin{array}{rrrrr}
 \quad 5\leq x+1 &\Rightarrow & |x+1|=x+1\\\\
 2\leq x-2 & \Rightarrow &|x-2|=x-2\\\\
 0\leq x-4&\Rightarrow &|x-4|=x-4
