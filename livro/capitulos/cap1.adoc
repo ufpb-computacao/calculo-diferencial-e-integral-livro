@@ -306,6 +306,29 @@ Assim, latexmath:[$4 \notin {\rm C.\,\,S.}$]
 [NOTE]
 Para resolver uma equação é necessário por em evidência, de alguma forma, a variável, ou incógnita, da equação.
 
+[NOTE]
+.fórmula de Bhaskara
+====
+ Para equações de segundo grau, existe a *fórmula de Bhaskara*:
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[
+\mbox{Se} \quad ax^2+bx+c=0, \quad \mbox{então}\quad x=\dfrac{-b\pm\sqrt{\Delta}}{2a},
+\]
+++++++++++++++++++++++++++++++++++++++++++++
+onde latexmath:[$\Delta=b^2-4a c$] é conhecido como o *discriminante*. Assim, usando a *fórmula de Bhaskara*:
+
+* Se latexmath:[$\Delta<0$],  então esta equação não tem raízes em latexmath:[$\mathbb{R}$];
+* Se latexmath:[$\Delta\geq 0$],  então esta equação terá as seguintes raízes 
++
+[latexmath]
+++++
+\[
+r_1=\dfrac{-b-\sqrt{\Delta}}{2a}\quad \mbox{ou}\quad r_2=\dfrac{-b+\sqrt{\Delta}}{2a}\quad \mbox{em}\quad 
+\mathbb{R}.
+\]
+++++
+===
 
 [options="unbreakable"]
 .Resolvamos as seguintes equações
@@ -609,25 +632,7 @@ As inequações de segundo grau numa variável são da forma:
 ax^2+bx+c>0 \quad \mbox{ou}\quad ax^2+bx+c<0 \quad \mbox{ou}\quad ax^2+bx+c \geq 0 \quad \mbox{ou}\quad ax^2+bx+c\leq 0,  \quad \mbox{com}\quad a\neq 0.
 \]
 ++++++++++++++++++++++++++++++++++++++++++++
-Suponhamos, sem perda de generalidade, que latexmath:[$a>0$]. Antes de mostrar como resolver este tipo de inequação, devemos lembrar  a *fórmula de Bhaskara*:
-[latexmath]
-++++++++++++++++++++++++++++++++++++++++++++
-\[
-\mbox{Se} \quad ax^2+bx+c=0, \quad \mbox{então}\quad x=\dfrac{-b\pm\sqrt{\Delta}}{2a},
-\]
-++++++++++++++++++++++++++++++++++++++++++++
-onde latexmath:[$\Delta=b^2-4a c$] é conhecido como o *discriminante*. Assim:
-
-* Se latexmath:[$\Delta<0$],  então esta equação não tem raízes em latexmath:[$\mathbb{R}$];
-* Se latexmath:[$\Delta\geq 0$],  então esta equação terá as seguintes raízes 
-+
-[latexmath]
-++++
-\[
-r_1=\dfrac{-b-\sqrt{\Delta}}{2a}\quad \mbox{ou}\quad r_2=\dfrac{-b+\sqrt{\Delta}}{2a}\quad \mbox{em}\quad 
-\mathbb{R}.
-\]
-++++
+Suponhamos, sem perda de generalidade, que latexmath:[$a>0$]. Assim, usando a *fórmula de Bhaskara*, temos os seguintes casos:
 
 Caso I:: Se latexmath:[$\Delta=0$], então latexmath:[$ax^2+bx+c=0$] tem uma única raiz, isto é, latexmath:[$r=r_1= r_2$]. Portanto:
 +
