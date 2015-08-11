@@ -1760,12 +1760,10 @@ Novamente, pelo item ii do *Teorema 1.5*, para latexmath:[$a=|7-4x|$ e $b=12$], 
 
 [latexmath]
 ++++
-\[\begin{array}{cc}
-&|7-4x| =12\\\\
-\Leftrightarrow & 7-4x =12\quad \mbox{ou}\quad 7-4x=-12\\\\
+\[\begin{array}{ccccccc}
+&|7-4x| =12& \Leftrightarrow & 7-4x =12\quad \mbox{ou}\quad 7-4x=-12\\\\
 \Leftrightarrow &7-12=4x\quad \mbox{ou}\quad 7+12=4x
-\\\\
-\Leftrightarrow &-5=4x\quad \mbox{ou}\quad 19=4x
+& \Leftrightarrow &-5=4x\quad \mbox{ou}\quad 19=4x
 \\\\
 \Leftrightarrow & x =-\dfrac{5}{4}\quad \mbox{ou}\quad x=\dfrac{19}{4}.
 \end{array}
@@ -1781,7 +1779,7 @@ Portanto, $-\frac{5}{4}$ e $\frac{19}{4}$ são raízes de $||7-4x|-3|=9$ e
 
 Solução::
 
-Denotemos por latexmath:[$E(x)$] a equação latexmath:[$|x-2|+3|x-4|=5|x+1|$]. Para determinar as raízes desta equação, precisamos igualar cada valor absoluto a zero,  pois precisamos aplicar a definição do valor absoluto a cada termo. Fazendo isto, obtemos latexmath:[$x=2$], latexmath:[$x=4$] e 
+Denotemos por latexmath:[$E(x)$] a equação latexmath:[$|x-2|+3|x-4|=5|x+1|$]. Para determinar as raízes desta equação, igualaremos cada um destes valores absolutos a zero,  pois precisamos aplicar a definição do valor absoluto a cada termo. Fazendo isto, obtemos latexmath:[$x=2$], latexmath:[$x=4$] e 
 latexmath:[$x=-1$]. Agora, precisamos analisar os latexmath:[$4$]  casos a seguir:
 +
 --
