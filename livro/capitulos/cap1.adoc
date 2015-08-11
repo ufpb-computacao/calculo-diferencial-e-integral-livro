@@ -1253,13 +1253,12 @@ Aplicando o item iii do *Caso I*, para latexmath:[$P(x)=x^2-x-2$] e latexmath:[$
 +
 [latexmath]
 ++++
-\[\begin{array}{cccccccc}
-&\sqrt{x^2-x-2}<5-x \\\\
-\Leftrightarrow & {x^2-x-2}\geq 0 \quad \mbox{e}\quad 5-x \geq 0  \quad \mbox{e} \quad x^2-x-2<(5-x)^2
+\[\begin{array}{ccllllllcccccc}
+\sqrt{x^2-x-2}<5-x & \Leftrightarrow & {x^2-x-2}\geq 0 \quad \mbox{e}\quad 5-x \geq 0  \quad \mbox{e} \quad x^2-x-2<(5-x)^2
 \\\\
-\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
+&\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad x^2-x-2<25-10x+ x^2
 \\\\
-\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27.
+&\Leftrightarrow & (x-2)(x+1)\geq 0\quad \mbox{e}\quad 5 \geq x  \quad \mbox{e} \quad 9x<27.
 \end{array}
 \]
 Logo,
