@@ -997,12 +997,12 @@ latexmath:[\,\,]
 [latexmath]
 ++++
 \[
-\begin{array}{cc}
-&\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}\leq \dfrac{2x(x+2)}{x+1}\\\\
+\begin{array}{ccll}
+\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}\leq \dfrac{2x(x+2)}{x+1}&
 \Leftrightarrow &\dfrac{x(x+2)}{x-1}+ \dfrac{(x-1)(x+2)}{x}- \dfrac{2x(x+2)}{x+1}\leq 0 
 \\\\
-\Leftrightarrow &\dfrac{(x^2(x+1)+(x-1)(x-1)(x+1)-2x^2(x-1))(x+2)}{(x-1)x(x+1)}\leq 0   \\\\
-\Leftrightarrow &\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
+&\Leftrightarrow &\dfrac{(x^2(x+1)+(x-1)(x-1)(x+1)-2x^2(x-1))(x+2)}{(x-1)x(x+1)}\leq 0   \\\\
+&\Leftrightarrow &\dfrac{(2x^2-x+1)(x+2)}{(x-1)x(x+1)}\leq 0.
 \end{array}
 \]
 Logo, pelo item iv acima,
