@@ -1397,7 +1397,7 @@ com latexmath:[$n\geq 1$] e impar. Temos as seguintes equivalências:
 --
 
 [NOTE]
-Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso IV*, porem ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
+Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso IV*, porém ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], respectivamente.
 
 
 Caso V:: Para as inequações da forma:
@@ -1431,7 +1431,7 @@ com latexmath:[$n\geq 0$] e par. Temos as seguintes equivalências:
 
 
 [NOTE]
-Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso V*, porem ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
+Se a desigualdade a ser analisada tem a mesma forma que algum dos itens do *Caso V*, porém ela é estrita, isto é,  latexmath:[$>$ ou $<$], então na  sua  inequação equivalente subtituímos latexmath:[$\geq $ ou $\leq $] por latexmath:[$>$ ou $<$], nas inequações que envolvam latexmath:[$P(x)$,  $Q(x)$ e $R(x)$], respectivamente.
 
 
 .{zwsp}
@@ -1472,7 +1472,7 @@ Portanto,
 
 .. latexmath:[$\dfrac{x+5}{(x-4)\sqrt[6\]{81-x^2}}\geq 0$]
 
-Solução:: Desde que  latexmath:[$n=6$] é um número par, podemos aplicar Aplicando o item iii do *Caso V*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[6\]{81-x^2}$ e $R(x)=x-4$], temos que:
+Solução:: Desde que  latexmath:[$n=6$] é um número par, podemos aplicar o item iii do *Caso V*, para latexmath:[$P(x)=x+5$, $Q(x)=\sqrt[6\]{81-x^2}$ e $R(x)=x-4$], temos que:
 +
 [latexmath]
 ++++
@@ -1550,7 +1550,7 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 .. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\leq 0$]latexmath:[$ \quad \,\Leftrightarrow  \quad \,$]latexmath:[$\dfrac{P(x)}{R(x)Q_1(x)Q_2(x)\dots Q_k(x)}\leq 0$].
 --
 
-... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$], e latexmath:[$n_i\geq 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
+... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$], e latexmath:[$n_i> 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
 +
 --
 .. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\geq 0\quad \,\Leftrightarrow$]
@@ -1558,7 +1558,7 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 [latexmath]
 ++++
 \[
-Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_k(x)>0   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\geq 0;
+Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_l(x)>0   \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\geq 0;
 \]
 ++++
 
@@ -1567,7 +1567,7 @@ Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_k(x)>0   \quad \mbox{e}
 [latexmath]
 ++++
 \[
-Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_k(x)>0  \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\leq 0.
+Q_1(x)>0\quad \mbox{e}  \quad\dots\quad \mbox{e} \quad Q_l(x)>0  \quad \mbox{e} \quad\dfrac{P(x)}{R(x)Q_{l+1}(x)\dots Q_k(x)}\leq 0.
 \]
 ++++
 --
@@ -2125,7 +2125,7 @@ Se latexmath:[$z \in \mathbb{Z}$], então latexmath:[$z$] é dito de *número in
 +
 Se latexmath:[$q \in \mathbb{Q}$], então latexmath:[$q$] é dito de *número racional*.
 
-* O *conjunto dos números irracionais*, denotado por  latexmath:[$\mathbb{I}$], é o conjunto 
+* O *conjunto dos números aplicar aacionais*, denotado por  latexmath:[$\mathbb{I}$], é o conjunto 
 +
 [latexmath]
 ++++
