@@ -712,13 +712,10 @@ latexmath:[$\,$]
 \[
 \begin{array}{ccccccccc}
 &x^2-2<3x+2\quad \Leftrightarrow \quad x^2-3x<4\\\\
-\Leftrightarrow &x^2-3x+\dfrac{9}{4}<4+\dfrac{9}{4}\\\\
-\Leftrightarrow &\left(x-\dfrac{3}{2}\right)^2<\dfrac{25}{4}\\\\
-\Leftrightarrow &\left(x-\dfrac{3}{2}\right)^2-\left(\dfrac{5}{2}\right)^2<0\\\\
-\Leftrightarrow &\left(x-\dfrac{3}{2}-\dfrac{5}{2}\right)\left(x-\dfrac{3}{2}+\dfrac{5}{2}\right)<0\\\\
+\Leftrightarrow &x^2-3x+\dfrac{9}{4}<4+\dfrac{9}{4}\quad \Leftrightarrow \quad\left(x-\dfrac{3}{2}\right)^2<\dfrac{25}{4}\\\\
+\Leftrightarrow &\left(x-\dfrac{3}{2}\right)^2-\left(\dfrac{5}{2}\right)^2<0\quad \Leftrightarrow \quad\left(x-\dfrac{3}{2}-\dfrac{5}{2}\right)\left(x-\dfrac{3}{2}+\dfrac{5}{2}\right)<0\\\\
 \Leftrightarrow &
-\left(x-\dfrac{8}{2}\right)\left(x+\dfrac{2}{2}\right)<0\\\\
-\Leftrightarrow &\left(x-4\right)\left(x+1\right)<0.
+\left(x-\dfrac{8}{2}\right)\left(x+\dfrac{2}{2}\right)<0\quad \Leftrightarrow \quad\left(x-4\right)\left(x+1\right)<0.
 \end{array}
 \]
 ++++ 
@@ -734,8 +731,16 @@ Assim, trabalhando de forma analoga ao Método 1 acima,
 ++++ 
 
 Método 3 (Encontrando o quadro de sinais):::
-latexmath:[$x^2-2<3x+2$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$x^2-3x-4<0$] latexmath:[$\,\,\,\Leftrightarrow\,\,\,$]  latexmath:[$(x+1)(x-4)<0$]. 
-Os valores de latexmath:[$x$] para os que latexmath:[$(x+1)(x-4)=0$] são latexmath:[$x=-1$] e latexmath:[$x=4$] (raízes de cada fator). Logo,
+latexmath:[$\,$]
++
+[latexmath]
+++++
+\[
+x^2-2<3x+2\quad\Leftrightarrow\quad x^2-3x-4<0\quad\Leftrightarrow\quad (x+1)(x-4)<0.
+\]
+++++
++ 
+Assim, os valores de latexmath:[$x$] para os que latexmath:[$(x+1)(x-4)=0$] são latexmath:[$x=-1$] e latexmath:[$x=4$] (raízes de cada fator). Logo,
 +
 .Quadro de sinais
 image::images/{cap}/pc1.eps[scaledwidth="50%"]
