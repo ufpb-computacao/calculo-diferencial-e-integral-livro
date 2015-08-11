@@ -1587,7 +1587,6 @@ x^2-9> 0\quad\mbox{e}\quad x>1\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad\dfrac{x^
 \\\\\Leftrightarrow &
 x^2-9> 0\quad\mbox{e}\quad x>4 \quad\mbox{e}\quad\dfrac{x^2-4}{x-13}\leq 0
 \end{array}
-\end{array}
 \]
 Por outro lado, pelo item iv de {\bf Inequações Racionais}, temos que
 \[
