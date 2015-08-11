@@ -1553,7 +1553,7 @@ Q_1(x)>0\quad \mbox{e} \quad Q_2(x)>0\quad \mbox{e} \quad\dots\quad \mbox{e} \qu
 ... Se latexmath:[$n_i> 0$ e par, para todo $i=1,\dots,l$], e latexmath:[$n_i> 1$ e impar, para todo $i=l+1,\dots,k$]. Temos as seguintes equivalências:
 +
 --
-.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_k\]{Q_k(x)}}\geq 0\quad \,\Leftrightarrow$]
+.. latexmath:[$\dfrac{P(x)}{R(x)\sqrt[n_1\]{Q_1(x)}\sqrt[n_2\]{Q_2(x)}\dots\sqrt[n_l\]{Q_l(x)}\sqrt[n_{l+1}\]{Q_{l+1}(x)}\dots\sqrt[n_k\]{Q_k(x)}}\geq 0\quad \,\Leftrightarrow$]
 +
 [latexmath]
 ++++
