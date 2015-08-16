@@ -261,9 +261,22 @@ Casos particulares:::
 latexmath:[$(1,+\infty)$] cada vez mais próximos ao eixo latexmath:[$y$]; 
 .. Função quadrática ou função polinomial de latexmath:[$2^{\circ}$] grau: latexmath:[$f(x)=ax^2+bx+c$], latexmath:[$a\neq0$]. 
 O gráfico desta função é uma parábola de vértice latexmath:[$\left(-\dfrac{b}{2a},c-\dfrac{b^2}{4a} \right)$].
-... Se latexmath:[$a>0$], a parábola se abre para cima e latexmath:[${\rm Im }(f)=\left[c-\dfrac{b^2}{4a},+\infty\right)$]; veja o item (c) da figura abaixo. 
-... se latexmath:[$a<0$], a parábola se abre para baixo e latexmath:[${\rm Im }(f)=\left(-\infty,c-\dfrac{b^2}{4a}\right\]$]; veja o item (d) da figura abaixo. 
-... O valor máximo ou mínimo da função ocorre no vértice, isto é, latexmath:[$f\left(-\dfrac{b}{2a}\right)= c-\dfrac{b^2}{4a}$] é o valor máximo ou mínimo da função.
+... Se latexmath:[$a>0$], a parábola se abre para cima e latexmath:[${\rm Im }(f)=\left[c-\dfrac{b^2}{4a},+\infty\right)$]; veja o item (c) da figura abaixo. Mais ainda,  o valor mínimo da função ocorre no vértice, isto é, 
++
+[latexmath]
+++++
+\[
+f\left(-\dfrac{b}{2a}\right)= c-\dfrac{b^2}{4a} \quad \mbox{é o valor mínimo da função.}
+\]
+++++
+... se latexmath:[$a<0$], a parábola se abre para baixo e latexmath:[${\rm Im }(f)=\left(-\infty,c-\dfrac{b^2}{4a}\right\]$]; veja o item (d) da figura abaixo. Mais ainda, o valor máximo da função ocorre no vértice, isto é, 
++
+[latexmath]
+++++
+\[
+f\left(-\dfrac{b}{2a}\right)= c-\dfrac{b^2}{4a} \quad \mbox{é o valor máximo da função.}
+\]
+++++ 
 
 image::images/{cap}/polinomios.eps[scaledwidth="100%"]
 
