@@ -115,7 +115,7 @@ Portanto, latexmath:[${\rm Im}(f)=\mathbb{R}\setminus\{0\}$].
 image::images/{cap}/relacao8.eps[scaledwidth="100%"]
 
 .. Seja latexmath:[$f:(0,5\]\to [1,10)$] definida por latexmath:[$f(x)=(x-3)^2 +1$].
-Solução::u
+Solução::
 Da definição de latexmath:[$f$] temos que, para qualquer valor de latexmath:[$x$, $f(x)$ está bem definida. Assim, ${\rm Dom}(f)=(0,5\]$]. Por outro lado, para latexmath:[$x \in (0,5\]$, se segue que
 +
 [latexmath]
