@@ -462,7 +462,7 @@ image::images/{cap}/intervalos.eps[scaledwidth="40%"]
 
 temos que:
 
-.. latexmath:[$A\cap B=[-2,2\]$] 
+.. latexmath:[$A\cap B=(-2,2\]$] 
 +
 image::images/{cap}/intervalos_intersecao1.eps[scaledwidth="40%"]
 
