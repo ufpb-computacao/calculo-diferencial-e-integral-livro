@@ -736,8 +736,8 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="833"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
@@ -1517,7 +1517,7 @@
            sodipodi:role="line"
            id="tspan3136"
            x="-807.28516"
-           y="-3015.5762">Im(  ) = [0, +   )</tspan></text>
+           y="-3015.5762">Im(  ) = (0, +   )</tspan></text>
       <text
          transform="scale(1.0447653,0.95715277)"
          sodipodi:linespacing="125%"

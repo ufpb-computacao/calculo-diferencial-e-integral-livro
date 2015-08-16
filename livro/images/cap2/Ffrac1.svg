@@ -137,14 +137,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5060758"
+     inkscape:zoom="1.0649564"
      inkscape:cx="473.44341"
      inkscape:cy="551.53681"
      inkscape:document-units="px"
      inkscape:current-layer="g3098"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="833"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -524,7 +524,7 @@
            sodipodi:role="line"
            id="tspan3136"
            x="-327.07571"
-           y="596.71069">Im(  ) = [0, +   )</tspan></text>
+           y="596.71069">Im(  ) = (0, +   )</tspan></text>
       <text
          transform="scale(1.0447657,0.95715241)"
          sodipodi:linespacing="125%"
