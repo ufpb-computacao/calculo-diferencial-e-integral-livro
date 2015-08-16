@@ -502,7 +502,7 @@ Uma função é crescente se seu gráfico é ascendente e  é decrescente se seu
 
 .{zwsp} 
 ==== 
-A função latexmath:[$f(x)=|x^2-4|$], veja gráfico abaixo, é crecente nos intervalos latexmath:[$[-2,0\]$] 
+A função latexmath:[$f(x)=|x^2-4|$], veja gráfico abaixo, é crescente nos intervalos latexmath:[$[-2,0\]$] 
 e latexmath:[$[2,+\infty)$], e decrescente nos intervalos latexmath:[$(-\infty,-2\]$] e latexmath:[$[0,2\]$]. 
 
 image::images/{cap}/Fcrescente.eps[scaledwidth="30%"]
