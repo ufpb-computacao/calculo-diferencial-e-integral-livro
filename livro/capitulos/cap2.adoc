@@ -116,7 +116,7 @@ image::images/{cap}/relacao8.eps[scaledwidth="100%"]
 
 .. Seja latexmath:[$f:(0,5\]\to [1,10)$] definida por latexmath:[$f(x)=(x-3)^2 +1$].
 Solução::
-Da definição de latexmath:[$f$] temos que, para qualquer valor de latexmath:[$x$, $f(x)$ está bem definida. Assim, ${\rm Dom}(f)=(0,5\]$]. Por outro lado, para latexmath:[$x \in (0,5\]$, se segue que
+Da definição de latexmath:[$f$] temos que, para qualquer valor de latexmath:[$x$, $f(x)$ está bem definida. Assim, ${\rm Dom}(f)=(0,5\]$]. Por outro lado, para latexmath:[$x \in (0,5\]$], se segue que
 +
 [latexmath]
 ++++
@@ -845,12 +845,13 @@ Logo, o domínio de latexmath:[$f\circ g$] será obtido analisando todas as comb
 {\rm Dom}(f_1\circ g_1) &=& \left\{ x\in \mathbb{R}\,:\, x\in  {\rm Dom}(g_1) \mbox{ e }  g_1(x)\in{\rm Dom}(f_1) \right\}\\
                     &=& \left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2) \mbox{ e }  -x\in (-\infty,1) \right\}\\
 										&=& \left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2) \mbox{ e }  x\in (-1,+\infty) \right\}\\
+&=&\left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2)\cap (-1,+\infty) \right\}\\
 										&=& (-1,2)
 \end{array}
 \]
 ++++
 +
-Então,  latexmath:[$(f\circ g)(x)=f_1(g_1(x))=f_1(-x)=x^2$], latexmath:[$\forall\, x \in (-1,2)$].
+Então,  latexmath:[$(f\circ g)(x)=f_1(g_1(x))=f_1(-x)=(-x)^2=x^2$], latexmath:[$\forall\, x \in (-1,2)$].
 
 .. latexmath:[$f_1\circ g_2$]:
 +
@@ -861,6 +862,7 @@ Então,  latexmath:[$(f\circ g)(x)=f_1(g_1(x))=f_1(-x)=x^2$], latexmath:[$\foral
 {\rm Dom}(f_1\circ g_2) &=& \left\{ x\in \mathbb{R}\,:\, x\in  {\rm Dom}(g_2) \mbox{ e }  g_2(x)\in{\rm Dom}(f_1) \right\}\\
                     &=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \mbox{ e }  2x\in (-\infty,1) \right\}\\
 										&=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \mbox{ e }  x\in (-\infty,\dfrac{1}{2}) \right\}\\
+&=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \cap (-\infty,\dfrac{1}{2}) \right\}\\
 										&=& \emptyset
 \end{array}
 \]
@@ -877,12 +879,13 @@ Portanto, neste caso a composição latexmath:[$f_1\circ g_2$] não esta definid
 {\rm Dom}(f_2\circ g_1) &=& \left\{ x\in \mathbb{R}\,:\, x\in  {\rm Dom}(g_1) \mbox{ e }  g_1(x)\in{\rm Dom}(f_2) \right\}\\
                     &=& \left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2) \mbox{ e }  -x\in [2,+\infty) \right\}\\
 										&=& \left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2) \mbox{ e }  x\in (-\infty,-2] \right\}\\
+&=& \left\{ x\in \mathbb{R}\,:\, x\in (-\infty,2) \cap (-\infty,-2] \right\}\\
 										&=& (-\infty,-2)
 \end{array}
 \]
 ++++
 +
-Então,  latexmath:[$(f\circ g)(x)=f_2(g_1(x))=f_2(-x)=x^3$], latexmath:[$\forall\, x \in (-\infty,-2)$].
+Então,  latexmath:[$(f\circ g)(x)=f_2(g_1(x))=f_2(-x)=-(-x)^3=x^3$], latexmath:[$\forall\, x \in (-\infty,-2)$].
 
 .. latexmath:[$f_2\circ g_2$]:
 +
@@ -893,12 +896,13 @@ Então,  latexmath:[$(f\circ g)(x)=f_2(g_1(x))=f_2(-x)=x^3$], latexmath:[$\foral
 {\rm Dom}(f_2\circ g_2) &=& \left\{ x\in \mathbb{R}\,:\, x\in  {\rm Dom}(g_2) \mbox{ e }  g_2(x)\in{\rm Dom}(f_2) \right\}\\
                     &=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \mbox{ e }  2x\in [2,+\infty) \right\}\\
 										&=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \mbox{ e }  x\in [1,+\infty) \right\}\\
+&=& \left\{ x\in \mathbb{R}\,:\, x\in [4,+\infty) \cap [1,+\infty) \right\}\\
 										&=& [4,+\infty)
 \end{array}
 \]
 ++++
 +
-Então,  latexmath:[$(f\circ g)(x)=f_2(g_2(x))=f_1(2x)=-8x^3$], latexmath:[$\forall\, x \in [4,+\infty)$]. Portanto,
+Então,  latexmath:[$(f\circ g)(x)=f_2(g_2(x))=f_2(2x)=-(2x)^3=-8x^3$], latexmath:[$\forall\, x \in [4,+\infty)$]. Portanto,
 +
 [latexmath]
 ++++
@@ -994,9 +998,9 @@ Encontremos a função inversa da função latexmath:[$ f(x)=5x-3$], se latexmat
 
 Solução:: 
 
-Verificamos que latexmath:[$f(x_1)=f(x_2)\Rightarrow 5x_1-3=5x_2-3 \Rightarrow x_1=x_2$], assim, latexmath:[$f$] é injetora. 
+Da definição de latexmath:[$f$, verificamos que $f(x_1)=f(x_2)\Rightarrow 5x_1-3=5x_2-3 \Rightarrow x_1=x_2$], assim, latexmath:[$f$] é injetora. 
 Por outro lado, desde que latexmath:[$y=f(x)$], então latexmath:[$y=5x-3$], latexmath:[$x\in [0,6\]$]. Pondo em evidência a variável latexmath:[$x$]  obtemos que 
-latexmath:[$x=\dfrac{y+3}{5}$], para latexmath:[$x\in [0,6\]$], logo, determinamos a variação da variável  latexmath:[$y$]
+latexmath:[$x=\dfrac{y+3}{5}$], para latexmath:[$x\in [0,6\]$]. Agora, podemos determinar como varia a variável  latexmath:[$y$]:
 +
 [latexmath]
 ++++
