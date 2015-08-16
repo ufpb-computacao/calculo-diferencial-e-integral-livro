@@ -15,21 +15,20 @@ Ao final deste capítulo você deverá ser capaz de:
 ____________________
 
 
-Ao relacionarmos o espaço em função do tempo a intensidade da fotossíntese realizada por uma planta em função da 
-intensidade da luz a que ela é exposta; ou uma pessoa em função da impressão digital, percebemos quão importante é o conceito de função, pois este nos permite compreender as relações entre os fenômenos físicos, biológicos, sociais, etc., presentes no nosso cotidiano. Portanto, neste capítulo, revisaremos 
+Ao relacionarmos o espaço em função do tempo, a intensidade da fotossíntese realizada por uma planta em função da 
+intensidade da luz a que ela é exposta, ou uma pessoa em função da impressão digital, percebemos quão importante é o conceito de *função*, pois este nos permite compreender as relações entre os fenômenos físicos, biológicos, sociais, etc., presentes no nosso cotidiano. Portanto, neste capítulo, revisaremos 
 um dos conceitos mais importante da Matemática: a *função*. Iniciaremos o capítulo dando a definição formal deste objeto matemático,  
 que é o objetivo de estudo deste capítulo e de todos os outros.
 
 
-
-
-=== Funções
+=== Funções 
 
 Em diversas situações, apresentam-se relações que existem entre um conjunto de objetos e outro conjunto de outros objetos, por exemplo: quando 
-calculamos a área de um círculo, esta depende do raio do círculo; a distância que um objeto viaja a uma velocidade constante ao longo de um percurso 
+calculamos a área de um círculo, esta depende do raio do círculo; a distância de um objeto que viaja a uma velocidade constante ao longo de um percurso 
 depende do tempo; etc. Em cada caso, o valor da quantidade variável, denotada por latexmath:[$y$], depende do valor de outra quantidade variável, 
 denotada por latexmath:[$x$]. Dizemos então que latexmath:[$y$] é uma função de latexmath:[$x$] e a escrevemos como latexmath:[$y=f(x)$]. 
 
+.Representação de uma  função como uma máquina.
 image::images/{cap}/funcao.eps[scaledwidth="30%"]
 
 Definição 2.1::  
