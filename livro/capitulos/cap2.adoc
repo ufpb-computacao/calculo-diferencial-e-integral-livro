@@ -36,15 +36,15 @@ Sejam latexmath:[$A$] e latexmath:[$B$] dois conjuntos não vazios. Uma *funçã
 
 image::images/{cap}/funcao1.eps[scaledwidth="30%"]
 
-Associados a uma função temos os conjuntos: domínio, imagem e gráfico de uma função, e a seguinte definição estabelece estes conceitos.
+Associados a uma função temos os conjuntos: domínio, imagem e gráfico de uma função, e a seguinte definição estabelece estes importantes conceitos.
 
 Definição 2.2::
 Seja a função  latexmath:[$f:A\rightarrow B$]. Então: 
 +
 --
 ... O *domínio* da função latexmath:[$f$] é o conjunto latexmath:[$\left\{x\in A : f(x)\in B \right\}$], e é denotado por 
-latexmath:[${\rm Dom} (f)$]; isto é, o domínio de latexmath:[$f$] é o subconjunto de latexmath:[$A$] cujos elementos são todos os valores de 
-entrada possíveis da função latexmath:[$f$].
+latexmath:[${\rm Dom} (f)$]; isto é, o domínio de latexmath:[$f$] é o subconjunto de latexmath:[$A$] cujos elementos são todos os possíveis valores de 
+entrada  da função latexmath:[$f$].
 
 ... A *imagem* da função latexmath:[$f$] é o conjunto latexmath:[$ \left\{f(x)\in B :x\in A \right\}$], e é denotado por 
 latexmath:[${\rm Im} (f)$]; isto é, a imagem  de latexmath:[$f$] é o subconjunto de latexmath:[$B$] cujos elementos são todos os valores de 
@@ -115,10 +115,10 @@ Portanto, latexmath:[${\rm Im}(f)=\mathbb{R}\setminus\{0\}$].
 image::images/{cap}/relacao8.eps[scaledwidth="100%"]
 
 .. Seja latexmath:[$f:(0,5\]\to [1,10)$] definida por latexmath:[$f(x)=(x-3)^2 +1$].
-Solução::
-Da definição de latexmath:[$f$] temos que latexmath:[${\rm Dom}(f)=(0,5\]$]. Por outro lado, à medida que latexmath:[$x$] varia sobre o intervalo 
-latexmath:[$(0,5\]$], o valor de latexmath:[$(x-3)^2 + 1$] varia sobre o intervalo latexmath:[$[0,9)$]; assim, o valor de latexmath:[$f(x)$] 
-varia sobre o intervalo latexmath:[$[1,10)$]. Portanto, 
+Solução::u
+Da definição de latexmath:[$f$] temos que, para qualquer valor de latexmath:[$x$, $f(x)$ está bem definida. Assim, ${\rm Dom}(f)=(0,5\]$]. Por outro lado, para latexmath:[$x \in (0,5\]$, se segue que
+\[0<x\leq 5\quad \Leftrightarrow\quad -3<x-3\leq 2 \quad \Leftrightarrow\quad 0\leq (x-3)^2<9\Leftrightarrow\quad 1\leq (x-3)^2+1<10\]
+Logo, o valor de f(x)$] somente pode variar sobre o intervalo latexmath:[$[1,10)$]. Portanto, 
 latexmath:[${\rm Im}(f)=[1,10)$]. 
 +
 Nesse caso, latexmath:[$f$] é uma aplicação de latexmath:[$(0,5\]$] sobre latexmath:[$[1,10)$] e latexmath:[${\rm Im}(f)$] pode ser escrita como 
@@ -302,9 +302,9 @@ sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}\setminus\{0\}$],
  seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x}$] e cada gráfico passa pelos pontos latexmath:[$(-1,-1)$] e latexmath:[$(1,1)$];
  veja o item (a) da figura abaixo; 
 ... Se latexmath:[$n$] é par, o domínio da função é  latexmath:[${\rm Dom}(f)=\mathbb{R}\setminus\{0\}$], sua imagem é 
-latexmath:[${\rm Im }(f)=[0,+\infty)$] e seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x^2}$],
+latexmath:[${\rm Im }(f)=(0,+\infty)$] e seu gráfico é semelhante ao gráfico de latexmath:[$y=\dfrac{1}{x^2}$],
  e cada gráfico passa pelos pontos latexmath:[$(-1,1)$] e latexmath:[$(1,1)$]; veja o item (b) da figura abaixo; 
-... O fato de latexmath:[$0 \notin {\rm Dom }(f)$] implica que o gráfico tem uma quebra na origem. Por esse motivo, zero é denominado *_ponto de descontinuidade_*. Esse conceito 
+... O fato de latexmath:[$0 \notin {\rm Dom }(f)$] implica que o gráfico tem uma quebra na origem. Por esse motivo, zero é denominado *ponto de descontinuidade*. Esse conceito 
 será visto no Capítulo 4;
 ... Quando latexmath:[$n$] cresce, nos intervalos latexmath:[$(-\infty,-1)$] e latexmath:[$(1,+\infty)$], os gráficos ficam mais achatados e nos intervalos 
 latexmath:[$(-1,0)$] e latexmath:[$(0,1)$] cada vez mais próximos ao eixo latexmath:[$y$]: 
@@ -341,13 +341,13 @@ Os gráficos para as bases latexmath:[$2,\,\,3,\,\,5,\,\,7$] são apresentados n
 
 image::images/{cap}/Fexponenciais.eps[scaledwidth="100%"]
 
-Função logarítmica:: É da forma  latexmath:[$f(x)={\rm log}_a x$], onde  a base latexmath:[$a>0$] é uma constante positiva e latexmath:[$a\neq 1$]. Esta função é a inversa das
- funções exponenciais.  Em todos os casos,
+Função logarítmica:: É da forma  latexmath:[$f(x)={\rm log}_a x$], onde  a base latexmath:[$a>0$] é uma constante positiva e latexmath:[$a\neq 1$]. Esta função é a inversa da
+ função exponencial.  Em todos os casos,
 o domínio  é latexmath:[${\rm Dom}(f)=(0,+\infty)$] e sua imagem é latexmath:[${\rm Im }(f)=\mathbb{R}$]. O item (c) da figura acima mostra os gráficos  da função 
 logarítmica para  latexmath:[$a=2,\,\,3,\,\,5,\,\,7$].
 
 
-Função sinal:: É denotada por latexmath:[${\rm sgn}(x)$], latexmath:[$x\in \mathbb{R}$], leia-se *sinal de latexmath:[$x$]* e está definida por 
+Função sinal:: É denotada por latexmath:[${\rm sgn}(x)$], latexmath:[$x\in \mathbb{R}$], leia-se *sinal de latexmath:[$x$]*, e está definida por 
 +
 [latexmath]
 ++++
@@ -364,8 +364,7 @@ O domínio da função sinal é latexmath:[${\rm Dom}(f)=\mathbb{R}$] e sua imag
 
 image::images/{cap}/Fsinal.eps[scaledwidth="80%"]
 
-Função maior inteiro:: É denotada por latexmath:[$\left\lfloor x \right\rfloor$], latexmath:[$x\in \mathbb{R}$], leia-se *maior inteiro de latexmath:[$x$]* 
-e está definida por 
+Função maior inteiro:: É denotada por latexmath:[$\left\lfloor x \right\rfloor$], latexmath:[$x\in \mathbb{R}$], leia-se *maior inteiro de latexmath:[$x$]*, e está definida por 
 +
 [latexmath]
 ++++
@@ -564,7 +563,7 @@ um para um entre os elementos do domínio e a imagem.
 
 .. Geometricamente, uma função definida por latexmath:[$y=f(x)$] é 
 injetora se, ao traçar retas paralelas ao eixo latexmath:[$x$], essas intersectam o seu gráfico em não 
-mais de um ponto; veja figura a seguir. 
+mais de um ponto; veja a figura a seguir. 
 
 image::images/{cap}/Finjetiva.eps[scaledwidth="40%"]
 
