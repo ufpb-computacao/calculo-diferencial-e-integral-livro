@@ -117,8 +117,14 @@ image::images/{cap}/relacao8.eps[scaledwidth="100%"]
 .. Seja latexmath:[$f:(0,5\]\to [1,10)$] definida por latexmath:[$f(x)=(x-3)^2 +1$].
 Solução::u
 Da definição de latexmath:[$f$] temos que, para qualquer valor de latexmath:[$x$, $f(x)$ está bem definida. Assim, ${\rm Dom}(f)=(0,5\]$]. Por outro lado, para latexmath:[$x \in (0,5\]$, se segue que
++
+[latexmath]
+++++
 \[0<x\leq 5\quad \Leftrightarrow\quad -3<x-3\leq 2 \quad \Leftrightarrow\quad 0\leq (x-3)^2<9\Leftrightarrow\quad 1\leq (x-3)^2+1<10\]
-Logo, o valor de f(x)$] somente pode variar sobre o intervalo latexmath:[$[1,10)$]. Portanto, 
+++++
++
+Logo, o valor de latexmath:[$f(x)$] 
+varia sobre o intervalo latexmath:[$[1,10)$]. Portanto, 
 latexmath:[${\rm Im}(f)=[1,10)$]. 
 +
 Nesse caso, latexmath:[$f$] é uma aplicação de latexmath:[$(0,5\]$] sobre latexmath:[$[1,10)$] e latexmath:[${\rm Im}(f)$] pode ser escrita como 
